@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://sitemap.injuriescases.com/sitemaps/com.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.injuriescases.com/sitemaps/autos.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.injuriescases.com/sitemaps/info.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.injuriescases.com/sitemaps/page.xml</loc>
+  </sitemap>
+</sitemapindex>

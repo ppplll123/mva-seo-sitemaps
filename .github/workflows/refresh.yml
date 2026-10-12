@@ -1,0 +1,38 @@
+name: Refresh public sitemap files
+on:
+  schedule:
+    - cron: '17 6,18 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: public-sitemap-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh public files
+        run: python scripts/refresh.py
+      - name: Commit changed public files only
+        run: |
+          git add -- docs/sitemap.xml docs/sitemaps/com.xml docs/sitemaps/autos.xml docs/sitemaps/info.xml docs/sitemaps/page.xml docs/portfolio.txt docs/index.html docs/CNAME docs/.nojekyll
+          if git diff --cached --quiet; then
+            echo "Public sitemap files are unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh public sitemap files"
+          git push origin HEAD:main
+      - name: Request Pages rebuild after refresh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST repos/${{ github.repository }}/pages/builds
