@@ -17,4 +17,8 @@ The workflow runs at 06:17 and 18:17 UTC and can be dispatched manually. It comm
 
 Cross-site sitemap submission requires appropriate Search Console ownership and configuration. A central host or accessible XML file does not prove Google has accepted, crawled or indexed the listed pages. Publishing by the workflow token may not itself trigger a Pages build in every GitHub Pages configuration. Confirm refresh-to-live behavior after setup and use an explicit Pages deployment workflow if needed.
 
-The refresh workflow explicitly requests a Pages rebuild because commits made with GITHUB_TOKEN do not automatically trigger all downstream builds. The public host contains public URLs only. Website sources, lead data and credentials remain outside this repository.
+The refresh workflow explicitly requests a Pages rebuild because commits made with GITHUB_TOKEN do not automatically trigger all downstream builds. The public host contains public URLs and approved article illustrations only. Website sources, lead data and credentials remain outside this repository.
+
+## Publication illustrations
+
+The images folder contains three small, generated wordless illustrations from Peter's existing NJLOCAL library for the next approved article batch. They are illustrative, not actual crash evidence or current road surveys. No raw reference frames or private records are published.
