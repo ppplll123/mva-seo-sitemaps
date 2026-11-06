@@ -1,0 +1,10 @@
+light_condition,total_crashes,injury_or_fatal_crashes,fatal_crashes,share_of_injury_or_fatal,share_of_fatal
+Daylight,354987,76132,529,0.6743,0.4333
+"Dark (street lights on, continuous)",84307,20672,304,0.1831,0.249
+"Dark (street lights on, spot)",23596,5710,143,0.0506,0.1171
+Dark (no street lights),19865,4329,158,0.0383,0.1294
+Dusk,13887,3215,44,0.0285,0.036
+Dawn,8607,1978,23,0.0175,0.0188
+Dark (street lights off),3886,780,16,0.0069,0.0131
+Unknown,4755,83,4,0.0007,0.0033
+Not Applicable,88,9,0,0.0001,0.0
