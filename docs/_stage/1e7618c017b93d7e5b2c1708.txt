@@ -1,0 +1,237 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><style>.research-chart{margin:30px 0}.research-series .research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important}.quiz-cta .button{display:inline-block;margin-top:12px}</style><style>.place-page figure.research-chart img,.mva-site[data-conversion-batch] .place-page figure.research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto}.place-page figure.research-chart.portrait img,.mva-site[data-conversion-batch] .place-page figure.research-chart.portrait img{max-width:540px!important}.place-page .mva-review-scroll table{min-width:640px}.place-page .research-data-links a{overflow-wrap:anywhere}@media(max-width:600px){.mva-site[data-conversion-batch] .place-page .article-image img,.place-page .article-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page road-page" id="route-206">
+
+<h1>Route 206 NJ accident records: 1,086 accidents hurt someone in two years, on a road that runs from Hammonton to Montague</h1>
+
+<section id="answer">
+  <p class="lead">Route 206 behaves like two different roads. Through Trenton it runs on city streets, and 27 of its 47 pedestrian accidents in 2023 and 2024 happened there. Through the Pinelands and Sussex County it is a rural highway, where deer start many accidents and State Police often write the report.</p>
+  <p>Across its six counties and 37 towns, the road had 1,086 car accidents that hurt or killed someone in 2023 and 2024. Those accidents left 1,587 people hurt and 13 dead. A deer was the first harmful event in 10.5 percent of all Route 206 accident records, close to three times the 3.6 percent share statewide.</p>
+  <p>Everything here comes from past police reports, from 2023 through a preliminary 2025, so it cannot tell you about traffic on the road right now.</p>
+  <p class="source">Source: our count of NJDOT Route 206 crash records, 2023 to 2025, in the form cleaned up by the open-source <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a> project (retrieved 2026-11-10), with deaths checked against <a href="https://nj.gov/njsp/info/fatalacc/">NJ State Police fatal crash statistics</a> (retrieved 2026-11-10). The method is described at the bottom of the page.</p>
+  <div class="quiz-cta quiz-cta-inline">
+    <p>Were you hurt on Route 206, on a Trenton street or out on a rural stretch in Burlington or Sussex? Our sponsor's New Jersey screening questionnaire is free and carries no obligation. It covers your injury, whether you got medical attention, whether police made a report, and when it happened. When the answers fit, a sponsoring lawyer's office may phone you.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-206-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="by-county">
+  <h2>Six counties, six different Route 206 profiles</h2>
+  <p>Mercer County had the most Route 206 accidents where someone was hurt, 313 in 2023 and 2024. Somerset County had slightly more accidents overall, 1,241, but fewer of them hurt anyone.</p>
+  <p>The share of a county's injury accidents that happened on Route 206 varies a lot. In Sussex County, Route 206 had 181 of the county's 1,168 injury accidents, about 15 percent. In Morris County it was 133 of 5,033, under 3 percent.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 206 accidents by county, 2023 and 2024 combined</caption>
+    <thead>
+      <tr><th scope="col">County</th><th scope="col">All accidents</th><th scope="col">Hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Share of the county's injury accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Mercer</th><td>1,218</td><td>313</td><td>431</td><td>3</td><td>6.6% (of 4,736)</td></tr>
+      <tr><th scope="row">Somerset</th><td>1,241</td><td>250</td><td>339</td><td>2</td><td>6.0% (of 4,183)</td></tr>
+      <tr><th scope="row">Burlington</th><td>749</td><td>200</td><td>325</td><td>5</td><td>3.8% (of 5,239)</td></tr>
+      <tr><th scope="row">Sussex</th><td>787</td><td>181</td><td>274</td><td>1</td><td>15.5% (of 1,168)</td></tr>
+      <tr><th scope="row">Morris</th><td>525</td><td>133</td><td>204</td><td>2</td><td>2.6% (of 5,033)</td></tr>
+      <tr><th scope="row">Atlantic (Hammonton)</th><td>40</td><td>9</td><td>14</td><td>0</td><td>0.2% (of 4,594)</td></tr>
+      <tr><th scope="row">County not recorded</th><td>1</td><td>0</td><td>0</td><td>0</td><td></td></tr>
+      <tr><th scope="row">Route 206 total</th><td>4,561</td><td>1,086</td><td>1,587</td><td>13</td><td></td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, our county cut (run 2026-11-10). County totals are all roads in that county. One 2024 Route 206 record, with no one hurt, has no county filled in; it is counted in the total only.</p>
+  <p>The collision types also change by county. In Somerset County, 128 of the 250 injury accidents were coded as rear-end collisions, about half. In Sussex County, 22 of 181 were opposite-direction collisions, about 12 percent: 19 coded head-on or angular and 3 coded as sideswipes. Counting both codes the same way, opposite-direction collisions were under 5 percent in Mercer (14 of 313) and Somerset (11 of 250).</p>
+  <p>Pedestrians cluster in one city. Of the 47 Route 206 accidents involving a pedestrian in 2023 and 2024, 27 were in Trenton.</p>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, police-coded collision type, 2023 and 2024.</p>
+</section>
+
+<section id="deer">
+  <h2>One Route 206 accident in ten started with a deer</h2>
+  <p>Police coded a deer as the first harmful event on 478 Route 206 records from 2023 and 2024, out of 4,561 in total, or 10.5 percent. Statewide, deer were coded first on 18,591 of 514,320 records, a 3.6 percent share.</p>
+  <p>Deer accidents bunch up in late autumn. October and November together had 193 of the 478. In November, 113 of the 473 Route 206 accident records involved a deer first, almost one in four.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 206 accident records where police coded a deer as the first harmful event, by month, 2023 and 2024 combined</caption>
+    <thead>
+      <tr><th scope="col">Month</th><th scope="col">Deer first</th><th scope="col">All Route 206 records</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">September</th><td>23</td><td>352</td></tr>
+      <tr><th scope="row">October</th><td>80</td><td>436</td></tr>
+      <tr><th scope="row">November</th><td>113</td><td>473</td></tr>
+      <tr><th scope="row">December</th><td>53</td><td>430</td></tr>
+      <tr><th scope="row">June (the highest month outside September to December)</th><td>49</td><td>396</td></tr>
+      <tr><th scope="row">All 12 months</th><td>478</td><td>4,561</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, "first harmful event" field as coded by police, 2023 and 2024. Our cut.</p>
+  <p>The deer share is highest on the rural stretches. In Montgomery Township, 66 of 271 records involved a deer first, the most of any town. In Sandyston Township it was 26 of 80, and in Tabernacle Township 20 of 66. In Trenton it was none of 513.</p>
+  <p>Deer records on this road rarely list an injury: 13 of the 478 do, compared with about one in four Route 206 records overall. No Route 206 fatal accident from 2023 to 2025 had a deer coded as the first harmful event.</p>
+  <p>If you were hurt in a single-car accident with a deer, your own PIP coverage still matters. For medical bills after a deer strike, look first at your own policy. In DOBI's words, PIP covers your medical expenses "no matter who caused the auto accident." <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2, retrieved 2026-11-10)</span></p>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, our town cut, 2023 and 2024; fatal records 2023 to 2025 (2025 preliminary).</p>
+</section>
+
+<section id="report">
+  <h2>Who wrote the report: a State Police station or the town's police</h2>
+  <p>Which agency has your report depends on where on Route 206 the accident happened. In 2024 and 2025, a State Police station was named on 443 of 725 Sussex County records (61 percent) and 352 of 752 Burlington County records (47 percent). In Mercer and Somerset it was under 1 percent.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 206 towns where a State Police station was named on 90 percent or more of accident records, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Town, county</th><th scope="col">Records naming a State Police station</th><th scope="col">All Route 206 records</th><th scope="col">Station named</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Southampton Twp, Burlington</th><td>225</td><td>227</td><td>Red Lion</td></tr>
+      <tr><th scope="row">Frankford Twp, Sussex</th><td>132</td><td>135</td><td>Sussex</td></tr>
+      <tr><th scope="row">Hampton Twp, Sussex</th><td>110</td><td>114</td><td>Sussex</td></tr>
+      <tr><th scope="row">Sandyston Twp, Sussex</th><td>85</td><td>85</td><td>Sussex</td></tr>
+      <tr><th scope="row">Tabernacle Twp, Burlington</th><td>74</td><td>74</td><td>Red Lion</td></tr>
+      <tr><th scope="row">Andover Boro, Sussex</th><td>63</td><td>63</td><td>Sussex</td></tr>
+      <tr><th scope="row">Shamong Twp, Burlington</th><td>51</td><td>53</td><td>Red Lion</td></tr>
+      <tr><th scope="row">Branchville Boro, Sussex</th><td>27</td><td>27</td><td>Sussex</td></tr>
+      <tr><th scope="row">Montague Twp, Sussex</th><td>21</td><td>23</td><td>Sussex</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, "station" field, 2024 and 2025. The field is not documented and fills less often in 2023, so 2023 is left out. Sandyston is spelled "Sandvston" in the data. This shows a pattern, not which agency handled any one accident.</p>
+  <h3>If State Police investigated</h3>
+  <p>On the Pinelands and Sussex stretches, a report written by a State Police station comes from the NJSP crash reports site at <a href="https://www.njportal.com/njsp/crashreports/">njportal.com/njsp/crashreports</a>, not from the town. The NJTR-1 becomes downloadable only when the portal marks it "ready and approved," so an empty first search is worth repeating a few days later. A non-toll road copy costs $13.00 there, and the portal keeps reports for six years counted from the crash year. For help with a request, the portal gives the email NJSPRecords@NJSP.gov. <span class="source">(<a href="https://www.njportal.com/njsp/crashreports/">NJSP crash reports portal</a>, retrieved 2026-11-10)</span></p>
+  <h3>If a town's police department investigated</h3>
+  <p>In Trenton, where Route 206 runs as South Broad Street and other city streets, accident reports come from the Trenton Police Records Office at 225 N Clinton Avenue, open 9 am to 4:30 pm, Monday to Friday. Bring identification plus either the report number or the date of the report. By mail the fee is a flat $5, and the office accepts mailed requests only from someone named in the report, that person's attorney or their insurance company. <span class="source">(<a href="https://www.trentonnj.org/402/Police-Report">City of Trenton, Police Report</a>, retrieved 2026-11-10)</span></p>
+  <p>For other towns, such as Hillsborough, Hamilton, Lawrence or Montgomery, ask that town's police department. We could not confirm their request pages, and fees and procedures vary by department. Unsure who responded? Ask the department of the town where the accident took place first, and on the rural stretches try the NJSP portal too.</p>
+  <p>The NJTR-1 is completed by police only. If no police officer investigated, drivers report with the SR-1 self-reporting form. <span class="source">(<a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">NJDOT Police Resources</a>, retrieved 2026-11-10)</span> When the report arrives, read it against what you remember. DOBI's guidance for that moment: "if you see inconsistencies, let your insurance company know and contact the police department that responded to the scene." <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">NJ DOBI, Everything You Wanted to Know About Auto Insurance, 2026</a>, p. 25, retrieved 2026-11-10)</span></p>
+</section>
+
+<section id="deaths">
+  <h2>Burlington County: 18 percent of injury accidents, 9 of 21 deaths</h2>
+  <p>From 2023 to 2025, Route 206 had 20 fatal accidents in which 21 people died. Eight of those accidents, and 9 of the deaths, were in Burlington County. Burlington had 200 of the road's 1,086 injury accidents in 2023 and 2024, about 18 percent.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Fatal Route 206 accidents by county and year, 2023 to 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">County</th><th scope="col">2023</th><th scope="col">2024</th><th scope="col">2025 (preliminary)</th><th scope="col">Fatal accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Burlington</th><td>3</td><td>2</td><td>3</td><td>8</td><td>9</td></tr>
+      <tr><th scope="row">Mercer</th><td>1</td><td>2</td><td>0</td><td>3</td><td>3</td></tr>
+      <tr><th scope="row">Somerset</th><td>2</td><td>0</td><td>1</td><td>3</td><td>3</td></tr>
+      <tr><th scope="row">Sussex</th><td>0</td><td>1</td><td>2</td><td>3</td><td>3</td></tr>
+      <tr><th scope="row">Morris</th><td>1</td><td>1</td><td>1</td><td>3</td><td>3</td></tr>
+      <tr><th scope="row">Atlantic</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+      <tr><th scope="row">Total</th><td>7</td><td>6</td><td>7</td><td>20</td><td>21</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, fatal accidents supplemented from NJ State Police fatal crash statistics (retrieved 2026-11-10).</p>
+  <p>The Burlington deaths were in Springfield, Tabernacle, Mansfield, Southampton and Shamong townships. Shamong had two fatal accidents, both in 2025, with three people killed. A State Police station was named on 6 of the 8 Burlington fatal records.</p>
+  <p>Most Route 206 deaths were in daylight: 12 of the 20 fatal accidents. By police-coded type, 5 were right-angle collisions, 4 opposite-direction, 4 rear-end, 3 fixed-object and 2 left-turn. One pedestrian died, in Hamilton Township in 2024, and one bicyclist, in Sandyston Township in 2024.</p>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, 2023 to 2025 (2025 preliminary). The collision type is the police officer's description of how vehicles met, not a finding about who caused the accident.</p>
+</section>
+
+<section id="cross-streets">
+  <h2>Route 206 cross streets with nine or more injury accidents, 2024 and 2025</h2>
+  <p>The cross street with the most Route 206 injury accidents in 2024 and 2025 was Route 513 (Main Street) in Chester Borough, with 17. The list below stops at nine, where four cross streets tie.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 206 cross streets by accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Cross street (as recorded)</th><th scope="col">Town, county</th><th scope="col">Hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Route 513 (Main Street)</th><td>Chester Boro, Morris</td><td>17</td><td>37</td><td>35</td></tr>
+      <tr><th scope="row">Route 518 (Georgetown-Franklin Turnpike)</th><td>Montgomery Twp, Somerset</td><td>16</td><td>57</td><td>20</td></tr>
+      <tr><th scope="row">Route 28 (recorded as NJ 28, Easton Turnpike)</th><td>Raritan Boro, Somerset</td><td>13</td><td>139</td><td>16</td></tr>
+      <tr><th scope="row">Mountain Road</th><td>Roxbury Twp, Morris</td><td>11</td><td>22</td><td>21</td></tr>
+      <tr><th scope="row">Route 38 (recorded as NJ 38)</th><td>Southampton Twp, Burlington</td><td>10</td><td>29</td><td>12</td></tr>
+      <tr><th scope="row">West Park Avenue</th><td>Hamilton Twp, Mercer</td><td>10</td><td>21</td><td>16</td></tr>
+      <tr><th scope="row">Route 28 (recorded as NJ 28 Secondary, Easton Turnpike)</th><td>Bridgewater Twp, Somerset</td><td>9</td><td>65</td><td>9</td></tr>
+      <tr><th scope="row">Market Street</th><td>Trenton City, Mercer</td><td>9</td><td>26</td><td>14</td></tr>
+      <tr><th scope="row">Perry Street</th><td>Trenton City, Mercer</td><td>9</td><td>18</td><td>16</td></tr>
+      <tr><th scope="row">Route 565 (Ross Corner Sussex Road)</th><td>Frankford Twp, Sussex</td><td>9</td><td>17</td><td>10</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, cross street as recorded, 2024 and 2025. We count each recorded name on its own, so one real cross street can be split across rows and the true count may be higher.</p>
+  <p>Raritan shows how that split works. Route 28 is recorded there both as "NJ 28 (Easton Turnpike)" and as plain "NJ 28". Together they have at least 21 injury accidents and 203 accidents in all, most of them without anyone hurt.</p>
+</section>
+
+<section id="road-names">
+  <h2>The names Route 206 goes by on a police report</h2>
+  <p>Your report may not say "Route 206" alone. These are the most common road names on Route 206 records from 2023 to 2025:</p>
+  <ul>
+    <li>Disabled American Veterans Highway: the most common name in Atlantic, Burlington, Morris and Somerset records.</li>
+    <li>In Mercer County: South Broad Street (393 records), Martin Luther King Jr Boulevard, coded as "US 206 Z" (164), Brunswick Avenue (115) and Lawrence Road (106).</li>
+    <li>In Somerset County: Van Horne Memorial Highway (274 records).</li>
+    <li>In Sussex County: Main Street (231 records), Water Street (177) and Hampton House Road (83).</li>
+  </ul>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, road name as recorded, 2023 to 2025 (2025 preliminary).</p>
+</section>
+
+<section id="years">
+  <h2>Preliminary 2025: up in Mercer, down in Sussex and Morris so far</h2>
+  <p>Route 206 had 2,232 accident records in 2023 and 2,329 in 2024. The preliminary 2025 count is already 2,408, 3 percent above 2024. That does not mean every county is complete.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 206 accidents by year</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian</th><th scope="col">Bicycle</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>2,232</td><td>519</td><td>760</td><td>7</td><td>16</td><td>14</td></tr>
+      <tr><th scope="row">2024</th><td>2,329</td><td>567</td><td>827</td><td>6</td><td>31</td><td>14</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>2,408</td><td>547</td><td>751</td><td>8</td><td>22</td><td>11</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes. 2023 and 2024 complete; 2025 preliminary.</p>
+  <p>By county, preliminary 2025 records were 699 in Mercer against 577 in 2024. In Sussex they were 334 against 391, and in Morris 270 against 305. Those two ratios, about 0.85 and 0.89, are low enough that 2025 may simply be incomplete there. The gap may be late reports still arriving, and it is too early to call it a drop.</p>
+</section>
+
+<section id="nearby">
+  <h2>Town, county and road pages along Route 206</h2>
+  <ul>
+    <li><a href="/new-jersey/trenton-nj-car-accidents">Car accidents in Trenton: streets, report office and data</a></li>
+    <li><a href="/new-jersey/hamilton-township-mercer-nj-car-accidents">Car accidents in Hamilton Township, Mercer County</a></li>
+    <li><a href="/new-jersey/bridgewater-township-somerset-nj-car-accidents">Car accidents in Bridgewater Township, Somerset County</a></li>
+    <li><a href="/new-jersey/sussex-county-car-accident-help">Sussex County car accident help</a>, where Route 206 has about 15 percent of injury accidents</li>
+    <li><a href="/new-jersey/morris-county-car-accident-help">Morris County car accident help</a></li>
+    <li><a href="/new-jersey/route-1-nj-accidents">Route 1 accident records</a>, which crosses Route 206 in Lawrence Township</li>
+    <li><a href="/new-jersey/route-31-nj-accidents">Route 31 accident records</a>, which meets Route 206 in Trenton</li>
+    <li><a href="/new-jersey/route-38-nj-accidents">Route 38 accident records</a> and <a href="/new-jersey/route-70-nj-accidents">Route 70 accident records</a>, both crossing Route 206 in Southampton Township</li>
+    <li><a href="/new-jersey/route-130-nj-accidents">Route 130 accident records</a>, which crosses Route 206 in Bordentown Township</li>
+    <li><a href="/new-jersey/route-202-nj-accidents">Route 202 accident records</a>, which meets Route 206 in Somerville, Bedminster and Bridgewater</li>
+    <li><a href="/new-jersey/i-80-nj-accidents">I-80 accident records</a>, which crosses Route 206 in Roxbury and Mount Olive</li>
+    <li><a href="/new-jersey/most-dangerous-intersections-nj">New Jersey intersections with the most injury accidents</a></li>
+    <li><a href="/new-jersey/nj-head-on-accident-help-frontal-collision-claims">After a head-on car accident in New Jersey</a></li>
+    <li><a href="/new-jersey/rear-end-crash-new-jersey">After a rear-end car accident in New Jersey</a></li>
+    <li><a href="/new-jersey/nj-new-jersey-wrongful-death-accident-claim-support-guide">What families can do after a fatal car accident in New Jersey</a></li>
+  </ul>
+  <p class="source">Where the roads meet: Route 206 records from 2024 and 2025 whose cross street names that route, by town.</p>
+</section>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened on Route 206. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident on Route 206? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-206-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="data-behind-this-page">
+  <h2>The data behind this Route 206 page</h2>
+  <p>We used NJDOT crash records for 2023 to 2025: 2023 from the NJDOT per-table archive and 2024 and 2025 from the <a href="https://njdot.aashtowaresafety.net/njdot-crash-data-dashboard#/">NJDOT Crash Data Portal</a>, as normalized by <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a>. Deaths are cross-checked with the NJ State Police fatal crash statistics. The file was downloaded on 2026-11-06; sources retrieved 2026-11-10.</p>
+  <p>We kept a record as Route 206 only if its route number is 206 and its road name carries a state or US prefix ("US 206", "US 206 SECONDARY", "US 206 Z"), which drops any county or local road numbered 206. An accident is in the "hurt or killed" count when the report lists at least one injury or death. Headline, county, town and deer counts use 2023 and 2024, which are complete. Cross streets and the State Police station cut use 2024 and 2025, because street names and the station field are less consistent in 2023. 2025 is preliminary everywhere it appears.</p>
+  <p>The data holds no traffic volumes, so these numbers are raw counts and not risk rates; a stretch that carries more cars will log more accidents. A deer accident is one where police coded a deer as the first harmful event. The station field is undocumented; we read a filled value as "a State Police station is named on the record." We ran the counts ourselves from the NJDOT crash records file (run 2026-11-10).</p>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-206-nj-accidents">Start the New Jersey accident quiz ↗</a></div></footer></div>

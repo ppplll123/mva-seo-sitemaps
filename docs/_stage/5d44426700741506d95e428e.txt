@@ -1,0 +1,199 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><style>.research-chart{margin:30px 0}.research-series .research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important}.quiz-cta .button{display:inline-block;margin-top:12px}</style><style>.place-page figure.research-chart img,.mva-site[data-conversion-batch] .place-page figure.research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto}.place-page figure.research-chart.portrait img,.mva-site[data-conversion-batch] .place-page figure.research-chart.portrait img{max-width:540px!important}.place-page .mva-review-scroll table{min-width:640px}.place-page .research-data-links a{overflow-wrap:anywhere}@media(max-width:600px){.mva-site[data-conversion-batch] .place-page .article-image img,.place-page .article-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page road-page" id="i-80">
+
+<h1>Had a car accident on I-80? 2,451 people were hurt here in two years, and milepost 60 in Paterson has the most injury accidents.</h1>
+
+<section id="answer">
+  <p class="lead">New Jersey's crash records show 1,738 car accidents on I-80 in 2023 and 2024 in which someone was hurt or killed, about 2.4 a day. 2,451 people were hurt and 25 were killed.</p>
+  <p>The busiest stretch is short. Mileposts 57 to 62, through Paterson, Elmwood Park and Saddle Brook, had 510 of the 1,893 accidents where someone was hurt in 2024 and 2025, about 27 percent.</p>
+  <p>This page does not show live traffic or today's I-80 accidents. It is built from police accident records for 2023 to 2025, and 2025 is still preliminary.</p>
+  <p class="source">Source: NJDOT crash records 2023 to 2025 as normalized by the open-source <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a> project (retrieved 2026-11-10), fatal accidents supplemented from <a href="https://nj.gov/njsp/info/fatalacc/">NJ State Police fatal crash statistics</a> (retrieved 2026-11-10). Analysis by us; method at the end of this page.</p>
+  <div class="quiz-cta quiz-cta-inline">
+    <p>Hurt in a car accident on I-80, anywhere from Warren County to Bergen County? The free New Jersey questionnaire asks a few short questions, with no obligation. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=i-80-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="state-police-reports">
+  <h2>On I-80 your police report is almost always a State Police report</h2>
+  <p>Most I-80 accident records name a New Jersey State Police station. In 2024 and 2025, 7,919 of 8,246 records (96 percent) carry one, almost all Totowa, Netcong or Hope. Which one depends on where on I-80 you were.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Police station named on I-80 accident records, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Station on the record</th><th scope="col">Towns it covers most on I-80</th><th scope="col">Median milepost</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Totowa</th><td>Paterson, Wayne, Totowa, Woodland Park, Fairfield, Montville, Elmwood Park, Saddle Brook, Lodi, Hackensack, Teaneck and the rest of the Bergen County stretch</td><td>59.0</td><td>4,502</td><td>1,131</td><td>13</td></tr>
+      <tr><th scope="row">Netcong</th><td>Rockaway Township, Roxbury, Denville, Mount Olive, Mount Arlington, Wharton, Jefferson, Netcong</td><td>35.4</td><td>2,552</td><td>522</td><td>6</td></tr>
+      <tr><th scope="row">Hope</th><td>Allamuchy, Knowlton, Hope, Hardwick, Frelinghuysen, Blairstown (Warren County)</td><td>12.2</td><td>846</td><td>174</td><td>7</td></tr>
+      <tr><th scope="row">Other State Police stations</th><td>Newark, Perryville, Somerville, Sussex, Bloomfield</td><td>n/a</td><td>19</td><td>4</td><td>0</td></tr>
+      <tr><th scope="row">No station recorded</th><td>Spread along the road; most in Wayne (86) and Paterson (78)</td><td>53.8</td><td>327</td><td>62</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes, "station" field; our count. We read a filled station as a State Police report, because statewide only about 12 percent of 2024 records carry a station and roads patrolled by town police, such as Route 22 in Union County, carry none. That reading is ours, not an NJDOT definition.</p>
+  <p>Parsippany-Troy Hills is split. Of its 1,209 I-80 records in 2024 and 2025, 663 name Netcong and 519 name Totowa. In 2023 the station field is mostly empty (2,036 of 3,811 records), so this table uses 2024 and 2025 only.</p>
+  <h3>Getting a State Police report for I-80</h3>
+  <p>State Police reports for non-toll roads such as I-80 are requested on the official NJSP and NJ Turnpike Authority portal. A non-toll road report costs $13.00. The basic report can be downloaded once it is "ready and approved," and reports stay available for six years from the year of the accident. Records for serious or fatal accidents are a separate request ($20.00).</p>
+  <p class="source">Source: <a href="https://www.njportal.com/njsp/crashreports/">NJSP and NJTA Crash Report Requests, njportal.com</a> (retrieved 2026-11-10).</p>
+  <p>If no station appears and a town police department handled your accident, ask that department instead. The fees above are for State Police reports only. Our <a href="/new-jersey/nj-car-accident-report">guide to New Jersey accident reports by agency</a> covers both routes.</p>
+</section>
+
+<section id="mileposts">
+  <h2>The ten I-80 mileposts with the most injury accidents</h2>
+  <p>Eight of the top ten miles are between milepost 57 and 67, in Passaic and Bergen counties. The only Morris County mile in the list is milepost 34 in Rockaway Township, at the ramps to Route 15.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>I-80 mileposts ranked by accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Milepost</th><th scope="col">Town (county)</th><th scope="col">Cross road most often named (records)</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">60</th><td>Paterson (Passaic)</td><td>Lakeview Avenue (70)</td><td>120</td><td>494</td><td>1</td></tr>
+      <tr><th scope="row">58</th><td>Paterson (Passaic)</td><td>Beckwith Avenue (80)</td><td>107</td><td>403</td><td>0</td></tr>
+      <tr><th scope="row">59</th><td>Paterson (Passaic)</td><td>Trenton Avenue (127)</td><td>96</td><td>391</td><td>2</td></tr>
+      <tr><th scope="row">65</th><td>Hackensack (Bergen)</td><td>Green Street (81)</td><td>73</td><td>243</td><td>0</td></tr>
+      <tr><th scope="row">53</th><td>Wayne (Passaic)</td><td>Route 23 (42)</td><td>66</td><td>376</td><td>1</td></tr>
+      <tr><th scope="row">61</th><td>Elmwood Park (Bergen)</td><td>Boulevard (65)</td><td>65</td><td>206</td><td>2</td></tr>
+      <tr><th scope="row">62</th><td>Saddle Brook (Bergen)</td><td>North Midland Avenue (53)</td><td>64</td><td>262</td><td>1</td></tr>
+      <tr><th scope="row">57</th><td>Paterson (Passaic)</td><td>New Street (81)</td><td>58</td><td>227</td><td>0</td></tr>
+      <tr><th scope="row">67</th><td>Teaneck (Bergen)</td><td>Park Avenue (41)</td><td>57</td><td>202</td><td>0</td></tr>
+      <tr><th scope="row">34</th><td>Rockaway Township (Morris)</td><td>Ramp from I-80 westbound to Route 15 northbound (39)</td><td>49</td><td>224</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes; our count. Milepost = the whole mile recorded (milepost 60 covers 60.00 to 60.99). Town and cross road are the ones named most often at that mile. Counts are a floor, because spelling variants of street names are not merged.</p>
+  <p>There is no tie at the cutoff: milepost 34 has 49 accidents where someone was hurt, and the next two, mileposts 66 (Hackensack) and 64 (Lodi), have 48 each. Milepost 53 in Wayne stands out for ramps: at least 163 of its 376 records are flagged as ramp accidents, with Route 23 the cross road named most.</p>
+  <p>Some records place the accident on the express roadway rather than the local lanes. In 2024 and 2025, 307 records were coded this way: 119 in Parsippany-Troy Hills (around mileposts 44 to 46) and 188 in Bergen County towns from Saddle Brook to Bogota. If you were in the express lanes, the report's road name may read "I-80 Express."</p>
+  <p class="source">Source: NJDOT crash records via nj-crashes, road name field; our count.</p>
+</section>
+
+<section id="accident-types">
+  <h2>How I-80 accidents differ from the New Jersey average</h2>
+  <p>I-80 is a limited-access interstate: only 75 of its 8,015 records in 2023 and 2024 are coded as intersection accidents. The accident mix shows it. Same-direction accidents and hits on barriers and guide rails dominate. Right-angle accidents, the second most common type statewide, are almost absent.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Share of accidents where someone was hurt or killed, by accident type, I-80 against all New Jersey roads, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Accident type (police coding)</th><th scope="col">I-80 count</th><th scope="col">I-80 share</th><th scope="col">Statewide share</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Same direction, rear end</th><td>851</td><td>49.0%</td><td>30.7%</td></tr>
+      <tr><th scope="row">Fixed object (barrier, guide rail, tree, pole)</th><td>397</td><td>22.8%</td><td>11.6%</td></tr>
+      <tr><th scope="row">Same direction, sideswipe</th><td>325</td><td>18.7%</td><td>8.5%</td></tr>
+      <tr><th scope="row">Right angle</th><td>10</td><td>0.6%</td><td>22.4%</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes; our count. The accident type is how the police coded the first event. It describes the accident, not who caused it.</p>
+  <p>Fixed-object accidents are where people died most often. They were 23 percent of the injury accidents on I-80 in 2023 and 2024 but 11 of the 25 deaths. Deer were the first thing hit in 256 accidents, but only 24 of those hurt anyone.</p>
+  <p class="source">Source: NJDOT crash records via nj-crashes, crash type and first harmful event fields; our count. If you were rear ended, our page on <a href="/new-jersey/rear-end-crash-new-jersey">rear-end car accidents in New Jersey</a> covers the next steps.</p>
+</section>
+
+<section id="deaths">
+  <h2>Deaths on I-80: dark stretches and Warren County</h2>
+  <p>From 2023 to 2025 the records hold 37 fatal accidents on I-80 and 39 people killed (2025 preliminary). 15 of the 37 happened in the dark on a stretch with no street lights. Statewide, unlit roads account for only about 4 percent of accidents where someone was hurt, against 12.5 percent on I-80.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Fatal accidents on I-80, 2023 to 2025 (2025 preliminary): light and accident type</caption>
+    <thead>
+      <tr><th scope="col">Circumstance</th><th scope="col">Fatal accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Dark, no street lights</th><td>15</td><td>15</td></tr>
+      <tr><th scope="row">Dark, street lights on</th><td>9</td><td>10</td></tr>
+      <tr><th scope="row">Daylight</th><td>13</td><td>14</td></tr>
+      <tr><th scope="row">Type: fixed object</th><td>13</td><td>15</td></tr>
+      <tr><th scope="row">Type: rear end</th><td>12</td><td>12</td></tr>
+      <tr><th scope="row">Type: pedestrian</th><td>4</td><td>4</td></tr>
+      <tr><th scope="row">Type: all others (overturned, parked vehicle, head on, angle, sideswipe)</th><td>8</td><td>8</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes, NJSP fatal supplement; our count. Statewide and I-80 unlit shares are for 2023 and 2024. Alcohol involvement was flagged in 6 of the 37 fatal accidents.</p>
+  <p>Five towns had three or more fatal I-80 accidents in those three years: Parsippany-Troy Hills (4), Paterson (4), Wayne (3, with 4 killed), Rockaway Township (3) and Knowlton in Warren County (3). Pedestrian deaths on an interstate are rare but real here: 5 pedestrians were killed in three years, 4 of them in accidents coded as pedestrian accidents; our <a href="/new-jersey/pedestrian-crash-new-jersey">pedestrian accident page</a> covers that situation.</p>
+  <p class="source">Source: NJDOT crash records via nj-crashes, NJSP fatal supplement; our count.</p>
+
+  <h3>What I-80 means to each county it crosses</h3>
+  <p>Morris County has the most I-80 injury accidents, but Warren County depends on I-80 the most. In Warren, I-80 accounts for 15 percent of all accidents where someone was hurt, on every road in the county.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>I-80 accidents by county: count, share of the county's total, and deaths</caption>
+    <thead>
+      <tr><th scope="col">County</th><th scope="col">Someone hurt or killed on I-80 (2023 + 2024)</th><th scope="col">I-80 share of all such accidents in the county</th><th scope="col">People killed on I-80 (2023 + 2024)</th><th scope="col">Fatal I-80 accidents (2023 to 2025)</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Morris</th><td>604</td><td>12.0%</td><td>8</td><td>13</td></tr>
+      <tr><th scope="row">Passaic</th><td>472</td><td>6.0%</td><td>5</td><td>7</td></tr>
+      <tr><th scope="row">Bergen</th><td>419</td><td>3.8%</td><td>5</td><td>6</td></tr>
+      <tr><th scope="row">Warren</th><td>152</td><td>15.0%</td><td>4</td><td>8</td></tr>
+      <tr><th scope="row">Essex (Fairfield only)</th><td>68</td><td>0.6%</td><td>2</td><td>2</td></tr>
+      <tr><th scope="row">Sussex (Byram only)</th><td>23</td><td>2.0%</td><td>1</td><td>1</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes; our count. County share = I-80 accidents where someone was hurt or killed, divided by all such accidents in the county, 2023 and 2024. These are counts, not risk rates: they do not account for how much traffic each stretch carries.</p>
+</section>
+
+<section id="by-year">
+  <h2>Is the I-80 count going up?</h2>
+  <p>Injury accidents rose from 763 in 2023 to 975 in 2024. The preliminary 2025 file already holds 96 percent of 2024's records and 94 percent of its injury accidents (918 of 975), so it is close to complete but can still rise.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>I-80 car accidents by year, New Jersey, 2023 to 2025</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>3,811</td><td>763</td><td>1,078</td><td>13</td></tr>
+      <tr><th scope="row">2024</th><td>4,204</td><td>975</td><td>1,373</td><td>12</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>4,042</td><td>918</td><td>1,311</td><td>14</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes, NJSP fatal supplement; our count.</p>
+  <p>Timing on I-80 follows the commute, not the weekend. The 3 pm to 6 pm window holds 375 of the 1,738 injury accidents (22 percent), and 5 pm is the single busiest hour (135). No weekday stands out: the range is 230 (Saturday) to 265 (Monday). July is the quietest month (92) and September the busiest (177). The <a href="/new-jersey/when-do-most-car-accidents-happen">statewide hour-by-hour pattern</a> is on a separate page.</p>
+  <p class="source">Source: NJDOT crash records via nj-crashes; accidents where someone was hurt or killed, 2023 and 2024; our count.</p>
+</section>
+
+<section id="towns-on-i-80">
+  <h2>Town and road pages along I-80</h2>
+  <ul>
+    <li><a href="/new-jersey/paterson-nj-car-accidents">Paterson car accident data</a>, home of mileposts 57 to 60.</li>
+    <li><a href="/new-jersey/wayne-nj-car-accidents">Wayne car accident data</a>, including the Route 23 interchange area.</li>
+    <li><a href="/new-jersey/bergen-county-car-accident-help#hackensack">Hackensack car accidents, in our Bergen County guide</a> and <a href="/new-jersey/bergen-county-car-accident-help#teaneck">Teaneck car accidents</a>.</li>
+    <li><a href="/new-jersey/morris-county-car-accident-help#parsippany-troy-hills">Parsippany-Troy Hills car accidents, in our Morris County guide</a>.</li>
+    <li><a href="/new-jersey/route-23-nj-accidents">Route 23 car accident data</a> and <a href="/new-jersey/i-78-nj-accidents">I-78 car accident data</a>.</li>
+  </ul>
+</section>
+
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened on I-80. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident on I-80? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=i-80-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="method">
+  <h2>How we counted</h2>
+  <p>Source file: NJDOT crash records 2023 to 2025 as normalized by hudcostreets/nj-crashes, fatal accidents supplemented from the NJ State Police feed, downloaded 2026-11-06. 2023 and 2024 are complete years. 2025 is preliminary; for I-80 the 2025 file holds 0.961 times the 2024 total, and the Sussex County stretch looks visibly incomplete (15 records in 2025 against 38 in 2024).</p>
+  <p>An I-80 record is one with route number 80 and an interstate road name. The raw records spell it several ways ("I-80", "I-80 SECONDARY", "I-80 EXPRESS" and others); all are counted. Headline counts use 2023 and 2024. Mileposts and the police station table use 2024 and 2025, because the 2023 export lacks most station names and names streets differently.</p>
+  <p>"Hurt or killed" means at least one person was hurt or killed in the accident, as the police recorded it. These are counts, not risk rates. They say nothing about who was at fault in any accident, whether anyone has a claim, or what a claim is worth. We ran the counts ourselves from the NJDOT crash records file; the method notes on this page describe the selection.</p>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=i-80-nj-accidents">Start the New Jersey accident quiz ↗</a></div></footer></div>

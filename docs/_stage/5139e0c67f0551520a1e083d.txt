@@ -1,0 +1,438 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page county-hub" data-slug="bergen-county-car-accident-help">
+
+<h1>Bergen County car accidents: police reports and crash data by town and road</h1>
+
+<section id="report-contacts">
+  <h2>Getting the police report after a car accident in Bergen County</h2>
+  <p>Two Bergen police departments publish how to get a copy of a crash report. For any other Bergen town, call that police department's non-emergency line and ask for the records bureau.</p>
+  <ul>
+    <li><strong>Teaneck Police Department</strong>, 900 Teaneck Road. The Records Bureau is on the right side of the front lobby of Police Headquarters, staffed 8:30 am to 4:30 pm Monday to Friday, closed on holidays. Reports are picked up at the customer window. The department says an accident report generally takes 3 to 5 days before it is available. Records Bureau phone: (201) 837-2551.</li>
+  </ul>
+  <p class="source">Source: Township of Teaneck, Police Department, Records Bureau, <a href="https://www.teanecknj.gov/living-in-teaneck/police-department/records-bureau/">teanecknj.gov/living-in-teaneck/police-department/records-bureau/</a>, retrieved 2026-11-10.</p>
+  <ul>
+    <li><strong>Hackensack Police Department</strong>, Records and Evidence Management Unit. Report requests: (201) 646-7725 or records@hackensackpd.org. The unit runs a Community Access Center on the first floor of the police department where the public can pick up copies of reports. The page's "Crash Reports" link opens the LexisNexis BuyCrash search set to the Hackensack Police Department.</li>
+  </ul>
+  <p class="source">Source: City of Hackensack, Records and Evidence Management Unit, <a href="https://www.hackensack.org/records-evidence-management-unit/">hackensack.org/records-evidence-management-unit/</a>, retrieved 2026-11-10.</p>
+  <p>Our guide on <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a> covers the statewide routes. Once you have the report, our guide to <a href="/new-jersey/nj-how-to-read-a-new-jersey-crash-report-after-an-accident">reading the codes on a New Jersey crash report</a> explains the boxes.</p>
+
+  <h3 id="bergen-turnpike-parkway-reports">Accidents on the Turnpike, the Parkway or a State Police case</h3>
+  <p>A town police department does not hold the report for every Bergen accident. Reports for accidents on the New Jersey Turnpike and the Garden State Parkway, and for accidents New Jersey State Police investigated on other roads, are requested online from the State Police. Those two toll roads matter here: our road table below counts 808 accidents where someone was hurt on I-95, which includes the Turnpike lanes, and 342 on the Parkway in Bergen in 2023 and 2024. Much of that I-95 count is the George Washington Bridge approach in Fort Lee and Teaneck, so the report comes from whichever agency responded, not always the State Police.</p>
+  <ul>
+    <li>The basic police crash report (form NJTR-1) can be bought once it is finalized. If the portal says it is not yet available, it asks you to search again in a couple of days.</li>
+    <li>A toll road report costs $5.00 and a non-toll road report $13.00. Serious or fatal investigation reports, photos and statements cost $20.00.</li>
+    <li>Reports are available for six years from the year of the crash.</li>
+    <li>The basic report is a public record. Serious or fatal investigation material is not public and needs a subpoena or a judge's order. For a fatal accident on the Turnpike or Parkway, the NJTR-1 is requested through the NJ Turnpike Authority's OPRA form.</li>
+  </ul>
+  <p class="source">Source: New Jersey State Police, Crash Reports portal, <a href="https://www.njportal.com/njsp/crashreports/">njportal.com/njsp/crashreports/</a>, retrieved 2026-11-10. These fees are for the State Police portal only. Teaneck, Hackensack and other Bergen town departments run their own process (see above).</p>
+
+  <h3 id="bergen-reporting-duty">Do you have to report the accident, and what if no officer came?</h3>
+  <p>Yes, if anyone was hurt or killed, or if property damage to any one person is over $500. The driver must tell the local police, county police or State Police as fast as they can. The driver must also send a written report to the Motor Vehicle Commission within 10 days, unless a police officer files a written report on the accident.</p>
+  <p class="source">Source: N.J.S.A. 39:4-130 (statute text, 2025 edition, <a href="http://web.archive.org/web/20260920182556/https://law.justia.com/codes/new-jersey/title-39/section-39-4-130/">archived copy</a>), retrieved 2026-11-10.</p>
+  <p>If police did not investigate, NJDOT's SR-1 self-reporting crash form is the only form for reporting that accident. It can be filed online, and NJDOT says the acknowledgment you get back can be given to an insurance company.</p>
+  <p class="source">Source: NJDOT, <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">Self-Reporting Crash Form</a> (read from the <a href="http://web.archive.org/web/20260918164037/https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">archived copy of 2026-09-18</a>), retrieved 2026-11-10.</p>
+  <p>When the report arrives, the state insurance department suggests checking details such as how many passengers are listed. If something looks wrong, tell your insurance company and contact the police department that responded. For a Teaneck or Hackensack police report, that means the contacts above.</p>
+  <p class="source">Source: NJ Department of Banking and Insurance, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026)</a>, p. 25, retrieved 2026-11-10.</p>
+
+  <div class="quiz-cta">
+    <p>Want a lawyer to look at your Bergen County car accident? Take the short quiz. It asks about your injury, an existing lawyer, fault, medical attention, the police report and the date. If your answers fit, a sponsoring lawyer's office may call you to discuss your options. Free, and you are under no obligation.</p>
+    <p><a class="button" data-quiz-link="after-report-contacts" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=bergen-county-car-accident-help">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="bergen-data">
+  <h2>How many car accidents happen in Bergen County?</h2>
+  <p>Police reported 54,065 car accidents in Bergen County in 2023 and 2024. In 10,933 of them someone was hurt or killed, about 15 a day. 14,665 people were hurt and 80 were killed. By accidents where someone was hurt, Bergen ranks second of New Jersey's 21 counties, behind Middlesex and just 5 ahead of Essex (10,928), with about 10 percent of the state total.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Bergen County car accidents by year (2025 is preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>25,484</td><td>5,077</td><td>6,711</td><td>38</td><td>428</td><td>290</td></tr>
+      <tr><th scope="row">2024</th><td>28,581</td><td>5,856</td><td>7,954</td><td>42</td><td>479</td><td>313</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>28,495</td><td>5,694</td><td>7,665</td><td>32</td><td>441</td><td>278</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2023 to 2025 as normalized by the hudcostreets/nj-crashes project, fatal crashes supplemented from the NJ State Police fatal feed; our analysis. 2023 and 2024 are complete. 2025 is preliminary: Bergen's 2025 total is 99.7 percent of 2024, but some town departments are still incomplete, so do not read 2025 as a trend.</p>
+
+  <h3 id="bergen-towns">Which Bergen towns have the most accidents where someone was hurt?</h3>
+  <p>Paramus, Hackensack and Fort Lee each had more than 800 accidents where someone was hurt in 2023 and 2024. Hackensack had by far the most pedestrian accidents of the ten, 121.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Top 10 Bergen County municipalities by accidents where someone was hurt or killed, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Rank</th><th scope="col">Municipality</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><th scope="row"><a href="/new-jersey/paramus-nj-car-accidents">Paramus</a></th><td>876</td><td>4,338</td><td>1,194</td><td>8</td><td>19</td></tr>
+      <tr><td>2</td><th scope="row"><a href="#hackensack">Hackensack</a></th><td>846</td><td>4,086</td><td>1,121</td><td>3</td><td>121</td></tr>
+      <tr><td>3</td><th scope="row"><a href="#fort-lee">Fort Lee</a></th><td>812</td><td>4,558</td><td>1,093</td><td>6</td><td>58</td></tr>
+      <tr><td>4</td><th scope="row"><a href="#teaneck">Teaneck</a></th><td>570</td><td>2,885</td><td>774</td><td>7</td><td>51</td></tr>
+      <tr><td>5</td><th scope="row">Englewood</th><td>447</td><td>2,231</td><td>605</td><td>3</td><td>46</td></tr>
+      <tr><td>6</td><th scope="row">Fair Lawn</th><td>409</td><td>1,571</td><td>539</td><td>3</td><td>42</td></tr>
+      <tr><td>7</td><th scope="row">Ridgefield</th><td>368</td><td>1,689</td><td>521</td><td>4</td><td>16</td></tr>
+      <tr><td>8</td><th scope="row">Elmwood Park</th><td>343</td><td>1,274</td><td>465</td><td>2</td><td>11</td></tr>
+      <tr><td>9</td><th scope="row">Rutherford</th><td>300</td><td>1,630</td><td>417</td><td>1</td><td>17</td></tr>
+      <tr><td>10</td><th scope="row">Palisades Park</th><td>292</td><td>1,359</td><td>390</td><td>2</td><td>34</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2023 and 2024 (complete years) via hudcostreets/nj-crashes; town is the NJDOT municipality code. Our analysis of the NJDOT records. Bigger towns and towns with major highways have more accidents because more cars pass through; these are counts, not risk rates.</p>
+
+  <h3 id="bergen-roads">Which Bergen County roads have the most accidents?</h3>
+  <p>I-95 with the New Jersey Turnpike and Route 17 lead Bergen County, with close to 800 accidents each where someone was hurt in 2023 and 2024. About a quarter of the county's accidents where someone was hurt (2,630) were on local streets or roads without a route number in the records.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Bergen County numbered roads by accidents where someone was hurt or killed, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Road</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">I-95 and New Jersey Turnpike (all lanes)</th><td>808</td><td>4,184</td><td>1,206</td><td>6</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/route-17-nj-accidents">Route 17</a></th><td>768</td><td>3,854</td><td>1,076</td><td>7</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/i-80-nj-accidents">I-80</a></th><td>419</td><td>1,635</td><td>595</td><td>5</td></tr>
+      <tr><th scope="row">Route 4</th><td>393</td><td>1,993</td><td>564</td><td>1</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway</a></th><td>342</td><td>1,784</td><td>458</td><td>5</td></tr>
+      <tr><th scope="row">County Route 503</th><td>311</td><td>1,368</td><td>408</td><td>1</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/route-46-nj-accidents">Route 46</a></th><td>271</td><td>1,110</td><td>362</td><td>3</td></tr>
+      <tr><th scope="row">County Route 505</th><td>259</td><td>950</td><td>362</td><td>2</td></tr>
+      <tr><th scope="row">County Route 507</th><td>257</td><td>1,083</td><td>340</td><td>1</td></tr>
+      <tr><th scope="row">County Route 56</th><td>213</td><td>882</td><td>289</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes. Our cut groups crashes by road class and route number, so the local, express and Turnpike lanes of I-95 count as one road. The 2,630 figure is every record with no route number, which includes some private-property, county-system and state-authority records as well as local streets. Statewide road pages use a slightly different selection, so their Bergen figures can differ by a few accidents.</p>
+
+  <h3 id="bergen-intersections">Which Bergen County intersections have the most accidents where someone was hurt?</h3>
+  <p>The top intersection countywide is Brinkerhoff Terrace at Fifth Street in Palisades Park, with 19 accidents where someone was hurt in 2024 and 2025. Most of those (14) are in the preliminary 2025 records, so watch whether the final 2025 data confirms the jump. Four of the top seven are in Ridgefield, three of them on Maple Avenue.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Bergen County intersections with the most accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary; counts are a floor)</caption>
+    <thead>
+      <tr><th scope="col">Intersection</th><th scope="col">Town</th><th scope="col">Hurt or killed, 2024</th><th scope="col">Hurt or killed, 2025 (preliminary)</th><th scope="col">Hurt or killed, total</th><th scope="col">All accidents</th><th scope="col">People hurt</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Brinkerhoff Terrace at Fifth Street</th><td>Palisades Park</td><td>5</td><td>14</td><td>19</td><td>39</td><td>27</td></tr>
+      <tr><th scope="row">Linden Avenue at Route 93 (Grand Avenue)</th><td>Ridgefield</td><td>10</td><td>5</td><td>15</td><td>33</td><td>20</td></tr>
+      <tr><th scope="row">Maple Avenue at Route 1 (Broad Avenue)</th><td>Ridgefield</td><td>6</td><td>8</td><td>14</td><td>26</td><td>23</td></tr>
+      <tr><th scope="row">Maple Avenue at Route 5</th><td>Ridgefield</td><td>3</td><td>10</td><td>13</td><td>37</td><td>24</td></tr>
+      <tr><th scope="row">Brinkerhoff Terrace at Sixth Street</th><td>Palisades Park</td><td>6</td><td>6</td><td>12</td><td>30</td><td>16</td></tr>
+      <tr><th scope="row">Demarest Avenue at Knickerbocker Road (County Route 505)</th><td>Closter</td><td>5</td><td>7</td><td>12</td><td>19</td><td>20</td></tr>
+      <tr><th scope="row">Maple Avenue at Prospect Avenue</th><td>Ridgefield</td><td>4</td><td>6</td><td>10</td><td>19</td><td>14</td></tr>
+      <tr><th scope="row">Essex Street at Summit Avenue</th><td>Hackensack</td><td>4</td><td>5</td><td>9</td><td>24</td><td>13</td></tr>
+      <tr><th scope="row">East Central Avenue (County Route 501) at Sixth Street</th><td>Palisades Park</td><td>3</td><td>6</td><td>9</td><td>19</td><td>13</td></tr>
+      <tr><th scope="row">Linden Street at North Euclid Avenue</th><td>Hackensack</td><td>3</td><td>6</td><td>9</td><td>14</td><td>14</td></tr>
+      <tr><th scope="row">Old Tappan Road at Orangeburg Road</th><td>Old Tappan</td><td>6</td><td>3</td><td>9</td><td>11</td><td>18</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2024 and 2025 via hudcostreets/nj-crashes, accidents NJDOT flags as intersection accidents, ranked by accidents where someone was hurt or killed (ties at 9 all shown). 2023 is left out because NJDOT changed how it writes street names between the 2023 and 2024 exports. Spelling variants of a street name are not merged, so every count is a floor. Our analysis of the NJDOT records. The statewide list is on our <a href="/new-jersey/most-dangerous-intersections-nj">page of the most dangerous intersections in New Jersey</a>.</p>
+
+  <h3 id="bergen-types">What kinds of accidents hurt people in Bergen County?</h3>
+  <p>Rear-end accidents were about a third of Bergen accidents where someone was hurt in 2023 and 2024. Pedestrian accidents were 7 percent of them but 35 of the 80 deaths.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Bergen County accidents where someone was hurt or killed, by police-coded accident type, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Accident type (police code)</th><th scope="col">Someone hurt or killed</th><th scope="col">Share</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Rear end (same direction)</th><td>3,774</td><td>35%</td><td>6</td></tr>
+      <tr><th scope="row">Right angle</th><td>2,163</td><td>20%</td><td>2</td></tr>
+      <tr><th scope="row">Fixed object</th><td>1,132</td><td>10%</td><td>20</td></tr>
+      <tr><th scope="row">Sideswipe (same direction)</th><td>1,090</td><td>10%</td><td>4</td></tr>
+      <tr><th scope="row">Pedestrian</th><td>780</td><td>7%</td><td>35</td></tr>
+      <tr><th scope="row">Bicycle</th><td>478</td><td>4%</td><td>2</td></tr>
+      <tr><th scope="row">Left turn or U turn</th><td>413</td><td>4%</td><td>2</td></tr>
+      <tr><th scope="row">Struck parked vehicle</th><td>363</td><td>3%</td><td>1</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes, crash type as coded by the reporting officer. Our analysis of the NJDOT records. The accident type describes the collision only. It is not a finding about who was at fault. Insurers decide fault from all the facts, such as police reports and statements (NJ Department of Banking and Insurance, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026)</a>, pp. 26 to 27, retrieved 2026-11-10). Help pages: <a href="/new-jersey/pedestrian-crash-new-jersey">pedestrian accident help in New Jersey</a> and <a href="/new-jersey/nj-bicycle-accident-claim-help">bicycle accident help in New Jersey</a>.</p>
+
+  <h3 id="bergen-time">When do Bergen County accidents happen?</h3>
+  <p>The afternoon commute is the peak. A quarter of Bergen accidents where someone was hurt (2,663 of 10,933) happened between 3 pm and 6 pm, and 5 pm was the single busiest hour. Friday had the most and Sunday the fewest. About 26 percent happened in the dark.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Bergen County accidents where someone was hurt or killed, by time of day, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Time of day</th><th scope="col">Someone hurt or killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Midnight to 3 am</th><td>389</td></tr>
+      <tr><th scope="row">3 am to 6 am</th><td>311</td></tr>
+      <tr><th scope="row">6 am to 9 am</th><td>1,448</td></tr>
+      <tr><th scope="row">9 am to noon</th><td>1,523</td></tr>
+      <tr><th scope="row">Noon to 3 pm</th><td>2,010</td></tr>
+      <tr><th scope="row">3 pm to 6 pm</th><td>2,663</td></tr>
+      <tr><th scope="row">6 pm to 9 pm</th><td>1,735</td></tr>
+      <tr><th scope="row">9 pm to midnight</th><td>854</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes; weekday totals Friday 1,738 and Sunday 1,252; dark includes lit and unlit roads. Our analysis of the NJDOT records. Statewide pattern: <a href="/new-jersey/when-do-most-car-accidents-happen">when car accidents happen in New Jersey, hour by hour</a>.</p>
+</section>
+
+<section id="hackensack">
+  <h2>Car accidents in Hackensack</h2>
+  <p>Hackensack had 4,086 police-reported car accidents in 2023 and 2024. In 846 of them someone was hurt or killed, about 1.2 a day, with 1,121 people hurt and 3 killed. That puts Hackensack second in Bergen County and 25th of 573 New Jersey municipalities by accidents where someone was hurt. Its 121 pedestrian accidents are the most of any town in Bergen's top ten.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Hackensack car accidents by year (2025 is preliminary and visibly incomplete)</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>1,720</td><td>384</td><td>494</td><td>1</td><td>48</td><td>32</td></tr>
+      <tr><th scope="row">2024</th><td>2,366</td><td>462</td><td>627</td><td>2</td><td>73</td><td>38</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>1,935</td><td>387</td><td>540</td><td>1</td><td>47</td><td>12</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2023 to 2025 via hudcostreets/nj-crashes, NJSP fatal supplement; municipality "Hackensack City", Bergen County, all road types. Our analysis of the NJDOT records. Hackensack's 2025 total is 82 percent of 2024, so the 2025 records are visibly incomplete and do not show a decline.</p>
+
+  <h3 id="hackensack-roads">Which Hackensack roads have the most accidents?</h3>
+  <p>More than a third of Hackensack accidents where someone was hurt (304 of 846) were on local streets or roads without a route number in the records. Among numbered roads, County Route 503 (River Street, Hackensack Avenue and South River Street) leads with 116, then I-80 with 88.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Hackensack roads by accidents where someone was hurt or killed, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Road</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">County Route 503 (River Street, Hackensack Avenue, South River Street)</th><td>116</td><td>546</td><td>154</td><td>0</td><td>15</td><td>4</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/i-80-nj-accidents">I-80</a></th><td>88</td><td>285</td><td>137</td><td>2</td><td>0</td><td>1</td></tr>
+      <tr><th scope="row">Summit Avenue (County Route 57)</th><td>69</td><td>273</td><td>93</td><td>0</td><td>9</td><td>2</td></tr>
+      <tr><th scope="row">Essex Street (County Route 56)</th><td>61</td><td>263</td><td>79</td><td>0</td><td>8</td><td>7</td></tr>
+      <tr><th scope="row">Polifly Road and First Street (County Route 55)</th><td>57</td><td>233</td><td>72</td><td>0</td><td>6</td><td>6</td></tr>
+      <tr><th scope="row">Passaic Street (County Route 62)</th><td>28</td><td>96</td><td>37</td><td>0</td><td>4</td><td>6</td></tr>
+      <tr><th scope="row">Hudson Street (County Route 124)</th><td>23</td><td>90</td><td>30</td><td>0</td><td>5</td><td>3</td></tr>
+      <tr><th scope="row">Central Avenue (County Route 44)</th><td>23</td><td>78</td><td>29</td><td>0</td><td>6</td><td>4</td></tr>
+      <tr><th scope="row">Route 4</th><td>22</td><td>136</td><td>38</td><td>0</td><td>1</td><td>0</td></tr>
+      <tr><th scope="row">Main Street, Johnson Avenue and Kinderkamack Road (County Route 51)</th><td>22</td><td>89</td><td>28</td><td>0</td><td>4</td><td>4</td></tr>
+      <tr><th scope="row">Local streets and roads without a route number</th><td>304</td><td>1,834</td><td>378</td><td>0</td><td>60</td><td>32</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes, grouped by road class and route number so that name variants of one road count together. County Route 51 ties Route 4 at 22, so both are listed; the next numbered road, Route 17, has 14. Most records write these roads by route number only (for example "BERGEN COUNTY 57"); the street names in brackets come from the records' longer road strings, such as "SUMMIT AVENUE (BERGEN COUNTY 57)".</p>
+
+  <h3 id="hackensack-intersections">Which Hackensack intersections have the most accidents where someone was hurt?</h3>
+  <p>Essex Street at Summit Avenue and Linden Street at North Euclid Avenue lead, with 9 accidents each where someone was hurt in 2024 and 2025. All 6 at Atlantic Street and East Railroad Avenue are in the preliminary 2025 records.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Hackensack intersections with 5 or more accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary; counts are a floor)</caption>
+    <thead>
+      <tr><th scope="col">Intersection</th><th scope="col">Hurt or killed, 2024</th><th scope="col">Hurt or killed, 2025 (preliminary)</th><th scope="col">Hurt or killed, total</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">Pedestrian accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Essex Street at Summit Avenue</th><td>4</td><td>5</td><td>9</td><td>24</td><td>13</td><td>1</td></tr>
+      <tr><th scope="row">Linden Street at North Euclid Avenue</th><td>3</td><td>6</td><td>9</td><td>14</td><td>14</td><td>0</td></tr>
+      <tr><th scope="row">East Kennedy Street at South River Street (County Route 503)</th><td>3</td><td>4</td><td>7</td><td>13</td><td>8</td><td>0</td></tr>
+      <tr><th scope="row">Essex Street at State Street</th><td>3</td><td>3</td><td>6</td><td>10</td><td>8</td><td>1</td></tr>
+      <tr><th scope="row">Atlantic Street at East Railroad Avenue</th><td>0</td><td>6</td><td>6</td><td>8</td><td>8</td><td>1</td></tr>
+      <tr><th scope="row">Anderson Street at Prospect Avenue</th><td>2</td><td>3</td><td>5</td><td>12</td><td>7</td><td>0</td></tr>
+      <tr><th scope="row">Passaic Street at Union Street</th><td>1</td><td>4</td><td>5</td><td>7</td><td>10</td><td>0</td></tr>
+      <tr><th scope="row">Polifly Road at Standish Avenue</th><td>2</td><td>3</td><td>5</td><td>6</td><td>5</td><td>1</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2024 and 2025 via hudcostreets/nj-crashes, intersection accidents only, all intersections at 5 or more shown. Spelling variants are not merged, so every count is a floor. Our analysis of the NJDOT records.</p>
+
+  <h3 id="hackensack-pattern">Accident types and timing in Hackensack</h3>
+  <ul>
+    <li>Rear-end and right-angle accidents were each about 26 percent of Hackensack accidents where someone was hurt in 2023 and 2024 (221 and 220 of 846). Pedestrian accidents were 11 percent (95).</li>
+    <li>3 pm to 6 pm was the peak, with 199 of the 846. Monday had the most (140) and Sunday the fewest (78).</li>
+    <li>About 27 percent happened in the dark.</li>
+  </ul>
+  <p class="source">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes, crash type as coded by the reporting officer (not a finding about fault). Our analysis of the NJDOT records.</p>
+  <p>After a Hackensack car accident, the report comes from the Hackensack Police Department's Records and Evidence Management Unit; its contacts are in the <a href="#report-contacts">Bergen police report contacts above</a>. For motorcycle accidents, see <a href="/new-jersey/hackensack-motorcycle-accident-help">Hackensack motorcycle accidents</a>.</p>
+</section>
+
+<section id="fort-lee">
+  <h2>Car accidents in Fort Lee</h2>
+  <p>Fort Lee had 4,558 police-reported car accidents in 2023 and 2024, the most of any Bergen town. In 812 of them someone was hurt or killed, about 1.1 a day, with 1,093 people hurt and 6 killed. That puts Fort Lee third in Bergen County and 29th of 573 New Jersey municipalities by accidents where someone was hurt.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Fort Lee car accidents by year (2025 is preliminary and visibly incomplete)</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>2,378</td><td>438</td><td>577</td><td>1</td><td>38</td><td>28</td></tr>
+      <tr><th scope="row">2024</th><td>2,180</td><td>374</td><td>516</td><td>5</td><td>20</td><td>14</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>1,778</td><td>322</td><td>459</td><td>2</td><td>29</td><td>13</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2023 to 2025 via hudcostreets/nj-crashes, NJSP fatal supplement; municipality "Fort Lee Boro", Bergen County, all road types. Our analysis of the NJDOT records. Fort Lee's 2025 total is 82 percent of 2024, so the 2025 records are visibly incomplete and do not show a decline.</p>
+
+  <h3 id="fort-lee-roads">Which Fort Lee roads have the most accidents?</h3>
+  <p>I-95 with the New Jersey Turnpike dominates: 367 of Fort Lee's 812 accidents where someone was hurt, about 45 percent, were on its lanes. Route 67 (Lemoine Avenue) had the most pedestrian accidents of any road in town, 16.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Fort Lee roads by accidents where someone was hurt or killed, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Road</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">I-95 and New Jersey Turnpike (all lanes)</th><td>367</td><td>2,008</td><td>534</td><td>2</td><td>0</td><td>1</td></tr>
+      <tr><th scope="row">Route 67 (Lemoine Avenue, Palisades Avenue)</th><td>68</td><td>333</td><td>82</td><td>0</td><td>16</td><td>7</td></tr>
+      <tr><th scope="row">Route 1</th><td>56</td><td>311</td><td>85</td><td>1</td><td>0</td><td>0</td></tr>
+      <tr><th scope="row">County Route 29 (Anderson Avenue, Center Avenue, Linwood Avenue)</th><td>41</td><td>254</td><td>44</td><td>0</td><td>12</td><td>5</td></tr>
+      <tr><th scope="row">Route 5</th><td>38</td><td>120</td><td>51</td><td>0</td><td>2</td><td>3</td></tr>
+      <tr><th scope="row">Main Street and Fort Lee Road (County Route 56)</th><td>31</td><td>150</td><td>38</td><td>0</td><td>6</td><td>7</td></tr>
+      <tr><th scope="row">Route 9W (Fletcher Avenue, Lemoine Avenue)</th><td>28</td><td>256</td><td>32</td><td>1</td><td>3</td><td>1</td></tr>
+      <tr><th scope="row">County Route 505 (Hudson Terrace, River Road)</th><td>23</td><td>107</td><td>27</td><td>0</td><td>0</td><td>6</td></tr>
+      <tr><th scope="row">Local streets and roads without a route number</th><td>99</td><td>710</td><td>117</td><td>1</td><td>15</td><td>10</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes, grouped by road class and route number (I-95 local, express and Turnpike lanes together). Street names in brackets come from the records' longer road strings, such as "NJ 67 (LEMOINE AVENUE)".</p>
+
+  <h3 id="fort-lee-intersections">Which Fort Lee intersections have the most accidents where someone was hurt?</h3>
+  <p>Bruce Reynolds Boulevard at Martha Washington Way leads, with 6 accidents where someone was hurt in 2024 and 2025, 5 of them in the preliminary 2025 records. Bruce Reynolds Boulevard appears three times in the top five.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Fort Lee intersections with 3 or more accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary; counts are a floor)</caption>
+    <thead>
+      <tr><th scope="col">Intersection</th><th scope="col">Hurt or killed, 2024</th><th scope="col">Hurt or killed, 2025 (preliminary)</th><th scope="col">Hurt or killed, total</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">Pedestrian accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Bruce Reynolds Boulevard at Martha Washington Way</th><td>1</td><td>5</td><td>6</td><td>24</td><td>11</td><td>0</td></tr>
+      <tr><th scope="row">Bridge Plaza North at Route 67 (Lemoine Avenue)</th><td>1</td><td>3</td><td>4</td><td>13</td><td>6</td><td>1</td></tr>
+      <tr><th scope="row">Central Boulevard (County Route 54) at Inwood Avenue</th><td>2</td><td>2</td><td>4</td><td>8</td><td>8</td><td>0</td></tr>
+      <tr><th scope="row">Bruce Reynolds Boulevard at Route 67 (Lemoine Avenue)</th><td>2</td><td>1</td><td>3</td><td>12</td><td>6</td><td>0</td></tr>
+      <tr><th scope="row">Bruce Reynolds Boulevard at River Road (County Route 505)</th><td>0</td><td>3</td><td>3</td><td>6</td><td>3</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2024 and 2025 via hudcostreets/nj-crashes, intersection accidents only, all intersections at 3 or more shown; at least 10 more tie at 2. Spelling variants are not merged, so every count is a floor. Our analysis of the NJDOT records.</p>
+
+  <h3 id="fort-lee-pattern">Accident types and timing in Fort Lee</h3>
+  <ul>
+    <li>Rear-end accidents were 43 percent of Fort Lee accidents where someone was hurt in 2023 and 2024 (346 of 812), and sideswipes 22 percent (178).</li>
+    <li>3 pm to 6 pm was the peak, with 166 of the 812. Unlike Bergen as a whole, Saturday had the most (132) and Thursday the fewest (92).</li>
+    <li>About 31 percent happened in the dark. 2 of the 6 deaths were pedestrians, both in 2024.</li>
+  </ul>
+  <p class="source">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes, crash type as coded by the reporting officer (not a finding about fault). Our analysis of the NJDOT records. Small numbers, such as deaths, can change a lot from year to year.</p>
+</section>
+
+<section id="teaneck">
+  <h2>Car accidents in Teaneck</h2>
+  <p>Teaneck had 2,885 police-reported car accidents in 2023 and 2024. In 570 of them someone was hurt or killed, about 0.8 a day, with 774 people hurt and 7 killed. That puts Teaneck fourth in Bergen County and 44th of 573 New Jersey municipalities by accidents where someone was hurt.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Teaneck car accidents by year (2025 is preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>1,305</td><td>256</td><td>334</td><td>4</td><td>21</td><td>17</td></tr>
+      <tr><th scope="row">2024</th><td>1,580</td><td>314</td><td>440</td><td>3</td><td>30</td><td>13</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>1,616</td><td>279</td><td>419</td><td>0</td><td>19</td><td>7</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2023 to 2025 via hudcostreets/nj-crashes, NJSP fatal supplement; municipality "Teaneck Twp", Bergen County, all road types. Our analysis of the NJDOT records. 2025 is preliminary.</p>
+
+  <h3 id="teaneck-roads">Which Teaneck roads have the most accidents?</h3>
+  <p>Teaneck Road (County Route 39) had the most accidents where someone was hurt in Teaneck in 2023 and 2024, 72. I-95 with the Turnpike and Cedar Lane follow closely. Cedar Lane and Teaneck Road also had the most pedestrian accidents, 12 and 10.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Teaneck roads by accidents where someone was hurt or killed, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Road</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Teaneck Road (County Route 39)</th><td>72</td><td>401</td><td>87</td><td>2</td><td>10</td><td>8</td></tr>
+      <tr><th scope="row">I-95 and New Jersey Turnpike (all lanes)</th><td>62</td><td>325</td><td>107</td><td>2</td><td>0</td><td>0</td></tr>
+      <tr><th scope="row">Cedar Lane (County Route 60)</th><td>61</td><td>255</td><td>76</td><td>1</td><td>12</td><td>3</td></tr>
+      <tr><th scope="row">Route 4</th><td>49</td><td>275</td><td>88</td><td>0</td><td>1</td><td>1</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/i-80-nj-accidents">I-80</a></th><td>38</td><td>159</td><td>51</td><td>1</td><td>0</td><td>0</td></tr>
+      <tr><th scope="row">River Road (County Route 41)</th><td>33</td><td>123</td><td>42</td><td>0</td><td>0</td><td>3</td></tr>
+      <tr><th scope="row">Degraw Avenue (County Route 56)</th><td>26</td><td>110</td><td>37</td><td>0</td><td>5</td><td>1</td></tr>
+      <tr><th scope="row">New Bridge Road, Roemer Avenue and Liberty Road (County Route 49)</th><td>13</td><td>61</td><td>18</td><td>0</td><td>0</td><td>0</td></tr>
+      <tr><th scope="row">Local streets and roads without a route number</th><td>208</td><td>1,145</td><td>257</td><td>1</td><td>23</td><td>13</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes, grouped by route number so that name variants of one road count together. Most records write these roads by route number only (for example "BERGEN COUNTY 39"); the street names come from the records' longer road strings, such as "TEANECK ROAD (BERGEN COUNTY 39)". The County Route 49 group also includes "LIBERTY ROAD (BERGEN COUNTY 49)".</p>
+
+  <h3 id="teaneck-intersections">Which Teaneck intersections have the most accidents where someone was hurt?</h3>
+  <p>Degraw Avenue at Queen Anne Road leads, with 5 accidents where someone was hurt in 2024 and 2025. Four of its 8 accidents involved a pedestrian. Cedar Lane at River Road had 4, all in the preliminary 2025 records. After those two, at least 13 intersections tie at 2.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Teaneck intersections with the most accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary; counts are a floor; 8 of at least 13 tied at 2 shown)</caption>
+    <thead>
+      <tr><th scope="col">Intersection</th><th scope="col">Hurt or killed, 2024</th><th scope="col">Hurt or killed, 2025 (preliminary)</th><th scope="col">Hurt or killed, total</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">Pedestrian accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Degraw Avenue at Queen Anne Road</th><td>4</td><td>1</td><td>5</td><td>8</td><td>6</td><td>4</td></tr>
+      <tr><th scope="row">Cedar Lane at River Road</th><td>0</td><td>4</td><td>4</td><td>9</td><td>5</td><td>0</td></tr>
+      <tr><th scope="row">Degraw Avenue at Teaneck Road</th><td>1</td><td>1</td><td>2</td><td>13</td><td>2</td><td>0</td></tr>
+      <tr><th scope="row">Englewood Avenue at Teaneck Road</th><td>0</td><td>2</td><td>2</td><td>12</td><td>3</td><td>0</td></tr>
+      <tr><th scope="row">Belle Avenue at Route 4</th><td>1</td><td>1</td><td>2</td><td>7</td><td>2</td><td>0</td></tr>
+      <tr><th scope="row">Beverly Road at Garrison Avenue</th><td>1</td><td>1</td><td>2</td><td>6</td><td>2</td><td>0</td></tr>
+      <tr><th scope="row">Lindbergh Boulevard at Teaneck Road</th><td>0</td><td>2</td><td>2</td><td>6</td><td>2</td><td>0</td></tr>
+      <tr><th scope="row">River Road at Roemer Avenue</th><td>0</td><td>2</td><td>2</td><td>6</td><td>4</td><td>0</td></tr>
+      <tr><th scope="row">Cedar Lane at Pomander Walk</th><td>1</td><td>1</td><td>2</td><td>5</td><td>3</td><td>1</td></tr>
+      <tr><th scope="row">Cedar Lane at Teaneck Road</th><td>1</td><td>1</td><td>2</td><td>5</td><td>2</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2024 and 2025 via hudcostreets/nj-crashes, intersection accidents only. Our data file keeps the top 15 rows and 13 of them tie at 2, so the true number of ties may be higher; the 8 tied intersections shown are those with the most accidents of any kind (5 or more). Spelling variants are not merged (for example, some 2024 records write Teaneck Road at Lindbergh Boulevard as "Bergen County 39" at "Hospital Ent / Lindbergh Blvd"), so every count is a floor. Our analysis of the NJDOT records.</p>
+
+  <h3 id="teaneck-pattern">Accident types, pedestrians and timing in Teaneck</h3>
+  <ul>
+    <li>Rear-end accidents were 32 percent of Teaneck accidents where someone was hurt in 2023 and 2024 (183 of 570), and right-angle accidents 21 percent (122).</li>
+    <li>51 accidents involved a pedestrian and 30 a bicycle. Someone was hurt or killed in 43 of the pedestrian accidents and 23 of the bicycle accidents. One pedestrian was killed.</li>
+    <li>3 pm to 6 pm was the peak, with 138 of the 570 accidents where someone was hurt. Monday had the most (97) and Saturday the fewest (56).</li>
+    <li>About 28 percent of Teaneck accidents where someone was hurt happened in the dark. 6 of the 7 deaths were in accidents on wet roads.</li>
+  </ul>
+  <p class="source">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes. Our analysis of the NJDOT records. Small numbers, such as deaths, can change a lot from year to year.</p>
+  <p>After a Teaneck car accident, the report comes from the Teaneck Police Department's Records Bureau. Its contact details and the 3 to 5 day wait it publishes are in the <a href="#report-contacts">Bergen police report contacts above</a>.</p>
+</section>
+
+<section id="bergen-towns-pages">
+  <h2>More Bergen County pages</h2>
+  <h3 id="paramus">Paramus</h3>
+  <p>Paramus had the most accidents where someone was hurt in Bergen County in 2023 and 2024, 876, and 8 people were killed. Rear-end accidents were 55 percent of them. See <a href="/new-jersey/paramus-nj-car-accidents">Paramus car accident data by road, intersection and hour</a>, and for the shopping corridors, <a href="/new-jersey/paramus-route-4-route-17-shopping-trip-crash">accidents near the Route 4 and Route 17 shopping entrances in Paramus</a>.</p>
+  <p class="source">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes. Our analysis of the NJDOT records.</p>
+  <h3 id="bergen-guides">Bergen County guides by accident type and place</h3>
+  <ul>
+    <li><a href="/new-jersey/fair-lawn-car-accident-help">Fair Lawn car accidents on Route 4, Route 208 and Broadway</a></li>
+    <li><a href="/new-jersey/elmwood-park-car-accident-help">Elmwood Park car accidents on Gilbert Avenue and River Drive</a></li>
+    <li><a href="/new-jersey/elmwood-park-truck-accident-help">Elmwood Park truck accidents</a></li>
+    <li><a href="/new-jersey/lodi-truck-accident-help">Lodi truck accidents near Main Street and Route 46</a></li>
+    <li><a href="/new-jersey/garfield-motorcycle-accident-help">Garfield motorcycle accidents on Outwater Lane and River Drive</a></li>
+  </ul>
+</section>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened in Bergen County. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident in Bergen County? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=bergen-county-car-accident-help">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="method">
+  <h2>Method and data</h2>
+  <p>An accident where someone was hurt is a police-reported crash in which at least one person was hurt or killed. Data: NJDOT crash records (2023 from the NJDOT per-table archive, 2024 and 2025 from the NJDOT Crash Data Portal, as recorded in the data file's provenance; the portal could not be re-checked on 2026-11-10) as normalized by the open-source <a href="https://github.com/hudcostreets/nj-crashes">nj-crashes project</a>, with fatal crashes supplemented from the <a href="https://www.nj.gov/njsp/info/fatalacc/index.shtml">NJ State Police fatal crash statistics</a> (retrieved 2026-11-10). Data file downloaded 2026-11-06.</p>
+  <p>2023 and 2024 are complete. 2025 is preliminary and always labelled. Town, road and type totals use 2023 and 2024. Intersections use 2024 and 2025 because street naming changed between years, and spelling variants are not merged. All figures are counts, not risk rates, because there is no traffic-volume figure behind them.</p>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=home">Start the New Jersey accident quiz ↗</a></div></footer></div>

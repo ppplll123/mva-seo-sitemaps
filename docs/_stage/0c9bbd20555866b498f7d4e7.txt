@@ -1,0 +1,262 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><style>.research-chart{margin:30px 0}.research-series .research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important}.quiz-cta .button{display:inline-block;margin-top:12px}</style><style>.place-page figure.research-chart img,.mva-site[data-conversion-batch] .place-page figure.research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto}.place-page figure.research-chart.portrait img,.mva-site[data-conversion-batch] .place-page figure.research-chart.portrait img{max-width:540px!important}.place-page .mva-review-scroll table{min-width:640px}.place-page .research-data-links a{overflow-wrap:anywhere}@media(max-width:600px){.mva-site[data-conversion-batch] .place-page .article-image img,.place-page .article-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page road-page" id="route-70">
+
+<h1>Route 70 NJ accident today? Who has the police report, town by town, and what the crash records show</h1>
+
+<section id="short-answer">
+  <p class="lead">We do not post live crash alerts. If your car accident on Route 70 happened today, the report will come from the police agency that came to the scene. In most Route 70 towns, the crash records point to that town's own police department.</p>
+  <p>The clearest exception in the records is Southampton Township in Burlington County, with Woodland Township next door close behind. In Southampton, 215 of 253 Route 70 crashes from 2023 to 2025 carry the name of the State Police Red Lion Station, and in Woodland 29 of 45 do. For a crash in either town, the State Police crash report portal is the place to look.</p>
+  <p class="source">Red Lion Station (1722 US-206, Vincentown) is listed as a Troop C station on the <a href="https://njsp.njoag.gov/troop-c/">New Jersey State Police Troop C page</a> (retrieved 2026-11-10).</p>
+  <p>The records also show where Route 70 hurts people. Cherry Hill alone had 265 of the road's 830 crashes in which someone was hurt or killed in 2023 and 2024. Burlington County had about a quarter of those crashes but 8 of the 16 deaths.</p>
+  <p class="source">Source: NJDOT crash records 2023 to 2025 as normalized by the open-source <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a> project (retrieved 2026-11-10), fatal crashes supplemented from <a href="https://www.nj.gov/njsp/info/fatalacc/index.shtml">NJ State Police fatal crash statistics</a> (retrieved 2026-11-10). Our analysis; 2025 is preliminary. How we read the station field is explained in the method section.</p>
+  <div class="quiz-cta quiz-cta-inline">
+    <p>Hurt somewhere between Pennsauken and Wall? The sponsored New Jersey screening form takes about 30 seconds. You tell it how you were hurt, if a lawyer already represents you, who you think caused the crash, whether you saw a doctor, if police wrote a report, and when it happened. Then you leave a name and number. A sponsoring lawyer or legal consultant may call readers whose answers qualify. Using it costs nothing and commits you to nothing.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-70-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="towns-by-milepost">
+  <h2>Fourteen towns on one milepost line, Pennsauken to Wall</h2>
+  <p>Once three 2023 coding slips are corrected (explained below the table), the crash records place Route 70 crashes in 14 municipalities across Camden, Burlington, Ocean and Monmouth counties. Ordered by the NJDOT milepost the police recorded, they run from Pennsauken (about milepost 0) to Wall Township (about milepost 59). The records name the road both as "NJ 70" and as the "John Davison Rockefeller Memorial Highway".</p>
+  <p>Three things stand out in the table. Cherry Hill has the most crashes by far. Medford and Manchester have the highest share of crashes in which someone was hurt among the larger towns, about one in three. Brick has many crashes but the lowest such share, about one in ten. The records do not explain these differences, and they may partly reflect how each department codes minor injuries.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Route 70 crashes by town, west to east by median recorded milepost, 2023 and 2024 (State Police station column covers 2023 to 2025)</caption>
+      <thead>
+        <tr>
+          <th scope="col">Town</th>
+          <th scope="col">County</th>
+          <th scope="col">Median milepost</th>
+          <th scope="col">All crashes</th>
+          <th scope="col">Someone hurt or killed</th>
+          <th scope="col">People killed</th>
+          <th scope="col">Crashes with a State Police station named, 2023 to 2025</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Pennsauken Twp</th><td>Camden</td><td>0.3</td><td>34</td><td>5</td><td>0</td><td>0 of 61</td></tr>
+        <tr><th scope="row">Cherry Hill Twp</th><td>Camden</td><td>4.3</td><td>1,042</td><td>265</td><td>2</td><td>18 of 1,580</td></tr>
+        <tr><th scope="row">Evesham Twp</th><td>Burlington</td><td>8.9</td><td>248</td><td>57</td><td>0</td><td>1 of 384</td></tr>
+        <tr><th scope="row">Medford Twp</th><td>Burlington</td><td>13.9</td><td>274</td><td>97</td><td>3</td><td>2 of 403</td></tr>
+        <tr><th scope="row">Southampton Twp</th><td>Burlington</td><td>18.8</td><td>146</td><td>31</td><td>2</td><td>215 of 253</td></tr>
+        <tr><th scope="row">Woodland Twp</th><td>Burlington</td><td>26.4</td><td>33</td><td>10</td><td>0</td><td>29 of 45</td></tr>
+        <tr><th scope="row">Pemberton Twp</th><td>Burlington</td><td>28.4</td><td>71</td><td>25</td><td>3</td><td>9 of 112</td></tr>
+        <tr><th scope="row">Lakehurst Boro</th><td>Ocean</td><td>44.4</td><td>140</td><td>21</td><td>0</td><td>0 of 218</td></tr>
+        <tr><th scope="row">Manchester Twp</th><td>Ocean</td><td>44.8</td><td>305</td><td>103</td><td>1</td><td>2 of 501</td></tr>
+        <tr><th scope="row">Toms River Twp</th><td>Ocean</td><td>48.7</td><td>187</td><td>44</td><td>0</td><td>0 of 289</td></tr>
+        <tr><th scope="row">Lakewood Twp</th><td>Ocean</td><td>51.8</td><td>394</td><td>107</td><td>3</td><td>2 of 596</td></tr>
+        <tr><th scope="row">Brick Twp</th><td>Ocean</td><td>55.0</td><td>465</td><td>46</td><td>2</td><td>1 of 768</td></tr>
+        <tr><th scope="row">Brielle Boro</th><td>Monmouth</td><td>58.7</td><td>27</td><td>11</td><td>0</td><td>0 of 36</td></tr>
+        <tr><th scope="row">Wall Twp</th><td>Monmouth</td><td>59.2</td><td>45</td><td>8</td><td>0</td><td>0 of 66</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10), our analysis. The last column counts all three years, so its totals are larger. Mileposts are medians of what officers recorded, not surveyed points. Pennsauken has only 1 Route 70 record in 2023, against 33 in 2024 and 27 in 2025, so its two-year row is in effect 2024 alone.</p>
+  <p>About the correction: in the 2023 file only, 37 Route 70 records carry the code of a town one number below the real one. Nine are coded to Maple Shade, but their cross streets are Medford streets, such as Route 541 (Main Street), Branin Road and Hartford Road. Twenty-one are coded to Shamong, at mileposts inside Southampton's range and at US 206 and Sooy Place Road. Seven are coded to Pemberton Borough, at mileposts inside Pemberton Township's range. None of the three names appears on Route 70 in 2024 or 2025. We count those records in Medford, Southampton and Pemberton Township.</p>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10), our analysis of the municipality, cross-street and milepost fields.</p>
+  <p>By county, Ocean had 321 of the 830 crashes in which someone was hurt or killed in 2023 and 2024, Camden 270, Burlington 220 and Monmouth 19. Route 70 was 5.4 percent of all such crashes in Ocean County, 4.3 percent in Camden County and 4.2 percent in Burlington County.</p>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10), our analysis. County totals: Ocean 5,927, Camden 6,318, Burlington 5,239 crashes in which someone was hurt or killed.</p>
+</section>
+
+<section id="deaths">
+  <h2>Burlington County: a quarter of the injury crashes, half of the deaths</h2>
+  <p>Sixteen people were killed on Route 70 in 2023 and 2024. Eight of them died in Burlington County, which had 220 of the road's 830 crashes in which someone was hurt or killed. Camden County, with more such crashes (270), had 2 deaths.</p>
+  <p>The quieter middle of the road shows the same pattern. Southampton, Woodland and Pemberton Township had 66 crashes in which someone was hurt in those two years, 8 percent of the road's total. Five of the 16 deaths happened there.</p>
+  <p>Those 8 Burlington County deaths were also about one in ten of all 81 people killed on Burlington County roads in 2023 and 2024.</p>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, fatal crashes supplemented from NJ State Police fatal crash statistics (both retrieved 2026-11-10), our analysis.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>People killed on Route 70 by town, 2023 to 2025 (2025 preliminary; 2023 town codes corrected as above), with the collision type police recorded</caption>
+      <thead>
+        <tr>
+          <th scope="col">Town, county</th>
+          <th scope="col">2023</th>
+          <th scope="col">2024</th>
+          <th scope="col">2025 (preliminary)</th>
+          <th scope="col">Collision types recorded</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Lakewood Twp, Ocean</th><td>2</td><td>1</td><td>3</td><td>pedestrian (2), fixed object (2), head on, overturned</td></tr>
+        <tr><th scope="row">Southampton Twp, Burlington</th><td>0</td><td>2</td><td>1</td><td>side swipe, head on, right angle</td></tr>
+        <tr><th scope="row">Medford Twp, Burlington</th><td>2</td><td>1</td><td>0</td><td>right angle, left turn (2), all at Route 541 (Main Street)</td></tr>
+        <tr><th scope="row">Pemberton Twp, Burlington</th><td>3</td><td>0</td><td>0</td><td>head on, fixed object (2)</td></tr>
+        <tr><th scope="row">Brick Twp, Ocean</th><td>0</td><td>2</td><td>0</td><td>rear end, head on</td></tr>
+        <tr><th scope="row">Cherry Hill Twp, Camden</th><td>2</td><td>0</td><td>0</td><td>head on, bicyclist</td></tr>
+        <tr><th scope="row">Manchester Twp, Ocean</th><td>0</td><td>1</td><td>1</td><td>pedestrian, side swipe</td></tr>
+        <tr><th scope="row">Toms River Twp, Ocean</th><td>0</td><td>0</td><td>1</td><td>pedestrian</td></tr>
+        <tr><th scope="row">All Route 70</th><td>9</td><td>7</td><td>6</td><td>22 deaths in 22 fatal crashes</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, fatal crashes supplemented from NJ State Police fatal crash statistics (both retrieved 2026-11-10), our analysis. Every town with a death is listed; Southampton, Medford and Pemberton Township tie at three. The raw 2023 file codes Medford's two 2023 deaths to Maple Shade and two of Pemberton Township's to Pemberton Borough. 2025 may still change.</p>
+
+  <h3>Head-on and fixed-object crashes were rare but deadly</h3>
+  <p>In 2023 and 2024 police coded 40 Route 70 crashes as head-on or angular opposite-direction collisions. Four people died in them. Crashes into a fixed object, such as a tree, pole or barrier, also killed 4. Rear-end crashes, by far the most common type, killed 1.</p>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10), our analysis.</p>
+
+  <h3>The four pedestrians killed were all in Ocean County, after dark</h3>
+  <p>Four people walking were killed on Route 70 from 2023 to 2025: two in Lakewood, one in Manchester and one in Toms River. Police recorded darkness in all four, with no street lights in two of them. Two of the four are in the preliminary 2025 records.</p>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10), our analysis. For what to do after a pedestrian is hit, see <a href="/new-jersey/pedestrian-crash-new-jersey">our guide for pedestrians hit by a car in New Jersey</a>.</p>
+</section>
+
+<section id="rear-end">
+  <h2>Half of Route 70's injury crashes were rear-end collisions</h2>
+  <p>Of the 830 Route 70 crashes in which someone was hurt or killed in 2023 and 2024, police coded 416 as rear-end collisions, 50 percent. Across all New Jersey roads the rear-end share was 31 percent. Right-angle crashes came second on Route 70 with 158, or 19 percent.</p>
+  <p>In the hours of 3 pm to 6 pm, Route 70 had 203 crashes in which someone was hurt, the busiest three-hour window. Saturdays (91) and Sundays (80) had fewer than any weekday (126 to 136).</p>
+  <p>A crash type is what the officer coded. It does not decide who was at fault in your accident. If you were rear-ended, our page on <a href="/new-jersey/rear-end-crash-new-jersey">what to do after a rear-end car accident in New Jersey</a> covers the next steps.</p>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10), our analysis.</p>
+</section>
+
+<section id="deer">
+  <h2>Deer appear in Route 70 records more often than statewide</h2>
+  <p>Police recorded a deer as the first thing struck in 182 of 3,411 Route 70 crashes in 2023 and 2024, 5.3 percent. Statewide the share was 3.6 percent. Southampton (27 of 146 crashes) and Manchester (45 of 305) had the highest shares among the towns with more than 100 crashes.</p>
+  <p>Only 3 of those 182 deer crashes hurt someone.</p>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10), our analysis of the "first harmful event" field.</p>
+</section>
+
+<section id="cross-streets">
+  <h2>Route 70 cross streets with ten or more injury crashes, 2024 and 2025</h2>
+  <p>Airport Road in Lakewood leads, with 23 crashes in which someone was hurt in 2024 and 2025. Medford has three entries and Cherry Hill has three. The table stops at ten crashes, and six cross streets tie at exactly ten, so all six are shown.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Route 70 crashes in which someone was hurt or killed, by recorded cross street, 2024 and 2025 (2025 preliminary; counts are a floor)</caption>
+      <thead>
+        <tr>
+          <th scope="col">Cross street as recorded</th>
+          <th scope="col">Town, county</th>
+          <th scope="col">Someone hurt or killed</th>
+          <th scope="col">All crashes</th>
+          <th scope="col">People hurt</th>
+          <th scope="col">People killed</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Airport Road</th><td>Lakewood Twp, Ocean</td><td>23</td><td>79</td><td>38</td><td>0</td></tr>
+        <tr><th scope="row">Route 571 (Ridgeway Road)</th><td>Manchester Twp, Ocean</td><td>19</td><td>49</td><td>34</td><td>0</td></tr>
+        <tr><th scope="row">Route 541 (North Main Street)</th><td>Medford Twp, Burlington</td><td>18</td><td>44</td><td>34</td><td>1</td></tr>
+        <tr><th scope="row">Branin Road</th><td>Medford Twp, Burlington</td><td>16</td><td>33</td><td>24</td><td>0</td></tr>
+        <tr><th scope="row">New Hampshire Road (Ocean County 623)</th><td>Lakewood Twp, Ocean</td><td>14</td><td>57</td><td>17</td><td>0</td></tr>
+        <tr><th scope="row">Route 549 (Chambers Bridge Road)</th><td>Brick Twp, Ocean</td><td>13</td><td>60</td><td>17</td><td>0</td></tr>
+        <tr><th scope="row">Vermont Avenue (Ocean County 86)</th><td>Lakewood Twp, Ocean</td><td>12</td><td>25</td><td>19</td><td>1</td></tr>
+        <tr><th scope="row">Oliphants Mill-Hartford Road</th><td>Medford Twp, Burlington</td><td>11</td><td>37</td><td>18</td><td>0</td></tr>
+        <tr><th scope="row">North Locust Avenue</th><td>Evesham Twp, Burlington</td><td>11</td><td>20</td><td>19</td><td>0</td></tr>
+        <tr><th scope="row">Garden Park Boulevard (tied)</th><td>Cherry Hill Twp, Camden</td><td>10</td><td>58</td><td>17</td><td>0</td></tr>
+        <tr><th scope="row">Route 527 (Whitesville Road) (tied)</th><td>Toms River Twp, Ocean</td><td>10</td><td>56</td><td>11</td><td>0</td></tr>
+        <tr><th scope="row">Springdale Road (Camden County 673) (tied)</th><td>Cherry Hill Twp, Camden</td><td>10</td><td>50</td><td>15</td><td>0</td></tr>
+        <tr><th scope="row">Cornell Avenue (tied)</th><td>Cherry Hill Twp, Camden</td><td>10</td><td>38</td><td>12</td><td>0</td></tr>
+        <tr><th scope="row">Delpine Road (tied)</th><td>Manchester Twp, Ocean</td><td>10</td><td>28</td><td>17</td><td>0</td></tr>
+        <tr><th scope="row">New Road (tied)</th><td>Southampton Twp, Burlington</td><td>10</td><td>17</td><td>19</td><td>0</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10), our analysis. Only 2024 and 2025 are used because street naming changed after 2023. Spelling variants are not merged, so each count is a floor. Twelve more cross streets had eight or nine.</p>
+  <p>The records also name the state roads and highways that meet Route 70 as cross streets. From west to east, they include Route 38 in Pennsauken, I-295, the New Jersey Turnpike and Route 41 (Kings Highway) in Cherry Hill, Route 73 in Evesham, Route 72 in Woodland, Route 37 in Manchester and Lakehurst, Route 9 in Toms River, the Garden State Parkway in Lakewood and Route 35 in Wall.</p>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10), cross-street field as recorded by police.</p>
+</section>
+
+<section id="by-year">
+  <h2>2025 so far: already above 2024, and still preliminary</h2>
+  <p>The preliminary 2025 records already hold 1,901 Route 70 crashes, 10 percent more than all of 2024. That ratio does not suggest missing reports, but late reports can still arrive, so 2025 is not final.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Route 70 crashes by year, 2023 to 2025</caption>
+      <thead>
+        <tr>
+          <th scope="col">Year</th>
+          <th scope="col">All crashes</th>
+          <th scope="col">Someone hurt or killed</th>
+          <th scope="col">People hurt</th>
+          <th scope="col">People killed</th>
+          <th scope="col">Pedestrian crashes</th>
+          <th scope="col">Bicycle crashes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">2023</th><td>1,685</td><td>445</td><td>678</td><td>9</td><td>6</td><td>7</td></tr>
+        <tr><th scope="row">2024</th><td>1,726</td><td>385</td><td>584</td><td>7</td><td>7</td><td>9</td></tr>
+        <tr><th scope="row">2025 (preliminary)</th><td>1,901</td><td>496</td><td>716</td><td>6</td><td>9</td><td>12</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, fatal crashes supplemented from NJ State Police fatal crash statistics (both retrieved 2026-11-10), our analysis.</p>
+</section>
+
+<section id="get-the-report">
+  <h2>Getting the report: town police, or the State Police portal</h2>
+  <p>The police crash report in New Jersey is form NJTR-1, and only police complete it. If no officer investigated, drivers report the crash themselves with the SR-1 form. <span class="source">(<a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">NJDOT police resources page</a>, retrieved 2026-11-10)</span></p>
+  <p>For Route 70, the first question is which agency came. Check the card or paperwork the officer gave you. The records give a good guess by town:</p>
+  <h3>Southampton, and much of Woodland: State Police</h3>
+  <p>In the records, 215 of 253 Southampton crashes and 29 of 45 Woodland crashes carry the Red Lion station name. Red Lion is a State Police Troop C station on US 206 in Vincentown. <span class="source">(<a href="https://njsp.njoag.gov/troop-c/">NJSP Troop C page</a>, retrieved 2026-11-10)</span> State Police and Turnpike Authority crash reports are requested on the state portal. The basic NJTR-1 can be downloaded once it is "ready and approved", and if it is not found yet the portal says to "search again in a couple days".</p>
+  <p>The portal lists "Non-Toll Road Crash Reports" at $13.00. A Red Lion report does not vanish after a few months: the portal keeps each one for six years past its crash year. Investigation files for a serious or fatal crash are not public records and need a subpoena or court order. Questions go to njsprecords@njsp.gov or (609) 882-2000 ext. 2234.</p>
+  <p class="source"><a href="https://www.njportal.com/njsp/crashreports/">NJSP and NJTA Crash Report Requests portal</a> (fetched 2026-11-10); <a href="https://njsp.njoag.gov/identification-amp-information-technology-section/criminal-justice-records-bureau/">NJSP Criminal Justice Records Bureau page</a> (retrieved 2026-11-10). The $13.00 fee is for State Police reports only; town departments set their own procedures.</p>
+  <h3>Cherry Hill: the Police Records window</h3>
+  <p>Cherry Hill Township says copies of police reports "are available to involved persons and can be picked up during regular business hours at the Police Records window". The Police Records Office is on the first floor of the Municipal Building and lists 8:30 a.m. to 5:00 p.m, Monday through Friday, for filing incident reports.</p>
+  <p class="source"><a href="https://www.chnj.gov/138/Police-Records">Cherry Hill Township, Police Records</a> (fetched 2026-11-10). For more on this stretch, see <a href="/new-jersey/route-70-cherry-hill-crash-guide">our Route 70 in Cherry Hill guide to treatment, bills and claims</a>.</p>
+  <h3>Lakewood: email, mail, in person or online</h3>
+  <p>The Lakewood Police Department takes report requests at records@lakewoodpolicenj.com or by mail to PO Box 540, Lakewood, NJ 08701, with a copy of a valid picture ID and a phone number. Reports can be picked up at 231 3rd Street from 8:15 am to 4:00 pm. It says accident reports are also available online via crashdocs.org or lexisnexis.com.</p>
+  <p class="source"><a href="https://www.lakewoodpolicenj.com/records/">Lakewood Police Department, Central Records</a> (fetched 2026-11-10).</p>
+  <h3>Toms River: Records Division</h3>
+  <p>The Toms River Police Department recommends "allowing 3 business days" before trying to pick up a report in person. Requests can also go by email to PoliceRecords@trpolice.org with a copy of your driver's license, or by mail with a $5.00 fee and a self-addressed stamped envelope to PO Box 876, Toms River, NJ 08754.</p>
+  <p class="source"><a href="https://trpolice.org/administration-bureau/records/police-reports-investigation-and-accident-reports/">Toms River Police Department, Police Reports / Investigation and Accident Reports</a> (fetched 2026-11-10).</p>
+  <h3>Every other Route 70 town</h3>
+  <p>For Pennsauken, Evesham, Medford, Pemberton, Lakehurst, Manchester, Brick, Brielle and Wall, the records point to the local department. Ask that department's records office. We have not checked each department's procedure or fee, so we do not list them here. Our <a href="/new-jersey/nj-car-accident-report">guide to getting a New Jersey accident report, agency by agency</a> has the general steps.</p>
+  <p>When the report arrives, read it closely. New Jersey's insurance regulator advises: "If you see inconsistencies, let your insurance company know and contact the police department that responded to the scene." <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">NJ DOBI, Everything You Wanted to Know About Auto Insurance, 2026</a>, p. 25, retrieved 2026-11-10)</span></p>
+</section>
+
+<section id="related">
+  <h2>Towns, counties and roads that meet Route 70</h2>
+  <ul>
+    <li><a href="/new-jersey/cherry-hill-nj-car-accidents">Cherry Hill car accident records, including its Route 70 corners</a></li>
+    <li><a href="/new-jersey/route-70-cherry-hill-crash-guide">Hurt on Route 70 in Cherry Hill: treatment, bills and claims</a></li>
+    <li><a href="/new-jersey/lakewood-nj-car-accidents">Lakewood car accident records and the Lakewood police report</a></li>
+    <li><a href="/new-jersey/toms-river-nj-car-accidents">Toms River car accident records, roads and pedestrian deaths</a></li>
+    <li><a href="/new-jersey/wall-township-monmouth-nj-car-accidents">Wall Township car accident records (Route 70 meets Route 35 there in the records)</a></li>
+    <li><a href="/new-jersey/camden-county-car-accident-help">Camden County car accident help</a></li>
+    <li><a href="/new-jersey/ocean-county-car-accident-help">Ocean County car accident help</a></li>
+    <li><a href="/new-jersey/route-38-nj-accidents">Route 38 accident records (meets Route 70 in Pennsauken)</a></li>
+    <li><a href="/new-jersey/route-73-nj-accidents">Route 73 accident records (meets Route 70 in Evesham)</a></li>
+    <li><a href="/new-jersey/route-37-crash-toms-river">Route 37 accident help in Toms River</a></li>
+    <li><a href="/new-jersey/route-9-nj-accidents">Route 9 accident records (meets Route 70 in Toms River)</a></li>
+    <li><a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway accident records (meets Route 70 in Lakewood)</a></li>
+    <li><a href="/new-jersey/route-35-nj-accidents">Route 35 accident records (meets Route 70 in Wall)</a></li>
+  </ul>
+</section>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened on Route 70. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident on Route 70? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-70-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="method">
+  <h2>How the Route 70 counts were made</h2>
+  <ul>
+    <li><strong>Records.</strong> NJDOT crash records for 2023 (per-table archive) and 2024 and 2025 (NJDOT Crash Data Portal), as normalized by <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a>, with fatal crashes supplemented from <a href="https://www.nj.gov/njsp/info/fatalacc/index.shtml">NJ State Police fatal crash statistics</a>. File downloaded 2026-11-06; both sources retrieved 2026-11-10.</li>
+    <li><strong>Which crashes count as Route 70.</strong> Route number 70 with a state road name ("NJ 70", "NJ 70 SECONDARY", and the same with "John Davison Rockefeller Memorial Highway"). County roads that share the number are excluded. That gives 5,312 crashes for 2023 to 2025.</li>
+    <li><strong>Years.</strong> 2023 and 2024 are complete. 2025 is preliminary; Route 70's 2025 total is 1.10 times its 2024 total, so it is not visibly incomplete, but it can still change.</li>
+    <li><strong>"Someone hurt or killed"</strong> means a police-reported crash with at least one person injured or killed. People hurt and killed are counted per person.</li>
+    <li><strong>Cross streets</strong> use 2024 and 2025 only, because street naming changed between the 2023 and 2024 files. Name variants are not merged, so counts are a floor. Ties at the cutoff are all shown.</li>
+    <li><strong>State Police station field.</strong> Statewide, this field holds only State Police station names, such as Totowa, Bellmawr, Red Lion and "Atlantic City Expressway", and it is filled mostly on interstate and Parkway crashes. We read a filled value as a State Police investigation. It is filled more often in later years (55 Route 70 crashes in 2023, 92 in 2024, 132 in 2025), so treat it as a pointer. The agency named on your own report is what counts.</li>
+    <li><strong>Town codes.</strong> In the 2023 file only, 37 Route 70 records carry a Burlington municipality code one below the real town: Maple Shade (code 19) for Medford (20), Shamong (32) for Southampton (33) and Pemberton Borough (28) for Pemberton Township (29). Their cross streets and mileposts place them in the neighbouring town, and none of the three names appears on Route 70 in 2024 or 2025. We fold them into Medford, Southampton and Pemberton Township; county and stretch totals are unchanged.</li>
+    <li><strong>Deer</strong> counts use the police-coded "first harmful event". <strong>Mileposts</strong> are medians of the mileposts officers recorded.</li>
+    <li><strong>Counts, not rates.</strong> There is no traffic volume in these records, so a busier stretch will have more crashes. Nothing here shows who was at fault in any crash.</li>
+    <li>We ran the counts ourselves from the NJDOT crash records file; the method notes on this page describe the selection.</li>
+  </ul>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-70-nj-accidents">Start the New Jersey accident quiz ↗</a></div></footer></div>

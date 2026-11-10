@@ -1,0 +1,224 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article article long-form" data-editorial-rewrite="20261012">
+<p class="kicker">NEW JERSEY / ROUTE 37</p>
+<h1>Route 37 car accidents in Toms River: what the police records show</h1>
+<p class="micro" data-editorial-byline="publisher">By <a href="https://injuriescases.autos/about">Injuries Cases Autos</a></p>
+<p class="lead">Route 37 is mostly a Toms River road in the accident records. Of 258 Route 37 car accidents where someone was hurt or killed in 2023 and 2024, 235 were in Toms River Township. From 2023 to 2025, 6 pedestrians were killed on Route 37, and every one of those deaths was in Toms River.</p>
+<p>The cross street named most often where someone was hurt is Route 166 (Main Street), in Toms River. If you were hurt on Route 37, the usual order is medical attention first, then the police report from the agency that came, then your own PIP claim for medical bills.</p>
+<p class="source">Source: NJDOT crash records 2023 to 2025 as normalized by <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a>, fatal accidents supplemented from <a href="https://www.nj.gov/njsp/info/fatalacc/index.shtml">NJ State Police fatal crash statistics</a> (both retrieved 2026-11-10); our count. 2025 is preliminary.</p>
+<aside class="quiz-cta">
+  <p>Hurt in a car accident on Route 37 in Toms River? The 30-second New Jersey quiz is a short questionnaire. It asks about your injury, whether you already have a lawyer, fault, medical attention, the police report and the date, then asks for your contact details. If your answers qualify, a sponsoring lawyer or legal consultant may call you by phone. It is free and there is no obligation.</p>
+  <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-37-crash-toms-river">Take the 30-second New Jersey quiz</a></p>
+  <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</aside>
+<p class="micro">Sources checked: November 10, 2026</p>
+<figure class="article-image"><img src="https://sitemap.injuriescases.com/images/articles/injuriescases.autos/route-37-crash-toms-river.jpg" width="1120" height="1400" alt="Generated Route 37 Toms River road setting" loading="lazy" decoding="async"><figcaption>Editorial illustration from the image library, not a reader's accident or verified current road conditions.</figcaption></figure>
+<nav class="article-toc" aria-label="In this guide"><strong>In this guide</strong><ol>
+  <li><a href="#pedestrian-deaths">Six pedestrians killed, all in Toms River</a></li>
+  <li><a href="#cross-streets">Route 166, Hooper Avenue and the other cross streets</a></li>
+  <li><a href="#by-year">Three years of Route 37 records</a></li>
+  <li><a href="#by-town">Six towns, one dominant</a></li>
+  <li><a href="#collision-types">Rear-end and right-angle accidents</a></li>
+  <li><a href="#timing">Afternoons, Wednesdays and early summer</a></li>
+  <li><a href="#bridges">The Mathis and Tunney bridges over Barnegat Bay</a></li>
+  <li><a href="#report">Which police department has your report</a></li>
+  <li><a href="#if-hurt">If you were hurt on Route 37</a></li>
+</ol></nav>
+<div class="articlebody">
+
+<section id="pedestrian-deaths">
+  <h2>Six pedestrians killed on Route 37, all in Toms River</h2>
+  <p>From 2023 to 2025, 11 people died in car accidents on Route 37, and 6 of them were pedestrians. All 6 pedestrian deaths were in Toms River Township: 2 in 2023, 1 in 2024 and 3 in 2025. The deaths outside Toms River, in Manchester and Lakehurst, were not pedestrians.</p>
+  <p>2025 had 7 deaths against 1 in 2024. The 2025 figures are preliminary, and late reports can still change them.</p>
+  <div class="table-wrap"><div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Fatal car accidents on Route 37 by year and town, 2023 to 2025 (2025 preliminary)</caption>
+    <thead><tr><th scope="col">Year</th><th scope="col">Town</th><th scope="col">Fatal accidents</th><th scope="col">People killed</th><th scope="col">Pedestrians killed</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>Toms River Twp</td><td>2</td><td>2</td><td>2</td></tr>
+      <tr><th scope="row">2023</th><td>Manchester Twp</td><td>1</td><td>1</td><td>0</td></tr>
+      <tr><th scope="row">2024</th><td>Toms River Twp</td><td>1</td><td>1</td><td>1</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>Toms River Twp</td><td>3</td><td>4</td><td>3</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>Manchester Twp</td><td>2</td><td>2</td><td>0</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>Lakehurst Boro</td><td>1</td><td>1</td><td>0</td></tr>
+    </tbody>
+  </table></div></div>
+  <p class="source">Source: NJDOT crash records via nj-crashes with the NJSP fatal supplement; our count. Pedestrians killed is the pedestrian-killed count on each record.</p>
+</section>
+
+<section id="cross-streets">
+  <h2>Route 166, Hooper Avenue and the other Route 37 cross streets</h2>
+  <p>In 2024 and 2025, Route 166 (Main Street) in Toms River was the cross street on 22 Route 37 accidents where someone was hurt. County Route 549 (Hooper Avenue) follows with 13, then Mule Road with 9 and Hospital Drive with 8. All but one of the 15 cross streets below are in Toms River.</p>
+  <div class="table-wrap"><div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 37 cross streets with 5 or more accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+    <thead><tr><th scope="col">Cross street, as recorded</th><th scope="col">Town</th><th scope="col">Someone hurt or killed (2024 + 2025)</th><th scope="col">Of which 2025</th><th scope="col">All accidents</th><th scope="col">Killed</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">NJ 166 (MAIN STREET)</th><td>Toms River Twp</td><td>22</td><td>14</td><td>99</td><td>0</td></tr>
+      <tr><th scope="row">RT 549 (HOOPER AVENUE)</th><td>Toms River Twp</td><td>13</td><td>6</td><td>76</td><td>0</td></tr>
+      <tr><th scope="row">MULE ROAD (OCEAN COUNTY 39 2)</th><td>Toms River Twp</td><td>9</td><td>5</td><td>43</td><td>0</td></tr>
+      <tr><th scope="row">HOSPITAL DRIVE</th><td>Toms River Twp</td><td>8</td><td>4</td><td>31</td><td>0</td></tr>
+      <tr><th scope="row">CLIFTON AVENUE (OCEAN COUNTY 38)</th><td>Toms River Twp</td><td>7</td><td>5</td><td>25</td><td>0</td></tr>
+      <tr><th scope="row">NORTHAMPTON BOULEVARD</th><td>Toms River Twp</td><td>6</td><td>3</td><td>25</td><td>1</td></tr>
+      <tr><th scope="row">DOUGLAS STREET</th><td>Toms River Twp</td><td>6</td><td>4</td><td>22</td><td>0</td></tr>
+      <tr><th scope="row">WEST END AVENUE (OCEAN COUNTY 627)</th><td>Toms River Twp</td><td>6</td><td>5</td><td>12</td><td>0</td></tr>
+      <tr><th scope="row">NJ 166 / LAKEWOOD RD / MAIN ST</th><td>Toms River Twp</td><td>5</td><td>0</td><td>23</td><td>0</td></tr>
+      <tr><th scope="row">VANADA DRIVE</th><td>Toms River Twp</td><td>5</td><td>2</td><td>18</td><td>0</td></tr>
+      <tr><th scope="row">RUBELLE PLACE</th><td>Toms River Twp</td><td>5</td><td>5</td><td>16</td><td>0</td></tr>
+      <tr><th scope="row">BIMINI DRIVE</th><td>Toms River Twp</td><td>5</td><td>5</td><td>15</td><td>0</td></tr>
+      <tr><th scope="row">CHARLES DRIVE</th><td>Toms River Twp</td><td>5</td><td>5</td><td>11</td><td>0</td></tr>
+      <tr><th scope="row">COLONIAL DRIVE SECONDARY</th><td>Manchester Twp</td><td>5</td><td>5</td><td>11</td><td>0</td></tr>
+      <tr><th scope="row">NJ 4 / WASHINGTON ST</th><td>Toms River Twp</td><td>5</td><td>0</td><td>5</td><td>0</td></tr>
+    </tbody>
+  </table></div></div>
+  <p>Seven cross streets tie at 5, so the table shows all of them. The next value down is 4, shared by 7 more cross streets that are not shown.</p>
+  <p>Some streets are recorded under more than one spelling, and we did not add the spellings together. Route 166 appears as NJ 166 (MAIN STREET), with 22, and as NJ 166 / LAKEWOOD RD / MAIN ST, with 5. HOSPITAL DR is a second spelling of Hospital Drive, with 3 more accidents where someone was hurt, all in 2024. Hooper Avenue, Bimini Drive and Colonial Drive also have shorter 2024 spellings.</p>
+  <p>The two names NJ 166 / LAKEWOOD RD / MAIN ST and NJ 4 / WASHINGTON ST have records only in 2024. Rubelle Place, Bimini Drive, Charles Drive and Colonial Drive Secondary all have 2024 records, but none of their 2024 accidents hurt anyone. All 5 of theirs are in 2025, which is preliminary. Read every count as a floor.</p>
+  <p class="source">Source: NJDOT crash records via nj-crashes, counted by us. Cross street names are the raw strings in the records. One person died in an accident recorded at Northampton Boulevard, where 2 of the accidents involved a pedestrian. A cross street count says nothing about who caused any accident there.</p>
+</section>
+
+<section id="by-year">
+  <h2>Three years of Route 37 records</h2>
+  <p>Police reported 1,092 car accidents on Route 37 in 2023 and 2024. Someone was hurt or killed in 258 of them, 359 people were hurt, and 4 people died.</p>
+  <div class="table-wrap"><div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Police-reported car accidents on Route 37 by year</caption>
+    <thead><tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>547</td><td>138</td><td>186</td><td>3</td><td>10</td><td>7</td></tr>
+      <tr><th scope="row">2024</th><td>545</td><td>120</td><td>173</td><td>1</td><td>7</td><td>5</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>531</td><td>150</td><td>204</td><td>7</td><td>11</td><td>8</td></tr>
+    </tbody>
+  </table></div></div>
+  <p>The 2025 total already equals 97 percent of the 2024 total, so it looks close to complete. It is still preliminary. The rise in accidents where someone was hurt, from 120 to 150, may shift as late reports arrive.</p>
+  <p class="source">Source: NJDOT crash records via nj-crashes with the NJSP fatal supplement; our count. Pedestrian and bicycle accidents are those police coded with that collision type.</p>
+</section>
+
+<section id="by-town">
+  <h2>Six towns, one dominant</h2>
+  <p>Six Ocean County towns recorded Route 37 accidents in 2023 and 2024. Toms River had about 91 percent of those where someone was hurt. Manchester Township was a distant second, with 15.</p>
+  <div class="table-wrap"><div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 37 car accidents by town, 2023 and 2024</caption>
+    <thead><tr><th scope="col">Town (Ocean County)</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th></tr></thead>
+    <tbody>
+      <tr><th scope="row"><a href="/new-jersey/toms-river-nj-car-accidents">Toms River Twp</a></th><td>985</td><td>235</td><td>325</td><td>3</td></tr>
+      <tr><th scope="row">Manchester Twp</th><td>64</td><td>15</td><td>19</td><td>1</td></tr>
+      <tr><th scope="row">Lakehurst Boro</th><td>25</td><td>4</td><td>9</td><td>0</td></tr>
+      <tr><th scope="row">Berkeley Twp</th><td>12</td><td>3</td><td>5</td><td>0</td></tr>
+      <tr><th scope="row">Island Heights Boro</th><td>2</td><td>1</td><td>1</td><td>0</td></tr>
+      <tr><th scope="row">Seaside Heights Boro</th><td>4</td><td>0</td><td>0</td><td>0</td></tr>
+    </tbody>
+  </table></div></div>
+  <p class="source">Source: NJDOT crash records via nj-crashes, counted by us. Of these towns, only Toms River has its own page on this site.</p>
+</section>
+
+<section id="collision-types">
+  <h2>Rear-end and right-angle accidents</h2>
+  <p>Rear-end collisions were 148 of the 258 Route 37 accidents where someone was hurt in 2023 and 2024, about 57 percent. Right-angle collisions came next with 44. Sideswipes were frequent, 283 of all 1,092 accidents, but only 18 of them hurt anyone.</p>
+  <p>Pedestrian accidents were few, 17 in two years, but 12 of them hurt someone and 3 killed someone.</p>
+  <div class="table-wrap"><div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 37 collision types as coded by police, 2023 and 2024</caption>
+    <thead><tr><th scope="col">Collision type</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">Share of hurt or killed</th><th scope="col">Killed</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Same Direction (Rear End)</th><td>505</td><td>148</td><td>57%</td><td>1</td></tr>
+      <tr><th scope="row">Right Angle</th><td>110</td><td>44</td><td>17%</td><td>0</td></tr>
+      <tr><th scope="row">Same Direction (Side Swipe)</th><td>283</td><td>18</td><td>7%</td><td>0</td></tr>
+      <tr><th scope="row">Fixed Object</th><td>59</td><td>13</td><td>5%</td><td>0</td></tr>
+      <tr><th scope="row">Pedestrian</th><td>17</td><td>12</td><td>5%</td><td>3</td></tr>
+      <tr><th scope="row">Pedalcyclist</th><td>12</td><td>11</td><td>4%</td><td>0</td></tr>
+      <tr><th scope="row">Animal</th><td>56</td><td>4</td><td>2%</td><td>0</td></tr>
+      <tr><th scope="row">Left Turn/U Turn</th><td>3</td><td>2</td><td>1%</td><td>0</td></tr>
+    </tbody>
+  </table></div></div>
+  <p class="source">Source: NJDOT crash records via nj-crashes; collision type as coded by police; our count. The eight types shown cover 252 of the 258 accidents where someone was hurt; the other 6 fall in smaller types. Police coding of a collision type does not decide who was at fault.</p>
+</section>
+
+<section id="timing">
+  <h2>Afternoons, Wednesdays and early summer</h2>
+  <p>In 2023 and 2024, 60 of the 258 Route 37 accidents where someone was hurt happened between 3 pm and 6 pm. The single busiest hour was 3 pm, with 23. Noon and 2 pm tied for second with 22 each.</p>
+  <p>Wednesday had the most, 47, while Friday and Saturday had the fewest, 31 each. June had 29 and May 28, against 12 in December. About 24 percent, 63 of 258, happened in the dark. Two were on a dark stretch with no street lights, and one of those was fatal. Police recorded a wet road surface in 33.</p>
+  <p class="source">Source: NJDOT crash records via nj-crashes; our count of accidents where someone was hurt or killed, 2023 and 2024 only. Dark combines the three dark light codes. For the statewide pattern, see <a href="/new-jersey/when-do-most-car-accidents-happen">when car accidents happen in New Jersey, hour by hour</a>.</p>
+</section>
+
+<section id="bridges">
+  <h2>The Mathis and Tunney bridges over Barnegat Bay</h2>
+  <p>Route 37 crosses Barnegat Bay between Toms River and Seaside Heights on two bridges. The eastbound span is the Mathis Bridge and the westbound span is the Tunney Bridge. NJDOT's project page is historical background, not a record of current lane closures.</p>
+  <p class="source">Source: <a href="https://www.nj.gov/transportation/commuter/roads/rte37mathisbridge/">NJDOT, Route 37 Mathis Bridge project page</a> (retrieved 2026-11-10).</p>
+  <p>In the police records, Seaside Heights had 4 Route 37 accidents in 2023 and 2024 and none hurt anyone. Our data does not mark which accidents happened on a bridge span, so we cannot count bridge accidents.</p>
+  <p>If your car accident was near the bay, write down your direction of travel and where the first contact happened. Was it on the approach, on the span, or at a driveway or turn before it? Where the cars came to rest can be a different place. Being close to a bridge does not by itself mean the bridge or its condition caused anything.</p>
+</section>
+
+<section id="report">
+  <h2>Which police department has your Route 37 report</h2>
+  <p>The report comes from the police agency that responded. If that was the Toms River Police Department, its Records Division handles the request. Its published process:</p>
+  <ul>
+    <li>No report information is given out by phone.</li>
+    <li>In person, bring proof of identification. Reports are reviewed and approved before release, so the department asks you to allow 3 business days before you come.</li>
+    <li>By email, certain reports can be requested at PoliceRecords@trpolice.org with a copy of your driver's license.</li>
+    <li>By mail, the department's page lists a $5.00 fee payable to "Toms River Township" and a self-addressed, stamped envelope, sent to Toms River Police Department, Records Division, PO Box 876, Toms River, NJ 08754.</li>
+  </ul>
+  <p class="source">Source for every item above, including the fee: <a href="https://trpolice.org/administration-bureau/records/police-reports-investigation-and-accident-reports/">Toms River Police Department, Police Reports / Investigation and Accident Reports</a> (retrieved 2026-11-10). Fees for other municipal departments differ and are not stated here.</p>
+  <p>For a Route 37 car accident in Manchester, Lakehurst, Berkeley, Island Heights or Seaside Heights, ask that town's police department. We did not verify their procedures. If the New Jersey State Police responded, use the <a href="https://www.njportal.com/njsp/crashreports/">NJSP crash report portal</a>. For questions, the portal lists NJSPRecords@NJSP.gov and (609) 882-2000 ext 2234. The NJTR-1 report is filled in by police. If no police investigated, drivers report on the SR-1 form themselves.</p>
+  <p class="source">Sources: NJSP Criminal Justice Records Bureau page and NJSP crash report portal (retrieved 2026-11-10); <a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">NJDOT police resources page</a> (retrieved 2026-11-10). Agency-by-agency detail: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report</a>.</p>
+  <p>When the report arrives, DOBI advises: "Review report for details, such as how many passengers were listed. If you see inconsistencies, let your insurance company know and contact the police department that responded to the scene."</p>
+  <p class="source">Source: <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">NJ DOBI, Everything You Wanted to Know About Auto Insurance (2026)</a>, p. 25 (retrieved 2026-11-10).</p>
+</section>
+
+<section id="if-hurt">
+  <h2>If you were hurt on Route 37</h2>
+  <h3>Medical attention and symptoms that appear later</h3>
+  <p>Get medical attention and describe every symptom, including ones that started hours or days later. After a blow to the head, the CDC lists seizures, confusion and being unable to wake up as danger signs that need emergency care.</p>
+  <p class="source">Source: <a href="https://www.cdc.gov/traumatic-brain-injury/signs-symptoms/index.html">CDC, concussion signs and symptoms</a> (retrieved 2026-11-10).</p>
+  <h3>Medical bills go to your own PIP first</h3>
+  <p>Your own auto policy's PIP handles your medical bills whatever caused the car accident, as the box below explains. If you chose the option that makes your health insurance primary, your health plan pays first and its own rules apply. See <a href="https://injuriescases.autos/new-jersey/pip-health-insurance-medical-bills-new-jersey">whether PIP or health insurance pays first</a> and <a href="https://injuriescases.autos/new-jersey/pip-coverage-limits-medical-bills-new-jersey">how PIP limits work</a>. For how this differs from a claim against the other driver, read <a href="https://injuriescases.autos/new-jersey/is-nj-a-no-fault-state">what New Jersey's no-fault system means</a>.</p>
+  <p class="source">Source: <a href="https://www.nj.gov/dobi/division_consumers/insurance/pipoption.htm">NJ DOBI, PIP and health insurance option</a> (retrieved 2026-11-10).</p>
+  <h3>Fault in a rear-end or turning accident</h3>
+  <p>Rear-end and right-angle collisions are the most common Route 37 accidents where someone was hurt, but the collision code does not settle fault. DOBI says the insurance company decides fault from all the facts, such as police reports and statements. Insurance companies must also offer an internal appeal for disputes about the fault percentage.</p>
+  <p class="source">Source: <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">NJ DOBI, Everything You Wanted to Know About Auto Insurance (2026)</a>, pp. 26 to 27 (retrieved 2026-11-10).</p>
+  <p>If another driver turned across your lane, write down only what you saw: the movement, the signal if you saw it, and any witnesses or cameras nearby. Leave out speeds or signal colors you are guessing at. For how New Jersey appeals courts have handled fault and coverage disputes, see our <a href="https://injuriescases.autos/new-jersey/nj-car-accident-appeals-index">searchable index of 76 New Jersey appeals</a>. Statewide corner counts are in our <a href="https://injuriescases.autos/new-jersey/most-dangerous-intersections-nj">New Jersey intersection injury analysis</a>.</p>
+  <h3>Work, repairs and a settlement offer</h3>
+  <p>Keep a dated list of the days you could not work because you were hurt, and the medical notes behind them. The <a href="https://injuriescases.autos/new-jersey/nj-can-you-claim-lost-wages-after-a-car-accident-in-nj">lost wages guide</a> covers which records to keep. A check for car repairs and a settlement for your injury can cover different losses. Before signing a release, go through the <a href="https://injuriescases.autos/new-jersey/nj-8-questions-to-ask-before-accepting-a-settlement-offer">questions to ask before accepting a settlement offer</a>, and ask a lawyer about any term you do not understand.</p>
+</section>
+
+<section id="related">
+  <h2>More on Toms River and Ocean County</h2>
+  <ul>
+    <li><a href="/new-jersey/toms-river-nj-car-accidents">Car accidents in Toms River: pedestrian deaths, roads and corners</a></li>
+    <li><a href="/new-jersey/ocean-county-car-accident-help">Ocean County car accident help</a></li>
+    <li>Other Ocean County state highways: <a href="/new-jersey/route-9-nj-accidents">Route 9 accident data</a>, <a href="/new-jersey/route-35-nj-accidents">Route 35 accident data</a> and <a href="/new-jersey/route-70-nj-accidents">Route 70 accident data</a></li>
+    <li><a href="https://injuriescases.autos/new-jersey/new-jersey-car-accident-help">New Jersey car accident help, statewide</a></li>
+  </ul>
+</section>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened on Route 37. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident on Route 37? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-37-crash-toms-river">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<aside>
+  <h2>Sources and method</h2>
+  <ul>
+    <li><a href="https://github.com/hudcostreets/nj-crashes" rel="noopener">hudcostreets/nj-crashes: NJDOT crash records 2023 to 2025, normalized</a></li>
+    <li><a href="https://www.nj.gov/njsp/info/fatalacc/index.shtml" rel="noopener">NJ State Police: fatal crash statistics</a></li>
+    <li><a href="https://www.nj.gov/transportation/commuter/roads/rte37mathisbridge/" rel="noopener">NJDOT: Route 37 Mathis Bridge project page</a></li>
+    <li><a href="https://trpolice.org/administration-bureau/records/police-reports-investigation-and-accident-reports/" rel="noopener">Toms River Police Department: police and accident reports</a></li>
+    <li><a href="https://www.njportal.com/njsp/crashreports/" rel="noopener">NJSP crash report portal</a></li>
+    <li><a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm" rel="noopener">NJDOT: police resources (NJTR-1)</a></li>
+    <li><a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf" rel="noopener">NJ DOBI: Everything You Wanted to Know About Auto Insurance (2026)</a></li>
+    <li><a href="https://www.nj.gov/dobi/division_consumers/insurance/pipoption.htm" rel="noopener">NJ DOBI: PIP and health insurance option</a></li>
+    <li><a href="https://www.cdc.gov/traumatic-brain-injury/signs-symptoms/index.html" rel="noopener">CDC: Concussion signs and symptoms</a></li>
+  </ul>
+  <p>All sources retrieved 2026-11-10. Route 37 means records NJDOT assigns to route 37 under a state route name; county roads are excluded. 2023 and 2024 are complete and 2025 is preliminary. Cross streets use 2024 and 2025 only, because street naming changed after 2023, and every cross street count is a floor. These are counts, not risk rates.</p>
+</aside>
+<p><a href="https://injuriescases.autos/new-jersey">Browse all New Jersey guides</a></p>
+</div>
+</article></main><footer><p>Injuries Cases Autos · New Jersey</p><p>General information. We are not a law firm. No outcome is guaranteed.</p><div><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a><a href="https://injuriescases.autos/intake">Next steps</a></div><small>© 2026 Injuries Cases Autos</small></footer></div>

@@ -1,0 +1,142 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article guide" id="nj-drunk-driving-accident-help">
+
+<h1>NJ drunk driving accident help: your options if you were hurt</h1>
+
+<section id="short-answer">
+<p><strong>If a drunk driver hit you in New Jersey, your own PIP coverage pays your medical bills first, whoever caused the car accident.</strong> Separately, you may have an injury claim against the drunk driver's bodily injury liability insurance, which is decided on fault and your lawsuit option, not on the criminal case. Get medical attention, get the police report and keep your own records while the DWI case runs on its own track.</p>
+<p class="source">Source: NJ Department of Banking and Insurance (DOBI), <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">New Jersey Auto Insurance Buyer's Guide 2026</a>, p. 2 (PIP "pays your own medical expenses no matter who caused the auto accident"; bodily injury liability "compensates others for pain, suffering and economic damages"). Retrieved 2026-11-10.</p>
+<p>This is general information, not legal advice.</p>
+</section>
+
+<section id="quiz-mid" class="quiz-cta">
+<p>Hurt by a driver who had been drinking? Your PIP pays your medical bills either way. The questionnaire is about whether the other driver's insurance may also owe you. It asks about your injury, any lawyer you already have, fault, medical attention, the police report and the date. If your answers fit, a sponsoring lawyer or legal consultant may call you. It is free and there is no obligation.</p>
+<p><a class="button" data-quiz-link="mid" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=nj-drunk-driving-accident-help">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+<section id="two-tracks">
+<h2>The DWI case and your injury claim are separate</h2>
+<p>The police and the prosecutor handle the drunk driving charge. Your money for the car accident comes through insurance claims, and a court case only if one is filed. The table shows who pays what, as DOBI describes the coverages.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Who may pay after a New Jersey car accident caused by a drunk driver (DOBI 2026 consumer guides)</caption>
+<thead>
+<tr>
+<th scope="col">Coverage</th>
+<th scope="col">Whose policy</th>
+<th scope="col">What it pays</th>
+<th scope="col">Does fault matter?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Personal Injury Protection (PIP)</th>
+<td>Yours (or your household's)</td>
+<td>Your medical expenses, up to the PIP limit you chose, plus extra benefits such as income continuation if you bought them</td>
+<td>No. It pays regardless of who caused the crash.</td>
+</tr>
+<tr>
+<th scope="row">Bodily injury liability</th>
+<td>The drunk driver's</td>
+<td>Your pain and suffering and economic losses PIP does not cover, such as lost wages</td>
+<td>Yes. The other driver must be legally at fault.</td>
+</tr>
+<tr>
+<th scope="row">Uninsured or underinsured motorist (UM/UIM)</th>
+<td>Yours</td>
+<td>If the driver had no insurance: what you could have claimed from that driver, up to your UM limit. If the driver had too little: the gap between your UIM limit and that driver's liability limit.</td>
+<td>Yes. Same fault question as a liability claim.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">New Jersey Auto Insurance Buyer's Guide 2026</a>, pp. 2, 3, 5 and 8. Retrieved 2026-11-10.</p>
+<p>A criminal charge is not a fault ruling for insurance purposes. DOBI says insurance companies assign fault from all the facts, including police reports and statements. The charge, and any test result in the report, are part of that evidence.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026)</a>, pp. 26 to 27, "Who is At Fault?"; DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">Comparative Negligence Settlements FAQ</a>. Retrieved 2026-11-10.</p>
+</section>
+
+<section id="lawsuit-option">
+<h2>Can you sue a drunk driver for pain and suffering?</h2>
+<p>That depends on the lawsuit option on your own auto policy, not on the other driver's drinking. With the "no limitation on lawsuit" option, you can claim pain and suffering for any injury. With the "limitation on lawsuit" option, pain and suffering is claimable only for listed injuries: death, dismemberment, significant disfigurement or scarring, displaced fractures, loss of a fetus, or a permanent injury.</p>
+<p>The limitation does not stop claims for economic loss, such as medical bills PIP did not pay or lost wages. If you never chose in writing, the law treats you as having the limitation option. Basic Policy holders also have it.</p>
+<p class="source">Source: N.J.S.A. 39:6A-8 (text via Justia 2025 edition, <a href="http://web.archive.org/web/20260501025515/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8/">Wayback snapshot 2026-05-01</a>); N.J.S.A. 39:6A-8.1(b) (<a href="http://web.archive.org/web/20240515013024/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8-1/">Wayback snapshot 2024-05-15</a>); DOBI <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>, pp. 10 to 11, "The Right to Sue". Retrieved 2026-11-10.</p>
+<p>Check which option you have on your Coverage Selection Form or declarations page. Our guide to <a href="/new-jersey/is-nj-a-no-fault-state">New Jersey no-fault and the lawsuit option</a> explains both choices.</p>
+</section>
+
+<section id="if-partly-at-fault">
+<h2>What if the insurance company says you were partly at fault?</h2>
+<p>You can still recover if your share of fault is not greater than the other driver's. Your damages are reduced by your percentage. DOBI's example: 10 percent at fault on 1,000 dollars of damage means 900 dollars paid. Insurance companies must have an internal appeal for fault-percentage disputes, with escalation to DOBI's Office of Insurance Claims Ombudsman.</p>
+<p class="source">Source: N.J.S.A. 2A:15-5.1 (text via Justia 2025 edition, <a href="http://web.archive.org/web/20261009074503/https://law.justia.com/codes/new-jersey/title-2a/section-2a-15-5-1/">Wayback snapshot 2026-10-09</a>); DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">Comparative Negligence Settlements FAQ</a>. Retrieved 2026-11-10.</p>
+<p>See <a href="/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">how partial fault splits work in New Jersey</a>.</p>
+</section>
+
+<section id="drunk-driver-own-claim">
+<h2>Can the drunk driver claim against you?</h2>
+<p>New Jersey law limits that. In Castano v. Augustine (2023), the Appellate Division read N.J.S.A. 39:6A-4.5(b) as barring a driver's claims for economic and noneconomic loss only after a conviction or guilty plea for drunk driving (or breath-test refusal). Evidence of a high blood alcohol level, without a conviction or plea, was not enough.</p>
+<p class="source">Source: Castano v. Augustine, No. A-3925-21 (N.J. App. Div. Mar. 6, 2023), <a href="https://njlaw.rutgers.edu/courts/appellate/a3925-21.opn.pdf">slip opinion (Rutgers Law Library)</a>, retrieved 2026-11-10.</p>
+</section>
+
+<section id="njdot-counts">
+<h2>How many NJ crash reports flag alcohol?</h2>
+<p>Police crash reports in New Jersey include an alcohol-involved field. In 2023 and 2024 combined, 12,472 crashes carried that flag, about 2.4 percent of all reported crashes. They made up about 12 percent of fatal crashes in both years.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>NJ police-reported crashes with the alcohol-involved flag, statewide, by year (NJDOT crash records)</caption>
+<thead>
+<tr>
+<th scope="col">Year</th>
+<th scope="col">Crashes flagged alcohol</th>
+<th scope="col">Of those, someone killed or injured</th>
+<th scope="col">People killed</th>
+<th scope="col">Fatal crashes flagged / all fatal crashes</th>
+<th scope="col">Data status</th>
+</tr>
+</thead>
+<tbody>
+<tr><th scope="row">2023</th><td>6,159</td><td>2,395</td><td>74</td><td>69 / 574</td><td>Complete</td></tr>
+<tr><th scope="row">2024</th><td>6,313</td><td>2,463</td><td>80</td><td>76 / 651</td><td>Complete</td></tr>
+<tr><th scope="row">2025</th><td>6,242</td><td>2,431</td><td>81</td><td>75 / 554</td><td>Preliminary</td></tr>
+</tbody>
+</table></div>
+</div>
+<p class="source">Source: NJDOT crash records (2023 per-table archive; 2024 and 2025 NJDOT Crash Data Portal), normalized by the open-source hudcostreets/nj-crashes project, fatal crashes supplemented from the NJ State Police feed. Downloaded 2026-11-06, counted 2026-11-10. The flag is filled for every 2023 record and for all but 4 records in 2024 and 113 in 2025.</p>
+<p>These are counts, not rates. The flag is what the crash report recorded. It is not a test result, a charge or a court finding, and it says nothing about who was at fault in any one crash or what any claim is worth. 2025 is still incomplete for some police agencies.</p>
+</section>
+
+<section id="next-steps">
+<h2>What to do now</h2>
+<ol>
+<li><strong>Get medical attention</strong> and tell the clinician how the car accident happened. Call 911 in an emergency. Your PIP claim needs those records; see <a href="/new-jersey/medical-records-injury-claim-new-jersey">medical records for an NJ injury claim</a>.</li>
+<li><strong>Open your PIP claim</strong> with your own insurance company. Check your PIP limit, since many drivers choose less than 250,000 dollars; see <a href="/new-jersey/pip-coverage-limits-medical-bills-new-jersey">PIP limits and medical bills</a>.</li>
+<li><strong>Get the police report.</strong> State Police, Turnpike and Parkway reports are on the NJSP portal; local police reports come from the department that responded. See <a href="/new-jersey/nj-car-accident-report">how to get your NJ car accident report</a>.</li>
+<li><strong>Keep your own record</strong> of what you saw, separate from what others told you. Note witnesses, photos and where cameras were. See <a href="/new-jersey/nj-what-evidence-helps-prove-fault-after-an-nj-crash">evidence that helps prove fault</a>.</li>
+<li><strong>Find out the drunk driver's insurance.</strong> If there was none, or too little, look at your own <a href="/new-jersey/nj-uninsured-motorist-claim-help">uninsured and underinsured motorist coverage</a>.</li>
+<li><strong>Watch the deadlines.</strong> An injury suit generally must be filed within two years. If a public entity's vehicle was involved, a notice of claim is due within 90 days. Exceptions exist, so do not wait for the DWI case to end.</li>
+</ol>
+<p class="source">Sources: N.J.S.A. 39:4-130 (duty to report a crash; text via Justia 2025 edition, <a href="http://web.archive.org/web/20260920182556/https://law.justia.com/codes/new-jersey/title-39/section-39-4-130/">Wayback snapshot 2026-09-20</a>); NJSP crash report portal, <a href="https://www.njportal.com/njsp/crashreports/">njportal.com/njsp/crashreports</a>; N.J.S.A. 2A:14-2 (<a href="http://web.archive.org/web/20260930102816/https://law.justia.com/codes/new-jersey/title-2a/section-2a-14-2/">Wayback snapshot 2026-09-30</a>); N.J.S.A. 59:8-8 as quoted in <a href="https://www.courtlistener.com/opinion/8267675/odonnell-v-nj-tpk-auth/">O'Donnell v. N.J. Turnpike Auth, 236 N.J. 335 (2019)</a>; DOBI <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>. All retrieved 2026-11-10.</p>
+<p>If the insurance company makes an offer, read the full release first. Our <a href="/new-jersey/nj-8-questions-to-ask-before-accepting-a-settlement-offer">questions to ask before accepting a settlement offer</a> can help.</p>
+</section>
+
+<section id="quiz-end" class="quiz-cta">
+<h2>Check whether the other driver's insurance may owe you</h2>
+<p>Your PIP covers your medical bills whoever was at fault. The short New Jersey questionnaire asks about your injury, any lawyer you already have, fault, medical attention, the police report and the date. If your answers fit, a sponsoring lawyer or legal consultant may call you about a claim against the drunk driver's insurance. It is free and there is no obligation.</p>
+<p><a class="button" data-quiz-link="end" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=nj-drunk-driving-accident-help">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+<section id="related">
+<h2>Related New Jersey guides</h2>
+<ul>
+<li><a href="/new-jersey">New Jersey car accident guides</a></li>
+<li><a href="/new-jersey/is-nj-a-no-fault-state">Is NJ a no-fault state? PIP and the lawsuit option</a></li>
+<li><a href="/new-jersey/pip-coverage-limits-medical-bills-new-jersey">PIP coverage limits and medical bills</a></li>
+<li><a href="/new-jersey/nj-car-accident-report">How to get an NJ car accident report</a></li>
+<li><a href="/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">Partly at fault in an NJ car accident</a></li>
+<li><a href="/new-jersey/nj-uninsured-motorist-claim-help">Uninsured and underinsured motorist claims</a></li>
+<li><a href="/new-jersey/medical-records-injury-claim-new-jersey">Medical records for an injury claim</a></li>
+</ul>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=home">Start the New Jersey accident quiz ↗</a></div></footer></div>

@@ -1,0 +1,323 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.local-evidence-table{min-width:0;contain:inline-size;max-width:100%;overflow-x:auto}.local-evidence-table th,.local-evidence-table td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid currentColor}.local-evidence-table th{font-weight:700}.local-evidence-table td{min-width:180px}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page county-hub" data-slug="union-county-car-accident-help">
+
+<h1>Union County car accident data: the Parkway tops the roads, and Union Township holds more than half of Route 22's injury accidents</h1>
+
+<section id="answer">
+  <h2>Parkway, county police or town department: three report routes in Union County</h2>
+  <p>The Garden State Parkway logged 719 Union County accidents where someone was hurt in 2023 and 2024, ahead of Route 22 (597) and Route 1 (519). A Parkway or Turnpike report is ordered online through the State Police portal. A crash on a Union Township or Springfield street goes through that township's police, and a Union County Police case through the county's Records Division.</p>
+  <p class="source">Source: our count of NJDOT crash records 2023 and 2024 by route number (method below).</p>
+
+  <h3 id="report-parkway-turnpike">Garden State Parkway, New Jersey Turnpike and State Police cases</h3>
+  <p>The Parkway and the Turnpike are toll roads, so their Union County NJTR-1 reports come from one State Police crash reports portal, as do reports from State Police cases on other roads. The download opens once the officer's report is finished and approved; a report not yet listed may show up after a couple of days. Union County Parkway or Turnpike copies are priced at $5.00, a non-toll State Police report at $13.00, and each report stays downloadable for six years counted from the accident year.</p>
+  <p class="source">Source: New Jersey State Police, Crash Reports portal, <a href="https://www.njportal.com/njsp/crashreports/">njportal.com/njsp/crashreports/</a>, retrieved 2026-11-10. The same portal page lists the contacts: Turnpike and Parkway report questions go to the New Jersey Turnpike Authority, (732) 442-8600 ext. 2431; non-toll State Police report questions go to (609) 882-2000 ext. 2234; help with the online service itself goes to njsprecords@njsp.gov. Union Township and Springfield send people to crashdocs.org instead, and we did not check that vendor's prices.</p>
+  <p>NJDOT codes 1,160 of the county's 9,235 injury accidents in 2023 and 2024, or 12.6 percent, to its State Authority road system.</p>
+  <p class="source">Source: our count by NJDOT road system.</p>
+
+  <h3 id="report-county-police">Union County Police</h3>
+  <p>The Union County Police say their Patrol Division handles traffic enforcement and accident investigations throughout the county and assists local police departments. Their contact page lists the Records Division at (908) 654-9809 and headquarters at 400 North Avenue East, Westfield. If a county officer took your report, start there.</p>
+  <p class="source">Source: County of Union, Division of Police, <a href="https://ucnj.org/public-safety/division-of-police/patrol-division/">Patrol Division</a> and <a href="https://ucnj.org/public-safety/division-of-police/contact-the-union-county-police/">Contact the Union County Police</a>, retrieved 2026-11-10.</p>
+
+  <h3 id="report-town-police">Town police departments</h3>
+  <ul>
+    <li><strong>Union Township:</strong> the department's site links "Get Your Accident Report" to crashdocs.org, an outside report service. Details are in the <a href="#union-township">Union Township section</a> below.</li>
+    <li><strong>Springfield Township:</strong> the police department's page links "Accident Reports" to crashdocs.org, filtered to the Springfield Police Department. The department is at 100 Mountain Avenue. <span class="source">(Township of Springfield, <a href="https://springfield-nj.us/police/">Police Department</a>, retrieved 2026-11-10)</span></li>
+    <li><strong>Elizabeth, Linden and Plainfield:</strong> each town page covers its own report route: <a href="/new-jersey/elizabeth-nj-car-accidents">Elizabeth car accident records and report route</a>, <a href="/new-jersey/linden-nj-car-accidents">Linden car accident data and police report</a>, <a href="/new-jersey/plainfield-nj-car-accidents">Plainfield car accident records and police report</a>.</li>
+    <li><strong>Rahway, Roselle, Hillside, Cranford, Westfield and the other towns:</strong> we did not confirm how each department releases accident reports or what it charges. Ask the department whose officers responded to the scene.</li>
+  </ul>
+  <p>No officer at the scene means no NJTR-1 to request: NJDOT says only police fill out that form. Drivers in that situation report the accident themselves on the SR-1.</p>
+  <p class="source">Source: NJDOT, <a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">Police Resources</a> and <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">Self-Reporting Crash Form</a>, retrieved 2026-11-10. Statewide steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>.</p>
+
+  <div class="quiz-cta">
+    <p>Hurt on the Parkway, Route 22 or a street anywhere in Union County? The New Jersey questionnaire takes a few questions: how you were hurt, whether a lawyer already represents you, fault, medical attention, the police report and the accident date. A contact form follows. A sponsoring lawyer or legal consultant may phone you if your answers qualify. There is no charge and no obligation.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=union-county-car-accident-help">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="by-year">
+  <h2>Union County accident totals, 2023 to 2025</h2>
+  <p>Union County had 42,382 police-reported car accidents in 2023 and 2024. Of those, 9,235 hurt or killed someone, about 12.6 a day. 12,444 people were hurt and 76 died.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Police-reported car accidents in Union County by year (2025 preliminary)</caption>
+      <thead><tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">2023</th><td>21,143</td><td>4,533</td><td>6,093</td><td>37</td><td>427</td><td>239</td></tr>
+        <tr><th scope="row">2024</th><td>21,239</td><td>4,702</td><td>6,351</td><td>39</td><td>420</td><td>203</td></tr>
+        <tr><th scope="row">2025 (preliminary)</th><td>22,133</td><td>4,935</td><td>6,613</td><td>23</td><td>494</td><td>236</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p>The 2025 total is already 104 percent of 2024, so Union County's 2025 file does not look visibly short. It is still preliminary. The lower 2025 death count should not be read as a real drop until the year is final.</p>
+  <p class="source">Source: Union County rows of the NJDOT crash file for 2023, 2024 and 2025 (hudcostreets/nj-crashes cleanup, deaths filled in from the NJ State Police fatal feed) (2025 total to 2024 total ratio 1.042).</p>
+</section>
+
+<section id="towns">
+  <h2>Elizabeth and Union Township account for four in ten of the county's injury accidents</h2>
+  <p>Elizabeth had 2,287 accidents where someone was hurt in 2023 and 2024, and Union Township had 1,453. Together that is 40.5 percent of Union County's total. Linden, third by injury accidents, had 12 deaths, six times Union Township's 2. Berkeley Heights had 6 deaths from 126 injury accidents.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Union County municipalities ranked by accidents where someone was hurt or killed, 2023 and 2024</caption>
+      <thead><tr><th scope="col">Rank</th><th scope="col">Municipality</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><th scope="row"><a href="/new-jersey/elizabeth-nj-car-accidents">Elizabeth</a></th><td>2,287</td><td>10,155</td><td>3,109</td><td>24</td><td>351</td></tr>
+        <tr><td>2</td><th scope="row"><a href="#union-township">Union Township</a></th><td>1,453</td><td>6,696</td><td>1,902</td><td>2</td><td>75</td></tr>
+        <tr><td>3</td><th scope="row"><a href="/new-jersey/linden-nj-car-accidents">Linden</a></th><td>1,089</td><td>4,789</td><td>1,475</td><td>12</td><td>86</td></tr>
+        <tr><td>4</td><th scope="row"><a href="/new-jersey/plainfield-nj-car-accidents">Plainfield</a></th><td>839</td><td>3,640</td><td>1,161</td><td>7</td><td>110</td></tr>
+        <tr><td>5</td><th scope="row">Rahway</th><td>456</td><td>2,005</td><td>640</td><td>3</td><td>31</td></tr>
+        <tr><td>6</td><th scope="row">Roselle</th><td>423</td><td>1,605</td><td>587</td><td>4</td><td>44</td></tr>
+        <tr><td>7</td><th scope="row">Springfield Township</th><td>422</td><td>1,969</td><td>542</td><td>4</td><td>16</td></tr>
+        <tr><td>8</td><th scope="row">Hillside</th><td>414</td><td>2,120</td><td>553</td><td>3</td><td>34</td></tr>
+        <tr><td>9</td><th scope="row">Cranford</th><td>317</td><td>1,571</td><td>451</td><td>0</td><td>14</td></tr>
+        <tr><td>10</td><th scope="row">Clark</th><td>309</td><td>1,535</td><td>412</td><td>3</td><td>4</td></tr>
+        <tr><td>11</td><th scope="row">Westfield</th><td>223</td><td>1,170</td><td>283</td><td>1</td><td>25</td></tr>
+        <tr><td>12</td><th scope="row">Summit</th><td>217</td><td>1,179</td><td>269</td><td>2</td><td>25</td></tr>
+        <tr><td>13</td><th scope="row">Scotch Plains</th><td>170</td><td>826</td><td>217</td><td>2</td><td>5</td></tr>
+        <tr><td>14</td><th scope="row">Kenilworth</th><td>130</td><td>678</td><td>202</td><td>0</td><td>1</td></tr>
+        <tr><td>15</td><th scope="row">Berkeley Heights</th><td>126</td><td>601</td><td>164</td><td>6</td><td>1</td></tr>
+        <tr><td>16</td><th scope="row">Roselle Park</th><td>114</td><td>602</td><td>151</td><td>1</td><td>8</td></tr>
+        <tr><td>17</td><th scope="row">Mountainside</th><td>81</td><td>367</td><td>110</td><td>2</td><td>2</td></tr>
+        <tr><td>18</td><th scope="row">New Providence</th><td>78</td><td>371</td><td>101</td><td>0</td><td>3</td></tr>
+        <tr><td>19</td><th scope="row">Fanwood</th><td>48</td><td>250</td><td>65</td><td>0</td><td>6</td></tr>
+        <tr><td>20</td><th scope="row">Garwood</th><td>34</td><td>156</td><td>45</td><td>0</td><td>5</td></tr>
+        <tr><td>21</td><th scope="row">Winfield</th><td>3</td><td>40</td><td>3</td><td>0</td><td>0</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: our count of NJDOT crash records 2023 and 2024 by town (NJDOT municipality codes). Two stray records coded to Union County carry municipality names from other counties (Mount Holly Twp and Wall Twp, one accident each, nobody hurt) and are left out. Elizabeth's lead is a raw total, not a rate per resident or per vehicle.</p>
+</section>
+
+<section id="roads">
+  <h2>The Parkway, Route 22 and Route 1 lead the numbered roads</h2>
+  <p>Almost a third of the county's injury accidents, 2,861, happened on streets with no route number in the records. Among numbered roads, the Parkway leads with 719. Route 1 had the most deaths, 13, and Route 27 had the most pedestrian accidents, 79.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Numbered state roads in Union County by accidents where someone was hurt or killed, 2023 and 2024</caption>
+      <thead><tr><th scope="col">Road</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th></tr></thead>
+      <tbody>
+        <tr><th scope="row"><a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway</a></th><td>719</td><td>3,551</td><td>1,028</td><td>1</td><td>1</td></tr>
+        <tr><th scope="row"><a href="/new-jersey/route-22-nj-accidents">Route 22</a></th><td>597</td><td>2,589</td><td>780</td><td>4</td><td>2</td></tr>
+        <tr><th scope="row"><a href="/new-jersey/route-1-nj-accidents">Route 1</a></th><td>519</td><td>1,950</td><td>740</td><td>13</td><td>39</td></tr>
+        <tr><th scope="row"><a href="/new-jersey/middlesex-county-car-accident-help#route-27">Route 27</a> (St. Georges Avenue, Newark Avenue)</th><td>467</td><td>1,641</td><td>649</td><td>6</td><td>79</td></tr>
+        <tr><th scope="row">I-95 (New Jersey Turnpike)</th><td>350</td><td>1,767</td><td>501</td><td>1</td><td>2</td></tr>
+        <tr><th scope="row"><a href="/new-jersey/i-78-nj-accidents">I-78</a></th><td>300</td><td>1,327</td><td>411</td><td>5</td><td>0</td></tr>
+        <tr><th scope="row">Route 82</th><td>203</td><td>799</td><td>279</td><td>0</td><td>16</td></tr>
+        <tr><th scope="row">Route 439</th><td>193</td><td>703</td><td>261</td><td>0</td><td>40</td></tr>
+        <tr><th scope="row">Route 28</th><td>169</td><td>766</td><td>226</td><td>2</td><td>16</td></tr>
+        <tr><th scope="row">Route 124</th><td>116</td><td>530</td><td>158</td><td>0</td><td>5</td></tr>
+        <tr><th scope="row">Route 24</th><td>111</td><td>492</td><td>137</td><td>0</td><td>0</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: our count of NJDOT crash records 2023 and 2024 by route number. Grouped by road class and route number, so both directions, express lanes and secondary carriageways of one route are combined. Another 120 Route 28 accidents where someone was hurt (West Front Street) are coded to the county road system and are not added to the Route 28 row. The I-95 (New Jersey Turnpike) group also takes in a few records whose road name reads I-278; nobody was hurt in any of them, so the 350 is unaffected. The busiest county route, County Route 619, had 162. Our statewide road pages select records slightly differently, so their Union County figures can differ.</p>
+  <p>Route 22 accident records fall in seven Union County towns (Westfield: one record, nobody hurt), and Union Township holds more than half of the road's injury accidents in the county.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Route 22 accidents where someone was hurt or killed, by Union County town, 2023 and 2024</caption>
+      <thead><tr><th scope="col">Town (west to east)</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People killed</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Scotch Plains</th><td>27</td><td>137</td><td>1</td></tr>
+        <tr><th scope="row">Westfield</th><td>0</td><td>1</td><td>0</td></tr>
+        <tr><th scope="row">Mountainside</th><td>50</td><td>215</td><td>2</td></tr>
+        <tr><th scope="row">Springfield Township</th><td>115</td><td>510</td><td>0</td></tr>
+        <tr><th scope="row">Kenilworth</th><td>3</td><td>10</td><td>0</td></tr>
+        <tr><th scope="row">Union Township</th><td>317</td><td>1,403</td><td>1</td></tr>
+        <tr><th scope="row">Hillside</th><td>85</td><td>313</td><td>0</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: our count of Route 22 records by town (towns ordered by median recorded milepost). The seven towns add up to 597, matching the Route 22 row above.</p>
+</section>
+
+<section id="intersections">
+  <h2>Twenty Union County intersections with seven or more injury accidents in 2024 and 2025</h2>
+  <p>East Grand Street at Reid Street in Elizabeth stands far ahead, with 24 accidents where someone was hurt. Roselle, sixth among towns by injury accidents, has four of the twenty. No Union Township intersection reaches seven.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Union County intersections with 7 or more accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+      <thead><tr><th scope="col">Town</th><th scope="col">Intersection</th><th scope="col">Hurt or killed, 2024 + 2025</th><th scope="col">2024</th><th scope="col">2025 (preliminary)</th><th scope="col">People hurt</th><th scope="col">Pedestrian accidents</th></tr></thead>
+      <tbody>
+        <tr><td>Elizabeth</td><th scope="row">East Grand Street at Reid Street</th><td>24</td><td>9</td><td>15</td><td>35</td><td>1</td></tr>
+        <tr><td>Plainfield</td><th scope="row">Madison Avenue at West Second Street</th><td>17</td><td>10</td><td>7</td><td>23</td><td>4</td></tr>
+        <tr><td>Rahway</td><th scope="row">Jefferson Avenue at West Lake Avenue</th><td>15</td><td>10</td><td>5</td><td>27</td><td>0</td></tr>
+        <tr><td>Roselle</td><th scope="row">Route 27 (St. Georges Avenue) at Park Avenue (County Route 616)</th><td>11</td><td>4</td><td>7</td><td>17</td><td>0</td></tr>
+        <tr><td>Elizabeth</td><th scope="row">Magie Avenue (County Route 618) at Stiles Street</th><td>11</td><td>4</td><td>7</td><td>16</td><td>1</td></tr>
+        <tr><td>Roselle</td><th scope="row">Chandler Avenue at East 2nd Avenue</th><td>11</td><td>7</td><td>4</td><td>14</td><td>1</td></tr>
+        <tr><td>Elizabeth</td><th scope="row">Fairmount Avenue at Route 27 (Newark Avenue)</th><td>10</td><td>5</td><td>5</td><td>14</td><td>4</td></tr>
+        <tr><td>Elizabeth</td><th scope="row">Magnolia Avenue at Walnut Street</th><td>9</td><td>4</td><td>5</td><td>15</td><td>0</td></tr>
+        <tr><td>Roselle</td><th scope="row">East 3rd Avenue (County Route 612) at Park Street</th><td>9</td><td>2</td><td>7</td><td>13</td><td>0</td></tr>
+        <tr><td>Rahway</td><th scope="row">Madison Avenue at West Lake Avenue</th><td>8</td><td>6</td><td>2</td><td>12</td><td>0</td></tr>
+        <tr><td>Roselle</td><th scope="row">East 3rd Avenue (County Route 612) at Harrison Avenue</th><td>8</td><td>2</td><td>6</td><td>10</td><td>0</td></tr>
+        <tr><td>Elizabeth</td><th scope="row">Division Street at Trumbull Street</th><td>8</td><td>2</td><td>6</td><td>12</td><td>2</td></tr>
+        <tr><td>Linden</td><th scope="row">South Stiles Street (County Route 615) at Route 1 (Herbert Highway, secondary lanes)</th><td>8</td><td>5</td><td>3</td><td>10</td><td>1</td></tr>
+        <tr><td>Plainfield</td><th scope="row">East Second Street at Watchung Avenue</th><td>8</td><td>1</td><td>7</td><td>13</td><td>4</td></tr>
+        <tr><td>Plainfield</td><th scope="row">Plainfield Avenue (County Route 603) at West 8th Street</th><td>7</td><td>1</td><td>6</td><td>11</td><td>0</td></tr>
+        <tr><td>Scotch Plains</td><th scope="row">Mountain Avenue (County Route 634) at Park Avenue (County Route 655)</th><td>7</td><td>4</td><td>3</td><td>8</td><td>0</td></tr>
+        <tr><td>Linden</td><th scope="row">Elizabeth Avenue (County Route 514) at South Wood Avenue (County Route 617)</th><td>7</td><td>5</td><td>2</td><td>8</td><td>2</td></tr>
+        <tr><td>Plainfield</td><th scope="row">Route 28 (West Front Street) at Rock Avenue</th><td>7</td><td>5</td><td>2</td><td>10</td><td>1</td></tr>
+        <tr><td>Elizabeth</td><th scope="row">Division Street at Livingston Street</th><td>7</td><td>3</td><td>4</td><td>9</td><td>2</td></tr>
+        <tr><td>Elizabeth</td><th scope="row">Pearl Street (County Route 614) at South Street</th><td>7</td><td>1</td><td>6</td><td>9</td><td>2</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p>Division Street at Livingston Street is the only intersection here with a death in 2024 or 2025. Several corners, such as Pearl Street at South Street, jumped in the preliminary 2025 data, so treat one year's rise with care.</p>
+  <p class="source">Source: our count of NJDOT intersection records 2024 and 2025, with a separate tie check. Ties: all 20 intersections with 7 or more are shown; another 23 intersections are tied at 6 and are not listed. Each corner is the two street names on a report NJDOT marks as an intersection accident. A corner written two ways on different reports is split between the spellings, so East Grand Street at Reid Street and every other row may be undercounted. Statewide list: <a href="/new-jersey/most-dangerous-intersections-nj">the most dangerous intersections in New Jersey</a>.</p>
+</section>
+
+<section id="collision-types">
+  <h2>Rear-end and right-angle accidents lead, and pedestrians account for a third of deaths</h2>
+  <p>Rear-end and right-angle accidents make up more than half of Union County's injury accidents. Pedestrian accidents were 8.2 percent of injury accidents, but 27 of the county's 76 deaths in 2023 and 2024 came in accidents NJDOT coded as pedestrian accidents.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Union County accidents where someone was hurt or killed, by police-coded accident type, 2023 and 2024</caption>
+      <thead><tr><th scope="col">Accident type</th><th scope="col">Someone hurt or killed</th><th scope="col">Share of 9,235</th><th scope="col">People killed</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Same direction, rear end</th><td>2,820</td><td>30.5%</td><td>1</td></tr>
+        <tr><th scope="row">Right angle</th><td>2,205</td><td>23.9%</td><td>13</td></tr>
+        <tr><th scope="row">Same direction, sideswipe</th><td>984</td><td>10.7%</td><td>3</td></tr>
+        <tr><th scope="row">Fixed object</th><td>799</td><td>8.7%</td><td>16</td></tr>
+        <tr><th scope="row">Pedestrian</th><td>761</td><td>8.2%</td><td>27</td></tr>
+        <tr><th scope="row">Struck parked vehicle</th><td>428</td><td>4.6%</td><td>4</td></tr>
+        <tr><th scope="row">Bicycle</th><td>368</td><td>4.0%</td><td>4</td></tr>
+        <tr><th scope="row">Left turn or U-turn</th><td>335</td><td>3.6%</td><td>2</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: our count of NJDOT crash records 2023 and 2024 by accident type. Other accident types make up the remaining 5.8 percent. The type is how the officer coded the accident. It does not say who was at fault.</p>
+</section>
+
+<section id="timing">
+  <h2>Late afternoon, Fridays and the autumn months</h2>
+  <p>The 3 pm to 6 pm window had 2,114 of the county's 9,235 injury accidents in 2023 and 2024, or 22.9 percent. The 5 pm hour alone held 763. By weekday, the count ran from 1,176 on Sundays up to 1,476 on Fridays. October (925), November (904) and December (868) were the three busiest months, and February (619) the quietest.</p>
+  <p>Light and weather matter too. 28.9 percent of injury accidents happened in the dark, with or without street lights, and 17.3 percent on a wet road.</p>
+  <p class="source">Source: our count of NJDOT crash records by time, light and road surface (accidents where someone was hurt or killed, 2023 and 2024). Statewide pattern: <a href="/new-jersey/when-do-most-car-accidents-happen">when car accidents happen in New Jersey, hour by hour</a>.</p>
+</section>
+
+<section id="union-township">
+  <h2>Union Township: state highways, the Parkway and Stuyvesant Avenue</h2>
+  <p>Union Township's 1,453 injury accidents in 2023 and 2024 put it 10th of New Jersey's 573 municipalities and 2nd in Union County, after Elizabeth. That is about 2 a day, with 1,902 people hurt and 2 killed. That is 15.7 percent of the county's injury accidents.</p>
+  <p class="source">Source: our analysis of the NJDOT records (rank and two-year totals).</p>
+
+  <h3 id="union-township-report">Getting the report for a Union Township accident</h3>
+  <p>The Union Township Police Department is at 981 Caldwell Avenue, Union, NJ 07083. Its non-emergency number is (908) 851-5000 and its email is upd@uniontownship.com. The department's site has a "Get Your Accident Report" link to crashdocs.org, an outside report service, and an OPRA requests page. Its Traffic Bureau page says traffic officers investigate accidents and write accident reports.</p>
+  <p class="source">Source: Township of Union, <a href="https://www.uniontownship.com/160/Police-Department">Police Department</a> (redirects to the department's site, unionpd.com) and <a href="https://www.unionpd.com/traffic-bureau">Traffic Bureau</a>, retrieved 2026-11-10. We did not check crashdocs.org fees or waiting times.</p>
+  <p>Not every Union Township accident is a township police case. 211 of the township's injury accidents in 2023 and 2024 were on the Garden State Parkway, and those reports come from the State Police portal described <a href="#report-parkway-turnpike">above</a>.</p>
+
+  <h3 id="union-township-roads">Nearly two thirds on state-run roads</h3>
+  <p>64.1 percent of Union Township's injury accidents were on state highways, interstates or state-authority roads, against 42.3 percent for the county as a whole. Only 15.9 percent were on roads NJDOT codes as municipal, about half the county's 31.7 percent.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Union Township accidents where someone was hurt or killed, by road, 2023 and 2024</caption>
+      <thead><tr><th scope="col">Road</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">People killed</th></tr></thead>
+      <tbody>
+        <tr><th scope="row"><a href="/new-jersey/route-22-nj-accidents">Route 22</a></th><td>317</td><td>1,403</td><td>410</td><td>1</td></tr>
+        <tr><th scope="row">Streets with no route number</th><td>223</td><td>1,351</td><td>283</td><td>0</td></tr>
+        <tr><th scope="row"><a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway</a></th><td>211</td><td>1,020</td><td>279</td><td>0</td></tr>
+        <tr><th scope="row">Route 82 (Morris Avenue, Jewish War Veterans Memorial Highway)</th><td>183</td><td>711</td><td>250</td><td>0</td></tr>
+        <tr><th scope="row"><a href="/new-jersey/i-78-nj-accidents">I-78</a></th><td>149</td><td>652</td><td>206</td><td>1</td></tr>
+        <tr><th scope="row">County Route 630 (Vauxhall Road)</th><td>109</td><td>444</td><td>134</td><td>0</td></tr>
+        <tr><th scope="row">County Route 619 (Stuyvesant Avenue, Chestnut Street)</th><td>93</td><td>364</td><td>116</td><td>0</td></tr>
+        <tr><th scope="row">Route 124 (Springfield Avenue)</th><td>50</td><td>224</td><td>79</td><td>0</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: our count of Union Township NJDOT crash records 2023 and 2024 by route number and road system. Grouped by route number, so Route 22's 317 includes secondary carriageways (the old page's 257 used 2024 and 2025 and one road-name spelling). Another 14 County Route 619 accidents where someone was hurt are coded to the municipal road system and are not added. Route 82 and Route 124 street names are from the record labels.</p>
+
+  <h3 id="union-township-corners">Stuyvesant Avenue appears at three of the top four corners</h3>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Union Township intersections with 4 or more accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+      <thead><tr><th scope="col">Intersection</th><th scope="col">Hurt or killed, 2024 + 2025</th><th scope="col">2024</th><th scope="col">2025 (preliminary)</th><th scope="col">People hurt</th><th scope="col">Pedestrian accidents</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Stuyvesant Avenue (County Route 619) at Vauxhall Road (County Route 630)</th><td>6</td><td>3</td><td>3</td><td>7</td><td>3</td></tr>
+        <tr><th scope="row">Morrison Avenue at Stuyvesant Avenue</th><td>5</td><td>2</td><td>3</td><td>8</td><td>0</td></tr>
+        <tr><th scope="row">Stanley Terrace at Stuyvesant Avenue</th><td>5</td><td>4</td><td>1</td><td>10</td><td>1</td></tr>
+        <tr><th scope="row">Green Lane at Route 82 (Jewish War Veterans Memorial Highway)</th><td>5</td><td>3</td><td>2</td><td>8</td><td>1</td></tr>
+        <tr><th scope="row">Elmwood Avenue at Savitt Place</th><td>4</td><td>2</td><td>2</td><td>4</td><td>1</td></tr>
+        <tr><th scope="row">Route 124 at Valley Street</th><td>4</td><td>4</td><td>0</td><td>7</td><td>0</td></tr>
+        <tr><th scope="row">Oakland Avenue at Walker Avenue</th><td>4</td><td>2</td><td>2</td><td>6</td><td>0</td></tr>
+        <tr><th scope="row">Burroughs Terrace at Selfmaster Parkway</th><td>4</td><td>1</td><td>3</td><td>5</td><td>0</td></tr>
+        <tr><th scope="row">Liberty Avenue at Route 82 (Morris Avenue)</th><td>4</td><td>1</td><td>3</td><td>10</td><td>0</td></tr>
+        <tr><th scope="row">Chestnut Street (County Route 619) at Phillips Terrace</th><td>4</td><td>1</td><td>3</td><td>8</td><td>0</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: our count of Union Township NJDOT intersection records 2024 and 2025. All intersections with 4 or more are shown; the next value is 3. Variant spellings of Stuyvesant Avenue and the other streets are not combined, so these are minimums.</p>
+
+  <h3 id="union-township-pattern">Rear-end accidents and the afternoon peak</h3>
+  <p>Rear-end accidents were 45.6 percent of Union Township's injury accidents (663 of 1,453), against 30.5 percent countywide. Pedestrian accidents were 4.7 percent, below the county's 8.2 percent. Weekday totals ranged from 150 on Sundays to 255 on Fridays. The 3 pm to 6 pm window held 353, or 24.3 percent.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Union Township accidents by year (2025 preliminary)</caption>
+      <thead><tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">2023</th><td>3,570</td><td>763</td><td>977</td><td>1</td><td>46</td></tr>
+        <tr><th scope="row">2024</th><td>3,126</td><td>690</td><td>925</td><td>1</td><td>29</td></tr>
+        <tr><th scope="row">2025 (preliminary)</th><td>3,205</td><td>659</td><td>903</td><td>3</td><td>26</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: our analysis of the NJDOT records (years, accident types and time of day). The 2025 total is 102.5 percent of 2024, so the file does not look visibly short, but it is still preliminary. Statewide I-78 detail, including Union Township mileposts: <a href="/new-jersey/i-78-nj-accidents">I-78 accidents by milepost</a>.</p>
+</section>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened in Union County. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident in Union County? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=union-county-car-accident-help">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="related">
+  <h2>Union County town, road and related pages</h2>
+  <h3>Towns</h3>
+  <ul>
+    <li><a href="/new-jersey/elizabeth-nj-car-accidents">Elizabeth car accident records: pedestrians, East Grand Street and the Turnpike</a></li>
+    <li><a href="/new-jersey/linden-nj-car-accidents">Linden car accidents: deaths, Route 1 and St. Georges Avenue</a></li>
+    <li><a href="/new-jersey/plainfield-nj-car-accidents">Plainfield car accident records: right-angle collisions and corners</a></li>
+    <li><a href="/new-jersey/summit-car-accident-help">Summit car accident help</a></li>
+  </ul>
+  <h3>Roads through Union County</h3>
+  <ul>
+    <li><a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway accidents by milepost and county</a></li>
+    <li><a href="/new-jersey/route-22-nj-accidents">Route 22 accidents by town, cross street and time</a></li>
+    <li><a href="/new-jersey/route-1-nj-accidents">Route 1 accidents along the corridor</a></li>
+    <li><a href="/new-jersey/i-78-nj-accidents">I-78 accidents by milepost</a></li>
+    <li><a href="/new-jersey/middlesex-county-car-accident-help#route-27">Route 27 data on the Middlesex County page</a></li>
+  </ul>
+  <h3>Truck, motorcycle and nearby county pages</h3>
+  <ul>
+    <li><a href="/new-jersey/union-county-truck-accident-help">Union County truck accident help</a></li>
+    <li><a href="/new-jersey/elizabeth-truck-accident-help">Elizabeth truck accident help</a></li>
+    <li><a href="/new-jersey/linden-truck-accident-help">Linden truck accident help</a></li>
+    <li><a href="/new-jersey/rahway-motorcycle-accident-help">Rahway motorcycle accident help</a></li>
+    <li><a href="/new-jersey/middlesex-county-car-accident-help">Middlesex County car accident data and reports</a></li>
+    <li><a href="/new-jersey/new-jersey-car-accident-help">New Jersey car accident help</a></li>
+  </ul>
+</section>
+
+<section id="method">
+  <h2>How the Union County figures were built</h2>
+  <ul>
+    <li>Records: NJDOT's 2023 per-table archive plus 2024 and 2025 from the <a href="https://njdot.aashtowaresafety.net/njdot-crash-data-dashboard#/">NJDOT Crash Data Portal</a>, cleaned up by the open-source <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a> project, with deaths filled in from the NJ State Police fatal feed. Our copy was downloaded 2026-11-06.</li>
+    <li>The 9,235 figure counts each police-reported Union County accident with one or more people hurt or killed once; the 12,444 people hurt and 76 killed add up the people in those accidents.</li>
+    <li>NJDOT has not finalized 2025. Here it appears only in the year tables and the two corner tables, each time marked preliminary; every other Union County table rests on the finished 2023 and 2024 files.</li>
+    <li>The corner tables leave 2023 out: that year's file writes street names in a different style from 2024 and 2025, which would split one corner into two entries.</li>
+    <li>Road tables group records by road class and route number (raw labels such as "US 22", "NJ 27 (ST GEORGES AVENUE)" and "GARDEN STATE PARKWAY SECONDARY" are combined by route). We ran the counts ourselves from the NJDOT crash records file; the method notes on this page describe the selection.</li>
+    <li>No traffic volumes are used, so the Parkway and Route 22 rows are totals, not a measure of how risky each mile is. The records do not show who caused any accident.</li>
+  </ul>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=home">Start the New Jersey accident quiz ↗</a></div></footer></div>

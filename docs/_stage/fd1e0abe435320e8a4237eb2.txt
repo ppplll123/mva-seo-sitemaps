@@ -1,0 +1,336 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.local-evidence-table{min-width:0;contain:inline-size;max-width:100%;overflow-x:auto}.local-evidence-table th,.local-evidence-table td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid currentColor}.local-evidence-table th{font-weight:700}.local-evidence-table td{min-width:180px}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page county-hub" data-slug="cumberland-county-car-accident-help">
+
+<h1>Cumberland County car accident help: who has your police report, and where accidents happen</h1>
+
+<section id="answer">
+  <p>After a car accident in Cumberland County, get medical attention first, then find out which police agency wrote the report. Inside Vineland, Millville and Bridgeton, that is usually the city police department. In the ten townships and Shiloh Borough, it is almost always the New Jersey State Police.</p>
+  <p>That split shows up clearly in the crash records. In 2024 and 2025, between 94 and 100 percent of crash records in each of those eleven towns name a State Police station, mostly Bridgeton or Port Norris. In Vineland, Millville and Bridgeton, only 1 to 5 percent do. The table below gives the share for every town and the place to ask for the report.</p>
+  <p class="source">Source: NJDOT crash records 2023 to 2025 as normalized by hudcostreets/nj-crashes, station field, 2024 and 2025 (2025 preliminary), our count. The station field is not documented by NJDOT; we read a filled value as a State Police unit reporting the crash. Check the name of the agency on the card or paper the officer gave you.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident in Vineland, Millville, Bridgeton or on a township road in Cumberland County? The 30-second New Jersey quiz asks about your injury, whether you already have a lawyer, fault, medical attention, the police report and the date. If your answers fit, a sponsoring lawyer or legal consultant may call you by phone. It is free and there is no obligation.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=cumberland-county-car-accident-help">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="report-by-town">
+  <h2>Which police department has your Cumberland County accident report?</h2>
+  <p>Use the town where the accident happened, not where you live. The share column shows how often 2024 and 2025 crash records in that town name a State Police station.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Cumberland County crash records naming a State Police station, by town, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Town</th><th scope="col">Crash records</th><th scope="col">Records naming a State Police station</th><th scope="col">Where to ask for the report</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Vineland City</th><td>3,902</td><td>208 (5%)</td><td>Vineland Police Department</td></tr>
+      <tr><th scope="row">Millville City</th><td>1,667</td><td>71 (4%)</td><td>Millville Police Records Section</td></tr>
+      <tr><th scope="row">Bridgeton City</th><td>1,322</td><td>13 (1%)</td><td>Bridgeton Police Department</td></tr>
+      <tr><th scope="row">Upper Deerfield Twp</th><td>633</td><td>626 (99%)</td><td>New Jersey State Police portal</td></tr>
+      <tr><th scope="row">Maurice River Twp</th><td>302</td><td>300 (99%)</td><td>New Jersey State Police portal</td></tr>
+      <tr><th scope="row">Deerfield Twp</th><td>210</td><td>206 (98%)</td><td>New Jersey State Police portal</td></tr>
+      <tr><th scope="row">Fairfield Twp</th><td>183</td><td>178 (97%)</td><td>New Jersey State Police portal</td></tr>
+      <tr><th scope="row">Hopewell Twp</th><td>155</td><td>150 (97%)</td><td>New Jersey State Police portal</td></tr>
+      <tr><th scope="row">Commercial Twp</th><td>104</td><td>101 (97%)</td><td>New Jersey State Police portal</td></tr>
+      <tr><th scope="row">Lawrence Twp</th><td>67</td><td>66 (99%)</td><td>New Jersey State Police portal</td></tr>
+      <tr><th scope="row">Downe Twp</th><td>48</td><td>47 (98%)</td><td>New Jersey State Police portal</td></tr>
+      <tr><th scope="row">Stow Creek Twp</th><td>34</td><td>34 (100%)</td><td>New Jersey State Police portal</td></tr>
+      <tr><th scope="row">Shiloh Boro</th><td>22</td><td>22 (100%)</td><td>New Jersey State Police portal</td></tr>
+      <tr><th scope="row">Greenwich Twp</th><td>17</td><td>16 (94%)</td><td>New Jersey State Police portal</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, 2024 and 2025 (2025 preliminary), station field; our count. Station values seen: Bridgeton 1,204 records, Port Norris 816, a handful from other stations.</p>
+
+  <h3 id="vineland-report">Vineland</h3>
+  <p>The Vineland Police Department website links to CrashDocs.org for crash reports, a records requests contact and the city's online OPRA request form. Headquarters is at 620 East Plum Street, Vineland, phone 856-696-1212.</p>
+  <p class="source">Source: Vineland Police Department, <a href="https://police.vinelandcity.org/">police.vinelandcity.org</a> (important links: "CrashDocs.org", "Records Requests e-mail", "OPRA Request Form" at <a href="https://cityofvinelandnj.nextrequest.com/">cityofvinelandnj.nextrequest.com</a>; headquarters location listing), retrieved 2026-11-10.</p>
+
+  <h3 id="millville-report">Millville</h3>
+  <p>Millville police say crash reports are "generally" available five days after the accident, though some take longer. You can pick one up at the Police Records Section, third floor of the police building, Monday to Friday, 9 am to 4 pm, phone 856-825-7010 ext. 7621. With the accident date and report number, you can also get it from secure.crashdocs.org/millville_NJ.</p>
+  <p class="source">Source: City of Millville, Police FAQ, "How long will it take for my accident report to be completed and how do I obtain a copy?", <a href="https://www.millvillenj.gov/Faq.aspx?QID=121">millvillenj.gov/Faq.aspx?QID=121</a>, retrieved 2026-11-10.</p>
+
+  <h3 id="bridgeton-report">Bridgeton</h3>
+  <p>The Bridgeton Police Department website has a "Request Crash Reports" link that goes to the BuyCrash search page run by LexisNexis. The department's listed phone number is 856-451-0033. The city's own departments page links to this police site.</p>
+  <p class="source">Source: Bridgeton Police Department, <a href="https://bpdops.com/">bpdops.com</a> (resource link "Request Crash Reports"), linked from City of Bridgeton, <a href="https://www.cityofbridgetonnj.gov/101/Departments">cityofbridgetonnj.gov/101/Departments</a>, both retrieved 2026-11-10.</p>
+
+  <h3 id="state-police-report">Upper Deerfield, Maurice River, Shiloh and the other State Police towns</h3>
+  <p>A crash worked by the Bridgeton or Port Norris State Police station is not on file at any Cumberland city hall. Its report comes through the State Police online crash report portal, where a non-toll road report costs $13.00. A report becomes downloadable only once it is "ready and approved," so a Fairfield or Downe Township crash from this week may not show yet; try again after a couple of days.</p>
+  <p>The portal holds reports for six years from the crash year. Its listed contacts are NJSPRecords@NJSP.gov and (609) 882-2000 ext. 2234. The $13.00 fee is the State Police price only; Vineland, Millville and Bridgeton handle their reports their own way, as set out above.</p>
+  <p class="source">Source: New Jersey State Police, Crash Reports portal (fee, retention, "ready and approved," email and phone), <a href="https://www.njportal.com/njsp/crashreports/">njportal.com/njsp/crashreports/</a>; NJSP Criminal Justice Records Bureau page, <a href="https://njsp.njoag.gov/identification-amp-information-technology-section/criminal-justice-records-bureau/">njsp.njoag.gov</a>; both retrieved 2026-11-10. Police complete the NJTR-1 crash report; drivers self-report with the SR-1 only when police did not investigate (<a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">NJDOT Police Resources</a>, retrieved 2026-11-10).</p>
+  <p>Whichever agency wrote it, check the report against what happened. The state insurance department's consumer guide says to "review report for details, such as how many passengers were listed." If something is wrong, it says to tell your insurance company and the responding police department. For reading the codes, see <a href="/new-jersey/nj-how-to-read-a-new-jersey-crash-report-after-an-accident">how to read a New Jersey crash report</a>.</p>
+  <p class="source">Source: NJ DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026)</a>, p. 25, retrieved 2026-11-10.</p>
+</section>
+
+<section id="county-data">
+  <h2>Cumberland County crash totals, and a missing year for Bridgeton</h2>
+  <p>Cumberland County had 7,483 police-reported car accidents in 2023 and 2024, and 2,296 of them hurt or killed someone. That is about 3 a day, and about 2 percent of New Jersey's 112,966 such accidents in those two years. In those 2,296 accidents, 3,358 people were hurt and 52 were killed.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Cumberland County car accidents by year (2023 is missing most Bridgeton records; 2025 is preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>3,238</td><td>1,004</td><td>1,468</td><td>22</td><td>28</td><td>37</td></tr>
+      <tr><th scope="row">2024</th><td>4,245</td><td>1,292</td><td>1,890</td><td>30</td><td>40</td><td>43</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>4,421</td><td>1,330</td><td>1,861</td><td>22</td><td>63</td><td>58</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2023 to 2025 via hudcostreets/nj-crashes, fatal crashes supplemented from NJ State Police; our analysis of the NJDOT records.</p>
+  <p><strong>Read the 2023 row with care.</strong> The county total jumps 31 percent from 2023 to 2024, against 7 percent statewide. Most of that jump is a gap in the data, not more accidents. Bridgeton City has only 13 crash records of any kind for 2023, against 632 in 2024. So Bridgeton's 2023 accidents are almost entirely missing from this export, and the 2023 county figures are too low.</p>
+  <p>The 2025 figures are preliminary and will change as late reports arrive. Even so, the 2025 county total is already 104 percent of 2024, so 2025 does not look visibly incomplete for Cumberland.</p>
+  <p class="source">Source: our analysis of the NJDOT records; the 2025 county total is 1.041 times the 2024 total.</p>
+
+  <h3 id="towns">Vineland carries more than half of the county's injury accidents</h3>
+  <p>Vineland had 1,227 accidents where someone was hurt or killed in 2023 and 2024, 53 percent of the county total. Vineland, Millville and Bridgeton together account for 79 percent. Bridgeton's two-year figure is mostly 2024 only, so the 2024 column is the fairer comparison for it.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Cumberland County towns ranked by accidents where someone was hurt or killed, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Town</th><th scope="col">Hurt or killed, 2023 + 2024</th><th scope="col">Hurt or killed, 2024 only</th><th scope="col">People hurt, 2023 + 2024</th><th scope="col">People killed, 2023 + 2024</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Vineland City</th><td>1,227</td><td>630</td><td>1,863</td><td>25</td></tr>
+      <tr><th scope="row">Millville City</th><td>440</td><td>246</td><td>644</td><td>6</td></tr>
+      <tr><th scope="row">Upper Deerfield Twp</th><td>149</td><td>85</td><td>207</td><td>4</td></tr>
+      <tr><th scope="row">Bridgeton City (2023 missing)</th><td>148</td><td>145</td><td>197</td><td>2</td></tr>
+      <tr><th scope="row">Maurice River Twp</th><td>84</td><td>46</td><td>119</td><td>6</td></tr>
+      <tr><th scope="row">Deerfield Twp</th><td>70</td><td>36</td><td>86</td><td>1</td></tr>
+      <tr><th scope="row">Fairfield Twp</th><td>63</td><td>38</td><td>90</td><td>6</td></tr>
+      <tr><th scope="row">Hopewell Twp</th><td>39</td><td>22</td><td>49</td><td>0</td></tr>
+      <tr><th scope="row">Commercial Twp</th><td>28</td><td>20</td><td>43</td><td>1</td></tr>
+      <tr><th scope="row">Lawrence Twp</th><td>18</td><td>11</td><td>26</td><td>0</td></tr>
+      <tr><th scope="row">Stow Creek Twp</th><td>12</td><td>7</td><td>14</td><td>0</td></tr>
+      <tr><th scope="row">Downe Twp</th><td>10</td><td>5</td><td>11</td><td>0</td></tr>
+      <tr><th scope="row">Shiloh Boro</th><td>7</td><td>1</td><td>9</td><td>0</td></tr>
+      <tr><th scope="row">Greenwich Twp</th><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: our analysis of the NJDOT records, all 14 towns. In 2024 alone, Bridgeton (145) ranks third, ahead of Upper Deerfield (85). Fairfield and Maurice River each had 6 deaths in two years with fewer than 100 injury accidents.</p>
+
+  <h3 id="intersections">Intersections with the most accidents where someone was hurt, 2024 and 2025</h3>
+  <p>As the records spell them, the top single name pair is Bluebird Ln at NJ 47 in Millville, with 8 accidents where someone was hurt in two years. Below the eight rows shown, 15 more name pairs are tied at 3, and 73 are tied at 2. The Delsea Drive and Landis Avenue corner in Vineland does not appear in the table, because its records are split across many spellings (see below).</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Cumberland County intersections with 4 or more accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Intersection (as recorded)</th><th scope="col">Town</th><th scope="col">Hurt or killed, 2024 + 2025</th><th scope="col">Of which 2024 / 2025</th><th scope="col">All accidents</th><th scope="col">People hurt</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Bluebird Ln and NJ 47</th><td>Millville</td><td>8</td><td>8 / 0</td><td>15</td><td>12</td></tr>
+      <tr><th scope="row">West Avenue and Wheat Road (CR 619)</th><td>Vineland</td><td>6</td><td>0 / 6</td><td>8</td><td>12</td></tr>
+      <tr><th scope="row">Broad Street and NJ 47 (North Second Street)</th><td>Millville</td><td>5</td><td>0 / 5</td><td>8</td><td>9</td></tr>
+      <tr><th scope="row">Brewster Road (CR 672) and Rt 540 (Landis Avenue)</th><td>Vineland</td><td>5</td><td>0 / 5</td><td>8</td><td>8</td></tr>
+      <tr><th scope="row">NJ 49 (East Commerce Street) and South Burlington Road (CR 638)</th><td>Bridgeton</td><td>5</td><td>1 / 4</td><td>6</td><td>9</td></tr>
+      <tr><th scope="row">Chestnut Avenue and East Avenue</th><td>Vineland</td><td>4</td><td>2 / 2</td><td>6</td><td>7</td></tr>
+      <tr><th scope="row">"NJ 49 (Delsea Drive)" and South Fifth Street</th><td>Millville</td><td>4</td><td>1 / 3</td><td>4</td><td>9</td></tr>
+      <tr><th scope="row">CR 681 and East Ave</th><td>Vineland</td><td>4</td><td>4 / 0</td><td>4</td><td>7</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: our analysis of the NJDOT records, 2024 and 2025. Each row is one exact spelling of a street pair. A Cumberland corner recorded under other spellings has more accidents than its row shows.</p>
+  <p>Look at the 2024 / 2025 column. Several corners show all their accidents in one year only. That suggests the street-name format changed between the 2024 and 2025 records, so one corner can sit under different names in each year. Bluebird Lane is an example: 8 in 2024 as "NJ 47 / BLUEBIRD LN," and 2 more (one in each year) as "NJ 47 (NORTH SECOND STREET) / BLUEBIRD LANE," for 10 together.</p>
+  <p>The Delsea Drive and Landis Avenue corner in Vineland is split even further. Its intersection-coded accidents where someone was hurt appear under at least seven name pairs, such as "NJ 47 / LANDIS AVE," "NJ 47 (DELSEA DRIVE) / NJ 56 (LANDIS AVENUE)," "WEST LANDIS AVENUE" and "NJ 47 (NELLO MELINI MEMORIAL HIGHWAY)." Added up, that is at least 11 in 2024 and 2025, against 10 for Bluebird Lane added up. So once spellings are combined, Delsea and Landis may well be the county's top corner, and the order of the table could change. These are counts, not risk rates, and they say nothing about who caused any accident.</p>
+  <p class="source">Source: our rerun of the NJDOT records via hudcostreets/nj-crashes, Cumberland, 2024 and 2025 (2025 preliminary), Intersection = Yes, at least one person hurt or killed, street pairs naming Route 47 or Delsea Drive with Landis Avenue (2 + 1 + 3 + 3 + 1 + 1 = 11) or naming Bluebird Lane (8 + 2 = 10).</p>
+
+  <h3 id="roads">Roads: Route 47 first, county Route 552 with the most deaths</h3>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Cumberland County roads by accidents where someone was hurt or killed, 2023 and 2024, grouped by route number</caption>
+    <thead>
+      <tr><th scope="col">Road</th><th scope="col">Hurt or killed</th><th scope="col">All accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Route 47 (Delsea Drive, North Second Street)</th><td>385</td><td>974*</td><td>6</td></tr>
+      <tr><th scope="row">Route 49</th><td>179</td><td>550</td><td>5</td></tr>
+      <tr><th scope="row">County Route 552</th><td>134</td><td>395</td><td>8</td></tr>
+      <tr><th scope="row">County Route 555</th><td>124</td><td>362</td><td>1</td></tr>
+      <tr><th scope="row">Route 540 (Landis Avenue and others)</th><td>79</td><td>258</td><td>0</td></tr>
+      <tr><th scope="row">Route 55</th><td>76</td><td>301</td><td>3</td></tr>
+      <tr><th scope="row">Route 77</th><td>71</td><td>240</td><td>2</td></tr>
+      <tr><th scope="row">Route 56 (Landis Avenue)</th><td>58</td><td>179</td><td>0</td></tr>
+      <tr><th scope="row">Local and unnumbered streets, combined</th><td>616</td><td>2,313</td><td>7</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: our analysis of the NJDOT records, 2023 and 2024. Route 540 combines 39 accidents coded to the County road system and 40 coded otherwise. *Route 47 here counts every record with route number 47 (974). The Route 47 section below counts only records that also carry a state road name, which gives 973 (458 + 515). County Route 552 includes the Route 552 Spur (Broad Street in Millville) rows, and one of its 8 deaths, a 2024 pedestrian death in Millville, was on the Spur. Route 49 and Route 77 run through Bridgeton, so their 2023 counts are missing most Bridgeton accidents. Named examples of local streets: Chestnut Ave had 62 accidents where someone was hurt.</p>
+  <p>County Route 552, counted with its Millville spur, had 8 deaths in two years, more than any other road in the county, including Route 47.</p>
+
+  <h3 id="types">Right-angle accidents lead here, not rear-end accidents</h3>
+  <p>Across New Jersey, rear-end accidents are the most common type where someone gets hurt. In Cumberland County, right-angle accidents lead, at 32 percent against 22 percent statewide. Left-turn and fixed-object accidents also take a larger share here than in the state as a whole.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Accidents where someone was hurt or killed, by police-coded type, Cumberland County and New Jersey, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Type (police code)</th><th scope="col">Cumberland count</th><th scope="col">Cumberland share</th><th scope="col">New Jersey share</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Right Angle</th><td>742</td><td>32%</td><td>22%</td></tr>
+      <tr><th scope="row">Same Direction (Rear End)</th><td>523</td><td>23%</td><td>31%</td></tr>
+      <tr><th scope="row">Fixed Object</th><td>362</td><td>16%</td><td>12%</td></tr>
+      <tr><th scope="row">Left Turn/U Turn</th><td>171</td><td>7%</td><td>5%</td></tr>
+      <tr><th scope="row">Same Direction (Side Swipe)</th><td>92</td><td>4%</td><td>9%</td></tr>
+      <tr><th scope="row">Opposite Direction (Head On, Angular)</th><td>81</td><td>4%</td><td>not in statewide top 8</td></tr>
+      <tr><th scope="row">Struck Parked Vehicle</th><td>68</td><td>3%</td><td>3%</td></tr>
+      <tr><th scope="row">Pedalcyclist</th><td>66</td><td>3%</td><td>4%</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: our analysis of the NJDOT records for Cumberland and statewide, 2023 and 2024. For side-impact accidents in general, see <a href="/new-jersey/nj-new-jersey-side-impact-collision-claim-support-help">side-impact collision help in New Jersey</a>.</p>
+
+  <h3 id="deaths">How people died in Cumberland County accidents</h3>
+  <p>Fixed-object accidents, where a car hits a tree, pole or similar object, killed 15 of the county's 52 people killed in 2023 and 2024. Left-turn accidents killed 10, and accidents coded Pedestrian killed 9. That 9 counts accident type; the county profile counts 11 pedestrians killed in 2023 and 2024, because a pedestrian can die in an accident coded another way.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Fatal car accidents in Cumberland County by police-coded type, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Type (police code)</th><th scope="col">Fatal accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Fixed Object</th><td>13</td><td>15</td></tr>
+      <tr><th scope="row">Left Turn/U Turn</th><td>7</td><td>10</td></tr>
+      <tr><th scope="row">Pedestrian</th><td>9</td><td>9</td></tr>
+      <tr><th scope="row">Right Angle</th><td>7</td><td>8</td></tr>
+      <tr><th scope="row">Opposite Direction (Head On, Angular)</th><td>5</td><td>5</td></tr>
+      <tr><th scope="row">Same Direction (Rear End)</th><td>1</td><td>2</td></tr>
+      <tr><th scope="row">Other types (one each: opposite-direction side swipe, overturned, struck parked vehicle)</th><td>3</td><td>3</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: our analysis of the NJDOT records, 2023 and 2024; fatal crashes supplemented from the NJ State Police fatal feed. Total: 45 fatal accidents, 52 people killed. 2025 (preliminary) so far: 21 fatal accidents, 22 people killed.</p>
+
+  <h3 id="timing">When Cumberland County accidents happen</h3>
+  <p>The 4 pm hour had the most accidents where someone was hurt, 199 in 2023 and 2024. The three hours from 3 pm to 6 pm hold 564 of the 2,296, about a quarter. By weekday, the count ran from 260 on Sundays up to 373 on Fridays. October had the most of any month (242) and January the fewest (133), but two years is a short base for a seasonal pattern.</p>
+  <p class="source">Source: our analysis of the NJDOT records (time, accidents where someone was hurt or killed, 2023 and 2024). To compare Cumberland's late-afternoon peak with the rest of the state, see <a href="/new-jersey/when-do-most-car-accidents-happen">when car accidents happen in New Jersey, hour by hour</a>.</p>
+</section>
+
+<section id="route-47">
+  <h2>Route 47 (Delsea Drive) in Cumberland County</h2>
+  <p>Route 47 is the busiest road for injury accidents in Cumberland County. It had 385 accidents where someone was hurt or killed here in 2023 and 2024, 48 percent of the road's 806 statewide. The rest were in Gloucester County (294) and Cape May County (127).</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 47 accidents in Cumberland County by year (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>458</td><td>188</td><td>285</td><td>5</td></tr>
+      <tr><th scope="row">2024</th><td>515</td><td>197</td><td>305</td><td>1</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>535</td><td>190</td><td>274</td><td>2</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: our analysis of the NJDOT records; road-wide figures from our Route 47 count, 2023 and 2024. Route 47 = records with route number 47 and a state road name. It does not pass through Bridgeton, so the Bridgeton 2023 gap does not affect these rows.</p>
+
+  <h3 id="route-47-towns">Vineland, Millville and Maurice River, and who has the report</h3>
+  <p>In Cumberland, Route 47 runs through three towns, and the report route changes at the Maurice River line. In 2024 and 2025, none of 603 Route 47 records in Vineland named a State Police station, and 1 of 357 in Millville did. All 90 in Maurice River Township did.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 47 in Cumberland County by town</caption>
+    <thead>
+      <tr><th scope="col">Town</th><th scope="col">Hurt or killed, 2023 + 2024</th><th scope="col">People hurt, 2023 + 2024</th><th scope="col">People killed, 2023 + 2024</th><th scope="col">Records naming a State Police station, 2024 + 2025</th><th scope="col">Report from</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Vineland City</th><td>257</td><td>400</td><td>4</td><td>0 of 603</td><td><a href="#vineland-report">Vineland police</a></td></tr>
+      <tr><th scope="row">Millville City</th><td>101</td><td>152</td><td>2</td><td>1 of 357</td><td><a href="#millville-report">Millville police</a></td></tr>
+      <tr><th scope="row">Maurice River Twp</th><td>27</td><td>38</td><td>0</td><td>90 of 90</td><td><a href="#state-police-report">State Police portal</a></td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: our analysis of the NJDOT records, 2023 to 2025 (2025 preliminary).</p>
+
+  <h3 id="route-47-cross-streets">Route 47 cross streets in Cumberland County, 2024 and 2025</h3>
+  <p>Bluebird Lane in Millville is recorded two ways, "Bluebird Lane" and "Bluebird Ln". Together the two spellings hold 30 accidents where someone was hurt, the most of any Route 47 cross street in the county. The table lists every cross street with 7 or more; 2 more cross streets are tied at 6.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 47 cross streets in Cumberland County with 7 or more accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Cross street (as recorded)</th><th scope="col">Town</th><th scope="col">Hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Bluebird Lane</th><td>Millville</td><td>18</td><td>55</td><td>30</td></tr>
+      <tr><th scope="row">Rt 552 (Irving Avenue)</th><td>Vineland</td><td>13</td><td>35</td><td>14</td></tr>
+      <tr><th scope="row">College Drive (CR 628)</th><td>Vineland</td><td>13</td><td>25</td><td>21</td></tr>
+      <tr><th scope="row">Bluebird Ln</th><td>Millville</td><td>12</td><td>36</td><td>19</td></tr>
+      <tr><th scope="row">NJ 56 (Landis Avenue)</th><td>Vineland</td><td>12</td><td>22</td><td>14</td></tr>
+      <tr><th scope="row">Rt 540 (West Park Avenue)</th><td>Vineland</td><td>10</td><td>37</td><td>15</td></tr>
+      <tr><th scope="row">Chimes Ter</th><td>Vineland</td><td>10</td><td>21</td><td>26</td></tr>
+      <tr><th scope="row">West Chestnut Avenue</th><td>Vineland</td><td>9</td><td>25</td><td>16</td></tr>
+      <tr><th scope="row">Broad Street</th><td>Millville</td><td>9</td><td>18</td><td>17</td></tr>
+      <tr><th scope="row">Oak Road (CR 681)</th><td>Vineland</td><td>8</td><td>21</td><td>13</td></tr>
+      <tr><th scope="row">West Landis Avenue</th><td>Vineland</td><td>8</td><td>19</td><td>17</td></tr>
+      <tr><th scope="row">High Street</th><td>Millville</td><td>7</td><td>25</td><td>7</td></tr>
+      <tr><th scope="row">NJ 55 secondary (Veterans Memorial Highway)</th><td>Millville</td><td>7</td><td>16</td><td>12</td></tr>
+      <tr><th scope="row">Almond Road (CR 747)</th><td>Vineland</td><td>7</td><td>13</td><td>8</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: our analysis of the NJDOT records, 2024 and 2025. This table counts every Route 47 accident with that cross street on the record, at the corner or near it. The intersection table above counts only accidents coded at the intersection, which is why Bluebird Ln shows 8 there. Each row is one exact spelling, so a cross street can have more accidents than its row shows.</p>
+  <p>Landis Avenue is split even more. On Route 47 in Vineland, it is recorded four ways: "NJ 56 (Landis Avenue)" 12, "West Landis Avenue" 8, "Landis Ave" 4 and "NJ 56 / Landis Ave" 3. That is 27 together, second only to Bluebird Lane's 30. All four names most likely point to the Delsea Drive and Landis Avenue corner, but the table keeps them apart as recorded.</p>
+  <p class="source">Source: our rerun of the same records, Route 47 with a state road name, Cumberland, 2024 and 2025 (2025 preliminary), cross street containing "LANDIS," at least one person hurt or killed.</p>
+
+  <h3 id="route-47-types">What kinds of Route 47 accidents hurt people</h3>
+  <p>On Route 47 in Cumberland County, rear-end accidents were 35 percent of accidents where someone was hurt in 2023 and 2024 (133 of 385). Right-angle accidents were 26 percent (100), and left-turn or U-turn accidents 12 percent (46). That left-turn share is higher than the county's 7 percent.</p>
+  <p>Seven Route 47 accidents in Cumberland killed 8 people from 2023 to 2025, with 2025 preliminary. Four of the seven were coded Left Turn/U Turn, two were pedestrian accidents and one was a side swipe. Vineland had four of them (two in 2023, one in 2024, one in 2025), Millville two (both 2023) and Maurice River one (2025).</p>
+  <p class="source">Source: our analysis of the NJDOT records, 2023 to 2025. Counts of types say nothing about who caused any one accident.</p>
+
+  <h3 id="route-47-landis-delsea">Changes planned at the Delsea Drive and Landis Avenue corner</h3>
+  <p>Vineland's Planning Board heard a plan in August 2025 to turn the former Sears on the northeast corner of Landis Avenue and Delsea Drive into a church. The minutes say one driveway nearest the intersection will be removed, with two access points kept farther north.</p>
+  <p>In October 2025, the board heard a request to move the deadline for recording cross-access easements to neighboring lots from building-permit clearance to temporary certificate of occupancy clearance. An approval is not proof that a driveway was closed or a connection opened on the day of your accident. If your accident was near this corner, photographs dated to that day show the layout better than a plan.</p>
+  <p class="source">Source: City of Vineland Planning Board minutes, <a href="https://www.vinelandcity.org/Archive/Planning%20Board/Minutes/2025/Minutes%208-12-25%20.pdf">August 12, 2025</a> and <a href="https://www.vinelandcity.org/Archive/Planning%20Board/Minutes/2025/Minutes%2010-8-25%20.pdf">October 8, 2025</a>, both retrieved 2026-11-10.</p>
+
+  <h3 id="route-47-beyond">Route 47 outside Cumberland County</h3>
+  <p>North of Cumberland, Route 47 runs into Gloucester County, including Glassboro, Deptford and Washington Township. Washington Township had 52 Route 47 accidents where someone was hurt in 2023 and 2024; see <a href="/new-jersey/washington-township-gloucester-nj-car-accidents">car accidents in Washington Township, Gloucester County</a>. South of Cumberland it runs into Cape May County, where Middle and Dennis townships had the most Route 47 deaths from 2023 to 2025 (5 and 4).</p>
+  <p class="source">Source: our analysis of the NJDOT records for all of Route 47, 2023 to 2025 (2025 preliminary).</p>
+</section>
+
+<section id="more-pages">
+  <h2>More pages for Cumberland County and its neighbors</h2>
+  <p>This page now covers Route 47 in Cumberland County. There are no separate town pages for Vineland, Millville or Bridgeton yet, and no Cumberland truck, motorcycle or rideshare pages. These pages cover the neighboring counties and the accident types:</p>
+  <ul>
+    <li><a href="/new-jersey/salem-county-car-accident-help">Salem County car accidents, west of Bridgeton</a></li>
+    <li><a href="/new-jersey/gloucester-county-truck-accident-help">Gloucester County truck accidents, where Route 47 and Route 55 continue north</a></li>
+    <li><a href="/new-jersey/cape-may-county-motorcycle-accident-help">Cape May County motorcycle accidents, where Route 47 continues south</a></li>
+    <li><a href="/new-jersey/washington-township-gloucester-nj-car-accidents">Washington Township, Gloucester County, on Route 47</a></li>
+    <li><a href="/new-jersey/new-jersey-truck-accident-help">truck accident help in New Jersey</a></li>
+    <li><a href="/new-jersey/new-jersey-motorcycle-accident-help">motorcycle accident help in New Jersey</a></li>
+    <li><a href="/new-jersey/new-jersey-rideshare-accident-help">Uber and Lyft accident help in New Jersey</a></li>
+    <li><a href="/new-jersey/pedestrian-crash-new-jersey">pedestrian accident help in New Jersey</a></li>
+    <li><a href="/new-jersey/nj-bicycle-accident-claim-help">bicycle accident help in New Jersey</a></li>
+    <li><a href="/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">what happens if you were partly at fault in a New Jersey accident</a></li>
+    <li><a href="/new-jersey/pip-health-insurance-medical-bills-new-jersey">how PIP and health insurance pay medical bills</a></li>
+    <li><a href="/new-jersey/new-jersey-car-accident-help">New Jersey car accident help, statewide</a></li>
+  </ul>
+</section>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened in Cumberland County. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident in Cumberland County? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=cumberland-county-car-accident-help">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="method">
+  <h2>Where the Cumberland figures come from, and where they fall short</h2>
+  <p>An accident where someone was hurt is a police-reported crash in which at least one person was hurt or killed. Data: NJDOT crash records (2023 from the NJDOT per-table archive, 2024 and 2025 from the NJDOT Crash Data Portal) as normalized by the open-source <a href="https://github.com/hudcostreets/nj-crashes">nj-crashes project</a>, with fatal crashes supplemented from the NJ State Police fatal feed. Data file downloaded 2026-11-06.</p>
+  <p>The biggest gap is Bridgeton in 2023: the export holds only 13 Bridgeton City records for that year, so every 2023 total on this page that includes Bridgeton, Route 49 or Route 77 runs low. The town, road and accident-type tables still use 2023 and 2024, the last two complete years. The corner, cross-street and State Police tables use 2024 and 2025 instead. Street names were written differently in those two years, and the station field that shows a State Police report is mostly empty in 2023. 2025 is preliminary everywhere it appears.</p>
+  <p>Nothing here measures how dangerous a Cumberland road is per car or per mile, because no traffic-volume figure sits behind these counts. A road that carries more traffic can log more accidents for that reason alone. We ran the counts ourselves from the NJDOT crash records file; the method notes on this page describe the selection.</p>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=home">Start the New Jersey accident quiz ↗</a></div></footer></div>

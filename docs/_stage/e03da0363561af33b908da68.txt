@@ -1,0 +1,225 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><style>.research-chart{margin:30px 0}.research-series .research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important}.quiz-cta .button{display:inline-block;margin-top:12px}</style><style>.place-page figure.research-chart img,.mva-site[data-conversion-batch] .place-page figure.research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto}.place-page figure.research-chart.portrait img,.mva-site[data-conversion-batch] .place-page figure.research-chart.portrait img{max-width:540px!important}.place-page .mva-review-scroll table{min-width:640px}.place-page .research-data-links a{overflow-wrap:anywhere}@media(max-width:600px){.mva-site[data-conversion-batch] .place-page .article-image img,.place-page .article-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page road-page" id="route-73">
+
+<h1>Route 73 NJ accident records: 463 accidents hurt someone in two years, and six in ten were rear-end collisions</h1>
+
+<section id="answer">
+  <p class="lead">Police-reported records show 463 car accidents on Route 73 in 2023 and 2024 in which someone was hurt or killed. In those accidents 642 people were hurt and 6 were killed.</p>
+  <p>279 of the 463, or 60 percent, were coded as rear-end collisions, roughly double the New Jersey share shown in the collision table below. Mount Laurel and Maple Shade together had 199 of the 463, the stretch where Route 73 meets the Turnpike, I-295 and Route 38.</p>
+  <p>This page does not show live traffic or today's accidents. It covers 2023 to 2025, and 2025 is preliminary.</p>
+  <p class="source">Source: NJDOT crash records 2023 to 2025 as normalized by the open-source <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a> project (retrieved 2026-11-10), fatal accidents supplemented from <a href="https://nj.gov/njsp/info/fatalacc/">NJ State Police fatal crash statistics</a> (retrieved 2026-11-10). Analysis by us; method at the end of this page.</p>
+  <div class="quiz-cta quiz-cta-inline">
+    <p>Were you one of the people hurt in a Route 73 car accident, at the Turnpike interchange or anywhere else on the road? Our sponsor runs a free New Jersey screening questionnaire with no obligation. It asks if you were hurt and whether you have hired a lawyer yet, then turns to fault, medical attention, the police report and the accident date. If you qualify, a lawyer or legal consultant who sponsors the questionnaire may phone you.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-73-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="collision-types">
+  <h2>How Route 73 injury accidents happened, next to the state figures</h2>
+  <p>Statewide, rear-end collisions were 31 percent and right-angle 22 percent of accidents where someone was hurt. On Route 73 the rear-end share is about twice the statewide share, and right-angle collisions are a smaller share than statewide.</p>
+  <p>Most of these accidents involved two or more vehicles. Of the 463 accidents where someone was hurt, 316 involved two vehicles and 93 involved three or more. Only 54 involved a single vehicle.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Accidents where someone was hurt or killed, by police-coded collision type, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Collision type (as coded)</th><th scope="col">Route 73</th><th scope="col">Share on Route 73</th><th scope="col">Share in New Jersey</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Same direction, rear end</th><td>279</td><td>60%</td><td>31%</td></tr>
+      <tr><th scope="row">Right angle</th><td>58</td><td>13%</td><td>22%</td></tr>
+      <tr><th scope="row">Same direction, side swipe</th><td>46</td><td>10%</td><td>9%</td></tr>
+      <tr><th scope="row">Fixed object</th><td>41</td><td>9%</td><td>12%</td></tr>
+      <tr><th scope="row">Left turn or U turn</th><td>10</td><td>2%</td><td>5%</td></tr>
+      <tr><th scope="row">Pedestrian</th><td>10</td><td>2%</td><td>7%</td></tr>
+      <tr><th scope="row">All other types</th><td>19</td><td>4%</td><td>n/a</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10); statewide shares from 112,966 accidents where someone was hurt or killed in New Jersey in 2023 and 2024. "All other types" includes 6 head-on and 5 animal accidents.</p>
+  <p>The collision type is how the officer coded the way the vehicles met. It is not a finding of who caused the accident. The New Jersey Department of Banking and Insurance says insurance companies decide fault from all the facts, including police reports and statements. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">NJ DOBI, Everything You Wanted to Know About Auto Insurance, 2026</a>, pp. 26 and 27, retrieved 2026-11-10)</span> More on this accident type: <a href="/new-jersey/rear-end-crash-new-jersey">what to do after a rear-end car accident in New Jersey</a>.</p>
+</section>
+
+<section id="interchange-stretch">
+  <h2>Mount Laurel and Maple Shade: where Route 73 meets the Turnpike, I-295 and Route 38</h2>
+  <p>Mount Laurel had 101 of Route 73's 463 injury accidents in 2023 and 2024, and Maple Shade had 98. Evesham, the next town south, had 63. Those three Burlington County towns account for 262, or 57 percent.</p>
+  <p>The records also show which numbered roads were named as the cross street. In Mount Laurel, 64 accidents in 2024 and preliminary 2025 records named the New Jersey Turnpike, and 18 of them hurt someone. In the record strings these are split between "New Jersey Turnpike" and "New Jersey Turnpike Secondary", so the cross-street table below lists them as two rows.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 73 accidents that named another numbered road as the cross street, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Cross road named</th><th scope="col">Town in the record</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">New Jersey Turnpike</th><td>Mount Laurel</td><td>64</td><td>18</td></tr>
+      <tr><th scope="row">Route 38</th><td>Maple Shade</td><td>54</td><td>10</td></tr>
+      <tr><th scope="row">Route 41 (Kings Highway)</th><td>Maple Shade</td><td>52</td><td>5</td></tr>
+      <tr><th scope="row">I-295</th><td>Mount Laurel</td><td>46</td><td>7</td></tr>
+      <tr><th scope="row">County Route 544 (Evesham Road)</th><td>Evesham</td><td>35</td><td>9</td></tr>
+      <tr><th scope="row">County Route 561</th><td>Winslow</td><td>13</td><td>6</td></tr>
+      <tr><th scope="row">Route 130</th><td>Pennsauken</td><td>12</td><td>3</td></tr>
+      <tr><th scope="row">Route 30 (White Horse Pike)</th><td>Waterford (10), Berlin Borough (1)</td><td>11</td><td>4</td></tr>
+      <tr><th scope="row">Route 70</th><td>Evesham</td><td>10</td><td>2</td></tr>
+      <tr><th scope="row">Route 90 (Betsy Ross Bridge)</th><td>Cinnaminson (6), Maple Shade (1)</td><td>7</td><td>2</td></tr>
+      <tr><th scope="row">Atlantic City Expressway</th><td>Winslow</td><td>2</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10), our text match on the cross-street field. A match means the officer named that road as the nearest cross street. It does not mean the accident happened on the other road or its ramps. No one was killed in any of these matched records.</p>
+  <p>For the town picture beyond Route 73, see <a href="/new-jersey/mount-laurel-nj-car-accidents">car accidents in Mount Laurel, street by street</a>. The crossing roads have their own pages: <a href="/new-jersey/route-38-nj-accidents">Route 38 accident records</a>, <a href="/new-jersey/route-70-nj-accidents">Route 70 accident records</a>, <a href="/new-jersey/route-130-nj-accidents">Route 130 accident records</a> and <a href="/new-jersey/white-horse-pike-accidents">White Horse Pike (Route 30) accident records</a>.</p>
+</section>
+
+<section id="cross-streets">
+  <h2>Willow Road, Fellowship Road and Church Road top the Route 73 side-street list for 2024 and preliminary 2025</h2>
+  <p>Willow Road in Maple Shade had the most accidents where someone was hurt, 27 in 2024 and preliminary 2025 records. Fellowship Road (County 673) and Church Road (County 616), both in Mount Laurel, came next with 17 and 15.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Cross streets on Route 73 with 8 or more accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Cross street (as recorded)</th><th scope="col">Town, county</th><th scope="col">Someone hurt or killed</th><th scope="col">Of which 2025</th><th scope="col">All accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Willow Road</th><td>Maple Shade, Burlington</td><td>27</td><td>11</td><td>102</td><td>0</td></tr>
+      <tr><th scope="row">Fellowship Road (County 673)</th><td>Mount Laurel, Burlington</td><td>17</td><td>10</td><td>110</td><td>0</td></tr>
+      <tr><th scope="row">Church Road (County 616)</th><td>Mount Laurel, Burlington</td><td>15</td><td>11</td><td>79</td><td>0</td></tr>
+      <tr><th scope="row">Dutchtown Road</th><td>Voorhees, Camden</td><td>12</td><td>9</td><td>32</td><td>0</td></tr>
+      <tr><th scope="row">Brick Road</th><td>Evesham, Burlington</td><td>11</td><td>10</td><td>43</td><td>0</td></tr>
+      <tr><th scope="row">New Jersey Turnpike Secondary</th><td>Mount Laurel, Burlington</td><td>11</td><td>7</td><td>36</td><td>0</td></tr>
+      <tr><th scope="row">Commerce Parkway</th><td>Mount Laurel, Burlington</td><td>10</td><td>5</td><td>32</td><td>0</td></tr>
+      <tr><th scope="row">Rogers Walk</th><td>Mount Laurel, Burlington</td><td>9</td><td>5</td><td>58</td><td>2</td></tr>
+      <tr><th scope="row">Lincoln Drive East</th><td>Evesham, Burlington</td><td>9</td><td>6</td><td>23</td><td>1</td></tr>
+      <tr><th scope="row">Beaver Avenue</th><td>Mount Laurel, Burlington</td><td>8</td><td>5</td><td>45</td><td>0</td></tr>
+      <tr><th scope="row">Fellowship Road (County 610)</th><td>Maple Shade, Burlington</td><td>8</td><td>2</td><td>32</td><td>0</td></tr>
+      <tr><th scope="row">Fox Meadow Drive</th><td>Maple Shade, Burlington</td><td>8</td><td>2</td><td>24</td><td>1</td></tr>
+      <tr><th scope="row">Hylton Road</th><td>Pennsauken, Camden</td><td>8</td><td>4</td><td>18</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10). Ties: three more cross streets had 7 each and are not shown (Cooper Road, County 675, in Voorhees; New Jersey Turnpike in Mount Laurel; Blue Anchor Road, County 720, in Winslow). Counts are a floor because spelling variants of a street name are not merged. The two Fellowship Road rows are different county roads in different towns.</p>
+  <p>We have no traffic volumes for Willow Road, Fellowship Road or any other Route 73 side street, so the table cannot say which crossing is more dangerous per car. A high number may just reflect heavy use. A statewide list is on <a href="/new-jersey/most-dangerous-intersections-nj">New Jersey intersections with the most injury accidents</a>.</p>
+</section>
+
+<section id="deaths">
+  <h2>Ten people died on Route 73 from 2023 to 2025 (2025 preliminary), eight of them after dark</h2>
+  <p>The records list 10 fatal accidents on Route 73 from 2023 to 2025, four of them in preliminary 2025 records, each with one death. Four of the people killed were pedestrians and one accident involved a bicycle. Eight of the ten happened in the dark.</p>
+  <p>That is a different picture from the injury accidents. About a quarter of Route 73 accidents where someone was hurt in 2023 and 2024 happened in the dark, and pedestrian accidents were 2 percent of them.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Fatal accidents on Route 73, 2023 to 2025 (2025 preliminary), in date order</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">Town, county</th><th scope="col">Cross street (as recorded)</th><th scope="col">Collision type</th><th scope="col">Light</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>Folsom, Atlantic</td><td>not recorded</td><td>Fixed object</td><td>Daylight</td></tr>
+      <tr><th scope="row">2023</th><td>Berlin Borough, Camden</td><td>County 689 / Milford Road</td><td>Right angle</td><td>Dark, spot street lights</td></tr>
+      <tr><th scope="row">2023</th><td>Evesham, Burlington</td><td>Dutch Road</td><td>Right angle</td><td>Dark, continuous street lights</td></tr>
+      <tr><th scope="row">2024</th><td>Mount Laurel, Burlington</td><td>Rogers Walk</td><td>Pedestrian</td><td>Dark, spot street lights</td></tr>
+      <tr><th scope="row">2024</th><td>Evesham, Burlington</td><td>Lincoln Drive East</td><td>Pedestrian</td><td>Daylight</td></tr>
+      <tr><th scope="row">2024</th><td>Maple Shade, Burlington</td><td>Fox Meadow Drive</td><td>Pedestrian</td><td>Dark, no street lights</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>Palmyra, Burlington</td><td>not recorded</td><td>Fixed object</td><td>Dark, continuous street lights</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>Berlin Township, Camden</td><td>Lenz Lane</td><td>Pedestrian</td><td>Dark, continuous street lights</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>Folsom, Atlantic</td><td>Memory Lane</td><td>Left turn or U turn</td><td>Dark, no street lights</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>Mount Laurel, Burlington</td><td>Rogers Walk</td><td>Bicycle</td><td>Dark, continuous street lights</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, fatal accidents supplemented from <a href="https://nj.gov/njsp/info/fatalacc/">NJ State Police fatal crash statistics</a> (both retrieved 2026-11-10). Rogers Walk in Mount Laurel appears twice, one death in 2024 and one in preliminary 2025 records. 2025 deaths may still be added or revised.</p>
+  <p>If someone in your family was killed or badly hurt, these pages may help: <a href="/new-jersey/pedestrian-crash-new-jersey">after a pedestrian is hit by a car in New Jersey</a>, <a href="/new-jersey/nj-bicycle-accident-claim-help">bicycle accident claims in New Jersey</a> and <a href="/new-jersey/nj-new-jersey-wrongful-death-accident-claim-support-guide">what families can do after a fatal car accident in New Jersey</a>.</p>
+</section>
+
+<section id="by-year">
+  <h2>All Route 73 accidents, and those where someone was hurt, rose each year (2025 preliminary)</h2>
+  <p>Accidents where someone was hurt rose from 199 in 2023 to 264 in 2024. Preliminary 2025 records already show 316. All accidents in 2025 are already 18 percent above 2024, so 2025 does not look visibly incomplete for this road. It can still rise as late reports arrive.</p>
+  <p>Read the 2023 to 2024 rise with care. The 2023 figures come from a different NJDOT export than 2024 and 2025, and statewide injury accidents also rose by about 11 percent between those years. We cannot tell how much of Route 73's change is reporting and how much is real.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 73 accidents by year, 2023 to 2025</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>999</td><td>199</td><td>261</td><td>3</td><td>2</td><td>0</td></tr>
+      <tr><th scope="row">2024</th><td>1,079</td><td>264</td><td>381</td><td>3</td><td>9</td><td>1</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>1,271</td><td>316</td><td>438</td><td>4</td><td>6</td><td>2</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10). Statewide accidents where someone was hurt or killed: 53,500 in 2023 and 59,466 in 2024.</p>
+  <p>Within each day, the three hours from 3 pm to 6 pm had 124 of the 463 injury accidents in 2023 and 2024, the busiest window. Wednesday had the most (76) and Sunday the fewest (53). April and May had the most by month, February the fewest. The statewide pattern is on <a href="/new-jersey/when-do-most-car-accidents-happen">when most car accidents happen in New Jersey</a>.</p>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10), accidents where someone was hurt or killed, 2023 and 2024.</p>
+</section>
+
+<section id="towns">
+  <h2>Fifteen towns in three counties, as the records code them</h2>
+  <p>Route 73 records run from Folsom in Atlantic County, near milepost 0, to Palmyra in Burlington County, near milepost 34. Burlington County had 307 of the 463 injury accidents, Camden County 146 and Atlantic County 10.</p>
+  <p>Route 73 was about 6 percent of all Burlington County accidents where someone was hurt (307 of 5,239) and about 2 percent in Camden County (146 of 6,318).</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 73 accidents by town, 2023 and 2024, most injury accidents first</caption>
+    <thead>
+      <tr><th scope="col">Town</th><th scope="col">County</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Mount Laurel Township</th><td>Burlington</td><td>535</td><td>101</td><td>131</td><td>1</td></tr>
+      <tr><th scope="row">Maple Shade Township</th><td>Burlington</td><td>399</td><td>98</td><td>132</td><td>1</td></tr>
+      <tr><th scope="row">Evesham Township</th><td>Burlington</td><td>272</td><td>63</td><td>85</td><td>2</td></tr>
+      <tr><th scope="row">Winslow Township</th><td>Camden</td><td>222</td><td>53</td><td>83</td><td>0</td></tr>
+      <tr><th scope="row">Voorhees Township</th><td>Camden</td><td>232</td><td>45</td><td>58</td><td>0</td></tr>
+      <tr><th scope="row">Berlin Township</th><td>Camden</td><td>120</td><td>25</td><td>32</td><td>0</td></tr>
+      <tr><th scope="row">Palmyra Borough</th><td>Burlington</td><td>102</td><td>19</td><td>32</td><td>0</td></tr>
+      <tr><th scope="row">Cinnaminson Township</th><td>Burlington</td><td>37</td><td>16</td><td>21</td><td>0</td></tr>
+      <tr><th scope="row">Folsom Borough</th><td>Atlantic</td><td>34</td><td>10</td><td>12</td><td>1</td></tr>
+      <tr><th scope="row">Berlin Borough</th><td>Camden</td><td>26</td><td>10</td><td>17</td><td>1</td></tr>
+      <tr><th scope="row">Pennsauken Township</th><td>Camden</td><td>39</td><td>10</td><td>19</td><td>0</td></tr>
+      <tr><th scope="row">Mount Holly Township</th><td>Burlington</td><td>23</td><td>6</td><td>12</td><td>0</td></tr>
+      <tr><th scope="row">Mansfield Township</th><td>Burlington</td><td>23</td><td>4</td><td>4</td><td>0</td></tr>
+      <tr><th scope="row">Waterford Township</th><td>Camden</td><td>12</td><td>3</td><td>4</td><td>0</td></tr>
+      <tr><th scope="row">North Hanover Township</th><td>Burlington</td><td>2</td><td>0</td><td>0</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10). The few records coded to Mount Holly, Mansfield and North Hanover carry mileposts inside the Mount Laurel, Maple Shade and Palmyra ranges. We show them as coded and have not reassigned them.</p>
+  <p>Camden County readers can also use the <a href="/new-jersey/camden-county-car-accident-help">Camden County car accident help page</a>.</p>
+</section>
+
+<section id="report">
+  <h2>Which agency wrote your Route 73 accident report</h2>
+  <p>Only 46 of the 3,349 Route 73 records from 2023 to 2025 (2025 preliminary) name a New Jersey State Police station. 38 of those are in Folsom, at the Buena Vista station, out of 50 Folsom records. Elsewhere on Route 73, the records rarely name the State Police, so the accident was most likely handled by the town's own police department.</p>
+  <ul>
+    <li><strong>Folsom, or any accident the State Police handled.</strong> For a State Police report from Folsom, the non-toll road fee is $13.00 through the State Police <a href="https://www.njportal.com/njsp/crashreports/">online crash report portal</a>. Reports stay there for six years. A Buena Vista report that does not show up yet may still be in process; the portal advises a fresh search a couple of days later. The Criminal Justice Records Bureau takes report questions by email at NJSPRecords@NJSP.gov and by phone on (609) 882-2000 ext. 2234. <span class="source">(NJSP crash reports portal and <a href="https://njsp.njoag.gov/identification-amp-information-technology-section/criminal-justice-records-bureau/">NJSP Criminal Justice Records Bureau</a>, retrieved 2026-11-10)</span></li>
+    <li><strong>Mount Laurel, Maple Shade, Evesham, Voorhees, Winslow and the other towns.</strong> Ask the records unit of the police department that came to the scene. We could not verify the departments' procedures or fees, or confirm their online records pages, so we do not link them here.</li>
+    <li><strong>No officer came.</strong> The police crash report (NJTR-1) is completed by police only. Drivers report an accident police did not investigate on New Jersey's SR-1 self-reporting form. <span class="source">(<a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">NJDOT police resources page</a>, retrieved 2026-11-10)</span></li>
+  </ul>
+  <p class="source">Source for the station counts: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10). NJDOT does not document the station field, so these counts only hint at which agency took a Route 73 report. The department named on the report itself settles it.</p>
+  <p>When the report arrives, check it. The insurance regulator's advice: "Get a copy of the police report. Review report for details, such as how many passengers were listed." If you find mistakes, tell your insurance company and the police department that responded. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">NJ DOBI, Everything You Wanted to Know About Auto Insurance, 2026</a>, p. 25, retrieved 2026-11-10)</span> Every agency's route is on <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report</a>.</p>
+</section>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened on Route 73. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident on Route 73? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-73-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="sources-method">
+  <h2>Where these figures come from</h2>
+  <p>We used NJDOT crash records for 2023 to 2025 as normalized by the open-source hudcostreets/nj-crashes project, with fatal accidents supplemented from the NJ State Police feed (file downloaded 2026-11-06). 2023 and 2024 are complete. 2025 is preliminary and labelled wherever it appears.</p>
+  <p>A record counts as Route 73 when its route number is 73 and its road name starts with a state prefix, such as "NJ 73" or "NJ 73 SECONDARY". County or local roads that share the number are left out. That gives 3,349 records: 999 in 2023, 1,079 in 2024 and 1,271 in 2025 (preliminary).</p>
+  <p>Two 2024 records in Maple Shade carry route number 73 but the road name "NJ 38". We count them as Route 73, as the route code says. Both had someone hurt (4 people in all). Without them, the 2023 and 2024 figures would be 461 accidents where someone was hurt and 638 people hurt.</p>
+  <p>"Someone hurt or killed" means at least one person was injured or killed, as reported by police. Cross-street rankings use 2024 and 2025 only, because street naming changed between the 2023 and 2024 exports. They are a floor, because spelling variants are not merged. All figures are counts, not risk rates, since there is no traffic-volume figure behind them.</p>
+  <p class="source">We ran the counts ourselves from the NJDOT crash records file (run 2026-11-10); the method notes on this page describe the selection.</p>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-73-nj-accidents">Start the New Jersey accident quiz ↗</a></div></footer></div>

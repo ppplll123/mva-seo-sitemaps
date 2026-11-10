@@ -1,0 +1,219 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><style>.research-chart{margin:30px 0}.research-series .research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important}.quiz-cta .button{display:inline-block;margin-top:12px}</style><style>.place-page figure.research-chart img,.mva-site[data-conversion-batch] .place-page figure.research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto}.place-page figure.research-chart.portrait img,.mva-site[data-conversion-batch] .place-page figure.research-chart.portrait img{max-width:540px!important}.place-page .mva-review-scroll table{min-width:640px}.place-page .research-data-links a{overflow-wrap:anywhere}@media(max-width:600px){.mva-site[data-conversion-batch] .place-page .article-image img,.place-page .article-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page road-page" id="route-31">
+
+<h1>Route 31 NJ accident today: animal strikes, curves and where to get your report</h1>
+
+<section id="answer">
+  <p class="lead">This page does not track live Route 31 accidents. It covers police-reported car accidents on Route 31 from 2023 to 2025, and tells you which police agency is likely to hold your report.</p>
+  <p>In 2023 and 2024, police reported 1,850 car accidents on Route 31, which runs through Mercer, Hunterdon and Warren counties. Someone was hurt or killed in 436 of them, 656 people were hurt and 8 people died.</p>
+  <p>Two things set Route 31 apart. About one in seven of its accidents involved an animal, about four times the statewide share, and most of those came in October and November. And half of its deaths came from head-on collisions, all three of them on curves.</p>
+  <p class="source">Counts: our tally of NJDOT crash records 2023 to 2025, using the cleaned files published by <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a> (retrieved 2026-11-10), with fatal accidents filled in from <a href="https://nj.gov/njsp/info/fatalacc/">NJ State Police fatal crash statistics</a> (retrieved 2026-11-10). How Route 31 records were picked is under "How the Route 31 records were selected".</p>
+  <div class="quiz-cta quiz-cta-inline">
+    <p>Hurt in a car accident on Route 31, in Hunterdon, Mercer or Warren County? The free New Jersey questionnaire asks a few short questions about your injury, medical attention, the police report and the date, with no obligation. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-31-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="deer">
+  <h2>Animal strikes: 281 accidents, most of them in October and November</h2>
+  <p>Route 31 had 281 animal accidents in 2023 and 2024, 15.2 percent of all its police-reported accidents. Statewide, animals were 3.9 percent (20,082 of 514,320). The records do not name the animal.</p>
+  <p>October (81) and November (72) together held 153 of the 281, or 54 percent. Most animal accidents damaged vehicles without hurting anyone: 15 of the 281 had someone hurt or killed.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 31 animal accidents by month, 2023 and 2024 combined</caption>
+    <thead>
+      <tr><th scope="col">Month</th><th scope="col">Jan</th><th scope="col">Feb</th><th scope="col">Mar</th><th scope="col">Apr</th><th scope="col">May</th><th scope="col">Jun</th><th scope="col">Jul</th><th scope="col">Aug</th><th scope="col">Sep</th><th scope="col">Oct</th><th scope="col">Nov</th><th scope="col">Dec</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Animal accidents</th><td>11</td><td>12</td><td>10</td><td>11</td><td>8</td><td>26</td><td>9</td><td>10</td><td>15</td><td>81</td><td>72</td><td>16</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>Clinton Township had the most Route 31 animal accidents (79), then Hopewell Township (37) and Washington Township in Warren County (35). Raritan Township followed with 30.</p>
+  <p class="source">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes, crash type "Animal", our analysis.</p>
+  <p>A single-car animal strike with no other driver still falls under your own PIP. PIP covers your medical expenses whoever caused the accident, up to the limit you chose and after your deductible and a 20 percent co-pay on part of the bills. Drivers who picked the health-insurer-primary option have their health plan billed ahead of PIP. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, pp. 2, 5 to 7; <a href="https://www.nj.gov/dobi/division_consumers/insurance/pipoption.htm">NJ DOBI, Selecting Your Health Insurer for PIP Option</a>; retrieved 2026-11-10)</span></p>
+</section>
+
+<section id="deaths">
+  <h2>The 8 deaths: head-on collisions on curves stand out</h2>
+  <p>Seven fatal accidents on Route 31 killed 8 people in 2023 and 2024. Three were head-on collisions, and they killed 4 people, half of the road's deaths. Statewide, head-on collisions accounted for 8.5 percent of deaths (110 of 1,294).</p>
+  <p>All three fatal head-on records were coded on a curve. Two were on wet, downhill stretches in daylight; one was at night on a road with no street lights. With numbers this small, treat this as a description of what happened, not a measure of risk.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Fatal accidents on Route 31, 2023 and 2024, as coded in the crash records</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">Town, county</th><th scope="col">Accident type</th><th scope="col">Light</th><th scope="col">Surface</th><th scope="col">Road</th><th scope="col">Killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>Hampton Boro, Hunterdon</td><td>Head-on</td><td>Daylight</td><td>Wet</td><td>Curve, downhill</td><td>1</td></tr>
+      <tr><th scope="row">2023</th><td>Oxford Twp, Warren</td><td>Head-on</td><td>Daylight</td><td>Wet</td><td>Curve, downhill</td><td>1</td></tr>
+      <tr><th scope="row">2023</th><td>Ewing Twp, Mercer</td><td>Pedestrian</td><td>Dark, street lights on</td><td>Wet</td><td>Straight, level</td><td>1</td></tr>
+      <tr><th scope="row">2023</th><td>Raritan Twp, Hunterdon</td><td>Bicyclist</td><td>Dark, street lights on</td><td>Wet</td><td>Straight, level</td><td>1</td></tr>
+      <tr><th scope="row">2024</th><td>Hopewell Twp, Mercer</td><td>Head-on</td><td>Dark, no street lights</td><td>Dry</td><td>Curve, level</td><td>2</td></tr>
+      <tr><th scope="row">2024</th><td>Glen Gardner Boro, Hunterdon</td><td>Pedestrian</td><td>Dark, no street lights</td><td>Dry</td><td>Straight, level</td><td>1</td></tr>
+      <tr><th scope="row">2024</th><td>Clinton Twp, Hunterdon</td><td>Rear end</td><td>Daylight</td><td>Dry</td><td>Straight, uphill</td><td>1</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>Four of the 8 deaths happened on wet pavement, even though wet roads were only 15 percent of Route 31 accidents (280 of 1,850). The preliminary 2025 file has no Route 31 deaths recorded so far. Do not read that as a year without deaths: 2025 records are still arriving.</p>
+  <p class="source">Source: NJDOT crash records 2023 to 2025 via hudcostreets/nj-crashes, fatal accidents supplemented from NJ State Police (retrieved 2026-11-10). The statewide figure counts only head-on (angular) collisions, not opposite-direction sideswipes. Dates are left out so that no individual accident is identifiable.</p>
+</section>
+
+<section id="three-counties">
+  <h2>One road, three counties: how Route 31 ranks locally</h2>
+  <p>Hunterdon County logged 217 Route 31 accidents with someone hurt or killed over 2023 and 2024, second only to I-78 with 230. That is about half of Route 31's 436. In Warren County it is third (80), behind I-80 (152) and Route 57 (100).</p>
+  <p>In Mercer County, Route 31 (138) ranks eighth among state and interstate roads. Route 1, Route 206, Route 33, I-295, Route 29, Route 130 and I-95 all had more. No road ties with Route 31 in any of the three counties.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 31 accidents by town, 2023 and 2024, towns with 15 or more where someone was hurt</caption>
+    <thead>
+      <tr><th scope="col">Town, county</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Ewing Twp, Mercer</th><td>244</td><td>62</td><td>89</td><td>1</td></tr>
+      <tr><th scope="row">Clinton Twp, Hunterdon</th><td>267</td><td>54</td><td>84</td><td>1</td></tr>
+      <tr><th scope="row">Washington Twp, Warren</th><td>154</td><td>52</td><td>79</td><td>0</td></tr>
+      <tr><th scope="row">Raritan Twp, Hunterdon</th><td>268</td><td>51</td><td>78</td><td>1</td></tr>
+      <tr><th scope="row">Hopewell Twp, Mercer</th><td>240</td><td>50</td><td>67</td><td>2</td></tr>
+      <tr><th scope="row">Glen Gardner Boro, Hunterdon</th><td>72</td><td>25</td><td>49</td><td>1</td></tr>
+      <tr><th scope="row">Lebanon Twp, Hunterdon</th><td>70</td><td>21</td><td>35</td><td>0</td></tr>
+      <tr><th scope="row">Flemington Boro, Hunterdon</th><td>141</td><td>19</td><td>20</td><td>0</td></tr>
+      <tr><th scope="row">East Amwell Twp, Hunterdon</th><td>55</td><td>16</td><td>29</td><td>0</td></tr>
+      <tr><th scope="row">Washington Boro, Warren</th><td>48</td><td>16</td><td>20</td><td>0</td></tr>
+      <tr><th scope="row">Trenton City, Mercer</th><td>74</td><td>15</td><td>21</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>The top five towns sit within 12 accidents of each other, so their order can shift from year to year. Eight more Route 31 towns had fewer than 15 each. One 2024 record coded to Ridgefield in Bergen County appears to be miscoded, since Route 31 does not run there; it is inside the 1,850 and 436 totals but left out of our extra tables.</p>
+  <p class="source">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes, our analysis. County ranks count each road by its route number, so a road's main and secondary roadway records are added together. Town table from the Route 31 profile.</p>
+</section>
+
+<section id="mileposts">
+  <h2>Most injury accidents happen between intersections</h2>
+  <p>Three in four Route 31 accidents where someone was hurt (329 of 435 in 2023 and 2024, the Bergen record left out) were coded as not at an intersection. So a milepost view says more than a list of corners. Route 31 mileposts in the records run from about 0 in Trenton to about 49 in Warren County.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 31 one-mile segments with the most accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Milepost segment</th><th scope="col">Town(s)</th><th scope="col">Hurt or killed, 2024</th><th scope="col">Hurt or killed, 2025 (prelim.)</th><th scope="col">All accidents, both years</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">42 to 43</th><td>Washington Boro, Washington Twp (Warren)</td><td>17</td><td>11</td><td>69</td></tr>
+      <tr><th scope="row">22 to 23</th><td>Flemington Boro, Raritan Twp</td><td>12</td><td>15</td><td>174</td></tr>
+      <tr><th scope="row">24 to 25</th><td>Raritan Twp</td><td>12</td><td>11</td><td>102</td></tr>
+      <tr><th scope="row">1 to 2</th><td>Ewing Twp, Trenton City</td><td>9</td><td>14</td><td>80</td></tr>
+      <tr><th scope="row">3 to 4</th><td>Ewing Twp</td><td>12</td><td>8</td><td>90</td></tr>
+      <tr><th scope="row">6 to 7</th><td>Hopewell Twp</td><td>8</td><td>11</td><td>100</td></tr>
+      <tr><th scope="row">23 to 24</th><td>Raritan Twp, Flemington Boro</td><td>8</td><td>10</td><td>96</td></tr>
+      <tr><th scope="row">0 to 1</th><td>Trenton City</td><td>3</td><td>14</td><td>67</td></tr>
+      <tr><th scope="row">5 to 6</th><td>Hopewell Twp</td><td>10</td><td>7</td><td>62</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>Segments 24 and 1 tie at 23, and segments 0 and 5 tie at 17. Four more segments tie at 16 just below the cut: miles 2 (Ewing), 7 (Pennington and Hopewell), 37 (Glen Gardner) and 39 (Hampton and Washington Township).</p>
+  <p>Where police did name a cross street, the most frequent in 2024 and 2025 were Route 202 in Flemington (12 accidents where someone was hurt, 76 in all) and Parkside Avenue in Ewing (12, 58 in all). Next came Route 57 (Washington Avenue) in Washington Borough with 10. Wescott Drive in Raritan Township, Asbury Anderson Road in Washington Township and North Olden Avenue in Ewing had 7 each. Four more cross streets tie at 6. Officers type cross streets by hand, and a misspelled entry drops out of its group, so read each count as a minimum.</p>
+  <p class="source">Source: NJDOT crash records via hudcostreets/nj-crashes, our analysis: intersection field 2023 and 2024, milepost segments 2024 and 2025, cross streets 2024 and 2025 from the Route 31 profile.</p>
+</section>
+
+<section id="when">
+  <h2>Weekday afternoons and rear-end collisions</h2>
+  <p>Between 3 pm and 6 pm came 118 of the 436 Route 31 injury accidents of 2023 and 2024, or 27 percent. By day of the week, the count ran from 48 on Sundays up to 86 on Tuesdays.</p>
+  <p>Rear-end collisions were 38.8 percent of Route 31 accidents where someone was hurt, above the statewide 30.7 percent. Right-angle collisions were 22.9 percent, close to the statewide 22.4 percent. These are counts; they do not say who caused any one accident.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 31 car accidents by year, 2023 to 2025</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>932</td><td>215</td><td>314</td><td>4</td><td>7</td></tr>
+      <tr><th scope="row">2024</th><td>918</td><td>221</td><td>342</td><td>4</td><td>6</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>963</td><td>218</td><td>314</td><td>0 so far</td><td>6</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>The 2025 total is already 105 percent of 2024's, so the preliminary year does not look visibly incomplete on Route 31. It can still change as late reports and the State Police fatal supplement arrive.</p>
+  <p class="source">Source: NJDOT crash records 2023 to 2025 via hudcostreets/nj-crashes, our analysis. The statewide accident-timing pattern is on <a href="/new-jersey/when-do-most-car-accidents-happen">when most New Jersey car accidents happen</a>.</p>
+</section>
+
+<section id="report-route">
+  <h2>Who holds a Route 31 report: the station field, town by town</h2>
+  <p>Route 31 is a state highway, yet most of its accidents are written up by local departments rather than troopers. Ewing, Flemington, Pennington, Readington and Trenton had no Route 31 record naming a State Police station in 2024 and 2025.</p>
+
+  <h3>Ewing, Hopewell and Raritan: the three town departments we checked</h3>
+  <ul>
+    <li><strong>Ewing Township</strong> (Route 31 is Pennington Road here): the Records Bureau says most accident reports are public information and are available in person for a nominal fee. Phone 609-882-1313 ext. 7553 or 7543, email policerecords@ewingnj.org. <span class="source">(<a href="https://www.ewingpolice.com/divisions/records">Ewing Police Records Bureau</a>, linked from ewingnj.org, retrieved 2026-11-10)</span></li>
+    <li><strong>Hopewell Township</strong>: crash report copies can be requested from the records clerk by phone or in person, or obtained online for $7 by searching by date, name or case number. Records clerk (609) 737-3100 option 2, Monday to Friday 8:30 am to 4:30 pm. <span class="source">(<a href="https://www.hopewellpolicenj.gov/divisions/records">Hopewell Township Police Records Bureau</a>, retrieved 2026-11-10)</span></li>
+    <li><strong>Raritan Township</strong> (around Flemington): a party listed in the report can get a copy in person at the police station or through crashdocs.org with the details the officer gave. If officers did not investigate, the department points drivers to the state SR-1 self-report form. Phone 908-782-8889. <span class="source">(<a href="https://www.raritantownshippolice.com/accident-reports">Raritan Township Police, Accident Reports</a>, retrieved 2026-11-10)</span></li>
+  </ul>
+  <p>Clinton Township, Washington Township in Warren County, Flemington and the other Route 31 towns were not checked for this page. Phone the records desk of whichever department sent officers to your Route 31 accident. Only police write the NJTR-1 report; a driver whose accident had no police investigation files the SR-1 form instead. <span class="source">(<a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">NJDOT Police Resources</a>, retrieved 2026-11-10)</span></p>
+
+  <h3>Hampton, Glen Gardner, White and the Amwells: mostly State Police</h3>
+  <p>In a few rural stretches, almost every Route 31 record names the Washington or Kingwood State Police station.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 31 accident records naming a State Police station, by town, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Town, county</th><th scope="col">Route 31 accidents</th><th scope="col">Records naming a State Police station</th><th scope="col">Station named</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">White Twp, Warren</th><td>12</td><td>12</td><td>Washington</td></tr>
+      <tr><th scope="row">Hampton Boro, Hunterdon</th><td>55</td><td>54</td><td>Washington</td></tr>
+      <tr><th scope="row">Glen Gardner Boro, Hunterdon</th><td>87</td><td>84</td><td>Washington (82), Perryville (2)</td></tr>
+      <tr><th scope="row">East Amwell Twp, Hunterdon</th><td>61</td><td>33</td><td>Kingwood (32), Bordentown (1)</td></tr>
+      <tr><th scope="row">West Amwell Twp, Hunterdon</th><td>21</td><td>5</td><td>Kingwood (4), other (1)</td></tr>
+      <tr><th scope="row">All other Route 31 towns</th><td>1,644</td><td>22</td><td>Various, under 8 percent in every town</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>A station name on the record is a data entry. It does not guarantee which agency holds your copy.</p>
+  <p class="source">Source: NJDOT crash records 2024 and 2025 via hudcostreets/nj-crashes, "station" field, our analysis. 2 records without a milepost are still counted here.</p>
+  <p>Where a trooper from the Washington, Kingwood or another station took the Route 31 report, the copy comes from the shared State Police and Turnpike Authority request site, <a href="https://www.njportal.com/njsp/crashreports/">njportal.com/njsp/crashreports</a>. Once a report is approved you get an email explaining how to download it, and a report missing from a first search may appear a couple of days later. Route 31 reports are priced as non-toll road reports at $13.00, and the site holds them for six years after the year of the crash.</p>
+  <p>Trouble using the site itself goes by email to njsprecords@njsp.gov. Its number for State Police records, 609-882-2000 ext. 2234, is listed for non-toll road crash report questions; if you requested the records of a serious or fatal crash, the site asks you to hold off calling until a month has gone by. <span class="source">(<a href="https://www.njportal.com/njsp/crashreports/">NJSP crash reports portal</a>, retrieved 2026-11-10)</span></p>
+</section>
+
+<section id="related">
+  <h2>Roads and towns that connect to Route 31</h2>
+  <ul>
+    <li><a href="/new-jersey/trenton-nj-car-accidents">Car accidents in Trenton</a>, at the southern end of Route 31's mileposts (15 accidents where someone was hurt on Route 31 in 2023 and 2024).</li>
+    <li><a href="/new-jersey/route-202-nj-accidents">Route 202 accident records</a>: officers named Route 202 as the cross street on 84 Route 31 records in 2024 and 2025, 82 of them in Flemington.</li>
+    <li><a href="/new-jersey/i-78-nj-accidents">I-78 accident records</a>: 18 Route 31 records in Clinton Township name I-78 as the cross street.</li>
+    <li><a href="/new-jersey/route-22-nj-accidents">Route 22 accident records</a>, the other highway named at Route 31's Clinton Township crossings.</li>
+    <li><a href="/new-jersey/route-46-nj-accidents">Route 46 accident records</a>, named as the cross street on 5 Route 31 records in White Township.</li>
+    <li><a href="/new-jersey/route-206-nj-accidents">Route 206 accident records</a>, named as the cross street on 7 Route 31 records in Trenton.</li>
+    <li><a href="/new-jersey/nj-head-on-accident-help-frontal-collision-claims">Head-on collision help in New Jersey</a> and <a href="/new-jersey/rear-end-crash-new-jersey">rear-end crash help in New Jersey</a>.</li>
+    <li><a href="/new-jersey/pedestrian-crash-new-jersey">Pedestrian crash help</a> and <a href="/new-jersey/nj-bicycle-accident-claim-help">bicycle accident help in New Jersey</a>.</li>
+    <li><a href="/new-jersey/hunterdon-county-motorcycle-accident-help">Motorcycle accident help in Hunterdon County</a>.</li>
+  </ul>
+  <p class="source">Crossing counts are Route 31 records from 2024 and 2025 (2025 preliminary) whose cross street names the other road: I-78 18 (all in Clinton Twp), Route 22 2 (Clinton Twp), Route 46 5 (White Twp), Route 206 7 (Trenton), Route 202 84 (82 in Flemington). Variant spellings may be missed, so these are minimums.</p>
+</section>
+
+<section id="method">
+  <h2>How the Route 31 records were selected</h2>
+  <p>We kept NJDOT crash records with route number 31 and a road name starting with "NJ", "US" or "I-". That leaves out county and local roads that also carry the number 31. The main roadway is recorded as "NJ 31". The Flemington cross street called Route 202 above is recorded as "US 202 Secondary".</p>
+  <p>Headline counts use 2023 and 2024, the two complete years. Tables of mileposts, cross streets and State Police stations start in 2024: the 2023 export names streets differently from the later files. In every table, an injury accident is a record where the officer listed one or more people as hurt or dead.</p>
+  <p>No traffic volumes are used, so these counts cannot show whether one stretch is riskier per car than another. Nor do they reveal fault in a single Route 31 accident, or anything about a possible claim or its value.</p>
+  <p class="source">We ran the counts ourselves from the NJDOT crash records file, downloaded 2026-11-06; the method notes on this page describe the selection.</p>
+</section>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened on Route 31. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident on Route 31? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-31-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-31-nj-accidents">Start the New Jersey accident quiz ↗</a></div></footer></div>

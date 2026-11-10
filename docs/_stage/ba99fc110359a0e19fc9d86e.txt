@@ -1,0 +1,246 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><style>.research-chart{margin:30px 0}.research-series .research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important}.quiz-cta .button{display:inline-block;margin-top:12px}</style><style>.place-page figure.research-chart img,.mva-site[data-conversion-batch] .place-page figure.research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto}.place-page figure.research-chart.portrait img,.mva-site[data-conversion-batch] .place-page figure.research-chart.portrait img{max-width:540px!important}.place-page .mva-review-scroll table{min-width:640px}.place-page .research-data-links a{overflow-wrap:anywhere}@media(max-width:600px){.mva-site[data-conversion-batch] .place-page .article-image img,.place-page .article-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page">
+<h1>Route 202 NJ accident today: deer, Wayne's mileposts and which police department has the report</h1>
+
+<p><strong>If your car accident on Route 202 happened today, the police report will not be ready yet. Judging by the records, it will nearly always come from the police of the town where it happened, not the State Police.</strong> In 2024 and 2025, only 75 of 3,758 Route 202 crash records named a State Police station, and 50 of those were in East Amwell. That station field is undocumented and filled in on about 2 percent of records, so treat it as a pointer, not proof of which agency holds your report. Wayne says its reports are usually ready within three working days; Bridgewater asks you to allow five business days.</p>
+<p class="source">Sources: NJDOT crash records 2023 to 2025 via hudcostreets/nj-crashes, our count (2025 preliminary); <a href="https://waynetownship.com/public-safety/wayne-police/police-operations/">Wayne Police Operations Division</a> and <a href="https://www.police.bridgewaternj.gov/divisions/records">Bridgewater Police Records</a>, both retrieved 2026-11-10.</p>
+
+<p>Over the two complete years, 2023 and 2024, police recorded 3,505 car accidents on Route 202 in New Jersey. In 771 of them someone was hurt or killed, about one a day, with 1,048 people hurt and 6 killed. What sets Route 202 apart from most state highways is deer: one record in eight starts with a deer strike, more than three times the statewide share.</p>
+<p class="source">Source: our analysis of the NJDOT crash records (via nj-crashes).</p>
+
+<div class="quiz-cta">
+  <p>Hurt in a car accident on Route 202, from the Hunterdon end to Mahwah? The 30-second New Jersey quiz asks a few questions about your injury, whether you already have a lawyer, fault, medical attention, the police report and the date. When the answers qualify, the reader may be put in touch with a sponsoring lawyer or legal consultant, who would phone them. There is no charge and no obligation.</p>
+  <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-202-nj-accidents">Start the New Jersey accident quiz</a></p>
+  <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</div>
+
+<h2 id="deer">Deer: one Route 202 record in eight, and nearly half of them in October and November</h2>
+<p>In 2023 and 2024, 426 of 3,505 Route 202 records (12.2 percent) list a deer as the first thing struck. Across all New Jersey roads the share was 3.6 percent (18,591 of 514,320 records). October had 104 deer records on Route 202 and November 91, so those two months hold 46 percent of the two-year total.</p>
+<p>Deer strikes rarely hurt anyone on this road. Police coded 435 records as the "Animal" crash type, and only 21 of them had someone hurt. The share climbs toward the southern end: in Hunterdon County, 167 of 716 Route 202 records (23.3 percent) began with a deer, and in Readington Township it was 61 of 148.</p>
+<p class="source">Source: our analysis of the NJDOT records, including the crash type mix. "Deer" is the first harmful event field; "Animal" is the crash type field, so the two counts differ slightly.</p>
+
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+  <caption>Route 202 by county, 2023 and 2024 (complete years)</caption>
+  <thead>
+    <tr><th scope="col">County</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">Rear-end share of those</th><th scope="col">Deer records (share)</th><th scope="col">People killed</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Somerset</th><td>1,115</td><td>240</td><td>52%</td><td>147 (13.2%)</td><td>4</td></tr>
+    <tr><th scope="row">Morris</th><td>858</td><td>201</td><td>27%</td><td>42 (4.9%)</td><td>0</td></tr>
+    <tr><th scope="row">Passaic</th><td>519</td><td>151</td><td>45%</td><td>37 (7.1%)</td><td>1</td></tr>
+    <tr><th scope="row">Hunterdon</th><td>716</td><td>116</td><td>48%</td><td>167 (23.3%)</td><td>1</td></tr>
+    <tr><th scope="row">Bergen</th><td>297</td><td>63</td><td>32%</td><td>33 (11.1%)</td><td>0</td></tr>
+  </tbody>
+</table></div>
+</div>
+<p class="source">Source: our analysis of the NJDOT records. Rear-end share = "Same Direction (Rear End)" crashes with someone hurt, divided by all crashes with someone hurt in that county. Morris County's 2023 count looks low; see the method note below.</p>
+
+<h2 id="towns">Wayne holds one in five Route 202 injury accidents</h2>
+<p>Route 202 runs through 25 municipalities in the records, but Wayne Township alone had 151 of the 771 injury accidents in 2023 and 2024 (19.6 percent). Somerset County as a whole had 240 (31 percent), mainly in Bridgewater, Branchburg, Raritan Borough and Bedminster, which together account for 220 of them.</p>
+<p>The share of accidents in which someone was hurt also varies a lot by town. In Wayne it was 29 percent of records; in Flemington Borough it was 17 of 201, under 9 percent. The records do not say why. Without traffic volumes behind them, these numbers show where accidents were logged, not how risky each town is per driver.</p>
+
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+  <caption>Route 202 towns with the most accidents where someone was hurt, 2023 and 2024</caption>
+  <thead>
+    <tr><th scope="col">Town, county</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">Share hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Wayne Twp, Passaic</th><td>519</td><td>151</td><td>29%</td><td>205</td><td>1</td></tr>
+    <tr><th scope="row">Bridgewater Twp, Somerset</th><td>366</td><td>77</td><td>21%</td><td>105</td><td>0</td></tr>
+    <tr><th scope="row">Branchburg Twp, Somerset</th><td>304</td><td>68</td><td>22%</td><td>100</td><td>3</td></tr>
+    <tr><th scope="row">Raritan Twp, Hunterdon</th><td>296</td><td>60</td><td>20%</td><td>82</td><td>1</td></tr>
+    <tr><th scope="row">Parsippany-Troy Hills, Morris</th><td>262</td><td>52</td><td>20%</td><td>68</td><td>0</td></tr>
+    <tr><th scope="row">Morris Plains Boro, Morris</th><td>173</td><td>47</td><td>27%</td><td>62</td><td>0</td></tr>
+    <tr><th scope="row">Raritan Boro, Somerset</th><td>210</td><td>40</td><td>19%</td><td>58</td><td>0</td></tr>
+    <tr><th scope="row">Bedminster Twp, Somerset</th><td>116</td><td>35</td><td>30%</td><td>45</td><td>1</td></tr>
+    <tr><th scope="row">Mahwah Twp, Bergen</th><td>150</td><td>32</td><td>21%</td><td>45</td><td>0</td></tr>
+    <tr><th scope="row">Montville Twp, Morris</th><td>115</td><td>31</td><td>27%</td><td>47</td><td>0</td></tr>
+    <tr><th scope="row">Oakland Boro, Bergen</th><td>147</td><td>31</td><td>21%</td><td>43</td><td>0</td></tr>
+  </tbody>
+</table></div>
+</div>
+<p class="source">Source: our analysis of the NJDOT records. Montville and Oakland tie at 31, so both are shown. The next town, Readington Township, had 27.</p>
+
+<h2 id="mileposts">Mileposts 0 to 80: the one-mile stretches with the most injury accidents</h2>
+<p>NJDOT records carry a milepost. On Route 202 they run from about 0 in the Hunterdon records to about 80 in Mahwah. Grouping 2024 and 2025 records by whole milepost shows the single busiest mile is milepost 64 in Wayne, with 38 accidents where someone was hurt. Wayne also has mileposts 65 and 68 in the list below.</p>
+
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+  <caption>Route 202 one-mile segments with the most accidents where someone was hurt, 2024 and 2025 (2025 preliminary)</caption>
+  <thead>
+    <tr><th scope="col">Milepost segment</th><th scope="col">Town(s) on the records</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People killed</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">64</th><td>Wayne</td><td>38</td><td>152</td><td>1</td></tr>
+    <tr><th scope="row">46</th><td>Morris Plains, Morris Twp, Morristown</td><td>31</td><td>125</td><td>0</td></tr>
+    <tr><th scope="row">11</th><td>Flemington, Raritan Twp</td><td>29</td><td>229</td><td>1</td></tr>
+    <tr><th scope="row">65</th><td>Wayne</td><td>25</td><td>101</td><td>0</td></tr>
+    <tr><th scope="row">25</th><td>Bridgewater</td><td>23</td><td>160</td><td>0</td></tr>
+    <tr><th scope="row">22</th><td>Bridgewater, Raritan Boro</td><td>21</td><td>77</td><td>0</td></tr>
+    <tr><th scope="row">68</th><td>Wayne</td><td>20</td><td>60</td><td>1</td></tr>
+    <tr><th scope="row">44</th><td>Morristown</td><td>20</td><td>171</td><td>0</td></tr>
+    <tr><th scope="row">24</th><td>Raritan Boro, Bridgewater, Somerville</td><td>20</td><td>114</td><td>0</td></tr>
+  </tbody>
+</table></div>
+</div>
+<p class="source">Source: our analysis of the NJDOT records. Segment N covers milepost N.00 to N.99. Milepost 68 counts the May 2025 Wayne fatal crash once; the records hold it twice (see the fatal section). The three-way tie at 20 is shown in full; the next three segments (48, 45 and 79) each had 18. Four records had no milepost, and one Bridgewater record carries an impossible milepost of 2560; neither is in the table.</p>
+<p>Milepost 11 is a contrast worth noticing. It had the most accidents of any mile, 229, mostly in Flemington, yet fewer injury accidents than milepost 64. The cross-street field ties 57 of the Flemington records to Route 31.</p>
+
+<h2 id="cross-streets">Cross streets the police named most often</h2>
+<p>For 2024 and 2025, two cross streets tie at the top as spelled on the records, with 13 injury accidents each: Commons Way in Bridgewater and Hamburg Turnpike in Wayne. Branchburg's Old York Road would beat both if its spellings were combined. Police wrote it at least three ways, with 7, 6 and 4 injury accidents, so 17 in all.</p>
+
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+  <caption>Route 202 cross streets with six or more accidents where someone was hurt, 2024 and 2025 (2025 preliminary)</caption>
+  <thead>
+    <tr><th scope="col">Cross street as recorded</th><th scope="col">Town, county</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">Pedestrian accidents</th><th scope="col">People killed</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Commons Way</th><td>Bridgewater Twp, Somerset</td><td>13</td><td>67</td><td>0</td><td>0</td></tr>
+    <tr><th scope="row">Hamburg Turnpike (Passaic County 689)</th><td>Wayne Twp, Passaic</td><td>13</td><td>32</td><td>1</td><td>0</td></tr>
+    <tr><th scope="row">Packanack Lake Drive</th><td>Wayne Twp, Passaic</td><td>11</td><td>54</td><td>1</td><td>1</td></tr>
+    <tr><th scope="row">Early Street</th><td>Morristown, Morris</td><td>9</td><td>47</td><td>4</td><td>0</td></tr>
+    <tr><th scope="row">Sleepy Hollow Drive</th><td>Wayne Twp, Passaic</td><td>8</td><td>30</td><td>0</td><td>0</td></tr>
+    <tr><th scope="row">Old York Road (Somerset County 637)</th><td>Branchburg Twp, Somerset</td><td>7</td><td>39</td><td>0</td><td>0</td></tr>
+    <tr><th scope="row">Whiton Road</th><td>Branchburg Twp, Somerset</td><td>7</td><td>25</td><td>0</td><td>1</td></tr>
+    <tr><th scope="row">Robbins Road</th><td>Branchburg Twp, Somerset</td><td>6</td><td>23</td><td>0</td><td>0</td></tr>
+    <tr><th scope="row">Old York Road (plain spelling)</th><td>Branchburg Twp, Somerset</td><td>6</td><td>22</td><td>0</td><td>1</td></tr>
+    <tr><th scope="row">Case Boulevard</th><td>Raritan Twp, Hunterdon</td><td>6</td><td>21</td><td>0</td><td>0</td></tr>
+    <tr><th scope="row">North Finley Avenue (Somerset County 613)</th><td>Bernardsville, Somerset</td><td>6</td><td>16</td><td>2</td><td>0</td></tr>
+    <tr><th scope="row">Schneider Lane</th><td>Montville Twp, Morris</td><td>6</td><td>15</td><td>0</td><td>0</td></tr>
+    <tr><th scope="row">"US 202 Secondary"</th><td>Bedminster Twp, Somerset</td><td>6</td><td>13</td><td>0</td><td>0</td></tr>
+  </tbody>
+</table></div>
+</div>
+<p class="source">Source: NJDOT crash records via nj-crashes, 2024 and 2025 (2025 preliminary); our count. Six cross streets tie at 6 and all are shown. Each spelling is its own row, so a street written several ways is undercounted here. Old York Road's third form, "Old York Rd" (4 injury accidents), falls below the cutoff, and a fourth, "CR 637 / Old York Rd", had none. Cross streets are ranked on 2024 and 2025 only, because street naming changed between the 2023 and 2024 exports.</p>
+
+<h2 id="deaths">Ten fatal crashes in three years, half of them in Branchburg</h2>
+<p>From 2023 to 2025, the Route 202 data holds 11 records in which someone was killed, but one Wayne crash was entered twice. That leaves 10 fatal crashes: 3 in 2023, 3 in 2024 and 4 in 2025. The 2025 figures are preliminary. Branchburg Township has five of the ten. Four of the people killed were pedestrians, one each in Bedminster, Raritan Township, Oakland and Wayne.</p>
+
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+  <caption>Route 202 records with someone killed, 2023 to 2025 (2025 preliminary)</caption>
+  <thead>
+    <tr><th scope="col">Month</th><th scope="col">Town, county</th><th scope="col">Crash type as coded</th><th scope="col">Light</th><th scope="col">Cross street</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Jul 2023</th><td>Branchburg Twp, Somerset</td><td>Right Angle</td><td>Daylight</td><td>Holland Brook Road</td></tr>
+    <tr><th scope="row">Sep 2023</th><td>Branchburg Twp, Somerset</td><td>Opposite Direction (Head On, Angular)</td><td>Daylight</td><td>North Branch River Road</td></tr>
+    <tr><th scope="row">Sep 2023</th><td>Bedminster Twp, Somerset</td><td>Pedestrian</td><td>Dusk</td><td>Elm Street</td></tr>
+    <tr><th scope="row">Jan 2024</th><td>Raritan Twp, Hunterdon</td><td>Pedestrian</td><td>Dark, spot street lights</td><td>Commerce Street</td></tr>
+    <tr><th scope="row">Mar 2024</th><td>Wayne Twp, Passaic</td><td>Fixed Object (concrete barrier)</td><td>Dark, continuous street lights</td><td>Packanack Lake Drive</td></tr>
+    <tr><th scope="row">Nov 2024</th><td>Branchburg Twp, Somerset</td><td>Left Turn/U Turn</td><td>Daylight</td><td>Old York Road</td></tr>
+    <tr><th scope="row">Feb 2025</th><td>Branchburg Twp, Somerset</td><td>Overturned</td><td>Dark, no street lights</td><td>Whiton Road</td></tr>
+    <tr><th scope="row">May 2025</th><td>Wayne Twp, Passaic</td><td>Pedestrian</td><td>Dark, spot street lights</td><td>St Moritz Place (recorded twice)</td></tr>
+    <tr><th scope="row">Jul 2025</th><td>Oakland Boro, Bergen</td><td>Pedestrian</td><td>Daylight</td><td>Oak Street</td></tr>
+    <tr><th scope="row">Oct 2025</th><td>Branchburg Twp, Somerset</td><td>Opposite Direction (Side Swipe)</td><td>Daylight</td><td>Not recorded</td></tr>
+  </tbody>
+</table></div>
+</div>
+<p class="source">Source: our analysis of the NJDOT records (with the NJSP fatal supplement). Month only. The two May 2025 Wayne records carry the same date and time to the minute and the same case number written in two formats, so we count them as one crash. The crash type is a police coding of how vehicles met, not a finding of who was at fault.</p>
+
+<h2 id="pedestrians">Pedestrians: Morristown's short stretch</h2>
+<p>Morristown has a small share of Route 202's injury accidents, but the most pedestrian accidents: 12 of the road's 46 pedestrian crashes from 2023 to 2025. Four of those were at Early Street in 2024 and 2025. Along the whole road, pedestrian crashes rose from 10 in 2023 to 14 in 2024, and 22 in 2025 so far (preliminary).</p>
+<p class="source">Source: our analysis of the NJDOT records, which lists 47 records and 23 for 2025 because they include the Wayne crash entered twice. Morristown shows no pedestrian records in 2023, which may reflect the Morris County 2023 gap described in the method note. More on <a href="/new-jersey/pedestrian-crash-new-jersey">pedestrian accidents in New Jersey</a>.</p>
+
+<p>For timing: 197 of the 771 injury accidents in 2023 and 2024 (26 percent) happened between 3 pm and 6 pm. Sunday had the fewest, 77, against 124 on Friday.</p>
+<p class="source">Source: NJDOT crash records via nj-crashes, 2023 and 2024; our count by recorded accident time. Compare <a href="/new-jersey/when-do-most-car-accidents-happen">when car accidents happen across New Jersey, hour by hour</a>.</p>
+
+<h2 id="road-names">The local name your police report may use for Route 202</h2>
+<p>Police records often name Route 202 by its local street name. If your report says Ramapo Valley Road or Mt View Boulevard, it may still be a Route 202 accident. These are the most common names on the records, 2023 to 2025.</p>
+
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+  <caption>Most common Route 202 road names on crash records, by county, 2023 to 2025 (2025 preliminary)</caption>
+  <thead>
+    <tr><th scope="col">County</th><th scope="col">Road name as recorded (records)</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Bergen</th><td>US 202 (Ramapo Valley Road) 273; US 202 189</td></tr>
+    <tr><th scope="row">Passaic</th><td>US 202 369; US 202 (Mt View Boulevard) 128; US 202 (Black Oak Ridge Road) 105; US 202 Secondary (Mt View Boulevard) 99; US 202 (Paterson-Hamburg Turnpike) 46</td></tr>
+    <tr><th scope="row">Morris</th><td>US 202 447; US 202 (East Speedwell Avenue) 297; US 202 (Littleton Road) 215; US 202 (Main Street) 91; US 202 (Boonton Turnpike) 52</td></tr>
+    <tr><th scope="row">Somerset</th><td>US 202 955; US 202 Secondary 608; US 202 (Morristown Road) 45; US 202 (Mine Brook Road) 27; US 202 (John G Basilone Memorial Bridge) 15</td></tr>
+    <tr><th scope="row">Hunterdon</th><td>US 202 575; US 202 Secondary 481; US 202 NB 12</td></tr>
+  </tbody>
+</table></div>
+</div>
+<p class="source">Source: our analysis of the NJDOT records (up to five names per county, exactly as on the records). Bergen and Hunterdon show fewer because their other names are single records that look mis-coded: NJ 12, NJ 12 EB, NJ 17 Secondary and a parking lot.</p>
+
+<h2 id="report">Which police department has your Route 202 report</h2>
+<p>Route 202 has no single report office. The report sits with whichever agency investigated, which on this road is nearly always the town police. Only an officer can complete New Jersey's NJTR-1 crash report. For a crash no officer investigated, the driver files NJDOT's SR-1 self-report form instead.</p>
+<p class="source">Source: <a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">NJDOT police resources page</a>, retrieved 2026-11-10.</p>
+
+<h3 id="report-wayne">Wayne: Records and Identification Bureau</h3>
+<p>Wayne Police say: "Police reports are available within three working days after the officer takes the report, including accident reports." Its accident reports are also online "in partnership with CARFAX" at crashdocs.org, normally "approved and posted within 7 days from the date the accident occurred." Copies cost 75 cents a page for pages 1 to 10.</p>
+<p class="source">Source: <a href="https://waynetownship.com/public-safety/wayne-police/police-operations/">Wayne Township Police, Operations Division, Records and Identification Bureau</a>, retrieved 2026-11-10. We did not test the CARFAX service.</p>
+
+<h3 id="report-bridgewater">Bridgewater: Police Records Bureau</h3>
+<p>Bridgewater Police ask you to "allow five (5) business days for a report to be completed" and to call ahead, with your case or incident number ready. The Records Bureau phone is (908) 725-4044, and other records requests go to records@bridgewaternj.gov. A "nominal fee" applies. The page also links to the LexisNexis BuyCrash site, which we did not test.</p>
+<p class="source">Source: <a href="https://www.police.bridgewaternj.gov/divisions/records">Bridgewater Township Police, Records</a>, retrieved 2026-11-10.</p>
+
+<h3 id="report-state-police">East Amwell and other State Police records: the NJSP portal</h3>
+<p>In East Amwell, 50 of 56 Route 202 records in 2024 and 2025 name the State Police Kingwood station, as do 7 of 43 in West Amwell. A trooper's report on Route 202 is ordered online from the NJSP crash report portal, not from the town. Once the portal marks the basic NJTR-1 ready, you can download it; a report that is missing may simply need a few more days. Route 202 counts as a non-toll road, so the fee is $13, and the portal keeps reports for six years after the crash year.</p>
+<p>The same portal page lists the contacts. Questions about non-toll road crash reports go to the State Police at (609) 882-2000 ext. 2234, and help with the online service to njsprecords@njsp.gov. For records requests on serious or fatal crashes, which can take up to a month, the page asks you to call only after that month has passed.</p>
+<p class="source">Sources: our analysis of the NJDOT records (the station field is undocumented and does not prove which agency holds a report); <a href="https://www.njportal.com/njsp/crashreports/">NJSP crash reports portal</a>, retrieved 2026-11-10, for the fee, availability and all contacts.</p>
+
+<h3 id="report-other-towns">Branchburg, Raritan Township, Morris Plains, Morristown, Mahwah and the rest</h3>
+<p>Ask the police department of the town where the accident happened. We did not verify those departments' procedures or fees; Branchburg's website refused our request. NJ DOBI's advice applies anywhere: "Get a copy of the police report." If you see inconsistencies, "let your insurance company know and contact the police department that responded to the scene."</p>
+<p class="source">Source: <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">NJ DOBI, Everything You Wanted to Know About Auto Insurance (2026)</a>, p. 25, retrieved 2026-11-10. Full agency list: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>.</p>
+
+<h2 id="along-route-202">Towns and roads along Route 202</h2>
+<p>Route 202 crosses other numbered roads at several busy points. In 2024 and 2025, cross-street records named Route 31 in Flemington 57 times and Route 10 in Morris Plains and Parsippany 56 times. They named Route 206 46 times, mostly in Somerville, Bridgewater and Bedminster, and Route 22 in Bridgewater 45 times.</p>
+<p class="source">Source: our analysis of the NJDOT records. A floor: a record counts only when its cross-street text names the route.</p>
+<ul>
+  <li>Towns: <a href="/new-jersey/wayne-nj-car-accidents">Wayne car accident data, with Route 202 under all its local names</a>; <a href="/new-jersey/bridgewater-township-somerset-nj-car-accidents">Bridgewater car accidents on Route 22, Route 202 and I-287</a>; <a href="/new-jersey/morris-county-car-accident-help#parsippany-troy-hills">Parsippany-Troy Hills accidents in the Morris County guide</a>.</li>
+  <li>Counties: <a href="/new-jersey/morris-county-car-accident-help">Morris County car accident help (Morristown, Morris Plains, Montville)</a>; <a href="/new-jersey/bergen-county-car-accident-help">Bergen County car accident help (Mahwah and Oakland)</a>.</li>
+  <li>Roads that meet Route 202: <a href="/new-jersey/route-31-nj-accidents">Route 31 accident data</a>; <a href="/new-jersey/morris-county-car-accident-help#route-10">Route 10 accidents in the Morris County guide</a>; <a href="/new-jersey/route-206-nj-accidents">Route 206 accident data</a>; <a href="/new-jersey/route-22-nj-accidents">Route 22 accident data</a>; <a href="/new-jersey/route-17-nj-accidents">Route 17 accident data (Mahwah)</a>; <a href="/new-jersey/route-23-nj-accidents">Route 23 accident data (Wayne)</a>; <a href="/new-jersey/route-46-nj-accidents">Route 46 accident data (Parsippany)</a>; <a href="/new-jersey/i-80-nj-accidents">I-80 accidents by milepost and State Police station</a>; <a href="/new-jersey/i-78-nj-accidents">I-78 accident data</a>.</li>
+</ul>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened on Route 202. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident on Route 202? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-202-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<h2 id="method">How we counted Route 202</h2>
+<p>Every figure here starts from police crash records that NJDOT published: its per-table archive for 2023 and its Crash Data Portal for 2024 and 2025. The open-source hudcostreets/nj-crashes project cleaned and joined them and added State Police fatal crash data. We kept a record only when route 202 came with a "US" or other state road-name prefix, which drops any county road that happens to share the number.</p>
+
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+  <caption>Route 202 accidents by year</caption>
+  <thead>
+    <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian</th><th scope="col">Bicycle</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">2023</th><td>1,653</td><td>380</td><td>517</td><td>3</td><td>10</td><td>3</td></tr>
+    <tr><th scope="row">2024</th><td>1,852</td><td>391</td><td>531</td><td>3</td><td>14</td><td>12</td></tr>
+    <tr><th scope="row">2025 (preliminary)</th><td>1,906</td><td>369</td><td>509</td><td>4 (5 records)</td><td>22 (23 records)</td><td>9</td></tr>
+  </tbody>
+</table></div>
+</div>
+<p class="source">Source: our analysis of the NJDOT records; method: see the notes at the end of this page. The 2025 killed and pedestrian cells count the Wayne crash entered twice only once; the other cells are raw record counts.</p>
+
+<ul>
+  <li>2023 and 2024 are complete years. 2025 is still preliminary, and late police reports can still be added to it. Route 202's 2025 total is already 1.029 times its 2024 total, so it is not visibly incomplete overall. By county the ratio runs from 0.94 (Morris) to 1.225 (Passaic).</li>
+  <li>Morris County caveat: its Route 202 count was 325 in 2023, against 533 in 2024 and 501 in 2025. We did not find the reason, so Morris figures for 2023 and 2024 may be low.</li>
+  <li>Duplicates: four pairs of Route 202 records share a date, time, town and case number (written in two formats). Two pairs are in Branchburg in 2023, one in Parsippany-Troy Hills in 2024, and one is the May 2025 Wayne fatal crash. Only the fatal, pedestrian and milepost 68 figures drop the Wayne copy. The other tables keep every record, so 2023 is 2 too high and 2024 1 too high. Without the duplicates, the 2023 and 2024 totals are 3,502 records, 768 with someone hurt or killed and 1,045 people hurt.</li>
+  <li>Cross streets, mileposts and the State Police station field use 2024 and 2025 only. Cross-street counts are a floor because each spelling is counted on its own. The milepost table leaves out five records with a missing or impossible milepost.</li>
+  <li>No traffic volume sits behind any number here, so none of it measures risk per driver. Nothing here says who caused any accident.</li>
+  <li>We ran the counts ourselves from the NJDOT crash records file; the method notes on this page describe the selection.</li>
+</ul>
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-202-nj-accidents">Start the New Jersey accident quiz ↗</a></div></footer></div>

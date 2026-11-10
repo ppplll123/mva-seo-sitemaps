@@ -1,0 +1,318 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><style>.research-chart{margin:30px 0}.research-series .research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important}.quiz-cta .button{display:inline-block;margin-top:12px}</style><style>.place-page figure.research-chart img,.mva-site[data-conversion-batch] .place-page figure.research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto}.place-page figure.research-chart.portrait img,.mva-site[data-conversion-batch] .place-page figure.research-chart.portrait img{max-width:540px!important}.place-page .mva-review-scroll table{min-width:640px}.place-page .research-data-links a{overflow-wrap:anywhere}@media(max-width:600px){.mva-site[data-conversion-batch] .place-page .article-image img,.place-page .article-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page road-page" id="route-22">
+
+<h1>Route 22 car accidents in New Jersey: towns, cross streets and times</h1>
+
+<section id="answer">
+  <p class="lead">Police reported 5,196 car accidents on Route 22 in New Jersey in 2023 and 2024. Someone was hurt or killed in 1,242 of them, about 1.7 a day, and 11 people died.</p>
+  <p>Two thirds of those accidents where someone was hurt (839 of 1,242) were filed in five towns: Union Township, Bridgewater, North Plainfield, Springfield and Green Brook. Rear end collisions were 55 percent of them, far above the statewide 31 percent.</p>
+  <p>This page does not show live traffic or today's Route 22 accidents. It covers police-reported accidents from 2023 to 2025, with 2025 still preliminary.</p>
+  <p class="source">Source: NJDOT crash records 2023 to 2025 as normalized by the open-source <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a> project (retrieved 2026-11-10), fatal accidents supplemented from <a href="https://nj.gov/njsp/info/fatalacc/">NJ State Police fatal crash statistics</a> (retrieved 2026-11-10). Analysis by us; method at the end of this page.</p>
+  <div class="quiz-cta quiz-cta-inline">
+    <p>Hurt in a car accident on Route 22? The free New Jersey questionnaire asks a few short questions, with no obligation. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-22-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="by-year">
+  <h2>How many accidents happen on Route 22 each year?</h2>
+  <p>The yearly count is steady at about 2,600 police-reported accidents, with roughly 600 a year where someone was hurt. The 2025 row is preliminary and can still rise as late reports arrive.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 22 car accidents by year, New Jersey, 2023 to 2025</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>2,599</td><td>634</td><td>879</td><td>6</td><td>8</td></tr>
+      <tr><th scope="row">2024</th><td>2,597</td><td>608</td><td>842</td><td>5</td><td>12</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>2,706</td><td>631</td><td>868</td><td>4</td><td>8</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes, NJSP fatal supplement; our count. 2023 and 2024 complete at state level; 2025 preliminary.</p>
+  <p>One local gap matters here. In the 2023 file, Phillipsburg has 28 accident records on all its roads, against 485 in 2024. Pohatcong and Greenwich look similar, so Warren County's 2023 Route 22 numbers are too low.</p>
+  <p class="source">Source: our coverage check of all crash records per town, 2023 to 2025.</p>
+</section>
+
+<section id="by-county">
+  <h2>Which counties and towns along Route 22 have the most accidents?</h2>
+  <p>Union County had 48 percent of Route 22 accidents where someone was hurt in 2023 and 2024, and Somerset County 37 percent. In Somerset, Route 22 accounts for 11 percent of all the county's accidents where someone was hurt.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 22 accidents by county, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">County</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">Of which 2024</th><th scope="col">Route 22 share of the county's hurt-or-killed accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Union</th><td>2,589</td><td>597</td><td>263</td><td>6.5%</td><td>4</td></tr>
+      <tr><th scope="row">Somerset</th><td>1,886</td><td>464</td><td>234</td><td>11.1%</td><td>4</td></tr>
+      <tr><th scope="row">Warren (2023 incomplete)</th><td>333</td><td>72</td><td>61</td><td>7.1%</td><td>2</td></tr>
+      <tr><th scope="row">Hunterdon</th><td>300</td><td>72</td><td>35</td><td>5.6%</td><td>1</td></tr>
+      <tr><th scope="row">Essex</th><td>88</td><td>37</td><td>15</td><td>0.3%</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes; our count. County share = Route 22 accidents where someone was hurt or killed divided by all such accidents in the county, 2023 and 2024.</p>
+
+  <h3>Town by town, in milepost order</h3>
+  <p>The records place Route 22 accidents in 21 municipalities. The table lists them from the lowest recorded milepost, in Phillipsburg, to the highest, in Newark. This is map order only, not a direction of travel.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 22 accidents by municipality, 2023 and 2024, ordered by median recorded milepost</caption>
+    <thead>
+      <tr><th scope="col">Town (county)</th><th scope="col">Median milepost</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Phillipsburg (Warren)*</th><td>0.8</td><td>131</td><td>23</td><td>36</td><td>0</td></tr>
+      <tr><th scope="row">Lopatcong Township (Warren)*</th><td>1.8</td><td>129</td><td>28</td><td>37</td><td>2</td></tr>
+      <tr><th scope="row">Pohatcong Township (Warren)*</th><td>3.8</td><td>54</td><td>15</td><td>27</td><td>0</td></tr>
+      <tr><th scope="row">Greenwich Township (Warren)*</th><td>4.2</td><td>19</td><td>6</td><td>8</td><td>0</td></tr>
+      <tr><th scope="row">Clinton Township (Hunterdon)</th><td>20.7</td><td>78</td><td>10</td><td>11</td><td>0</td></tr>
+      <tr><th scope="row">Lebanon Borough (Hunterdon)</th><td>21.6</td><td>39</td><td>11</td><td>13</td><td>0</td></tr>
+      <tr><th scope="row">Readington Township (Hunterdon)</th><td>26.4</td><td>183</td><td>51</td><td>78</td><td>1</td></tr>
+      <tr><th scope="row">Branchburg Township (Somerset)</th><td>30.0</td><td>109</td><td>20</td><td>26</td><td>2</td></tr>
+      <tr><th scope="row">Bridgewater Township (Somerset)</th><td>34.5</td><td>719</td><td>165</td><td>251</td><td>1</td></tr>
+      <tr><th scope="row">Bound Brook (Somerset)</th><td>38.8</td><td>41</td><td>6</td><td>8</td><td>0</td></tr>
+      <tr><th scope="row">Green Brook Township (Somerset)</th><td>41.2</td><td>358</td><td>95</td><td>136</td><td>0</td></tr>
+      <tr><th scope="row">North Plainfield (Somerset)</th><td>44.4</td><td>492</td><td>147</td><td>212</td><td>1</td></tr>
+      <tr><th scope="row">Watchung (Somerset)</th><td>46.5</td><td>167</td><td>31</td><td>50</td><td>0</td></tr>
+      <tr><th scope="row">Scotch Plains Township (Union)</th><td>47.4</td><td>137</td><td>27</td><td>34</td><td>1</td></tr>
+      <tr><th scope="row">Westfield (Union)</th><td>49.1</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+      <tr><th scope="row">Mountainside (Union)</th><td>50.5</td><td>215</td><td>50</td><td>66</td><td>2</td></tr>
+      <tr><th scope="row">Springfield Township (Union)</th><td>52.2</td><td>510</td><td>115</td><td>152</td><td>0</td></tr>
+      <tr><th scope="row">Kenilworth (Union)</th><td>53.9</td><td>10</td><td>3</td><td>3</td><td>0</td></tr>
+      <tr><th scope="row">Union Township (Union)</th><td>54.0</td><td>1,403</td><td>317</td><td>410</td><td>1</td></tr>
+      <tr><th scope="row">Hillside Township (Union)</th><td>56.9</td><td>313</td><td>85</td><td>115</td><td>0</td></tr>
+      <tr><th scope="row">Newark (Essex)</th><td>59.3</td><td>88</td><td>37</td><td>48</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes; our count. Milepost is the median of the mileposts police recorded for that town's Route 22 accidents, 2023 to 2025. * 2023 records for these Warren County towns are visibly incomplete, so their totals are too low.</p>
+  <p>Union Township alone had 317 accidents where someone was hurt, a quarter of the road's total. The records hold almost no Route 22 accidents between about mile 6 and mile 17. We have not checked why, so read that as a gap in the records, not a safe stretch.</p>
+  <p>Car accident pages for towns on this list: <a href="/new-jersey/union-county-car-accident-help#union-township">car accidents in Union Township, by street and intersection</a>, <a href="/new-jersey/bridgewater-township-somerset-nj-car-accidents">car accidents in Bridgewater Township</a> and <a href="/new-jersey/newark-nj-car-accidents">car accidents in Newark</a>. County help: <a href="/new-jersey/union-county-car-accident-help">Union County car accident help</a>.</p>
+</section>
+
+<section id="cross-streets">
+  <h2>Which Route 22 cross streets have the most accidents where someone was hurt?</h2>
+  <p>North Drive in North Plainfield leads, with 17 accidents where someone was hurt in 2024 and 2025. Four of the 13 cross streets with 11 or more such accidents are in North Plainfield. Four streets tie at 11, so the table shows one and the note below names the other three.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 22 cross streets with the most accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Cross street, as recorded</th><th scope="col">Town (county)</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">North Drive</th><td>North Plainfield (Somerset)</td><td>17</td><td>35</td><td>0</td></tr>
+      <tr><th scope="row">Lawrence Road</th><td>Springfield Township (Union)</td><td>16</td><td>65</td><td>0</td></tr>
+      <tr><th scope="row">Vauxhall Road (Union County 630)</th><td>Union Township (Union)</td><td>16</td><td>64</td><td>1</td></tr>
+      <tr><th scope="row">Washington Avenue (recorded as Rt 529)</th><td>Green Brook Township (Somerset)</td><td>15</td><td>49</td><td>0</td></tr>
+      <tr><th scope="row">Route 202</th><td>Bridgewater Township (Somerset)</td><td>13</td><td>67</td><td>0</td></tr>
+      <tr><th scope="row">Warrenville Road (Somerset County 651)</th><td>Green Brook Township (Somerset)</td><td>13</td><td>44</td><td>0</td></tr>
+      <tr><th scope="row">Wilson Avenue</th><td>North Plainfield (Somerset)</td><td>13</td><td>36</td><td>0</td></tr>
+      <tr><th scope="row">North Michigan Avenue (Union County 617)</th><td>Union Township (Union)</td><td>12</td><td>48</td><td>0</td></tr>
+      <tr><th scope="row">West End Avenue (Somerset County 649)</th><td>North Plainfield (Somerset)</td><td>12</td><td>29</td><td>0</td></tr>
+      <tr><th scope="row">Gray Street</th><td>North Plainfield (Somerset)</td><td>11</td><td>24</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes; our count of the cross street police recorded for each Route 22 accident. Springfield Road (Union Township), Roseberry Street (Phillipsburg) and Adamsville Road (Bridgewater) also had 11 each.</p>
+  <p>Treat every count here as a floor. Spelling variants of a street are not merged, and 29 percent of the 2024 and 2025 Route 22 records name no cross street at all. We rank 2024 and 2025 only because street naming in the files changed after 2023.</p>
+  <p>The Garden State Parkway appears as a cross street in 46 Union Township records under two spellings, and Route 202 in Bridgewater under at least three (95 records: 67, 20 and 8). See <a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway accident data</a> and <a href="/new-jersey/route-202-nj-accidents">Route 202 accident data</a>. Statewide rankings are on <a href="/new-jersey/most-dangerous-intersections-nj">New Jersey intersections with the most accidents where someone was hurt</a>.</p>
+  <p class="source">Source: NJDOT crash records via nj-crashes, 2024 and 2025 (2025 preliminary); our count.</p>
+</section>
+
+<section id="crash-types">
+  <h2>What kinds of accidents happen on Route 22?</h2>
+  <p>Rear end collisions were 55 percent of Route 22 accidents where someone was hurt in 2023 and 2024. Statewide the figure is 31 percent. Right angle collisions were 9 percent on Route 22 against 22 percent statewide, and pedestrian accidents 1.5 percent against 6.6 percent.</p>
+  <p>These are the collision types police coded on the crash report. They describe how vehicles met. They do not say who caused any accident. For a single accident, the New Jersey Department of Banking and Insurance (DOBI) says insurance companies assign fault from all the facts, such as police reports and statements, not from the report alone.</p>
+  <p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026)</a>, pp. 26 to 27, "Who is At Fault?", retrieved 2026-11-10.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Police-coded collision type, Route 22 accidents where someone was hurt or killed, 2023 and 2024, with the statewide share</caption>
+    <thead>
+      <tr><th scope="col">Collision type (police code)</th><th scope="col">Route 22 count</th><th scope="col">Route 22 share</th><th scope="col">Statewide share</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Same direction, rear end</th><td>679</td><td>54.7%</td><td>30.7%</td></tr>
+      <tr><th scope="row">Same direction, side swipe</th><td>198</td><td>15.9%</td><td>8.5%</td></tr>
+      <tr><th scope="row">Fixed object</th><td>164</td><td>13.2%</td><td>11.6%</td></tr>
+      <tr><th scope="row">Right angle</th><td>114</td><td>9.2%</td><td>22.4%</td></tr>
+      <tr><th scope="row">Pedestrian</th><td>19</td><td>1.5%</td><td>6.6%</td></tr>
+      <tr><th scope="row">Animal</th><td>15</td><td>1.2%</td><td>not in the statewide top eight</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes; our count. Share = share of accidents where someone was hurt or killed. The statewide file lists the eight most common types; Animal is not among them.</p>
+  <p>If you were in a rear end collision, see <a href="/new-jersey/rear-end-crash-new-jersey">rear end car accidents in New Jersey</a>.</p>
+</section>
+
+<section id="pedestrians">
+  <h2>How many pedestrians are hit on Route 22?</h2>
+  <p>Police recorded 20 pedestrian accidents on Route 22 in 2023 and 2024, and 5 pedestrians died. That is 5 of the 11 deaths on the road in those two years.</p>
+  <p>Half of the 20 pedestrian accidents (10) were in North Plainfield. Two pedestrians died in Branchburg in 2024, and one each in Lopatcong in 2023 and 2024 and North Plainfield in 2024. The 2025 preliminary file adds 8 more pedestrian accidents.</p>
+  <p class="source">Source: NJDOT crash records via nj-crashes, NJSP fatal supplement; our count.</p>
+  <p>More on these accidents: <a href="/new-jersey/pedestrian-crash-new-jersey">pedestrian accidents in New Jersey</a>.</p>
+</section>
+
+<section id="fatal">
+  <h2>Where did people die in Route 22 accidents?</h2>
+  <p>Fifteen people died in Route 22 accidents from 2023 to 2025, counting the preliminary 2025 file. Mountainside had the most, with three deaths.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>People killed in Route 22 accidents by town, 2023 to 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Town (county)</th><th scope="col">Fatal accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Mountainside (Union)</th><td>3</td><td>3</td></tr>
+      <tr><th scope="row">Branchburg Township (Somerset)</th><td>2</td><td>2</td></tr>
+      <tr><th scope="row">Bridgewater Township (Somerset)</th><td>2</td><td>2</td></tr>
+      <tr><th scope="row">Lopatcong Township (Warren)</th><td>2</td><td>2</td></tr>
+      <tr><th scope="row">Readington Township (Hunterdon)</th><td>2</td><td>2</td></tr>
+      <tr><th scope="row">Union Township (Union)</th><td>2</td><td>2</td></tr>
+      <tr><th scope="row">North Plainfield (Somerset)</th><td>1</td><td>1</td></tr>
+      <tr><th scope="row">Scotch Plains Township (Union)</th><td>1</td><td>1</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes, fatal accidents supplemented from NJ State Police fatal crash statistics; our count.</p>
+</section>
+
+<section id="when">
+  <h2>When do accidents happen on Route 22?</h2>
+  <p>The busiest window is 3 pm to 6 pm, with 23 percent of Route 22 accidents where someone was hurt in 2023 and 2024. That is close to the statewide 24 percent, so Route 22 follows the usual afternoon pattern.</p>
+  <p>Tuesday had the most such accidents (191) and Sunday the fewest (148). The single busiest hours of the week were Friday 4 pm to 5 pm (23) and Tuesday 3 pm to 4 pm (22).</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 22 accidents where someone was hurt or killed, by time of day, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Time window</th><th scope="col">Count</th><th scope="col">Share</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Midnight to 3 am</th><td>53</td><td>4.3%</td></tr>
+      <tr><th scope="row">3 am to 6 am</th><td>42</td><td>3.4%</td></tr>
+      <tr><th scope="row">6 am to 9 am</th><td>172</td><td>13.8%</td></tr>
+      <tr><th scope="row">9 am to noon</th><td>182</td><td>14.7%</td></tr>
+      <tr><th scope="row">Noon to 3 pm</th><td>225</td><td>18.1%</td></tr>
+      <tr><th scope="row">3 pm to 6 pm</th><td>284</td><td>22.9%</td></tr>
+      <tr><th scope="row">6 pm to 9 pm</th><td>175</td><td>14.1%</td></tr>
+      <tr><th scope="row">9 pm to midnight</th><td>109</td><td>8.8%</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes; our count by the recorded accident time. Statewide hour-by-hour detail: <a href="/new-jersey/when-do-most-car-accidents-happen">when car accidents happen in New Jersey</a>.</p>
+</section>
+
+<section id="conditions">
+  <h2>Light and road surface in Route 22 accidents</h2>
+  <p>Most Route 22 accidents where someone was hurt happened in daylight (69 percent) and on dry pavement (80 percent). Deaths lean the other way: 6 of the 11 people killed in 2023 and 2024 died in accidents recorded as dark.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Light condition recorded for Route 22 accidents where someone was hurt or killed, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Light condition (police code)</th><th scope="col">Someone hurt or killed</th><th scope="col">Share</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Daylight</th><td>858</td><td>69.1%</td><td>4</td></tr>
+      <tr><th scope="row">Dark, continuous street lights</th><td>264</td><td>21.3%</td><td>2</td></tr>
+      <tr><th scope="row">Dark, spot street lights</th><td>34</td><td>2.7%</td><td>2</td></tr>
+      <tr><th scope="row">Dark, no street lights</th><td>24</td><td>1.9%</td><td>2</td></tr>
+      <tr><th scope="row">Dusk</th><td>30</td><td>2.4%</td><td>0</td></tr>
+      <tr><th scope="row">Dawn</th><td>21</td><td>1.7%</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes, NJSP fatal supplement; our count.</p>
+  <p>The surface was recorded as wet in 231 accidents where someone was hurt (18.6 percent). Snow, ice and standing water together account for 16 (1.3 percent).</p>
+  <p class="source">Source: NJDOT crash records via nj-crashes, 2023 and 2024; our count.</p>
+</section>
+
+<section id="next-step">
+  <h2>After a car accident on Route 22: telling police and getting the report</h2>
+  <p>The crash records file every Route 22 accident under a municipality and, when police note one, a cross street. Write down both, plus the nearest milepost sign if you saw it. Route 22 runs through 21 towns in these records, so the town tells you which police department to ask.</p>
+
+  <h3>When New Jersey law says police must be told</h3>
+  <p>A driver in an accident where someone is hurt or killed, or where one person's property damage is over $500, must notify the local, county or State Police as fast as they can. Within 10 days the driver must also send a written report to the Motor Vehicle Commission, unless a police officer files a written report on the accident.</p>
+  <p class="source">Source: N.J.S.A. 39:4-130, statute text from the Justia 2025 edition (<a href="http://web.archive.org/web/20260920182556/https://law.justia.com/codes/new-jersey/title-39/section-39-4-130/">archived copy</a>, a secondary host, because the NJ Legislature site could not be reached), retrieved 2026-11-10.</p>
+  <p>If police did not come out and investigate, NJDOT's SR-1 self-reporting form is the only form for reporting that accident. It can be filed online, and NJDOT says the acknowledgment it returns can be given to an insurance company.</p>
+  <p class="source">Source: <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT Self-Reporting Crash Form page</a> (read from an <a href="http://web.archive.org/web/20260918164037/https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">archived copy dated 2026-09-18</a>), retrieved 2026-11-10.</p>
+
+  <h3>Town police or State Police: who holds your Route 22 report</h3>
+  <p>The police crash report (form NJTR-1) comes from the agency that investigated. On most of Route 22 that is the town's own police: only 118 of the 7,902 Route 22 records from 2023 to 2025 name a State Police station. Those records sit mostly at the western end, in Hunterdon and Warren counties.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 22 accident records that name a State Police station, by town, 2023 to 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Town (county)</th><th scope="col">State Police station named</th><th scope="col">Records naming it</th><th scope="col">All Route 22 records in the town</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Phillipsburg (Warren)</th><td>Washington</td><td>37</td><td>245</td></tr>
+      <tr><th scope="row">Lebanon Borough (Hunterdon)</th><td>Perryville</td><td>35</td><td>51</td></tr>
+      <tr><th scope="row">Greenwich Township (Warren)</th><td>Perryville</td><td>13</td><td>32</td></tr>
+      <tr><th scope="row">Clinton Township (Hunterdon)</th><td>Perryville</td><td>12</td><td>110</td></tr>
+      <tr><th scope="row">Bridgewater Township (Somerset)</th><td>Somerville</td><td>6</td><td>1,089</td></tr>
+      <tr><th scope="row">Pohatcong Township (Warren)</th><td>Perryville</td><td>5</td><td>145</td></tr>
+      <tr><th scope="row">Readington Township (Hunterdon)</th><td>Perryville</td><td>3</td><td>278</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records via nj-crashes, 2023 to 2025 (2025 preliminary); our count of records with a State Police station filled in. Six more towns have 1 or 2 such records each (Mountainside 2; Newark, Green Brook, North Plainfield, Springfield and Union Township 1 each). The station field is filled far less often in the 2023 file, and Warren County's 2023 records are incomplete, so these counts are a floor. They do not tell you which agency handled any one accident.</p>
+  <p>Lebanon Borough is the one town where most Route 22 records (35 of 51) name a State Police station. Everywhere east of Readington, a State Police record is rare, so start with the town police department.</p>
+  <p>For a town police report, ask that department. Departments use their records bureau, an OPRA request or an online vendor, and fees and waits differ. We have not found one official statewide procedure or fee for town reports, so the State Police fees below do not apply to them.</p>
+  <p>For a State Police report, use the <a href="https://www.njportal.com/njsp/crashreports/">NJSP crash reports portal</a>. Route 22 has no tolls, so the non-toll road fee of $13.00 applies. The basic report can be downloaded once it is "ready and approved"; if it is not there yet, search again in a couple of days. Reports stay available for six years from the year of the accident.</p>
+  <p>The basic crash report is a public record. The same portal takes requests for serious or fatal accident investigation records, for $20.00, but those records are not public and need a subpoena or court order. Where the Garden State Parkway crosses Route 22 in Union Township, an accident on the Parkway itself is a toll road report, $5.00 on the same portal.</p>
+  <p class="source">Source: <a href="https://www.njportal.com/njsp/crashreports/">New Jersey State Police and NJ Turnpike Authority crash reports portal</a>, njportal.com, retrieved 2026-11-10.</p>
+  <p>When you have the report, DOBI suggests checking its details, such as how many passengers are listed. If something is wrong, tell your insurance company and contact the police department that responded to the scene.</p>
+  <p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026)</a>, p. 25, retrieved 2026-11-10.</p>
+
+  <h3>Police departments for the busiest Route 22 towns</h3>
+  <p>Official police department websites for four of the five towns with the most Route 22 accidents where someone was hurt:</p>
+  <ul>
+    <li><a href="https://www.unionpd.com/">Union Police Department</a> (Union Township; linked from the township's official site, <a href="https://www.uniontownship.com/160/Police-Department">uniontownship.com</a>)</li>
+    <li><a href="https://www.police.bridgewaternj.gov/">Bridgewater Police</a> (Bridgewater Township)</li>
+    <li><a href="https://police.northplainfieldnj.gov/">North Plainfield Police</a> (North Plainfield)</li>
+    <li><a href="https://springfield-nj.us/police/">Springfield Police Department</a> (Springfield Township)</li>
+  </ul>
+  <p class="source">Sources: each department's official site, reached from its municipality's official website, retrieved 2026-11-10. These links say nothing about which agency responded to any accident.</p>
+</section>
+
+<section id="method">
+  <h2>Method and data</h2>
+  <ul>
+    <li>Records: NJDOT crash records for 2023 (per-table archive) and 2024 and 2025 (NJDOT Crash Data Portal), normalized by <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a>, fatal accidents supplemented from <a href="https://nj.gov/njsp/info/fatalacc/">NJ State Police fatal crash statistics</a>. Both retrieved 2026-11-10; data file downloaded 2026-11-06.</li>
+    <li>Route 22 selection: records with route number 22 and a road name with a state or US prefix. County roads numbered 22 are excluded. Road names in the files include US 22, US 22 Secondary and US 22 (Blue Star Drive); we counted all of them. The selection also holds 6 Bridgewater records that carry route number 22 but name US 202 Secondary (5) or NJ 28 Secondary (1) as the road, and 3 parking lot records. Four of the 6 fall in 2023 and 2024, none with anyone hurt; one 2025 record had someone hurt.</li>
+    <li>"Someone hurt or killed" means a police-reported accident with at least one person hurt or killed.</li>
+    <li>Period: 2023 and 2024 are complete at state level; town and county totals use these two years. 2025 is preliminary and always labelled. Warren County towns are under-recorded in 2023, and Newark's 2025 file holds about a third of its 2024 Route 22 records.</li>
+    <li>Cross streets: 2024 and 2025 only, spelling variants not merged, so counts are a floor.</li>
+    <li>These are counts, not risk rates. We have no traffic volume, so a busier stretch will show more accidents.</li>
+  </ul>
+  <p class="source">We ran the counts ourselves from the NJDOT crash records file; the method notes on this page describe the selection.</p>
+</section>
+
+<section class="related-local">
+  <p>For a rideshare trip at the western end of Route 22: <a href="/new-jersey/warren-county-rideshare-accident-help">Uber and Lyft accidents in Warren County and Phillipsburg</a>.</p>
+</section>
+
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened on Route 22. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident on Route 22? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-22-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-22-nj-accidents">Start the New Jersey accident quiz ↗</a></div></footer></div>
