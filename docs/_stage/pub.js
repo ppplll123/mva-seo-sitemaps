@@ -19,3 +19,19 @@ window.__settings=async s=>{if(window.__codeOk!==s)return 'SKIPPED: code step no
  if(allok){const b=[...document.querySelectorAll('button')].find(e=>e.textContent.trim()==='Save'&&!e.disabled);b&&b.click();await wait(4000);const pb=[...document.querySelectorAll('button')].find(e=>e.textContent.trim()==='Publish'&&!e.disabled);pb&&pb.click();res.saved=true}else{res.canon=canon}
  return JSON.stringify(res)};
 'helpers loaded'
+window.__stub=async s=>{const p=await __pg('STUB:'+s);const wait=ms=>new Promise(r=>setTimeout(r,ms));const res={};
+ const set=(el,val)=>{const proto=el.tagName==='TEXTAREA'?HTMLTextAreaElement.prototype:HTMLInputElement.prototype;el.focus();Object.getOwnPropertyDescriptor(proto,'value').set.call(el,val);el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}));el.blur();el.dispatchEvent(new Event('blur',{bubbles:true}))};
+ const tab=t=>{const r=[...document.querySelectorAll('[role=radio],label,button')].find(e=>e.textContent.trim()===t);r&&r.click();return !!r};
+ const lab=t=>[...document.querySelectorAll('label,div,span,p')].find(e=>e.textContent.trim()===t&&e.childElementCount<=1);
+ const fld=t=>{let q=lab(t);for(let i=0;i<5&&q;i++){q=q.parentElement;const f=q&&q.querySelector('input[type=text],input:not([type]),textarea');if(f)return f}return null};
+ tab('Basic');await wait(500);for(const k of ['Page Title','Page Description']){set(fld(k),p.V[k]);await wait(200);res[k]=fld(k).value===p.V[k]}
+ tab('Page Meta');await wait(600);
+ if(!lab('Add canonical URL')){const x=[...document.querySelectorAll('*')].find(e=>e.childElementCount===0&&e.textContent.trim()==='SEO Meta');x&&x.click();await wait(600)}
+ const c=fld('Add canonical URL');set(c,p.target);await wait(300);res.canon=c.value===p.target;
+ let q=lab('Enable noindex Meta');let sw=null;for(let i=0;i<4&&q&&!sw;i++){q=q.parentElement;sw=q&&q.querySelector('input[type=checkbox],[role=switch],button[class*=witch]')}
+ res.noindexBefore=sw?(sw.checked??sw.getAttribute('aria-checked')):null;
+ if(sw&&!(sw.checked===true||sw.getAttribute('aria-checked')==='true')){sw.click();await wait(400)}
+ res.noindex=sw?(sw.checked===true||sw.getAttribute('aria-checked')==='true'):false;
+ return JSON.stringify(res)};
+window.__stubcode=async s=>{const p=await __pg('STUB:'+s);const ed=ace.edit(document.querySelectorAll('.ace_editor')[0]);const before=await __h(ed.getValue());
+ if(!p.accept.includes(before)&&before!==p.code.slice(0,16))return 'REFUSED '+before;ed.setValue(await __get(p.code),-1);await new Promise(r=>setTimeout(r,800));const after=await __h(ed.getValue());window.__codeOk=after===p.code.slice(0,16)?'STUB:'+s:null;return JSON.stringify({before,after,ok:after===p.code.slice(0,16)})};
