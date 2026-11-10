@@ -32,6 +32,11 @@ window.__stub=async s=>{const p=await __pg('STUB:'+s);const wait=ms=>new Promise
  res.noindexBefore=sw?(sw.checked??sw.getAttribute('aria-checked')):null;
  if(sw&&!(sw.checked===true||sw.getAttribute('aria-checked')==='true')){sw.click();await wait(400)}
  res.noindex=sw?(sw.checked===true||sw.getAttribute('aria-checked')==='true'):false;
+ const ta=[...document.querySelectorAll('textarea')].find(t=>/Lennon/.test(t.placeholder));if(ta){set(ta,'');await wait(300);res.schemaCleared=ta.value===''}
+ if(window.__codeOk!=='STUB:'+s)return 'SKIPPED: stub code not confirmed '+JSON.stringify(res);
+ if(Object.values(res).filter(v=>typeof v==='boolean').every(v=>v)||res.noindexBefore==='false'||res.noindexBefore===false||res.noindexBefore===true||res.noindexBefore==='true'){
+  const ok=res['Page Title']&&res['Page Description']&&res.canon&&res.noindex&&res.schemaCleared;
+  if(ok){const b=[...document.querySelectorAll('button')].find(e=>e.textContent.trim()==='Save'&&!e.disabled);b&&b.click();await wait(4000);const pb=[...document.querySelectorAll('button')].find(e=>e.textContent.trim()==='Publish'&&!e.disabled);pb&&pb.click();res.saved=true}}
  return JSON.stringify(res)};
 window.__stubcode=async s=>{const p=await __pg('STUB:'+s);const ed=ace.edit(document.querySelectorAll('.ace_editor')[0]);const before=await __h(ed.getValue());
  if(!p.accept.includes(before)&&before!==p.code.slice(0,16))return 'REFUSED '+before;ed.setValue(await __get(p.code),-1);await new Promise(r=>setTimeout(r,800));const after=await __h(ed.getValue());window.__codeOk=after===p.code.slice(0,16)?'STUB:'+s:null;return JSON.stringify({before,after,ok:after===p.code.slice(0,16)})};
