@@ -1,0 +1,224 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><style>.research-chart{margin:30px 0}.research-series .research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important}.quiz-cta .button{display:inline-block;margin-top:12px}</style><style>.place-page figure.research-chart img,.mva-site[data-conversion-batch] .place-page figure.research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto}.place-page figure.research-chart.portrait img,.mva-site[data-conversion-batch] .place-page figure.research-chart.portrait img{max-width:540px!important}.place-page .mva-review-scroll table{min-width:640px}.place-page .research-data-links a{overflow-wrap:anywhere}@media(max-width:600px){.mva-site[data-conversion-batch] .place-page .article-image img,.place-page .article-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page town-page" id="lakewood">
+
+<h1>Lakewood NJ accident records: New Hampshire Road corners, people on foot and the Lakewood PD report</h1>
+
+<section id="answer">
+  <p class="lead">Lakewood had more car accidents where someone was hurt or killed than any other town in Ocean County: 1,617 in 2023 and 2024. That is 27 percent of the county total, and the 8th highest of 573 municipality codes in New Jersey's crash records.</p>
+  <p>Those accidents hurt 2,136 people and killed 13. Two things set Lakewood apart. New Hampshire Road shows up at more of the town's busy corners than any other street, and almost half of Ocean County's pedestrian crashes happened here.</p>
+  <p>Most Lakewood crash reports are held by the Central Records unit of the Lakewood Police Department on 3rd Street. Garden State Parkway crashes in town are State Police reports, with their own portal and help line, set out further down.</p>
+  <p class="source" data-file="lane2-content/data/profiles/lakewood-nj-car-accidents.json (two_year_2023_2024, rank); lane2-content/data/counties/ocean.json (two_year_2023_2024)">Source: police crash records NJDOT published for 2023 to 2025, cleaned up by the open-source <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a> project (retrieved 2026-11-10). Fatal crashes are cross-checked against <a href="https://www.nj.gov/njsp/info/fatalacc/index.shtml">NJ State Police fatal crash statistics</a> (retrieved 2026-11-10). We did the counting and ranking ourselves; the notes on how are near the bottom of the page.</p>
+  <div class="quiz-cta quiz-cta-inline">
+    <p>Hurt in a car accident in Lakewood, on New Hampshire Road, Route 9 or a side street? The free New Jersey questionnaire asks a few short questions: your injury, whether you already have a lawyer, fault, medical attention, the police report and the date. If your answers fit, a sponsoring lawyer's office may call you. There is no obligation.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=lakewood-nj-car-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="new-hampshire-road">
+  <h2>New Hampshire Road runs through Lakewood's busiest corners</h2>
+  <p>New Hampshire Road (Ocean County Route 623) is part of 5 of the 13 Lakewood intersections with the most accidents where someone was hurt in 2024 and 2025. Across all its cross streets, it accounts for 72 of the 497 intersection accidents with an injury or death in town, about 1 in 7.</p>
+  <p>Those 72 accidents are spread over 20 different cross streets. The single busiest pairing is New Hampshire Road at Cedar Bridge Avenue (Route 528), with 17. The 13 corners in the table below recorded no deaths in these two years.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Lakewood intersections with the most accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary). All pairs tied at the 10th value (5) are shown.</caption>
+      <thead>
+        <tr><th scope="col">Intersection</th><th scope="col">Hurt or killed, 2024</th><th scope="col">Hurt or killed, 2025 (preliminary)</th><th scope="col">People hurt</th><th scope="col">All accidents</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">New Hampshire Road at Cedar Bridge Avenue (Route 528)</th><td>8</td><td>9</td><td>33</td><td>39</td></tr>
+        <tr><th scope="row">New Hampshire Road at Chestnut Street (County Route 40)</th><td>8</td><td>3</td><td>14</td><td>58</td></tr>
+        <tr><th scope="row">New Hampshire Road at Ocean Avenue (Route 88)</th><td>8</td><td>3</td><td>15</td><td>23</td></tr>
+        <tr><th scope="row">Airport Road at Cedar Bridge Avenue (Route 528)</th><td>5</td><td>4</td><td>14</td><td>13</td></tr>
+        <tr><th scope="row">New Hampshire Road at Route 70</th><td>4</td><td>3</td><td>12</td><td>30</td></tr>
+        <tr><th scope="row">New Hampshire Road at Oak Street</th><td>4</td><td>3</td><td>11</td><td>13</td></tr>
+        <tr><th scope="row">Chambers Bridge Road (Route 549) at Ocean Avenue (Route 88)</th><td>3</td><td>3</td><td>8</td><td>12</td></tr>
+        <tr><th scope="row">West Cross Street at White Street</th><td>2</td><td>4</td><td>8</td><td>9</td></tr>
+        <tr><th scope="row">Linden Avenue at Ocean Avenue (Route 88)</th><td>2</td><td>3</td><td>8</td><td>18</td></tr>
+        <tr><th scope="row">First Street at Route 9</th><td>2</td><td>3</td><td>6</td><td>16</td></tr>
+        <tr><th scope="row">Monmouth Avenue at County Line Road (Route 526)</th><td>1</td><td>4</td><td>6</td><td>16</td></tr>
+        <tr><th scope="row">County Line Road (Route 526) at Route 9</th><td>5</td><td>0</td><td>13</td><td>14</td></tr>
+        <tr><th scope="row">Route 70 at Vermont Avenue</th><td>2</td><td>3</td><td>9</td><td>11</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p>Chestnut Street at New Hampshire Road stands out for a different reason. It has 58 police-reported accidents in two years, the most of any corner here, but most of them hurt no one.</p>
+  <p>We merged spellings of the same road before counting, for example "NEW HAMPSHIRE ROAD (OCEAN COUNTY 623)" and "OCEAN COUNTY 623". Other spelling variants remain, so each count is a floor. These are counts, not risk rates: busier corners see more accidents.</p>
+  <p class="source" data-file="lane2-content/data/lakewood-nj-car-accidents/lakewood_intersections_merged_2024_2025.csv; lakewood_new_hampshire_intersection_share_2024_2025.csv">Source: NJDOT crash records 2024 and 2025 (2025 preliminary) via hudcostreets/nj-crashes, intersection-flagged records, our name merging (retrieved 2026-11-10). To set these corners against the rest of the state, see <a href="/new-jersey/most-dangerous-intersections-nj">New Jersey intersections with the most car accidents</a>.</p>
+</section>
+
+<section id="people-on-foot">
+  <h2>Nearly half of Ocean County's pedestrian crashes were in Lakewood</h2>
+  <p>Police reported 183 pedestrian crashes in Lakewood in 2023 and 2024, out of 374 in all of Ocean County. That is 49 percent of the county's pedestrian crashes, from a town with 27 percent of its injury accidents.</p>
+  <p>Bicycle crashes follow the same direction, less sharply: 106 in Lakewood, 28 percent of the county's 377. Four of the 13 people killed in Lakewood in 2023 and 2024 were pedestrians.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Pedestrians and cyclists in Lakewood accidents, 2023 and 2024, compared with Ocean County and New Jersey</caption>
+      <thead>
+        <tr><th scope="col">Measure</th><th scope="col">Lakewood</th><th scope="col">Ocean County</th><th scope="col">New Jersey</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Pedestrian crashes</th><td>183</td><td>374</td><td>8,521</td></tr>
+        <tr><th scope="row">Bicycle crashes</th><td>106</td><td>377</td><td>5,288</td></tr>
+        <tr><th scope="row">Pedestrian crashes where someone was hurt or killed, as a share of all accidents where someone was hurt or killed</th><td>9.8%</td><td>5.1%</td><td>6.6%</td></tr>
+        <tr><th scope="row">Bicycle crashes where someone was hurt or killed, as a share of all accidents where someone was hurt or killed</th><td>5.3%</td><td>4.9%</td><td>3.8%</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p>Within Lakewood, 90 of the 183 pedestrian crashes were on local streets without a route number. Route 9 had 34, more than any numbered road in town, and Ocean Avenue (Route 88) had 18.</p>
+  <p>The Township of Lakewood's police department page lists a "Walk Safely" pedestrian safety card campaign among its resources. <span class="source">(<a href="https://www.lakewoodnj.gov/department/police">Township of Lakewood, Police Department page</a>, retrieved 2026-11-10)</span></p>
+  <p class="source" data-file="lane2-content/data/profiles/lakewood-nj-car-accidents.json (two_year_2023_2024, crash_type_mix_2023_2024); counties/ocean.json; statewide.json; lakewood-nj-car-accidents/lakewood_roads_by_route_2023_2024.csv">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes (retrieved 2026-11-10). Shares use the police-coded crash type. If you were hit on foot or on a bike, see our <a href="/new-jersey/pedestrian-crash-new-jersey">page on pedestrian crashes in New Jersey</a>.</p>
+</section>
+
+<section id="roads">
+  <h2>Lakewood's roads, counted by route number</h2>
+  <p>Many Lakewood roads appear under several names in the records. Route 9 alone appears as "US 9", "US 9 (RIVER AVENUE)", "US 9 (MADISON AVENUE)" and more. Counted by route number, Route 9 has the most injury accidents of any numbered road, 241 in 2023 and 2024.</p>
+  <p>Local streets without a route number together carry the largest share: 471 accidents where someone was hurt, 29 percent of the town total. Clifton Avenue is the name that appears most often among them.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Lakewood accidents by road, 2023 and 2024, name variants merged by route number</caption>
+      <thead>
+        <tr><th scope="col">Road</th><th scope="col">Hurt or killed</th><th scope="col">Share of Lakewood total</th><th scope="col">All accidents</th><th scope="col">People killed</th><th scope="col">Pedestrian crashes</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Local streets (no route number)</th><td>471</td><td>29.1%</td><td>3,357</td><td>2</td><td>90</td></tr>
+        <tr><th scope="row"><a href="/new-jersey/route-9-nj-accidents">Route 9</a> (River Avenue, Lila W Thompson Memorial Highway)</th><td>241</td><td>14.9%</td><td>1,129</td><td>0</td><td>34</td></tr>
+        <tr><th scope="row">Route 528 (Cedar Bridge Avenue)</th><td>150</td><td>9.3%</td><td>675</td><td>4</td><td>11</td></tr>
+        <tr><th scope="row">Route 526 (County Line Road)</th><td>135</td><td>8.3%</td><td>558</td><td>1</td><td>9</td></tr>
+        <tr><th scope="row">New Hampshire Road (County Route 623)</th><td>133</td><td>8.2%</td><td>564</td><td>2</td><td>3</td></tr>
+        <tr><th scope="row">Route 88 (Ocean Avenue)</th><td>125</td><td>7.7%</td><td>474</td><td>0</td><td>18</td></tr>
+        <tr><th scope="row"><a href="/new-jersey/route-70-nj-accidents">Route 70</a></th><td>107</td><td>6.6%</td><td>392</td><td>3</td><td>4</td></tr>
+        <tr><th scope="row"><a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway</a></th><td>59</td><td>3.6%</td><td>349</td><td>0</td><td>0</td></tr>
+        <tr><th scope="row">County Route 626 (Cross Street)</th><td>45</td><td>2.8%</td><td>207</td><td>0</td><td>4</td></tr>
+        <tr><th scope="row">County Route 639</th><td>37</td><td>2.3%</td><td>134</td><td>1</td><td>2</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source" data-file="lane2-content/data/lakewood-nj-car-accidents/lakewood_roads_by_route_2023_2024.csv">Source: NJDOT crash records 2023 and 2024 via hudcostreets/nj-crashes, grouped by road class and route number (retrieved 2026-11-10). Bracketed names are street names that the records often attach to that route in Lakewood.</p>
+</section>
+
+<section id="deaths">
+  <h2>Route 70: a small share of injuries, a large share of deaths</h2>
+  <p>Route 70 carried under 7 percent of Lakewood's injury accidents in 2023 and 2024. Yet 6 of the 16 fatal accidents in Lakewood from 2023 to 2025 were on Route 70, more than on any other road.</p>
+  <p>Cedar Bridge Avenue (Route 528) had 2 fatal accidents in which 4 people died, 3 of them in a single 2023 crash. Eleven of the 16 fatal accidents happened in the dark, and 4 were coded as pedestrian crashes.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Fatal accidents in Lakewood by road, 2023 to 2025 (2025 preliminary)</caption>
+      <thead>
+        <tr><th scope="col">Road</th><th scope="col">Fatal accidents</th><th scope="col">People killed</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Route 70</th><td>6</td><td>6</td></tr>
+        <tr><th scope="row">Route 528 (Cedar Bridge Avenue)</th><td>2</td><td>4</td></tr>
+        <tr><th scope="row">New Hampshire Road (County Route 623)</th><td>2</td><td>2</td></tr>
+        <tr><th scope="row">Local streets (no route number)</th><td>2</td><td>2</td></tr>
+        <tr><th scope="row">County Route 626 (Cross Street)</th><td>1</td><td>2</td></tr>
+        <tr><th scope="row">County Route 639</th><td>1</td><td>1</td></tr>
+        <tr><th scope="row">Route 526 (County Line Road)</th><td>1</td><td>1</td></tr>
+        <tr><th scope="row">Garden State Parkway</th><td>1</td><td>1</td></tr>
+        <tr><th scope="row">Total</th><td>16</td><td>19</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p>Sixteen fatal accidents over three years is a small number, so one more or one fewer changes the picture. The records also say nothing about who caused any of them.</p>
+  <p class="source" data-file="lane2-content/data/lakewood-nj-car-accidents/lakewood_deaths_2023_2025.csv">Source: NJDOT crash records 2023 to 2025 via hudcostreets/nj-crashes, fatal accidents supplemented from <a href="https://www.nj.gov/njsp/info/fatalacc/index.shtml">NJ State Police fatal crash statistics</a> (retrieved 2026-11-10). 2025 is preliminary.</p>
+</section>
+
+<section id="patterns">
+  <h2>Two patterns that differ from the rest of the county</h2>
+  <h3>Saturday has far fewer injury accidents</h3>
+  <p>Only 6.6 percent of Lakewood's injury accidents in 2023 and 2024 happened on a Saturday. In the rest of Ocean County the figure was 13.0 percent, and statewide 13.4 percent. Thursday was Lakewood's busiest day, with 17.3 percent.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Share of accidents where someone was hurt or killed, by day of the week, 2023 and 2024</caption>
+      <thead>
+        <tr><th scope="col">Day</th><th scope="col">Lakewood</th><th scope="col">Rest of Ocean County</th><th scope="col">New Jersey</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Monday</th><td>16.0%</td><td>14.6%</td><td>14.3%</td></tr>
+        <tr><th scope="row">Tuesday</th><td>15.5%</td><td>14.5%</td><td>14.9%</td></tr>
+        <tr><th scope="row">Wednesday</th><td>15.8%</td><td>15.3%</td><td>14.9%</td></tr>
+        <tr><th scope="row">Thursday</th><td>17.3%</td><td>14.6%</td><td>14.7%</td></tr>
+        <tr><th scope="row">Friday</th><td>15.7%</td><td>16.0%</td><td>15.9%</td></tr>
+        <tr><th scope="row">Saturday</th><td>6.6%</td><td>13.0%</td><td>13.4%</td></tr>
+        <tr><th scope="row">Sunday</th><td>13.1%</td><td>12.0%</td><td>11.9%</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p>The crash records do not say why traffic accidents fall on a given day, so we do not offer a reason. The pattern is the same in the raw counts: 106 Saturday injury accidents against 279 on Thursdays.</p>
+  <h3>Turning and crossing accidents, and a lighting code</h3>
+  <p>Left turn and U-turn accidents were 10.5 percent of Lakewood's injury accidents, against 4.6 percent statewide. Right-angle accidents were 27.8 percent, against 22.4 percent. Fixed-object accidents, such as hitting a pole or tree, were 5.9 percent, about half the state share.</p>
+  <p>Police coded 25.7 percent of Lakewood injury accidents as "Dark (street lights on, spot)", against 5.1 percent statewide. The share held steady each year: 25.9, 25.6 and 23.6 percent (2025 preliminary). This is how officers describe the lighting, and it may partly reflect local reporting habits. It does not show that lighting caused any accident.</p>
+  <p class="source" data-file="lane2-content/data/lakewood-nj-car-accidents/lakewood_weekday_share_2023_2024.csv; lakewood_light_by_year_ki.csv; profiles/lakewood-nj-car-accidents.json (crash_type_mix_2023_2024, light_2023_2024); statewide.json">Source: NJDOT crash records 2023 to 2025 via hudcostreets/nj-crashes (retrieved 2026-11-10). Statewide day-of-week shares cover every crash record in the file. For the statewide timing picture, see our <a href="/new-jersey/when-do-most-car-accidents-happen">page on when car accidents happen in New Jersey</a>.</p>
+</section>
+
+<section id="report">
+  <h2>Ordering a crash report from Lakewood Central Records or the Parkway portal</h2>
+  <h3>Lakewood Police Department</h3>
+  <p>The Lakewood Police Department's Central Records page says report requests can be emailed to records@lakewoodpolicenj.com or mailed to PO Box 540, Lakewood, NJ 08701. Include a copy of a valid picture ID and a phone number. <span class="source">(<a href="https://www.lakewoodpolicenj.com/records/">Lakewood Police Department, Central Records</a>, retrieved 2026-11-10)</span></p>
+  <p>The same page says reports can be picked up at the department, 231 3rd Street, and that accident reports are also available online through crashdocs.org or lexisnexis.com. Public records (OPRA) requests go through the Township Clerk's office instead. <span class="source">(<a href="https://www.lakewoodpolicenj.com/records/">Lakewood Police Department, Central Records</a>, retrieved 2026-11-10)</span></p>
+  <p>Pickup hours differ between two official pages. The police records page gives 8:15 am to 4:00 pm, while the township's police FAQ gives 10:00 am to 5:00 pm, Monday to Friday. Call the non-emergency number the township lists, 732-363-0200 ext 5712, before you go. <span class="source">(<a href="https://www.lakewoodnj.gov/department/police">Township of Lakewood, Police Department page</a>, retrieved 2026-11-10)</span></p>
+  <p>If you think the report contains an error, the township FAQ says to call 732-363-0200 extension 5360 and ask the Watch Commander to have the investigating officer call you back. <span class="source">(<a href="https://www.lakewoodnj.gov/department/police">Township of Lakewood, Police Department page</a>, retrieved 2026-11-10)</span></p>
+  <h3>Garden State Parkway: State Police</h3>
+  <p>In the preliminary 2025 records, 140 of Lakewood's 4,367 crash rows name a State Police station, and 136 of those are on the Garden State Parkway. For 2023 and 2024 the station field is almost empty, so earlier years cannot be split this way.</p>
+  <p>Parkway crash reports are ordered on the NJ State Police crash report portal at <a href="https://www.njportal.com/njsp/crashreports/">njportal.com/njsp/crashreports</a>. The portal lists a $5.00 fee for toll road reports and keeps reports for six years from the year of the crash. <span class="source">(<a href="https://www.njportal.com/njsp/crashreports/">NJSP crash reports portal</a>, retrieved 2026-11-10)</span></p>
+  <p>For a question about a Parkway report, the portal sends you to the New Jersey Turnpike Authority at 732-442-8600 ext. 2431. The State Police line, 609-882-2000 ext. 2234, is for State Police reports on roads without tolls, boat crashes and serious or fatal crash records. <span class="source">(<a href="https://www.njportal.com/njsp/crashreports/">NJSP crash reports portal</a>, retrieved 2026-11-10)</span></p>
+  <h3>When no Lakewood officer wrote a report</h3>
+  <p>Only police fill in the NJTR-1 crash report. If no officer investigated your Lakewood crash, NJDOT points drivers to the SR-1 form to report it themselves. <span class="source">(<a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">NJDOT, police crash report information</a>, retrieved 2026-11-10)</span></p>
+  <p class="source" data-file="lane2-content/data/lakewood-nj-car-accidents/lakewood_station_rows_2025.csv">Station counts: NJDOT crash records 2025 (preliminary) via hudcostreets/nj-crashes (retrieved 2026-11-10). Agency-by-agency detail for the rest of the state is in our <a href="/new-jersey/nj-car-accident-report">New Jersey car accident report guide</a>.</p>
+</section>
+
+<section id="method">
+  <h2>Behind the Lakewood counts: files, years and the 573 codes</h2>
+  <p>Every count here comes from crash rows that NJDOT assigns to Lakewood Township, Ocean County. The 2023 rows come from NJDOT's per-table archive and the 2024 and 2025 rows from its Crash Data Portal, all normalized by hudcostreets/nj-crashes. The file was downloaded 2026-11-06.</p>
+  <p>Lakewood's preliminary 2025 total already runs 1.055 times the 2024 total. That is no sign of missing months, yet the 2025 numbers may still move. The yearly totals behind the page are below.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Police-reported car accidents in Lakewood Township, 2023 to 2025 (2025 preliminary)</caption>
+      <thead>
+        <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian crashes</th><th scope="col">Bicycle crashes</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">2023</th><td>4,267</td><td>870</td><td>1,163</td><td>9</td><td>93</td><td>55</td></tr>
+        <tr><th scope="row">2024</th><td>4,138</td><td>747</td><td>973</td><td>4</td><td>90</td><td>51</td></tr>
+        <tr><th scope="row">2025 (preliminary)</th><td>4,367</td><td>853</td><td>1,160</td><td>6</td><td>78</td><td>57</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p>The headline totals, roads, crash types, lighting and weekdays use the two complete years, 2023 and 2024. Corners use 2024 and 2025 only, since the 2023 export spells Lakewood's street names in another style. Deaths use all three years.</p>
+  <p>A crash counts as "hurt or killed" when the police record lists one or more injured or dead. The rank of 8 compares raw counts across the 573 county and municipality code pairs in the 2023 and 2024 records. That list includes some miscoded and blank entries, so it is not an exact count of New Jersey's municipalities. Nothing is adjusted for population or traffic.</p>
+  <p class="source" data-file="lane2-content/data/README.md; lane2-content/data/profiles/lakewood-nj-car-accidents.json (years, ratio_2025_total_to_2024_total); lane2-content/data/lakewood-nj-car-accidents/lakewood_cuts.py">Scripts and CSVs: lane2-content/data/build_place_profiles.py and lane2-content/data/lakewood-nj-car-accidents/lakewood_cuts.py, run 2026-11-10. Fatal accidents cross-checked against the NJ State Police fatal feed.</p>
+</section>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened in Lakewood. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident in Lakewood? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=lakewood-nj-car-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="nearby">
+  <h2>More on Ocean County roads and towns</h2>
+  <ul>
+    <li><a href="/new-jersey/ocean-county-car-accident-help">Ocean County car accident help page</a></li>
+    <li><a href="/new-jersey/toms-river-nj-car-accidents">Car accidents in Toms River, Ocean County's second-highest town for injury accidents</a></li>
+    <li><a href="/new-jersey/route-9-nj-accidents">Route 9 car accidents across New Jersey</a></li>
+    <li><a href="/new-jersey/route-70-nj-accidents">Route 70 car accidents across New Jersey</a></li>
+    <li><a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway accidents and State Police reports</a></li>
+  </ul>
+</section>
+
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=lakewood-nj-car-accidents">Start the New Jersey accident quiz ↗</a></div></footer></div>

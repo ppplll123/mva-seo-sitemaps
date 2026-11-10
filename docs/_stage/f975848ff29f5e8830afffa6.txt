@@ -1,0 +1,160 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article article long-form" id="route46-little-falls" data-editorial-rewrite="20261110">
+<p class="kicker">NEW JERSEY / ACCIDENT HELP</p>
+<h1>Route 46 crash near Little Falls: help for an injured passenger or family member</h1>
+<p class="micro" data-editorial-byline="publisher">By <a href="https://injuriescases.autos/about">Injuries Cases Autos</a></p>
+<p class="lead">Injured as a passenger near Little Falls on Route 46? Get help understanding medical bills, family coverage, missed work, insurance requests and injury claims.</p>
+<p class="micro">Sources checked: November 10, 2026</p>
+<figure class="article-image"><img src="https://sitemap.injuriescases.com/images/articles/injuriescases.autos/route46-little-falls-crash-road-and-connection.jpg" width="1120" height="1400" alt="Generated Route 46 Little Falls road setting" loading="lazy" decoding="async"><figcaption>Editorial illustration from the image library, not a reader's accident or verified current road conditions.</figcaption></figure>
+
+<nav class="article-toc" aria-label="In this guide"><strong>In this guide</strong><ol>
+<li><a href="#section-1">Being a passenger does not make your injury secondary</a></li>
+<li><a href="#section-2">Explain your seat and symptoms to the healthcare professional</a></li>
+<li><a href="#section-3">Identify the passenger's coverage instead of borrowing a claim number</a></li>
+<li><a href="#section-4">Your side-window view can differ from the driver's</a></li>
+<li><a href="#section-5">Obtain the report and check how you are identified</a></li>
+<li><a href="#section-6">A relative or friend driving creates questions worth discussing</a></li>
+<li><a href="#section-7">Work losses and household help belong to the injured person</a></li>
+<li><a href="#section-8">Understand the injury claim and lawsuit option</a></li>
+<li><a href="#section-9">Read your own insurer requests and any release</a></li>
+<li><a href="#section-10">Make the next step individual and timely</a></li>
+<li><a href="#little-falls-help">Little Falls car accident help: Route 46, Route 3 and Notch Road</a></li>
+</ol></nav>
+
+<div class="articlebody">
+
+<section id="section-1">
+<h2>Being a passenger does not make your injury secondary</h2>
+<p>After a Route 46 crash near Little Falls, the driver may be handling the car, police information and insurance calls. If you were riding with a relative or friend, it can be tempting to leave everything to them. Your injury still needs its own attention. You may have different symptoms, coverage questions and work losses even though you were in the same vehicle.</p>
+<p>For a broader overview of injuries and insurance when you were not the driver, see the <a href="https://injuriescases.autos/new-jersey/passenger-accident-new-jersey">New Jersey passenger accident guide</a>.</p>
+<p>Start with medical care and an individual coverage inquiry. Ask who is handling your treatment bills and which documents are needed from you. Keep your own account of what you noticed. The driver's claim may overlap with yours, but it is not a substitute for understanding the decisions affecting your health and any possible compensation.</p>
+<div class="quiz-cta" data-quiz-cta="article-intro">
+<p>Hurt as a passenger in a car accident on Route 46 near Little Falls? A short New Jersey screening questionnaire asks about your car accident. If you qualify, it may introduce you to a sponsoring lawyer or legal consultant who calls you.</p>
+<p><a class="button" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route46-little-falls-crash-road-and-connection" data-quiz-link="article-intro" rel="sponsored noopener">Take the 30-second quiz</a></p>
+<p class="quiz-note"><small>Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</small></p>
+</div>
+</section>
+
+<section id="section-2">
+<h2>Explain your seat and symptoms to the healthcare professional</h2>
+<p>Tell a clinician where you were seated, what contact you remember and what symptoms you now have. A driver and passenger may experience the same event differently. Avoid adopting someone else's diagnosis because they were examined first. Explain existing symptoms or conditions honestly and identify what changed after the crash.</p>
+<p>If an injury is potentially life-threatening, call 911 or get emergency care. <a href="https://www.cdc.gov/traumatic-brain-injury/signs-symptoms/index.html" rel="noopener">CDC</a> identifies warning signs after a possible concussion such as repeated vomiting, worsening headache, seizures, slurred speech and trouble waking. Urgent care should not wait for the driver to finish speaking with an insurer.</p>
+<p>For pain or stiffness that develops later, seek appropriate medical advice. <a href="https://medlineplus.gov/ency/imagepages/9853.htm" rel="noopener">MedlinePlus</a> explains that whiplash symptoms may be delayed. Ask about the activities that matter to you, including caring for children, lifting at work or driving your own vehicle later. Ask for guidance that addresses your own symptoms and activities, even if another occupant has a different recovery plan.</p>
+<p>If pain appeared hours or days later, the guide on <a href="https://injuriescases.autos/new-jersey/nj-how-long-car-accident-symptoms-can-take-to-show-up">how long car accident symptoms can take to show up</a> explains why timing and records matter.</p>
+</section>
+
+<section id="section-3">
+<h2>Identify the passenger's coverage instead of borrowing a claim number</h2>
+<p>Your treatment-payment question needs the actual policy, injured person and written insurer response. Use <a href="https://injuriescases.autos/new-jersey/pip-health-insurance-medical-bills-new-jersey">PIP or health insurance first</a> for payer order and <a href="https://injuriescases.autos/new-jersey/pip-coverage-limits-medical-bills-new-jersey">the PIP limits guide</a> for the selected benefit. The road name and another driver's fault do not decide eligibility or every invoice. Keep the bill and its actual processing explanation together.</p>
+<p>New Jersey's Department of Banking and Insurance (DOBI) describes PIP as coverage that "pays your own medical expenses no matter who caused the auto accident" (<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf" rel="noopener">DOBI 2026 Auto Insurance Buyer's Guide, p. 2</a>). A standard-policy holder may also have chosen their health insurer as the first payer, with PIP paying second; that depends on the election made on the policy (<a href="https://www.nj.gov/dobi/division_consumers/insurance/pipoption.htm" rel="noopener">DOBI: selecting your health insurer for PIP</a>).</p>
+</section>
+
+<section id="section-4">
+<h2>Your side-window view can differ from the driver's</h2>
+<p>The <a href="https://www.nj.gov/transportation/commuter/roads/rt46/" rel="noopener">NJDOT Route 3/46 project overview</a> spans Little Falls, Woodland Park and Clifton. A project name or family destination does not locate the first contact or establish current ramps.</p>
+<ol>
+<li><strong>Identify the part you saw.</strong> Name your seat and whether the other car was alongside before contact. If you looked over only after the jolt, keep that timing.</li>
+<li><strong>Keep the family reconstruction separate.</strong> Your relative may describe a ramp or branch you did not see. Attribute that information rather than completing your own memory with it.</li>
+<li><strong>Ask whose interests an agreement covers.</strong> Your treatment, missed work and proposed release need their own review. A driver's repair or representation agreement is not automatically yours.</li>
+</ol>
+<p>An original recording can have a limited view too. Explain what it shows of the approach, not just that it captured the impact sound.</p>
+</section>
+
+<section id="section-5">
+<h2>Obtain the report and check how you are identified</h2>
+<p>Keep the original record, incident reference and factual correction request separate from your personal notes. The <a href="https://injuriescases.autos/new-jersey/medical-records-injury-claim-new-jersey">records guide</a> explains the different records and their limits. A scene report does not diagnose an occupant or establish every civil fault question.</p>
+<p>DOBI's consumer guide suggests you "Review report for details, such as how many passengers were listed" and, if you see inconsistencies, tell your insurance company and contact the police department that responded (<a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf" rel="noopener">DOBI, Everything You Wanted to Know About Auto Insurance, 2026, p. 25</a>). DOBI also says insurers assign fault from all the facts, not from the police report alone (<a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf" rel="noopener">same guide, pp. 26 to 27</a>).</p>
+<p>To find where to request the police report and what to check in it, use the <a href="https://injuriescases.autos/new-jersey/nj-car-accident-report">New Jersey car accident report guide</a>.</p>
+</section>
+
+<section id="section-6">
+<h2>A relative or friend driving creates questions worth discussing</h2>
+<p>An injured passenger may worry that asking about compensation means accusing a family member or creating a personal conflict. Start by asking a lawyer to explain the available claims and insurance. The answer depends on responsibility, relevant policy terms and the applicable law. A passenger's situation should not be resolved by social pressure or an assumption that only the other vehicle can be considered.</p>
+<p>If different occupants have different interests, ask how the lawyer would handle that issue and who would be represented. Do not assume one person's agreement with an insurer automatically protects everyone else. Each proposed release should be understood by the person whose rights it affects.</p>
+<p>You do not need to accuse anyone or invent an explanation to obtain advice. Give the known facts and identify the relationship honestly. A useful consultation should clarify the options and any potential conflict before you decide whether to proceed.</p>
+</section>
+
+<section id="section-7">
+<h2>Work losses and household help belong to the injured person</h2>
+<p>Record actual missed time, reduced duties and the reason for each absence. Separate an injury limitation from a journey disrupted only by vehicle repairs. The <a href="https://injuriescases.autos/new-jersey/nj-can-you-claim-lost-wages-after-a-car-accident-in-nj">missed-work guide</a> explains records to discuss; it does not guarantee wage reimbursement. Keep clinical decisions with the treating professional.</p>
+</section>
+
+<section id="section-8">
+<h2>Understand the injury claim and lawsuit option</h2>
+<p>The <a href="https://injuriescases.autos/new-jersey/new-jersey-car-accident-help">New Jersey car guide</a> separates treatment benefits, another party's responsibility and possible injury losses. Your policies, medical facts and legal requirements need individual review. A local movement, crossing or repair estimate supplies no compensation formula. Ask what remains disputed rather than assuming a general option applies to everyone.</p>
+<p>One policy term matters here. A New Jersey policy carries either the limitation on lawsuit option or the no limitation option. Under the limitation option, a claim for pain and suffering against a driver in the New Jersey PIP system generally needs an injury in one of the listed categories, such as a displaced fracture or a permanent injury, while claims for economic losses are not limited by it. If no written choice was made, the limitation option applies, and the choice can also apply to relatives living with you who are not covered under another auto policy (<a href="https://www.nj.gov/dobi/division_consumers/insurance/standardpolicy.html" rel="noopener">DOBI: standard policy and lawsuit options</a>; N.J.S.A. 39:6A-8 and 39:6A-8.1). Ask which option applies to you as a passenger.</p>
+</section>
+
+<section id="section-9">
+<h2>Read your own insurer requests and any release</h2>
+<p>Identify the insurer, claim and purpose of each request. Address your own policy's appropriate notice and cooperation requirements; seek clarification instead of guessing. Before a broad authorization or release, use <a href="https://injuriescases.autos/new-jersey/nj-8-questions-to-ask-before-accepting-a-settlement-offer">the settlement questions guide</a> and obtain individual advice about unclear terms. A property payment and an injury settlement can address different losses.</p>
+</section>
+
+<section id="section-10">
+<h2>Make the next step individual and timely</h2>
+<p>Ask promptly about the deadlines and notice requirements for your own circumstances, especially if a public vehicle or entity may be involved. As a general rule, a New Jersey injury lawsuit must be started within two years after the claim arises, with exceptions (N.J.S.A. 2A:14-2). A claim against a public entity needs a written notice of claim within 90 days of accrual (N.J.S.A. 59:8-8; <a href="https://www.nj.gov/treasury/riskmgt/tort-notice.shtml" rel="noopener">New Jersey Treasury: public entity notice of claim</a>). A court may allow late notice only in limited circumstances, generally within one year of accrual, and a lawsuit against a public entity still has an outer two-year limit (N.J.S.A. 59:8-9). A record request or ongoing insurer conversation does not establish that those requirements were met. Bring the available file and proposed terms to individual advice; the <a href="https://injuriescases.autos/new-jersey/new-jersey-car-accident-help">New Jersey car guide</a> supplies general consultation questions. Injuries Cases Autos is not a law firm. An inquiry creates no representation or guaranteed result.</p>
+</section>
+
+<section id="little-falls-help">
+<h2>Little Falls car accident help: Route 46, Route 3 and Notch Road</h2>
+<p>Little Falls sits inside a larger set of interchanges, so the town name alone may not say where a car accident happened. NJDOT's project page lists the City of Clifton, the Township of Little Falls and the Borough of Woodland Park, all in Passaic County. On Route 46 the project runs from just east of Browertown Road (milepost 58.76) to Rock Hill Road (milepost 60.58). On Route 3 it runs from the Route 3, Route 46 and Valley Road interchange (milepost 0.00) to just east of Grove Street (milepost 0.63). The project names the Notch Road and Rifle Camp Road interchange separately from the Route 3, Route 46 and Valley Road interchange (<a href="https://www.nj.gov/transportation/commuter/roads/rt46/" rel="noopener">NJDOT Route 3, Route 46, Valley Road and Notch/Rifle Camp Road project overview</a>, checked November 10, 2026).</p>
+<p>That page describes a construction project. It does not show the signs or lane layout on your accident date, and it does not show who caused any car accident.</p>
+<h3>Was the other car joining the highway or changing lanes?</h3>
+<p>Two hypothetical examples show the difference. In one, a car comes from a local entry and moves into the path of a vehicle continuing along Route 46. In the other, both cars were already on the highway before one crossed a lane line. These are illustrations, not actual local cases.</p>
+<ul>
+<li>Where did the other car begin its movement: an entry lane, a junction or another through lane?</li>
+<li>Was your car already in the space the other car moved into, and for how long?</li>
+<li>If a driver says their lane was ending or they needed Route 3, how will that be checked for the exact spot and date? A destination explains where someone was going, not how the movement was made.</li>
+<li>What did your own car do? If your driver changed lanes, slowed or moved toward a branch, say so. An accurate account can include what you are unsure about.</li>
+</ul>
+<h3>Contact near a branch or exit</h3>
+<p>A driver who realizes late that they are on the wrong road may change position before a split. Explain whether the other car moved toward your lane while still alongside, or moved in front and then braked. Contact can happen before either car reaches the branch, so a label such as "the Route 3 exit accident" can wrongly suggest both cars were already on the same ramp.</p>
+<p>Keep the original footage if anyone has it, including the approach before the impact. The earlier part may show how long the cars were side by side and when the movement began. A still image taken after contact can leave that out. If several vehicles were involved, separate the first movement you saw from the first impact you felt.</p>
+<h3>Where to look next</h3>
+<ul>
+<li>For counts of reported car accidents along the whole road, see <a href="https://injuriescases.autos/new-jersey/route-46-nj-accidents">Route 46 accident data across New Jersey</a>. Counts describe where accidents were reported; they do not show who was at fault in yours.</li>
+<li>For road names by highway direction near the same project, see <a href="https://injuriescases.autos/new-jersey/woodland-park-car-accident-help">Woodland Park car accident help</a>.</li>
+<li>For the neighboring city in the project area, see <a href="https://injuriescases.autos/new-jersey/clifton-nj-car-accidents">Clifton car accident data</a>.</li>
+<li>For a rider hurt elsewhere in the county, see <a href="https://injuriescases.autos/new-jersey/passaic-county-motorcycle-accident-help">Passaic County motorcycle accident help</a>.</li>
+<li>To find out which police agency handled the report, check the paperwork you were given; a report from a local police department is requested from that department (<a href="https://injuriescases.autos/new-jersey/nj-car-accident-report">New Jersey car accident report guide</a>).</li>
+</ul>
+<p>Whatever the road layout, get medical attention for new or worsening symptoms and describe the impact to the clinician. A repair estimate or the word "sideswipe" does not diagnose how you were hurt.</p>
+</section>
+
+<div class="quiz-cta" data-quiz-cta="article-end">
+<p>If you were hurt in a car accident near Little Falls and want to talk with someone about your options, the New Jersey screening questionnaire takes about 30 seconds. Qualifying readers may be introduced to a sponsoring lawyer or legal consultant who calls. It does not guarantee any result.</p>
+<p><a class="button" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route46-little-falls-crash-road-and-connection" data-quiz-link="article-end" rel="sponsored noopener">Start the New Jersey questionnaire</a></p>
+<p class="quiz-note"><small>Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</small></p>
+</div>
+
+<aside>
+<h2>Sources and scope</h2>
+<ul>
+<li><a href="https://www.nj.gov/transportation/commuter/roads/rt46/" rel="noopener">NJDOT: Route 3, Route 46, Valley Road and Notch/Rifle Camp Road project overview</a></li>
+<li><a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf" rel="noopener">NJDOBI: 2026 Auto Insurance Buyer's Guide</a></li>
+<li><a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf" rel="noopener">NJDOBI: Everything You Wanted to Know About Auto Insurance (2026)</a></li>
+<li><a href="https://www.nj.gov/dobi/division_consumers/insurance/pipoption.htm" rel="noopener">NJDOBI: PIP and health insurance as primary payer</a></li>
+<li><a href="https://www.nj.gov/dobi/division_consumers/insurance/standardpolicy.html" rel="noopener">NJDOBI: standard policy and lawsuit options</a></li>
+<li><a href="https://www.nj.gov/treasury/riskmgt/tort-notice.shtml" rel="noopener">New Jersey Treasury: public entity notice of claim</a></li>
+<li>N.J.S.A. 2A:14-2 (injury lawsuit time limit), 59:8-8 and 59:8-9 (public entity notice and late notice), 39:6A-8 and 39:6A-8.1 (lawsuit options)</li>
+<li><a href="https://www.cdc.gov/traumatic-brain-injury/signs-symptoms/index.html" rel="noopener">CDC: concussion symptoms and emergency signs</a></li>
+<li><a href="https://medlineplus.gov/ency/imagepages/9853.htm" rel="noopener">MedlinePlus: whiplash</a></li>
+</ul>
+<p>General information about accident recovery, insurance and injury claims. It does not replace legal or medical advice for your circumstances.</p>
+</aside>
+
+<section class="related-guides">
+<h2>Related guides</h2>
+<ul>
+<li><a href="https://injuriescases.autos/new-jersey/route-46-nj-accidents">Route 46 accident data across New Jersey</a></li>
+<li><a href="https://injuriescases.autos/new-jersey/passaic-county-motorcycle-accident-help">Passaic County motorcycle accident help</a></li>
+<li><a href="https://injuriescases.autos/new-jersey/woodland-park-car-accident-help">Woodland Park car accident help</a></li>
+<li><a href="https://injuriescases.autos/new-jersey/clifton-nj-car-accidents">Clifton car accident data</a></li>
+<li><a href="https://injuriescases.autos/new-jersey/passenger-accident-new-jersey">New Jersey passenger accident help: injuries and insurance</a></li>
+<li><a href="https://injuriescases.autos/new-jersey/nj-car-accident-report">How to get a New Jersey car accident report</a></li>
+<li><a href="https://injuriescases.autos/new-jersey/nj-7-signs-you-may-need-an-accident-lawyer-after-a-crash">When a lawyer may be worth asking about after a car accident in NJ</a></li>
+</ul>
+</section>
+
+<p><a href="https://injuriescases.autos/new-jersey">Browse all New Jersey guides</a></p>
+</div>
+</article></main><footer><p>Injuries Cases Autos · New Jersey</p><p>General information. We are not a law firm. No outcome is guaranteed.</p><div><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a><a href="https://injuriescases.autos/intake">Next steps</a></div><small>© 2026 Injuries Cases Autos</small></footer></div>

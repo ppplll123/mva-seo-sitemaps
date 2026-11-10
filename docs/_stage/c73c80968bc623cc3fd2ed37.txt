@@ -1,0 +1,233 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><style>.research-chart{margin:30px 0}.research-series .research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important}.quiz-cta .button{display:inline-block;margin-top:12px}</style><style>.place-page figure.research-chart img,.mva-site[data-conversion-batch] .place-page figure.research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto}.place-page figure.research-chart.portrait img,.mva-site[data-conversion-batch] .place-page figure.research-chart.portrait img{max-width:540px!important}.place-page .mva-review-scroll table{min-width:640px}.place-page .research-data-links a{overflow-wrap:anywhere}@media(max-width:600px){.mva-site[data-conversion-batch] .place-page .article-image img,.place-page .article-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page road-page" id="route-33">
+
+<h1>Route 33 NJ accident records, Trenton to Neptune: 655 accidents hurt someone in 2023 and 2024</h1>
+
+<section id="answer">
+  <p class="lead">New Jersey police reported 2,428 car accidents on Route 33 in 2023 and 2024. In 655 of them someone was hurt or killed. Those accidents hurt 936 people and killed 8.</p>
+  <p>Route 33 crosses 15 towns in Mercer, Middlesex and Monmouth counties. Police records give it three different names along the way: Greenwood Avenue in Trenton and Hamilton, the Theodore J Narozanick Highway through western Monmouth, where deer accidents cluster, and Corlies Avenue in Neptune.</p>
+  <p>Monmouth County had 358 of the 655 injury accidents, about 55 percent. Mercer County had 275, and Middlesex County had 22, all in Monroe Township.</p>
+  <p>Everything here comes from police accident records filed for 2023, 2024 and 2025, so an accident from this week will not appear. Treat every 2025 figure as preliminary.</p>
+  <p class="source" data-file="lane2-content/data/profiles/route-33-nj-accidents.json (two_year_2023_2024, by_county_2023_2024, municipalities_with_crashes)">Source: NJDOT crash records 2023 to 2025 as normalized by the open-source <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a> project (retrieved 2026-11-10), fatal accidents supplemented from <a href="https://nj.gov/njsp/info/fatalacc/">NJ State Police fatal crash statistics</a> (retrieved 2026-11-10). Analysis by us; method at the end of this page.</p>
+  <div class="quiz-cta quiz-cta-inline">
+    <p>Hurt in a car accident on Route 33, anywhere from Trenton to Neptune? The free New Jersey questionnaire asks a few short questions: your injury, whether you already have a lawyer, fault, medical attention, the police report and the date. Then it asks for your contact details. If your answers fit, a sponsoring lawyer or legal consultant may call you by phone. There is no obligation.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-33-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="towns">
+  <h2>Fifteen towns from Trenton to Neptune, and what each calls Route 33</h2>
+  <p>On a police report, Route 33 often carries a local street name. That matters when you look up your own accident, because the report may say "Greenwood Avenue" or "Corlies Avenue" instead of Route 33.</p>
+  <p>The table lists each town in milepost order, from Trenton in the west to Neptune at the shore. The last column shows how much of that town's injury accidents, on all roads, happened on Route 33.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 33 accidents by town, 2023 and 2024 combined, in milepost order</caption>
+    <thead>
+      <tr><th scope="col">Town, county</th><th scope="col">Local name on the police record</th><th scope="col">All accidents</th><th scope="col">Hurt or killed</th><th scope="col">Share of the town's injury accidents on all roads</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Trenton, Mercer</th><td>Greenwood Avenue</td><td>174</td><td>45</td><td>3.8% (of 1,182)</td></tr>
+      <tr><th scope="row">Hamilton Township, Mercer</th><td>Greenwood Avenue, Nottingham Way</td><td>500</td><td>158</td><td>11.8% (of 1,344)</td></tr>
+      <tr><th scope="row">Robbinsville Township, Mercer</th><td></td><td>52</td><td>14</td><td>6.4% (of 218)</td></tr>
+      <tr><th scope="row">Hightstown, Mercer</th><td>Mercer Street, Franklin Street, Main Street</td><td>54</td><td>18</td><td>48.6% (of 37)</td></tr>
+      <tr><th scope="row">East Windsor Township, Mercer</th><td>Franklin Street</td><td>137</td><td>40</td><td>11.9% (of 335)</td></tr>
+      <tr><th scope="row">Monroe Township, Middlesex</th><td></td><td>76</td><td>22</td><td>6.9% (of 318)</td></tr>
+      <tr><th scope="row">Millstone Township, Monmouth</th><td></td><td>74</td><td>20</td><td>12.2% (of 164)</td></tr>
+      <tr><th scope="row">Manalapan Township, Monmouth</th><td>Theodore J Narozanick Highway</td><td>160</td><td>45</td><td>15.9% (of 283)</td></tr>
+      <tr><th scope="row">Freehold Township, Monmouth</th><td>Theodore J Narozanick Highway; Business Route 33</td><td>145</td><td>38</td><td>7.5% (of 510)</td></tr>
+      <tr><th scope="row">Freehold Borough, Monmouth</th><td>Business Route 33 (Park Avenue)</td><td>29</td><td>8</td><td>7.3% (of 110)</td></tr>
+      <tr><th scope="row">Howell Township, Monmouth</th><td>Theodore J Narozanick Highway</td><td>175</td><td>52</td><td>10.1% (of 516)</td></tr>
+      <tr><th scope="row">Wall Township, Monmouth</th><td></td><td>280</td><td>44</td><td>7.1% (of 620)</td></tr>
+      <tr><th scope="row">Tinton Falls, Monmouth</th><td></td><td>52</td><td>19</td><td>6.6% (of 286)</td></tr>
+      <tr><th scope="row">Neptune City, Monmouth</th><td>Corlies Avenue</td><td>35</td><td>10</td><td>14.3% (of 70)</td></tr>
+      <tr><th scope="row">Neptune Township, Monmouth</th><td>Corlies Avenue</td><td>485</td><td>122</td><td>24.5% (of 497)</td></tr>
+      <tr><th scope="row">Route 33 total</th><td></td><td>2,428</td><td>655</td><td></td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source" data-file="lane2-content/data/route-33-nj-accidents/route33_by_municipality.csv; route33_road_names_by_municipality_2023_2024.csv; lane2-content/data/counties/{mercer,monmouth,middlesex}.json (municipalities_2023_2024)">Source: NJDOT crash records via hudcostreets/nj-crashes, our town cut (route33_cuts.py, run 2026-11-10). Order uses the median milepost of mainline Route 33 records in each town; Freehold Borough has only Business Route 33 records and sits next to Freehold Township. A blank name cell means the records use only the route number. Town totals cover every road in that town.</p>
+  <p>Hightstown stands out. Route 33 had 18 of the borough's 37 injury accidents in 2023 and 2024, almost half. It also had 5 of Hightstown's 7 accidents involving a pedestrian.</p>
+  <p>In Neptune Township, Route 33 had about one in four of the township's injury accidents, 122 of 497. Hamilton Township had the most Route 33 injury accidents of any town, 158, but that was under 12 percent of Hamilton's total.</p>
+  <p>Wall Township is the opposite case. It had 280 Route 33 accident records but only 44 that hurt someone, about 16 percent. Along the whole road the figure was 27 percent, 655 of 2,428.</p>
+</section>
+
+<section id="deer">
+  <h2>Deer accidents bunch up between Millstone and Howell</h2>
+  <p>Freehold Township comes first: police coded a deer as the first harmful event in 39 of its 145 Route 33 records for 2023 and 2024, about one in four.</p>
+  <p>Add Manalapan, Howell and Millstone and those four Monmouth towns hold 102 of the road's 141 deer collisions. Road-wide that is 5.8 percent of 2,428 records, against 3.6 percent on all New Jersey roads (18,591 of 514,320).</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Deer coded as the first harmful event on Route 33, by town, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Town</th><th scope="col">Deer first</th><th scope="col">All Route 33 records in the town</th><th scope="col">Share</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Freehold Township</th><td>39</td><td>145</td><td>26.9%</td></tr>
+      <tr><th scope="row">Manalapan Township</th><td>29</td><td>160</td><td>18.1%</td></tr>
+      <tr><th scope="row">Howell Township</th><td>18</td><td>175</td><td>10.3%</td></tr>
+      <tr><th scope="row">Millstone Township</th><td>16</td><td>74</td><td>21.6%</td></tr>
+      <tr><th scope="row">Other 11 towns</th><td>39</td><td>1,874</td><td>2.1%</td></tr>
+      <tr><th scope="row">All of Route 33</th><td>141</td><td>2,428</td><td>5.8%</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>Half of the deer accidents, 71 of 141, happened in October, November or December. November alone had 30.</p>
+  <p>Police coded just 8 of the 141 deer collisions as injury accidents. In the other 133, no one was reported hurt or killed.</p>
+  <p class="source" data-file="lane2-content/data/route-33-nj-accidents/route33_deer_vs_statewide_2023_2024.csv; route33_deer_by_month_2023_2024.csv; route33_by_municipality.csv (deer_2023_2024)">Source: NJDOT crash records via hudcostreets/nj-crashes, "first harmful event" as coded by police, 2023 and 2024.</p>
+</section>
+
+<section id="turning">
+  <h2>Turning and crossing accidents are a bigger share here than statewide</h2>
+  <p>Rear-end accidents were the most common Route 33 injury accident type, 215 of 655. But police coded 165 as right-angle accidents and 72 as left-turn or U-turn accidents. Together that is 237, about 36 percent.</p>
+  <p>Across New Jersey the same two types were about 27 percent of injury accidents, 30,588 of 112,966. Left turns alone were 11 percent of Route 33 injury accidents, against under 5 percent statewide.</p>
+  <p>These are police collision codes, not findings about who caused any accident. They tell you the shape of the road's accidents, not who was right in yours.</p>
+  <p class="source" data-file="lane2-content/data/profiles/route-33-nj-accidents.json (crash_type_mix_2023_2024); lane2-content/data/statewide.json (crash_type_mix_2023_2024)">Source: NJDOT crash records via hudcostreets/nj-crashes, police-coded collision type, 2023 and 2024.</p>
+</section>
+
+<section id="deaths">
+  <h2>Nine people died on Route 33 from 2023 to 2025 (2025 preliminary); four were on foot</h2>
+  <p>Nine Route 33 accidents from 2023 to 2025 were fatal, and each one killed a single person. Seven of the deaths came in 2024. The one 2025 death, in East Windsor Township, comes from preliminary data.</p>
+  <p>Five of the nine fatal accidents were coded as pedestrian accidents, and four of the people killed were pedestrians. That is a large share for a road where pedestrian accidents were only 39 of 2,428 records in 2023 and 2024. Three of the four pedestrian deaths happened after dark.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Fatal accidents on Route 33, 2023 to 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Month</th><th scope="col">Town</th><th scope="col">Record names (road at cross street)</th><th scope="col">Police-coded type</th><th scope="col">Light</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">February 2023</th><td>Manalapan Township</td><td>Business Route 33 at Yates Road</td><td>Fixed object</td><td>Daylight</td></tr>
+      <tr><th scope="row">January 2024</th><td>Neptune Township</td><td>Route 33 at West Bangs Avenue</td><td>Left turn or U-turn</td><td>Dusk</td></tr>
+      <tr><th scope="row">April 2024</th><td>Howell Township</td><td>Route 33 at West Renaissance Boulevard</td><td>Opposite direction (head-on or angular)</td><td>Daylight</td></tr>
+      <tr><th scope="row">August 2024</th><td>Freehold Borough</td><td>Business Route 33 at Monmouth Avenue</td><td>Pedestrian (pedestrian killed)</td><td>Daylight</td></tr>
+      <tr><th scope="row">September 2024</th><td>Hamilton Township</td><td>Greenwood Avenue at Klockner Road</td><td>Pedestrian (pedestrian killed)</td><td>Dark, no street lights</td></tr>
+      <tr><th scope="row">October 2024</th><td>Neptune Township</td><td>Corlies Avenue at Walnut Avenue</td><td>Pedestrian (pedestrian killed)</td><td>Dark, street lights off</td></tr>
+      <tr><th scope="row">October 2024</th><td>Trenton</td><td>Greenwood Avenue at Barlow Street</td><td>Fixed object (crossed median)</td><td>Daylight</td></tr>
+      <tr><th scope="row">November 2024</th><td>Trenton</td><td>Greenwood Avenue at Hudson Avenue</td><td>Pedestrian (the person killed was not coded as a pedestrian)</td><td>Daylight</td></tr>
+      <tr><th scope="row">October 2025 (preliminary)</th><td>East Windsor Township</td><td>Route 33 at Twin Rivers Drive North</td><td>Pedestrian (pedestrian killed)</td><td>Dark, spot street lights</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source" data-file="lane2-content/data/route-33-nj-accidents/route33_fatal_records_2023_2025.csv; lane2-content/data/profiles/route-33-nj-accidents.json (years, fatal_by_municipality_2023_2025)">Source: NJDOT crash records via hudcostreets/nj-crashes with the NJ State Police fatal supplement, 2023 to 2025. Street names are as written on the record. We do not name anyone involved.</p>
+  <p>If you lost a family member in a Route 33 accident, the agency that investigated holds the investigation file. If that was a town police department, ask that department. If the State Police investigated, their serious and fatal investigation records need a subpoena or court order, per the <a href="https://www.njportal.com/njsp/crashreports/">NJSP crash report service</a> (retrieved 2026-11-10). See <a href="/new-jersey/nj-new-jersey-wrongful-death-accident-claim-support-guide">what families in New Jersey can do after a fatal car accident</a> and <a href="/new-jersey/pedestrian-crash-new-jersey">what to do after a pedestrian is hit in New Jersey</a>.</p>
+</section>
+
+<section id="cross-streets">
+  <h2>Klockner Road and four Neptune cross streets lead the 2024 and 2025 list</h2>
+  <p>Klockner Road in Hamilton Township had the most Route 33 injury accidents at one cross street in 2024 and 2025: 24, out of 56 accidents there. It is also where one of the pedestrian deaths in the table above happened.</p>
+  <p>Four of the ten cross streets below are in Neptune Township. Every cross street with eight or more injury accidents is listed, including the two tied at eight.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Every Route 33 cross street where police logged at least 8 injury or fatal accidents across 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Cross street</th><th scope="col">Town</th><th scope="col">Hurt or killed</th><th scope="col">All accidents</th><th scope="col">Pedestrian accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Klockner Road</th><td>Hamilton Township</td><td>24</td><td>56</td><td>3</td></tr>
+      <tr><th scope="row">West Bangs Avenue (County 17)</th><td>Neptune Township</td><td>17</td><td>35</td><td>0</td></tr>
+      <tr><th scope="row">Butcher Road (County 619)</th><td>Monroe Township</td><td>13</td><td>39</td><td>0</td></tr>
+      <tr><th scope="row">Donald Drive</th><td>Hamilton Township</td><td>12</td><td>45</td><td>0</td></tr>
+      <tr><th scope="row">Wakefield Road</th><td>Neptune Township</td><td>11</td><td>29</td><td>2</td></tr>
+      <tr><th scope="row">Probasco Road</th><td>East Windsor Township</td><td>10</td><td>36</td><td>1</td></tr>
+      <tr><th scope="row">Route 547 (Asbury Road)</th><td>Wall Township</td><td>9</td><td>80</td><td>0</td></tr>
+      <tr><th scope="row">Wemrock Road</th><td>Freehold Township</td><td>9</td><td>24</td><td>0</td></tr>
+      <tr><th scope="row">Memorial Drive (County 40 Alternate)</th><td>Neptune Township</td><td>8</td><td>27</td><td>0</td></tr>
+      <tr><th scope="row">Neptune Boulevard</th><td>Neptune Township</td><td>8</td><td>16</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source" data-file="lane2-content/data/profiles/route-33-nj-accidents.json (top_cross_streets_2024_2025)">Source: NJDOT crash records via hudcostreets/nj-crashes, cross street as written by police, 2024 and 2025. Spelling variants are not merged, so each count is a floor. The next rows have 7 each. Statewide list: <a href="/new-jersey/most-dangerous-intersections-nj">New Jersey intersections with the most injury accidents</a>.</p>
+  <p>The Asbury Road row in Wall Township shows the same pattern as the town as a whole. It had 80 accidents, the most of any named Route 33 cross street, but only 9 of them hurt someone. The Route 34 junction in Wall had 51 accidents in 2024 and 2025, and 6 hurt someone.</p>
+</section>
+
+<section id="other-routes">
+  <h2>Where Route 33 meets other state and US routes</h2>
+  <p>Police recorded Route 33 accidents at these numbered routes in 2024 and 2025. The counts are small and are a floor, because the same junction can be written several ways.</p>
+  <ul>
+    <li>Route 35 (Stokes Avenue) in Neptune Township: 32 accidents, 7 with someone hurt, plus 14 more written as plain "NJ 35". See <a href="/new-jersey/route-35-nj-accidents">Route 35 accident records</a>.</li>
+    <li>Route 18 in Neptune Township: 12 accidents across two spellings. See <a href="/new-jersey/route-18-nj-accidents">Route 18 accident records</a>.</li>
+    <li>Route 130 in East Windsor and Robbinsville: 15 accidents across both towns and spellings. See <a href="/new-jersey/route-130-nj-accidents">Route 130 accident records</a>.</li>
+    <li>Route 9 in Freehold Township: 5 accidents across two spellings. See <a href="/new-jersey/route-9-nj-accidents">Route 9 accident records</a>.</li>
+    <li>Route 1 (Trenton Freeway) in Trenton: 2 accidents, both with someone hurt. See <a href="/new-jersey/route-1-nj-accidents">Route 1 accident records</a>.</li>
+  </ul>
+  <p class="source" data-file="lane2-content/data/route-33-nj-accidents/route33_cross_routes_2024_2025.csv">Source: NJDOT crash records via hudcostreets/nj-crashes, numbered cross routes on Route 33 records, 2024 and 2025 (2025 preliminary).</p>
+</section>
+
+<section id="report">
+  <h2>Getting the report: a records window in Trenton, and a State Police check for Millstone</h2>
+  <p>Your report sits with whichever agency investigated. The accident records do not state that agency outright, so treat the Millstone note below as a pointer, not proof.</p>
+  <h3>Millstone Township: search the State Police portal first</h3>
+  <p>The Hamilton station of the New Jersey State Police is named on 72 of the 75 Millstone Township Route 33 records for 2024 and 2025. So a Millstone report may be with the State Police. If the portal search finds nothing, ask Millstone Township who took the report. Elsewhere on Route 33 a State Police station is rarely named: 6 of 91 records in Monroe Township, one or none in each other town.</p>
+  <p>State Police crash reports are requested online through the <a href="https://www.njportal.com/njsp/crashreports/">NJSP and NJ Turnpike Authority crash report service</a>. The portal will not find a report until the report is completed and approved, so an early search can come back empty. A non-toll road report costs $13.00. For help with the online service, the portal gives the email njsprecords@njsp.gov. It lists (609) 882-2000 ext. 2234 for questions about non-toll road reports, and asks you to call about a serious or fatal records request only after one month has passed.</p>
+  <p class="source" data-file="lane2-content/data/route-33-nj-accidents/route33_njsp_station_by_municipality_2024_2025.csv">Sources: our station cut (route33_cuts.py, run 2026-11-10; the station field is undocumented, so read it as "State Police station named on the record"); <a href="https://www.njportal.com/njsp/crashreports/">njportal.com/njsp/crashreports</a> and the NJSP Criminal Justice Records Bureau page (both retrieved 2026-11-10); research/nj-primary-sources.md section 8.</p>
+  <h3>Trenton: the Trenton Police records office</h3>
+  <p>Trenton says reports can be picked up in person at the records office at Trenton Police headquarters, 225 N Clinton Avenue. The office is open 9 am to 4:30 pm, Monday through Friday. Bring identification, plus either the report number or the report's date.</p>
+  <p>At the window, a motor vehicle accident report costs $0.50 a page for pages 1 to 10. By mail the fee is $5. Individuals must pay it by cashier's check, while attorneys and insurance companies may send an ordinary check. Mail requests are accepted only from the person named in the report, their attorney or their insurance company.</p>
+  <p class="source">Source: <a href="https://www.trentonnj.org/402/Police-Report">City of Trenton, "Police Report"</a> (retrieved 2026-11-10).</p>
+  <h3>Every other town on Route 33</h3>
+  <p>For Hamilton, Neptune, Wall, Howell and the other towns, ask the police department of the town where the accident happened. Request procedures and fees vary by department, and we did not verify each one. Our <a href="/new-jersey/nj-car-accident-report">New Jersey accident report guide</a> explains the general routes.</p>
+  <p>Only an officer can fill out the NJTR-1 crash report. When no officer investigated, the driver files New Jersey's SR-1 self-report instead.</p>
+  <p class="source">Source: <a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">NJDOT, Police Resources: crash reports</a> (retrieved 2026-11-10); research/nj-primary-sources.md sections 7 and 8.</p>
+</section>
+
+<section id="when">
+  <h2>Fridays and the 3 pm to 6 pm window</h2>
+  <p>Friday had 127 of the 655 Route 33 injury accidents in 2023 and 2024, about 19 percent. On all New Jersey roads Friday's share was about 16 percent, 17,941 of 112,966.</p>
+  <p>By time of day, the 3 pm to 6 pm window had 161 of the 655, about one in four. The statewide hour pattern is on <a href="/new-jersey/when-do-most-car-accidents-happen">when most car accidents happen in New Jersey</a>.</p>
+  <p class="source" data-file="lane2-content/data/route-33-nj-accidents/route33_friday_vs_statewide_2023_2024.csv; lane2-content/data/profiles/route-33-nj-accidents.json (time.by_3h_window)">Source: NJDOT crash records via hudcostreets/nj-crashes, 2023 and 2024, accidents where someone was hurt or killed.</p>
+</section>
+
+<section id="preliminary-2025">
+  <h2>2025 so far: close to complete overall, far behind in Tinton Falls</h2>
+  <p>For the road as a whole, 2025 looks close to complete so far: 1,185 accident records, against 1,189 in 2024. Some towns are clearly behind, though.</p>
+  <ul>
+    <li>Tinton Falls has 4 Route 33 records for 2025, against 21 in 2024.</li>
+    <li>Freehold Borough has 10, against 18. Neptune City has 9, against 14. Freehold Township has 61, against 81.</li>
+    <li>Trenton has 120, against 76, and Howell Township has 105, against 71.</li>
+  </ul>
+  <p>Late 2025 reports may still arrive, so none of these gaps or jumps is a trend. That is why this page leads with 2023 and 2024.</p>
+  <p class="source" data-file="lane2-content/data/profiles/route-33-nj-accidents.json (years, ratio_2025_total_to_2024_total); lane2-content/data/route-33-nj-accidents/route33_by_municipality.csv (total_2024, total_2025_prelim)">Source: NJDOT crash records via hudcostreets/nj-crashes; 2025 preliminary.</p>
+</section>
+
+<section id="related">
+  <h2>More on the towns and roads Route 33 connects</h2>
+  <ul>
+    <li><a href="/new-jersey/hamilton-township-mercer-nj-car-accidents">Car accidents in Hamilton Township, Mercer County</a></li>
+    <li><a href="/new-jersey/trenton-nj-car-accidents">Car accidents in Trenton: streets, report office and data</a></li>
+    <li><a href="/new-jersey/wall-township-monmouth-nj-car-accidents">Car accidents in Wall Township, Monmouth County</a></li>
+    <li><a href="/new-jersey/middlesex-county-car-accident-help">Middlesex County car accident help (Monroe Township's Route 33 stretch)</a></li>
+    <li><a href="/new-jersey/route-35-nj-accidents">Route 35 accident records</a>, <a href="/new-jersey/route-18-nj-accidents">Route 18 accident records</a>, <a href="/new-jersey/route-130-nj-accidents">Route 130 accident records</a>, <a href="/new-jersey/route-9-nj-accidents">Route 9 accident records</a></li>
+    <li><a href="/new-jersey/rear-end-crash-new-jersey">After a rear-end car accident in New Jersey</a> and <a href="/new-jersey/nj-new-jersey-side-impact-collision-claim-support-help">after a side-impact car accident in New Jersey</a></li>
+    <li><a href="/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">How fault is split when both drivers share blame in New Jersey</a></li>
+  </ul>
+</section>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened on Route 33. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident on Route 33? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-33-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="method">
+  <h2>Where these Route 33 figures come from</h2>
+  <p>We used NJDOT crash records for 2023 to 2025 as normalized by hudcostreets/nj-crashes: 2023 from the NJDOT per-table archive, 2024 and 2025 from the NJDOT Crash Data Portal, with fatal accidents supplemented from the NJ State Police feed. 2023 and 2024 are complete. 2025 is preliminary.</p>
+  <p>A record counts as Route 33 when its route number is 33 and its road name starts with a state or US prefix. That includes records written as "NJ 33", "NJ 33 SECONDARY", "NJ 33 BUSINESS" and the named versions such as "NJ 33 (CORLIES AVENUE)". County and local roads that share the number are left out.</p>
+  <p>"Hurt or killed" means at least one person was injured or killed, as reported by police. Cross-street and State Police station counts use 2024 and 2025, because street naming changed between the 2023 and 2024 exports. Spelling variants are not merged, so those counts are a floor.</p>
+  <p>These are counts, not risk rates: there is no traffic-volume figure behind them. They say nothing about who was at fault in any accident, whether a claim exists, or what it could be worth.</p>
+  <p class="source">Files: lane2-content/data/README.md; lane2-content/data/profiles/route-33-nj-accidents.json; lane2-content/data/route-33-nj-accidents/route33_cuts.py and its CSV outputs (run 2026-11-10). Crash data portal: <a href="https://njdot.aashtowaresafety.net/njdot-crash-data-dashboard#/">NJDOT Crash Data Portal</a> (retrieved 2026-11-10).</p>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-33-nj-accidents">Start the New Jersey accident quiz ↗</a></div></footer></div>

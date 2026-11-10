@@ -1,0 +1,266 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><style>.research-chart{margin:30px 0}.research-series .research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important}.quiz-cta .button{display:inline-block;margin-top:12px}</style><style>.place-page figure.research-chart img,.mva-site[data-conversion-batch] .place-page figure.research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto}.place-page figure.research-chart.portrait img,.mva-site[data-conversion-batch] .place-page figure.research-chart.portrait img{max-width:540px!important}.place-page .mva-review-scroll table{min-width:640px}.place-page .research-data-links a{overflow-wrap:anywhere}@media(max-width:600px){.mva-site[data-conversion-batch] .place-page .article-image img,.place-page .article-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page road-page" id="route-9">
+
+<h1>Route 9 NJ accident data: one route filed three ways, and the small towns where it holds half the injury crashes</h1>
+
+<section id="answer">
+  <p class="lead">Police filed 2,158 Route 9 car accidents with someone hurt or killed across 2023 and 2024. The toll over those two years was 2,939 injured people and 27 deaths.</p>
+  <p>Route 9 sits in the records under three filings. The main line runs from Lower Township in Cape May County to Woodbridge. Bergen County has its own Route 9W and "western alignment" records with separate mileposts, and the shared Route 1&amp;9 is filed under Route 1.</p>
+  <p>In Tuckerton and Eagleswood Township, where police sometimes record Route 9 as Main Street, it holds 59 and 52 percent of all injury accidents. On Route 9W, it is 50 percent of Englewood Cliffs' total.</p>
+  <p>Deaths skew toward people on foot: walkers were 14 of the 27 dead, against roughly a third statewide (409 of 1,294). With preliminary 2025 added, it is 19 of 36 since 2023.</p>
+  <p>Nothing here is real time. The records run from 2023 to 2025, and the preliminary 2025 file already holds 99 percent of Route 9's 2024 count.</p>
+  <p class="source" data-file="lane2-content/data/profiles/route-9-nj-accidents.json (years, two_year_2023_2024, ratio_2025_total_to_2024_total); lane2-content/data/statewide.json (years); lane2-content/data/route-9-nj-accidents/route9_fatal_crashes_2023_2025.csv; route9_corridor_by_milepost_2023_2024.csv; route9_road_names_by_municipality_2023_2025.csv">Source: NJDOT crash records 2023 to 2025 as normalized by the open-source <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a> project (retrieved 2026-11-10), fatal accidents supplemented from <a href="https://nj.gov/njsp/info/fatalacc/">NJ State Police fatal crash statistics</a> (retrieved 2026-11-10). Analysis by us; method at the end of this page.</p>
+  <div class="quiz-cta quiz-cta-inline">
+    <p>Hurt in a car accident on Route 9, anywhere from Cape May to Woodbridge or on Route 9W in Bergen County? The free New Jersey questionnaire asks a few short questions, with no obligation. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-9-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="pedestrians">
+  <h2>Pedestrian deaths on Route 9 cluster in Freehold Township and Sayreville</h2>
+  <p>Pedestrian accidents are a small part of Route 9's total: 111 of 8,773 police-reported accidents in 2023 and 2024. Yet they account for 14 of the 27 deaths in those years.</p>
+  <p>Lakewood had by far the most Route 9 pedestrian accidents, 43 from 2023 to 2025, and no pedestrian deaths. Freehold Township and Sayreville each lost four pedestrians on Route 9 over the same three years.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 9 pedestrian accidents and pedestrian deaths by town, 2023 to 2025 (2025 preliminary), towns with a death plus Lakewood</caption>
+    <thead>
+      <tr><th scope="col">Town (county)</th><th scope="col">Pedestrian accidents, 2023 to 2025</th><th scope="col">Of these, in 2025 (preliminary)</th><th scope="col">Pedestrians killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Freehold Township (Monmouth)</th><td>10</td><td>1</td><td>4</td></tr>
+      <tr><th scope="row">Sayreville (Middlesex)</th><td>5</td><td>2</td><td>4</td></tr>
+      <tr><th scope="row">Howell Township (Monmouth)</th><td>12</td><td>6</td><td>2</td></tr>
+      <tr><th scope="row">Old Bridge (Middlesex)</th><td>5</td><td>2</td><td>2</td></tr>
+      <tr><th scope="row">Middle Township (Cape May)</th><td>13</td><td>5</td><td>1</td></tr>
+      <tr><th scope="row">Berkeley Township (Ocean)</th><td>10</td><td>4</td><td>1</td></tr>
+      <tr><th scope="row">Lacey Township (Ocean)</th><td>5</td><td>3</td><td>1</td></tr>
+      <tr><th scope="row">Toms River (Ocean)</th><td>5</td><td>1</td><td>1</td></tr>
+      <tr><th scope="row">Fort Lee (Bergen)</th><td>4</td><td>1</td><td>1</td></tr>
+      <tr><th scope="row">Marlboro (Monmouth)</th><td>4</td><td>2</td><td>1</td></tr>
+      <tr><th scope="row">Absecon (Atlantic)</th><td>4</td><td>1</td><td>1</td></tr>
+      <tr><th scope="row">Lakewood (Ocean)</th><td>43</td><td>9</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>17 of the 19 pedestrian deaths happened in the dark, as the police coded the light. For all 36 Route 9 deaths from 2023 to 2025, the figure is 27 in the dark, 8 in daylight and 1 at dawn.</p>
+  <p>Three crossings appear twice in the deaths list. Strickland Road in Howell had pedestrian deaths in September 2023 and November 2024. Phillips Road in Old Bridge had two deaths in 2024, one of them a pedestrian. The Route 33 Business and Park Avenue crossing in Freehold Township had two deaths in 2023.</p>
+  <p>For what to do after a pedestrian accident anywhere in the state, see <a href="/new-jersey/pedestrian-crash-new-jersey">what to do if you were hit as a pedestrian in New Jersey</a>.</p>
+  <p class="source" data-file="lane2-content/data/route-9-nj-accidents/route9_pedestrian_by_municipality_2023_2025.csv; route9_fatal_crashes_2023_2025.csv; lane2-content/data/profiles/route-9-nj-accidents.json (two_year_2023_2024)">Source: NJDOT crash records via hudcostreets/nj-crashes, fatal accidents supplemented from NJ State Police fatal crash statistics (both retrieved 2026-11-10). Pedestrian accidents are those the police coded as crash type "Pedestrian". 2025 deaths may still be added or revised.</p>
+</section>
+
+<section id="three-roads">
+  <h2>One route number, filed three ways</h2>
+  <p>Most Route 9 records follow one line from Lower Township in Cape May County to Woodbridge, with recorded mileposts running from under 1 in Lower Township to about 136 in Woodbridge. In Bergen County the records restart. There, the road is filed as Route 9W, or as a "western alignment" on Sylvan, Fletcher and Lemoine Avenues, with mileposts that start again near zero in Fort Lee.</p>
+  <p>The shared Route 1&amp;9 through Union, Essex and Hudson counties is not on this page. Those records carry the Route 1 number, so they are counted on <a href="/new-jersey/route-1-nj-accidents">Route 1 accident data, including Route 1&amp;9</a>.</p>
+  <h3>The street name your report may use</h3>
+  <p>Police often write a local name for Route 9. If you search the records or read your report, it may say one of these names instead of the route number.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Local names for Route 9 in NJDOT crash records, 2023 to 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Name in the record</th><th scope="col">Towns where police used it (records)</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Sandman Boulevard</th><td>Lower Township (36), Middle Township (29)</td></tr>
+      <tr><th scope="row">Shore Road</th><td>Middle Township (146), Galloway Township (16), Absecon (8)</td></tr>
+      <tr><th scope="row">New Road</th><td>Pleasantville (190), Somers Point (99), Linwood (63), Absecon (61), Northfield (5)</td></tr>
+      <tr><th scope="row">New York Road</th><td>Bass River Township (51), Galloway Township (47), Port Republic (3)</td></tr>
+      <tr><th scope="row">Main Street</th><td>Stafford Township (193), Barnegat Township (108), Eagleswood Township (60), Ocean Township (26), Tuckerton (20), Little Egg Harbor (9)</td></tr>
+      <tr><th scope="row">Lakewood Road</th><td>Toms River (294), Lakewood (52)</td></tr>
+      <tr><th scope="row">River Avenue, Madison Avenue</th><td>Lakewood (488 and 114)</td></tr>
+      <tr><th scope="row">Lila W Thompson Memorial Highway</th><td>Howell Township (360), Lakewood (204), Freehold Township (188), Freehold Borough (54)</td></tr>
+      <tr><th scope="row">JoAnn H Smith Memorial Highway</th><td>Old Bridge (771), Marlboro (2)</td></tr>
+      <tr><th scope="row">Thomas A Edison Bridge, Ellis S Vieser Memorial Bridge</th><td>Woodbridge (36 and 33), Sayreville (8 and 17)</td></tr>
+      <tr><th scope="row">Route 9W, Sylvan Avenue, Fletcher Avenue, Lemoine Avenue</th><td>Fort Lee, Englewood Cliffs, Alpine, Tenafly (664 records in all)</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>The Raritan River crossing is worth a note. The two bridge names appear in both Woodbridge and Sayreville records, so check which town's police wrote your report before you ask for it.</p>
+  <p class="source" data-file="lane2-content/data/route-9-nj-accidents/route9_road_names_by_municipality_2023_2025.csv; route9_corridor_by_milepost_2023_2024.csv; route9_bridges_2023_2025.csv">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10). Counts are records whose road name contains that local name; most other records say only the route number. Mileposts are as coded on the records.</p>
+</section>
+
+<section id="towns">
+  <h2>Tuckerton, Eagleswood and Englewood Cliffs: where Route 9 is half the injury accidents</h2>
+  <p>Two shore towns lean hardest on Route 9. In Tuckerton, 13 of the 22 accidents where someone was hurt in 2023 and 2024 were on Route 9, 59 percent. In Eagleswood Township it was 15 of 29, 52 percent.</p>
+  <p>Englewood Cliffs, in Bergen County, is not on the shore, but its Route 9W records reach 50 percent (52 of 103). Pine Beach shows 55 percent, but that is only 6 of 11 accidents, too few to read much into. In Toms River and Galloway Township the share is 6 percent, because those towns have many other busy roads.</p>
+  <p>Route 9 is the numbered state or U.S. road with the most injury accidents in Ocean County (691, 12 percent of the county's total) and in Cape May County (130, 13 percent). Route 47 is close behind in Cape May County with 127. Route 9 ranks second in Monmouth County, after Route 35, and third in Middlesex and Atlantic counties.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 9 accidents by town, south to north by median recorded milepost, 2023 and 2024 (towns with 5 or more accidents where someone was hurt)</caption>
+    <thead>
+      <tr><th scope="col">Town (county)</th><th scope="col">Median milepost</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Route 9 share of the town's hurt-or-killed accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Lower Township (Cape May)</th><td>4.4</td><td>15</td><td>24</td><td>0</td><td>9%</td></tr>
+      <tr><th scope="row">Middle Township (Cape May)</th><td>9.6</td><td>75</td><td>102</td><td>2</td><td>29%</td></tr>
+      <tr><th scope="row">Dennis Township (Cape May)</th><td>21.0</td><td>13</td><td>18</td><td>0</td><td>12%</td></tr>
+      <tr><th scope="row">Upper Township (Cape May)</th><td>27.6</td><td>27</td><td>36</td><td>1</td><td>21%</td></tr>
+      <tr><th scope="row">Somers Point (Atlantic)</th><td>33.9</td><td>40</td><td>53</td><td>0</td><td>28%</td></tr>
+      <tr><th scope="row">Linwood (Atlantic)</th><td>36.3</td><td>32</td><td>46</td><td>0</td><td>46%</td></tr>
+      <tr><th scope="row">Northfield (Atlantic)</th><td>38.0</td><td>24</td><td>27</td><td>0</td><td>36%</td></tr>
+      <tr><th scope="row">Pleasantville (Atlantic)</th><td>40.2</td><td>39</td><td>47</td><td>0</td><td>19%</td></tr>
+      <tr><th scope="row">Absecon (Atlantic)</th><td>42.9</td><td>25</td><td>36</td><td>0</td><td>15%</td></tr>
+      <tr><th scope="row">Galloway Township (Atlantic)</th><td>46.9</td><td>27</td><td>39</td><td>0</td><td>6%</td></tr>
+      <tr><th scope="row">Bass River Township (Burlington)</th><td>57.5</td><td>12</td><td>14</td><td>0</td><td>18%</td></tr>
+      <tr><th scope="row">Little Egg Harbor (Ocean)</th><td>61.8</td><td>16</td><td>20</td><td>0</td><td>14%</td></tr>
+      <tr><th scope="row">Tuckerton (Ocean)</th><td>62.8</td><td>13</td><td>15</td><td>0</td><td>59%</td></tr>
+      <tr><th scope="row">Eagleswood Township (Ocean)</th><td>66.5</td><td>15</td><td>22</td><td>0</td><td>52%</td></tr>
+      <tr><th scope="row">Stafford Township (Ocean)</th><td>70.7</td><td>31</td><td>39</td><td>0</td><td>15%</td></tr>
+      <tr><th scope="row">Barnegat Township (Ocean)</th><td>75.4</td><td>27</td><td>38</td><td>0</td><td>16%</td></tr>
+      <tr><th scope="row">Ocean Township (Ocean)</th><td>78.2</td><td>16</td><td>19</td><td>0</td><td>35%</td></tr>
+      <tr><th scope="row">Lacey Township (Ocean)</th><td>82.3</td><td>78</td><td>100</td><td>1</td><td>29%</td></tr>
+      <tr><th scope="row">Berkeley Township (Ocean)</th><td>87.1</td><td>109</td><td>156</td><td>1</td><td>34%</td></tr>
+      <tr><th scope="row">Pine Beach (Ocean)</th><td>89.2</td><td>6</td><td>8</td><td>0</td><td>55%</td></tr>
+      <tr><th scope="row">Beachwood (Ocean)</th><td>89.8</td><td>40</td><td>59</td><td>0</td><td>30%</td></tr>
+      <tr><th scope="row">South Toms River (Ocean)</th><td>90.8</td><td>11</td><td>14</td><td>0</td><td>23%</td></tr>
+      <tr><th scope="row">Toms River (Ocean)</th><td>96.0</td><td>88</td><td>137</td><td>0</td><td>6%</td></tr>
+      <tr><th scope="row">Lakewood (Ocean)</th><td>101.3</td><td>241</td><td>309</td><td>0</td><td>15%</td></tr>
+      <tr><th scope="row">Howell Township (Monmouth)</th><td>106.4</td><td>127</td><td>193</td><td>3</td><td>25%</td></tr>
+      <tr><th scope="row">Freehold Township (Monmouth)</th><td>113.3</td><td>147</td><td>204</td><td>5</td><td>29%</td></tr>
+      <tr><th scope="row">Freehold Borough (Monmouth)</th><td>113.6</td><td>11</td><td>12</td><td>0</td><td>10%</td></tr>
+      <tr><th scope="row">Manalapan (Monmouth)</th><td>117.5</td><td>50</td><td>70</td><td>1</td><td>18%</td></tr>
+      <tr><th scope="row">Marlboro (Monmouth)</th><td>120.5</td><td>54</td><td>81</td><td>0</td><td>13%</td></tr>
+      <tr><th scope="row">Old Bridge (Middlesex)</th><td>124.4</td><td>237</td><td>330</td><td>5</td><td>28%</td></tr>
+      <tr><th scope="row">Sayreville (Middlesex)</th><td>129.0</td><td>158</td><td>195</td><td>5</td><td>21%</td></tr>
+      <tr><th scope="row">South Amboy (Middlesex)</th><td>129.9</td><td>26</td><td>31</td><td>0</td><td>37%</td></tr>
+      <tr><th scope="row">Woodbridge (Middlesex)</th><td>134.1</td><td>224</td><td>315</td><td>1</td><td>9%</td></tr>
+      <tr><th scope="row">Fort Lee (Bergen, Route 9W records)</th><td>0.2</td><td>28</td><td>32</td><td>1</td><td>3%</td></tr>
+      <tr><th scope="row">Englewood Cliffs (Bergen, Route 9W records)</th><td>2.1</td><td>52</td><td>68</td><td>1</td><td>50%</td></tr>
+      <tr><th scope="row">Tenafly (Bergen, Route 9W records)</th><td>4.0</td><td>5</td><td>6</td><td>0</td><td>4%</td></tr>
+      <tr><th scope="row">Alpine (Bergen, Route 9W records)</th><td>7.9</td><td>17</td><td>22</td><td>0</td><td>27%</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>Lakewood, Old Bridge, Woodbridge, Sayreville and Freehold Township together had 1,007 of Route 9's 2,158 injury accidents, 47 percent. Among counties with 100 or more Route 9 injury accidents, Cape May had the largest summer share: 43 of 130, or 33 percent, fell in June, July and August, against 23 percent in Monmouth County. Burlington's share is the same 33 percent, but on only 4 of 12 accidents.</p>
+  <p class="source" data-file="lane2-content/data/route-9-nj-accidents/route9_corridor_by_milepost_2023_2024.csv; route9_route_rank_by_county_2023_2024.csv; route9_season_by_county_2023_2024.csv; lane2-content/data/profiles/route-9-nj-accidents.json (by_county_2023_2024)">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10). Town share = Route 9 accidents where someone was hurt or killed, divided by all such accidents in the town on any road. County rank compares state, U.S. and interstate route numbers; the Garden State Parkway counts as one route. Perth Amboy and Port Republic, with one Route 9 injury accident each, are left out of the table.</p>
+</section>
+
+<section id="cross-streets">
+  <h2>Old Bridge: six crossings fill seven of the 17 busiest Route 9 cross-street entries</h2>
+  <p>The cross street with the most accidents where someone was hurt in 2024 and 2025 was Route 520 (East Greystone-Marlboro Road) in Marlboro, with 28. Seven of the 17 entries with 12 or more were in Old Bridge. They cover six crossings, because Perrine Road is listed under two spellings.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 9 cross streets with 12 or more accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary), as spelled in the records</caption>
+    <thead>
+      <tr><th scope="col">Cross street</th><th scope="col">Town</th><th scope="col">Someone hurt or killed, 2024 + 2025</th><th scope="col">Of these, 2025 (preliminary)</th><th scope="col">All accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Route 520 (East Greystone-Marlboro Road)</th><td>Marlboro</td><td>28</td><td>20</td><td>83</td><td>1</td></tr>
+      <tr><th scope="row">Ferry Road</th><td>Old Bridge</td><td>20</td><td>17</td><td>65</td><td>0</td></tr>
+      <tr><th scope="row">Perrine Road</th><td>Old Bridge</td><td>20</td><td>13</td><td>65</td><td>0</td></tr>
+      <tr><th scope="row">Texas Road (Middlesex County 690)</th><td>Old Bridge</td><td>18</td><td>13</td><td>79</td><td>0</td></tr>
+      <tr><th scope="row">Craig Road</th><td>Freehold Township</td><td>16</td><td>9</td><td>36</td><td>1</td></tr>
+      <tr><th scope="row">Poor Farm Road</th><td>Old Bridge</td><td>14</td><td>11</td><td>43</td><td>0</td></tr>
+      <tr><th scope="row">Sylvan Lake Boulevard</th><td>Berkeley Township</td><td>14</td><td>9</td><td>31</td><td>0</td></tr>
+      <tr><th scope="row">Cindy Street</th><td>Old Bridge</td><td>13</td><td>4</td><td>48</td><td>0</td></tr>
+      <tr><th scope="row">Chestnut Street (Ocean County 40)</th><td>Lakewood</td><td>13</td><td>12</td><td>44</td><td>0</td></tr>
+      <tr><th scope="row">Aldrich Road</th><td>Howell Township</td><td>13</td><td>11</td><td>35</td><td>0</td></tr>
+      <tr><th scope="row">Bordentown Avenue (Middlesex County 615)</th><td>Sayreville</td><td>12</td><td>5</td><td>73</td><td>1</td></tr>
+      <tr><th scope="row">Jake Brown Road</th><td>Old Bridge</td><td>12</td><td>6</td><td>67</td><td>0</td></tr>
+      <tr><th scope="row">Route 35 (recorded as "NJ 35 Secondary")</th><td>Sayreville</td><td>12</td><td>6</td><td>43</td><td>1</td></tr>
+      <tr><th scope="row">First Street</th><td>Lakewood</td><td>12</td><td>6</td><td>42</td><td>0</td></tr>
+      <tr><th scope="row">Delilah Road (Atlantic County 646)</th><td>Pleasantville</td><td>12</td><td>8</td><td>29</td><td>0</td></tr>
+      <tr><th scope="row">Perrine Rd (second spelling)</th><td>Old Bridge</td><td>12</td><td>1</td><td>27</td><td>0</td></tr>
+      <tr><th scope="row">Strickland Road</th><td>Howell Township</td><td>12</td><td>8</td><td>24</td><td>1</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>Seven cross streets tie at 12, and all are shown. Below the cutoff, seven more have 11 and six have 10; they are in the downloadable cut.</p>
+  <h3>Why some 2025 jumps may be spelling, not more accidents</h3>
+  <p>Perrine Road appears twice. "Perrine Rd" has 11 injury accidents in 2024 and 1 in 2025, while "Perrine Road" has 7 in 2024 and 13 in 2025. If both are the same crossing, Old Bridge's Perrine Road total is 32, more than Route 520's 28.</p>
+  <p>The same shift shows at Route 520 in Marlboro. In 2024 the records used both "Route 520 / Robertsville Rd" (2 injury accidents) and the full East Greystone-Marlboro Road name (8). In 2025 the crossing itself appears only under the full name, with 20. The only other 2025 spelling is one ramp record, "FR US 9 SB TO CO 520", in which no one was hurt. So part of the 2025 rise at some crossings is likely a change in how names were written. We have not merged spellings, so every count here is a floor.</p>
+  <p>For Route 9 in Old Bridge itself, see <a href="/new-jersey/old-bridge-nj-car-accidents">car accident records for Old Bridge</a>. For intersections statewide, see <a href="/new-jersey/most-dangerous-intersections-nj">the New Jersey intersections with the most injury accidents</a>.</p>
+  <p class="source" data-file="lane2-content/data/route-9-nj-accidents/route9_cross_streets_ki10plus_2024_2025.csv; route9_cross_street_variants_2024_2025.csv; lane2-content/data/profiles/route-9-nj-accidents.json (top_cross_streets_2024_2025)">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10). Each row is the cross street written on the record, within the town named. 2024 and 2025 only, because street naming changed between the 2023 and 2024 exports.</p>
+</section>
+
+<section id="crash-types">
+  <h2>Rear-end collisions: 47 percent of Route 9 injury accidents</h2>
+  <p>Police coded 1,015 of Route 9's 2,158 injury accidents in 2023 and 2024 as rear-end collisions, 47 percent. Statewide the share was 31 percent. Right-angle collisions were next on Route 9, with 329 (15 percent).</p>
+  <p>The crash type is how the police described the collision. It does not say which driver caused it. For what to do after this kind of accident, see <a href="/new-jersey/rear-end-crash-new-jersey">what to do after a rear-end car accident in New Jersey</a>.</p>
+  <p>By time of day, the three hours from 3 pm to 6 pm had the most Route 9 injury accidents: 506 of 2,158 in 2023 and 2024, 23 percent. The statewide pattern is on <a href="/new-jersey/when-do-most-car-accidents-happen">when car accidents happen in New Jersey, hour by hour</a>.</p>
+  <p class="source" data-file="lane2-content/data/profiles/route-9-nj-accidents.json (crash_type_mix_2023_2024, time.by_3h_window); lane2-content/data/statewide.json (crash_type_mix_2023_2024)">Source: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10). Shares are of accidents where someone was hurt or killed.</p>
+</section>
+
+<section id="report">
+  <h2>Woodbine and Tuckerton troopers in five southern towns, town police on the rest of Route 9</h2>
+  <p>A State Police station is named on 361 of the 13,111 Route 9 records from 2023 to 2025. Most of them, 297, sit in five towns between Cape May and Ocean counties. The Woodbine station appears on 114 of Upper Township's 141 records and 62 of Dennis Township's 73. Tuckerton station covers 64 of Eagleswood Township's 78 and 52 of Bass River Township's 64. Port Republic has only 9 records, 5 of them naming Tuckerton.</p>
+  <p>Woodbridge is the one large exception up north. 44 of its 1,331 Route 9 records name a station, 37 of them Somerville, while the other 1,287 name none. Along the rest of Route 9 almost no records name a station, which points to the town police. The department named on the exchange slip the officer gave you is the one that holds the report.</p>
+  <ul>
+    <li><strong>Upper, Dennis, Eagleswood, Bass River or Port Republic, or any Route 9 accident where troopers came to the scene.</strong> The State Police sell crash reports through the <a href="https://www.njportal.com/njsp/crashreports/">NJSP crash report portal</a>: $13.00 when the crash was not on a toll road, and available until six years after the crash year. A report that is not posted yet may show up if you check back after a couple of days. Email NJSPRecords@NJSP.gov or call (609) 882-2000 ext. 2234 with questions. <span class="source">(NJSP crash reports portal and <a href="https://njsp.njoag.gov/identification-amp-information-technology-section/criminal-justice-records-bureau/">NJSP Criminal Justice Records Bureau</a>, retrieved 2026-11-10)</span></li>
+    <li><strong>Lakewood.</strong> The Lakewood Police Department says accident reports are available online through crashdocs.org or lexisnexis.com. Reports can also be picked up at the department, 231 3rd Street, from 8:15 am to 4:00 pm. OPRA requests go through the Township Clerk's office. <span class="source">(<a href="https://www.lakewoodpolicenj.com/records/">Lakewood Police Department, Central Records</a>, retrieved 2026-11-10)</span></li>
+    <li><strong>Woodbridge.</strong> Police reports are picked up at the Records Bureau on the ground floor of the municipal building. It is open Monday to Friday, 8:30 am to 4:15 pm, and Tuesday until 6:30 pm, excluding holidays. Vehicle crash reports cost $0.50 per page, and the Records Bureau number is 732-602-7390. <span class="source">(<a href="https://www.twp.woodbridge.nj.us/225/Police-Reports">Township of Woodbridge, Police Reports</a>, retrieved 2026-11-10)</span></li>
+    <li><strong>Other Route 9 towns.</strong> Ask the department that responded. Procedures and fees vary by department, and we have not checked each one. The town pages for <a href="/new-jersey/old-bridge-nj-car-accidents">Old Bridge</a>, <a href="/new-jersey/sayreville-nj-car-accidents">Sayreville</a> and <a href="/new-jersey/toms-river-nj-car-accidents">Toms River</a> cover their own departments.</li>
+  </ul>
+  <p>The NJTR-1 crash report is filled out by police only. If police did not investigate, drivers report the crash themselves on the SR-1 form. <span class="source">(<a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">NJDOT police crash report resources</a>, retrieved 2026-11-10)</span></p>
+  <p>If your accident was on the Raritan crossing or elsewhere near Sayreville, <a href="/new-jersey/route9-sayreville-crash-contact-and-trip-notes">our Route 9 Sayreville guide to contacts, bills and getting back to work</a> covers the practical steps in more detail.</p>
+  <p class="source" data-file="lane2-content/data/route-9-nj-accidents/route9_state_police_station.csv">Source for the station counts: NJDOT crash records via hudcostreets/nj-crashes (retrieved 2026-11-10). No data dictionary explains the station column, so read these counts as a hint, not a rule.</p>
+</section>
+
+<section id="by-year">
+  <h2>Route 9 accidents by year, 2023 to 2025</h2>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 9 police-reported accidents by year (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Pedestrians killed</th><th scope="col">Bicycle accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>4,406</td><td>1,069</td><td>1,458</td><td>14</td><td>48</td><td>6</td><td>32</td></tr>
+      <tr><th scope="row">2024</th><td>4,367</td><td>1,089</td><td>1,481</td><td>13</td><td>63</td><td>8</td><td>55</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>4,338</td><td>1,125</td><td>1,582</td><td>9</td><td>49</td><td>5</td><td>50</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>The 2025 count is already close to 2024, so Route 9's 2025 records look mostly complete. Late reports can still be added, and death counts can still change.</p>
+  <p class="source" data-file="lane2-content/data/profiles/route-9-nj-accidents.json (years, ratio_2025_total_to_2024_total)">Source: NJDOT crash records via hudcostreets/nj-crashes, fatal accidents supplemented from NJ State Police fatal crash statistics (both retrieved 2026-11-10).</p>
+</section>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened on Route 9. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident on Route 9? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-9-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="method">
+  <h2>How we counted Route 9</h2>
+  <p>Our Route 9 file comes from the hudcostreets/nj-crashes copy of NJDOT's 2023 to 2025 crash records, with State Police fatal data filled in (downloaded 2026-11-06). The 2023 and 2024 years are final; every 2025 figure carries a preliminary label.</p>
+  <p>Selection: the route field must read 9, and the road name must begin with NJ, US, I- or a toll road name. That catches "US 9 SECONDARY", "US 9W" and "US 9 WESTERN ALIGNMENT" in one set. It drops county roads numbered 9 and the Route 1&amp;9 records filed under Route 1.</p>
+  <p>Two small edge sets are left as filed. 21 records coded route 9 carry a different road name, mostly another route such as NJ 440, NJ 184, NJ 72, NJ 35, NJ 70, NJ 33 or NJ 83; they stay in the counts. 108 records named "US 9..." but coded to another route or none, many of them parking-lot rows, are not counted.</p>
+  <p>"Someone hurt or killed" means the police coded at least one injury or death. Cross streets use only 2024 and 2025, with spellings kept apart, so each is a floor. No traffic volumes are applied, so a high count here does not mean a high risk rate.</p>
+  <p>Script and tables: <code>lane2-content/data/route-9-nj-accidents/route9_cuts.py</code> and the <code>route9_*.csv</code> files beside it, plus the profile <code>lane2-content/data/profiles/route-9-nj-accidents.json</code>.</p>
+</section>
+
+<section id="related">
+  <h2>Towns, counties and roads that connect to Route 9</h2>
+  <ul>
+    <li><a href="/new-jersey/lakewood-nj-car-accidents">Car accident records for Lakewood</a>, the town with the most Route 9 injury accidents</li>
+    <li><a href="/new-jersey/woodbridge-nj-car-accidents">Car accident records for Woodbridge</a>, at the northern end of the main Route 9 records</li>
+    <li><a href="/new-jersey/sayreville-nj-car-accidents">Car accident records for Sayreville</a></li>
+    <li><a href="/new-jersey/toms-river-nj-car-accidents">Car accident records for Toms River</a></li>
+    <li><a href="/new-jersey/bergen-county-car-accident-help#fort-lee">Fort Lee in the Bergen County car accident guide</a>, for Route 9W accidents</li>
+    <li><a href="/new-jersey/ocean-county-car-accident-help">Ocean County car accident help</a> and <a href="/new-jersey/middlesex-county-car-accident-help">Middlesex County car accident help</a></li>
+    <li><a href="/new-jersey/route-35-nj-accidents">Route 35 accident data</a>, which crosses Route 9 in Sayreville</li>
+    <li><a href="/new-jersey/route-18-nj-accidents">Route 18 accident data</a>, which meets Route 9 in Old Bridge</li>
+    <li><a href="/new-jersey/route-33-nj-accidents">Route 33 accident data</a>, which meets Route 9 in Freehold Township</li>
+    <li><a href="/new-jersey/route-70-nj-accidents">Route 70 accident data</a>, which is named as a Route 9 cross street in Toms River records</li>
+    <li><a href="/new-jersey/route-37-crash-toms-river">Route 37 accidents in Toms River</a></li>
+    <li><a href="/new-jersey/cumberland-county-car-accident-help#route-47">Route 47 in the Cumberland County car accident guide</a>, which meets Route 9 in Middle Township</li>
+    <li><a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway accident data</a></li>
+  </ul>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-9-nj-accidents">Start the New Jersey accident quiz ↗</a></div></footer></div>

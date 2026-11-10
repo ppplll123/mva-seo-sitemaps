@@ -1,0 +1,397 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.articlebody blockquote{border-left:4px solid #c58b49;margin:24px 0;padding:10px 20px;background:#f1eee6;font-size:1.1em}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page county-hub" data-slug="middlesex-county-car-accident-help">
+
+<h1>Middlesex County car accident help: report routes, Route 27 corners and 25 towns compared</h1>
+
+<section id="answer">
+  <h2>After a car accident in Middlesex County, start with the agency that came</h2>
+  <p>Medical attention comes before paperwork if anyone is hurt. After that, the question is which agency wrote the police report, because only that agency releases it. A town accident goes to that town's police department. A Turnpike or Garden State Parkway accident, or one the State Police handled, goes through the State Police portal.</p>
+  <p>The State Police route matters in Middlesex. In 2023 and 2024 the county had at least 601 accidents where someone was hurt or killed on the Parkway and 252 on I-95, the New Jersey Turnpike (NJDOT crash records, county file, two Parkway record names added together).</p>
+  <p class="source">Source: <code>lane2-content/data/counties/middlesex.json</code>, NJDOT crash records 2023 to 2025 as normalized by <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a>, retrieved 2026-11-10.</p>
+
+  <h3 id="report-by-agency">Report routes for Middlesex agencies</h3>
+  <ul>
+    <li><strong>Perth Amboy Police Department</strong>, 365 New Brunswick Avenue. Perth Amboy hands out vehicle collision and incident reports at its Records window, and the city lists 732-324-3840 for them. Records and Services hours are Monday to Thursday 9 a.m. to 9 p.m. and Friday 9 a.m. to 5 p.m. Bring proper ID for pickup.</li>
+  </ul>
+  <p class="source">Source: City of Perth Amboy, Police Department, <a href="https://www.perthamboynj.org/government/departments/police_department/records_and_services/">Records and Services</a>, retrieved 2026-11-10.</p>
+  <ul>
+    <li><strong>South Brunswick Police Department</strong>, 540 Ridge Road, Monmouth Junction, 732-329-4646. Its Online Reports page links to a LexisNexis police report search for accident reports already submitted to the department. Questions about getting a report go to PDRec@sbpdnj.net.</li>
+  </ul>
+  <p class="source">Source: Township of South Brunswick, Police, <a href="https://southbrunswicknj.gov/police/online-reports/">Online Reports</a>, retrieved 2026-11-10.</p>
+  <ul>
+    <li><strong>Edison, Woodbridge and Old Bridge</strong> publish their own records steps. Those are on our <a href="/new-jersey/edison-nj-car-accidents">Edison car accident page</a>, <a href="/new-jersey/woodbridge-nj-car-accidents">Woodbridge car accident page</a> and <a href="/new-jersey/old-bridge-nj-car-accidents">Old Bridge car accident page</a>.</li>
+    <li><strong>Piscataway and North Brunswick</strong>: neither township website let us load its pages on 2026-11-10, and we list no steps we could not read. Ask each police department how its records bureau releases reports.</li>
+    <li><strong>Turnpike, Parkway or a State Police case</strong>: all three go through one portal that the State Police operate together with the NJ Turnpike Authority. On that portal, the Turnpike and Parkway reports are $5.00 each, while a State Police report from a road without tolls is $13.00. If your report has not been posted, the portal suggests trying again after a couple of days.</li>
+    <li><strong>Who answers questions</strong>: for a Turnpike or Parkway report, the portal names the NJ Turnpike Authority at 732-442-8600 ext. 2431. For a State Police report from a road without tolls, or a serious or fatal crash records request, it names the State Police at 609-882-2000 ext. 2234. Help with the website itself goes to njsprecords@njsp.gov. A fatal crash on the Turnpike or Parkway is different: the portal says its NJTR-1 comes only through an OPRA request filed on the Turnpike Authority's own website.</li>
+  </ul>
+  <p class="source">Source: New Jersey State Police and NJ Turnpike Authority, <a href="https://www.njportal.com/njsp/crashreports/">Crash Reports portal</a> (fees, contacts and the OPRA note), retrieved 2026-11-10 by curl. The fees cover this portal only, not town police departments.</p>
+  <p>Only police fill in the NJTR-1 police accident report. If no officer investigated, the driver reports it with the SR-1 self-reporting form. <span class="source">(<a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">NJDOT police resources page</a>, retrieved 2026-11-10)</span> Our guide on <a href="/new-jersey/nj-how-to-read-a-new-jersey-crash-report-after-an-accident">reading the boxes on a New Jersey police report</a> helps once you have it.</p>
+
+  <div class="quiz-cta">
+    <p>Were you hurt on Route 1, on Route 27 in Edison, on the Parkway or on a street in New Brunswick or Perth Amboy? Our New Jersey screening starts with your injury and asks if you have hired a lawyer yet. Then come fault, the medical attention you got, whether a police report exists and the accident date. A contact form closes it. Qualifying readers may be introduced to a sponsoring lawyer or legal consultant, who calls by phone. Using it is free and binds you to nothing.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=middlesex-county-car-accident-help">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="county-data">
+  <h2>Middlesex County accident records, 2023 to 2025</h2>
+  <p>Middlesex had 13,145 police-reported accidents where someone was hurt or killed in 2023 and 2024, about 18 a day. That is 11.6 percent of the statewide total of 112,966. In those two years 18,044 people were hurt and 120 died.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Middlesex County car accidents per year (2025 is preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Fatal accidents</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>27,645</td><td>6,402</td><td>8,643</td><td>59</td><td>57</td><td>346</td><td>168</td></tr>
+      <tr><th scope="row">2024</th><td>29,521</td><td>6,743</td><td>9,401</td><td>61</td><td>55</td><td>378</td><td>218</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>28,393</td><td>6,548</td><td>9,037</td><td>33</td><td>33</td><td>342</td><td>213</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: NJDOT crash records 2023 to 2025 via nj-crashes, fatal accidents supplemented from <a href="https://www.nj.gov/njsp/info/fatalacc/index.shtml">NJ State Police fatal statistics</a>; county file <code>middlesex.json</code>, retrieved 2026-11-10. The 2025 total is 96 percent of 2024, but 2025 is still preliminary. Do not read the lower 2025 death count as a real decline until the year is final.</p>
+
+  <h3 id="edison-cluster">One stretch of Edison holds the county's busiest corners</h3>
+  <p>The two intersections with the most accidents where someone was hurt are both on Route 27 (Lincoln Highway) in Edison. Three more of the county's top ten sit within about 1.2 km of Route 27 at Prospect Avenue, measured from the coordinates in the records. Together those five corners had 68 accidents where someone was hurt in 2024 and 2025.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Middlesex County intersections with the most accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Intersection</th><th scope="col">Town</th><th scope="col">Hurt or killed, 2024 + 2025</th><th scope="col">2024</th><th scope="col">2025 (preliminary)</th><th scope="col">People hurt</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Route 27 (Lincoln Highway) at Prospect Avenue</th><td>Edison</td><td>19</td><td>8</td><td>11</td><td>33</td></tr>
+      <tr><th scope="row">Route 27 (Lincoln Highway) at Schulyer Drive</th><td>Edison</td><td>18</td><td>5</td><td>13</td><td>24</td></tr>
+      <tr><th scope="row">Greenwood Avenue at Route 529 (Plainfield Avenue)</th><td>Edison</td><td>12</td><td>6</td><td>6</td><td>19</td></tr>
+      <tr><th scope="row">Route 35 (Convery Boulevard) at Sayre Avenue</th><td><a href="#perth-amboy">Perth Amboy</a></td><td>11</td><td>6</td><td>5</td><td>20</td></tr>
+      <tr><th scope="row">Duclos Lane (County 676) at Route 27 (Lincoln Highway)</th><td>Edison</td><td>10</td><td>3</td><td>7</td><td>13</td></tr>
+      <tr><th scope="row">Jefferson Boulevard at Route 529 (Plainfield Avenue)</th><td>Edison</td><td>9</td><td>4</td><td>5</td><td>12</td></tr>
+      <tr><th scope="row">Livingston Avenue (County 691) at Suydam Street</th><td>New Brunswick</td><td>9</td><td>5</td><td>4</td><td>11</td></tr>
+      <tr><th scope="row">Fayette Street at Oak Street</th><td><a href="#perth-amboy">Perth Amboy</a></td><td>9</td><td>5</td><td>4</td><td>11</td></tr>
+      <tr><th scope="row">Route 27 (Essex Avenue) at Rose Street</th><td>Metuchen</td><td>9</td><td>1</td><td>8</td><td>13</td></tr>
+      <tr><th scope="row">Ferry Road at Route 18 (Purple Heart Memorial Highway)</th><td><a href="/new-jersey/old-bridge-nj-car-accidents">Old Bridge</a></td><td>9</td><td>0</td><td>9</td><td>15</td></tr>
+      <tr><th scope="row">Prince Street at Route 1 secondary (Herbert Highway)</th><td>Edison</td><td>8</td><td>4</td><td>4</td><td>12</td></tr>
+      <tr><th scope="row">Old Post Road at Route 1 secondary (Herbert Highway)</th><td>Edison</td><td>8</td><td>6</td><td>2</td><td>16</td></tr>
+      <tr><th scope="row">Bordentown Avenue (County 615 secondary) at Kenneth Avenue</th><td><a href="/new-jersey/sayreville-nj-car-accidents">Sayreville</a></td><td>8</td><td>1</td><td>7</td><td>12</td></tr>
+      <tr><th scope="row">Hall Avenue at Penn Street</th><td><a href="#perth-amboy">Perth Amboy</a></td><td>8</td><td>5</td><td>3</td><td>9</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>Twelve more intersections sit one step lower, at 7 each. We recounted them from the full records because the county file stops at 25 rows and drops one of the twelve. They are Ernston Road at Westminster Boulevard (Sayreville), Grandview Avenue at Route 1 secondary and Ovington Avenue at Route 529 (Edison), New Brunswick Avenue at Route 35, Hall Avenue at Johnstone Street and Johnstone Street at Lawrie Street (Perth Amboy), Louis Street at Somerset Street, Handy Street at Remsen Avenue and Prosper Street at Route 527 (New Brunswick), Kossuth Street at Old New Brunswick Road (Piscataway), and two Woodbridge corners on Route 35 (Amboy Avenue): Route 514 (Main Street) and Grove Street.</p>
+  <p>Read the Edison lead with care, because preliminary 2025 records drive much of it. Schulyer Drive had 5 in 2024 and 13 in 2025. Woodbridge, the county's busiest town overall, has no corner above 7; its two highest are the Route 35 pair just named.</p>
+  <p class="source">Source: <code>middlesex.json</code> (top intersections, 2024 and 2025), retrieved 2026-11-10, and our recount <code>lane2-content/data/middlesex-county-car-accident-help/middlesex-intersections-ki7plus-2024-2025.csv</code> (script <code>middlesex_fixcheck.py</code> in the same folder, all rows at 7 or more with no cut). An intersection is the pair of street names in the record. Spelling variants are not merged, so each count is a floor. Distances are straight lines between median record coordinates: Greenwood Avenue 0.17 km, Jefferson Boulevard 1.07 km and Duclos Lane 1.17 km from Route 27 at Prospect Avenue.</p>
+
+  <h3 id="middlesex-towns">Every Middlesex town, ranked by accidents where someone was hurt</h3>
+  <p>Woodbridge and Edison together hold a third of the county's accidents where someone was hurt. Sayreville had the most deaths, 17, with less than a third of Woodbridge's accident count.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Middlesex County municipalities by accidents where someone was hurt or killed, 2023 and 2024 combined</caption>
+    <thead>
+      <tr><th scope="col">Town</th><th scope="col">Someone hurt or killed</th><th scope="col">Share of county</th><th scope="col">All accidents</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row"><a href="/new-jersey/woodbridge-nj-car-accidents">Woodbridge Township</a></th><td>2,448</td><td>18.6%</td><td>10,147</td><td>13</td><td>101</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/edison-nj-car-accidents">Edison Township</a></th><td>1,974</td><td>15.0%</td><td>8,552</td><td>11</td><td>66</td></tr>
+      <tr><th scope="row">New Brunswick</th><td>1,111</td><td>8.5%</td><td>4,877</td><td>5</td><td>163</td></tr>
+      <tr><th scope="row"><a href="#piscataway">Piscataway Township</a></th><td>871</td><td>6.6%</td><td>3,823</td><td>10</td><td>38</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/old-bridge-nj-car-accidents">Old Bridge Township</a></th><td>863</td><td>6.6%</td><td>3,597</td><td>9</td><td>20</td></tr>
+      <tr><th scope="row"><a href="#south-brunswick">South Brunswick Township</a></th><td>830</td><td>6.3%</td><td>3,520</td><td>13</td><td>11</td></tr>
+      <tr><th scope="row"><a href="#perth-amboy">Perth Amboy</a></th><td>776</td><td>5.9%</td><td>3,297</td><td>3</td><td>131</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/sayreville-nj-car-accidents">Sayreville</a></th><td>748</td><td>5.7%</td><td>3,132</td><td>17</td><td>32</td></tr>
+      <tr><th scope="row">East Brunswick Township</th><td>747</td><td>5.7%</td><td>3,480</td><td>10</td><td>24</td></tr>
+      <tr><th scope="row"><a href="#north-brunswick">North Brunswick Township</a></th><td>741</td><td>5.6%</td><td>2,808</td><td>6</td><td>24</td></tr>
+      <tr><th scope="row">Monroe Township</th><td>318</td><td>2.4%</td><td>1,491</td><td>5</td><td>8</td></tr>
+      <tr><th scope="row">South Plainfield</th><td>293</td><td>2.2%</td><td>1,667</td><td>2</td><td>10</td></tr>
+      <tr><th scope="row">Metuchen</th><td>251</td><td>1.9%</td><td>1,162</td><td>0</td><td>21</td></tr>
+      <tr><th scope="row">Carteret</th><td>216</td><td>1.6%</td><td>1,137</td><td>1</td><td>16</td></tr>
+      <tr><th scope="row">Cranbury Township</th><td>174</td><td>1.3%</td><td>800</td><td>6</td><td>3</td></tr>
+      <tr><th scope="row">Middlesex Borough</th><td>154</td><td>1.2%</td><td>618</td><td>1</td><td>11</td></tr>
+      <tr><th scope="row">Plainsboro Township</th><td>113</td><td>0.9%</td><td>607</td><td>2</td><td>6</td></tr>
+      <tr><th scope="row">Highland Park</th><td>110</td><td>0.8%</td><td>379</td><td>2</td><td>8</td></tr>
+      <tr><th scope="row">Dunellen</th><td>86</td><td>0.7%</td><td>362</td><td>0</td><td>11</td></tr>
+      <tr><th scope="row">Milltown</th><td>73</td><td>0.6%</td><td>290</td><td>0</td><td>4</td></tr>
+      <tr><th scope="row">South Amboy</th><td>70</td><td>0.5%</td><td>453</td><td>2</td><td>6</td></tr>
+      <tr><th scope="row">Spotswood</th><td>62</td><td>0.5%</td><td>285</td><td>0</td><td>3</td></tr>
+      <tr><th scope="row">Jamesburg</th><td>55</td><td>0.4%</td><td>355</td><td>0</td><td>2</td></tr>
+      <tr><th scope="row">South River</th><td>53</td><td>0.4%</td><td>282</td><td>2</td><td>5</td></tr>
+      <tr><th scope="row">Helmetta</th><td>7</td><td>0.1%</td><td>41</td><td>0</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>Pedestrians stand out in two cities. New Brunswick and Perth Amboy had 294 of the county's 724 pedestrian accidents, about 41 percent, while holding about 14 percent of its accidents where someone was hurt.</p>
+  <p class="source">Source: <code>middlesex.json</code> (municipalities, 2023 and 2024), retrieved 2026-11-10. Shares are of the county's 13,145 accidents where someone was hurt or killed. New Brunswick and East Brunswick have no page of their own on this site.</p>
+
+  <h3 id="middlesex-roads">Roads with the most accidents where someone was hurt</h3>
+  <p>Route 1 leads, and NJDOT records it under three road names in Middlesex. Those three rows add up to at least 1,360 accidents where someone was hurt in 2023 and 2024. The Parkway's two rows add up to 601.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Middlesex County road names with the most accidents where someone was hurt or killed, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Road name in the records</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row"><a href="/new-jersey/route-1-nj-accidents">Route 1</a></th><td>779</td><td>2,878</td><td>9</td><td>9</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/route-9-nj-accidents">Route 9</a></th><td>442</td><td>2,006</td><td>5</td><td>3</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway</a></th><td>387</td><td>1,775</td><td>7</td><td>3</td></tr>
+      <tr><th scope="row"><a href="#route-27">Route 27</a></th><td>377</td><td>1,329</td><td>6</td><td>22</td></tr>
+      <tr><th scope="row">Route 1 secondary (Herbert Highway)</th><td>305</td><td>1,246</td><td>5</td><td>8</td></tr>
+      <tr><th scope="row">Route 1 (Herbert Highway)</th><td>276</td><td>965</td><td>4</td><td>3</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/route-18-nj-accidents">Route 18</a></th><td>275</td><td>1,153</td><td>3</td><td>4</td></tr>
+      <tr><th scope="row">I-95, New Jersey Turnpike</th><td>252</td><td>1,147</td><td>4</td><td>0</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/route-35-nj-accidents">Route 35</a></th><td>230</td><td>670</td><td>3</td><td>15</td></tr>
+      <tr><th scope="row">Garden State Parkway secondary</th><td>214</td><td>888</td><td>0</td><td>0</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/route-130-nj-accidents">Route 130</a></th><td>192</td><td>654</td><td>6</td><td>2</td></tr>
+      <tr><th scope="row">I-287</th><td>189</td><td>1,133</td><td>1</td><td>0</td></tr>
+      <tr><th scope="row">Route 529</th><td>165</td><td>582</td><td>1</td><td>5</td></tr>
+      <tr><th scope="row">Route 535</th><td>135</td><td>505</td><td>4</td><td>10</td></tr>
+      <tr><th scope="row">Route 514</th><td>127</td><td>502</td><td>0</td><td>13</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: <code>middlesex.json</code> (top roads, 2023 and 2024), retrieved 2026-11-10. Rows are road names exactly as grouped in the records, so one route can appear more than once. We do not merge them. Sums across rows are floors, because lower rows are not in the file.</p>
+
+  <h3 id="middlesex-types">Rear-end accidents are more common here than statewide</h3>
+  <p>Rear-end accidents make up 36.9 percent of Middlesex accidents where someone was hurt, against 30.7 percent statewide. Deaths follow a different pattern. Pedestrian accidents killed 37 people and accidents into a fixed object killed 25, far more than rear-end accidents did.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Accident types where someone was hurt or killed, Middlesex County and New Jersey, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Type as coded by police</th><th scope="col">Middlesex, hurt or killed</th><th scope="col">Middlesex share</th><th scope="col">Statewide share</th><th scope="col">Middlesex people killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Same direction, rear end</th><td>4,852</td><td>36.9%</td><td>30.7%</td><td>10</td></tr>
+      <tr><th scope="row">Right angle</th><td>2,629</td><td>20.0%</td><td>22.4%</td><td>17</td></tr>
+      <tr><th scope="row">Fixed object</th><td>1,434</td><td>10.9%</td><td>11.6%</td><td>25</td></tr>
+      <tr><th scope="row">Same direction, sideswipe</th><td>1,245</td><td>9.5%</td><td>8.5%</td><td>6</td></tr>
+      <tr><th scope="row">Pedestrian</th><td>669</td><td>5.1%</td><td>6.6%</td><td>37</td></tr>
+      <tr><th scope="row">Left turn or U turn</th><td>605</td><td>4.6%</td><td>4.6%</td><td>2</td></tr>
+      <tr><th scope="row">Opposite direction (head on, angular)</th><td>435</td><td>3.3%</td><td>not in statewide top 8</td><td>9</td></tr>
+      <tr><th scope="row">Struck parked vehicle</th><td>400</td><td>3.0%</td><td>3.4%</td><td>1</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source">Source: <code>middlesex.json</code> and <code>statewide.json</code> (accident type mix, 2023 and 2024), retrieved 2026-11-10. A type count says what kind of accident it was, not who caused it.</p>
+
+  <h3 id="middlesex-timing">The 5 p.m. hour and an October high</h3>
+  <p>In 2023 and 2024, no hour in Middlesex matched 5 p.m. to 6 p.m., with 1,129 accidents where someone was hurt. The three hours from 3 p.m. to 6 p.m. held 3,179 of them, close to one in four. Across the week, Sunday's 1,522 was the low point, against 2,049 on Friday.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Middlesex County accidents where someone was hurt or killed by time of day, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Time window</th><th scope="col">Hurt or killed</th><th scope="col">Share</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Midnight to 3 a.m.</th><td>605</td><td>4.6%</td></tr>
+      <tr><th scope="row">3 a.m. to 6 a.m.</th><td>501</td><td>3.8%</td></tr>
+      <tr><th scope="row">6 a.m. to 9 a.m.</th><td>1,718</td><td>13.1%</td></tr>
+      <tr><th scope="row">9 a.m. to noon</th><td>1,654</td><td>12.6%</td></tr>
+      <tr><th scope="row">Noon to 3 p.m.</th><td>2,277</td><td>17.3%</td></tr>
+      <tr><th scope="row">3 p.m. to 6 p.m.</th><td>3,179</td><td>24.2%</td></tr>
+      <tr><th scope="row">6 p.m. to 9 p.m.</th><td>2,101</td><td>16.0%</td></tr>
+      <tr><th scope="row">9 p.m. to midnight</th><td>1,110</td><td>8.4%</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>By month, October led with 1,221 and January trailed with 911. Darkness covered 28 percent of these accidents, and the road was wet in 17.5 percent. To set Middlesex against the whole state, compare our page on <a href="/new-jersey/when-do-most-car-accidents-happen">when most New Jersey car accidents happen</a>.</p>
+  <p class="source">Source: <code>middlesex.json</code> (time, light and surface, 2023 and 2024), retrieved 2026-11-10. Dark adds the three "dark" light codes.</p>
+</section>
+
+<section id="piscataway">
+  <h2>Piscataway: left turns, I-287 and a 2025 count that is still filling in</h2>
+  <p>Piscataway had 871 accidents where someone was hurt or killed in 2023 and 2024, fourth in the county and 22nd of the 573 municipality codes in the statewide records. Those accidents hurt 1,189 people and killed 10.</p>
+  <p>What sets Piscataway apart is turning traffic. Left turn or U turn accidents were 13.9 percent of its accidents where someone was hurt (121 of 871). The county and statewide share is 4.6 percent.</p>
+  <p>Piscataway logged 1,760 accidents in 2023 and 2,063 in 2024. For 2025, still preliminary, the records hold 1,817, just 88 percent of the 2024 figure. That gap means 2025 is visibly incomplete for Piscataway, not that accidents fell.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Piscataway road names with the most accidents where someone was hurt or killed, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Road name in the records</th><th scope="col">Hurt or killed</th><th scope="col">All accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Route 529</th><td>82</td><td>305</td><td>1</td></tr>
+      <tr><th scope="row">I-287</th><td>73</td><td>427</td><td>0</td></tr>
+      <tr><th scope="row">Middlesex County 609</th><td>68</td><td>196</td><td>1</td></tr>
+      <tr><th scope="row">Middlesex County 622</th><td>52</td><td>235</td><td>0</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/route-18-nj-accidents">Route 18</a></th><td>50</td><td>169</td><td>1</td></tr>
+      <tr><th scope="row">I-287 secondary</th><td>38</td><td>184</td><td>1</td></tr>
+      <tr><th scope="row">Middlesex County 665</th><td>31</td><td>122</td><td>1</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>The worst single corner, with 7 accidents where someone was hurt in 2024 and 2025, is Kossuth Street at Old New Brunswick Road. Five of those 7 are from preliminary 2025 records. Lakeview Avenue at Route 529 (Washington Avenue) follows with 5. Four corners tie at 4: Gramercy Drive at Metlars Lane North, Route 18 secondary at River Road, Davidson Road at Davidson Road West, and Pleasant Avenue at West Seventh Street. At least nine more tie at 3.</p>
+  <p>Accidents where someone was hurt peaked on Thursdays (171 in two years) and dropped to 74 on Sundays. For the report, ask the Piscataway Police Department, or use the State Police portal above if troopers handled an I-287 accident.</p>
+  <p class="source">Source: <code>lane2-content/data/profiles/piscataway-nj-car-accidents.json</code>, NJDOT crash records 2023 to 2025 via nj-crashes, retrieved 2026-11-10. Intersections use 2024 and 2025; the file keeps 15 rows. Road rows are not merged across names.</p>
+</section>
+
+<section id="north-brunswick">
+  <h2>North Brunswick: where Route 1 meets Route 130</h2>
+  <p>North Brunswick had 741 accidents where someone was hurt or killed in 2023 and 2024, tenth in the county. They hurt 1,053 people and killed 6. Three of the 6 people killed were pedestrians, although only 24 accidents involved a pedestrian.</p>
+  <p>Rear-end accidents were 43.9 percent of the town's accidents where someone was hurt, well above the county's 36.9 percent. Wet roads were involved in 20.5 percent, against 17.5 percent countywide.</p>
+  <p>Route 1 and Route 130 together carry nearly half of it. Route 1 appears under four record names, adding up to at least 215 accidents where someone was hurt. Route 130 appears under two, adding up to 131. Route 27 had 44, and 2 of the town's 6 deaths.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>North Brunswick intersections with the most accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Intersection</th><th scope="col">Hurt or killed</th><th scope="col">2024</th><th scope="col">2025 (preliminary)</th><th scope="col">People hurt</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Hermann Road at Route 171 (Georges Road)</th><td>4</td><td>0</td><td>4</td><td>5</td></tr>
+      <tr><th scope="row">How Lane (County 680) at Route 91 (Jersey Avenue)</th><td>4</td><td>2</td><td>2</td><td>13</td></tr>
+      <tr><th scope="row">Route 1 (Herbert Highway) at Route 130</th><td>4</td><td>0</td><td>4</td><td>5</td></tr>
+      <tr><th scope="row">13th Street at Route 26 (Livingston Avenue)</th><td>3</td><td>2</td><td>1</td><td>6</td></tr>
+      <tr><th scope="row">Cozzens Lane (County 608) at Route 1 (Herbert Highway)</th><td>3</td><td>0</td><td>3</td><td>8</td></tr>
+      <tr><th scope="row">Apple Orchard Lane (County 696) at Route 130 secondary</th><td>3</td><td>0</td><td>3</td><td>5</td></tr>
+      <tr><th scope="row">Finnegans Lane (County 682) at Kory Drive</th><td>3</td><td>2</td><td>1</td><td>8</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>Three corners share the top count, and at least eight more tie at 2 below this table. No corner stands far above the rest. How Lane at Route 91 is the exception in one way: its 4 accidents hurt 13 people.</p>
+  <p>North Brunswick's preliminary 2025 total (1,427) is slightly above 2024 (1,391), so the 2025 count seems nearly whole, though still preliminary, and its zero deaths for 2025 may change. The township website refused our request on 2026-11-10, so ask the North Brunswick Police Department directly for its records process.</p>
+  <p class="source">Source: <code>lane2-content/data/profiles/north-brunswick-nj-car-accidents.json</code>, NJDOT crash records 2023 to 2025 via nj-crashes, retrieved 2026-11-10. Route 1 rows: 89, 61, 42 and 23; Route 130 rows: 77 and 54 (2023 and 2024).</p>
+</section>
+
+<section id="route-27">
+  <h2>Route 27 in Middlesex County: Edison to North Brunswick</h2>
+  <p>Route 27 runs through five counties, and Middlesex carries the largest part of its toll. Of 1,431 accidents where someone was hurt or killed on Route 27 in 2023 and 2024, 653 (45.6 percent) were in Middlesex, and 7 people died there.</p>
+  <p>Pedestrians matter more on Route 27 than on most roads. Across the whole road, 147 of its accidents where someone was hurt were pedestrian accidents, 10.3 percent, double the county's 5.1 percent share.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 27 accidents in Middlesex County towns, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Town</th><th scope="col">Hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row"><a href="/new-jersey/edison-nj-car-accidents">Edison</a></th><td>218</td><td>827</td><td>318</td><td>1</td><td>9</td></tr>
+      <tr><th scope="row">New Brunswick</th><td>122</td><td>379</td><td>180</td><td>1</td><td>24</td></tr>
+      <tr><th scope="row">Metuchen</th><td>88</td><td>297</td><td>126</td><td>0</td><td>6</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/woodbridge-nj-car-accidents">Woodbridge</a></th><td>74</td><td>265</td><td>104</td><td>1</td><td>4</td></tr>
+      <tr><th scope="row"><a href="#south-brunswick">South Brunswick</a></th><td>58</td><td>206</td><td>73</td><td>0</td><td>1</td></tr>
+      <tr><th scope="row">Highland Park</th><td>49</td><td>130</td><td>61</td><td>2</td><td>5</td></tr>
+      <tr><th scope="row"><a href="#north-brunswick">North Brunswick</a></th><td>44</td><td>135</td><td>60</td><td>2</td><td>1</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>By cross street, the Middlesex leaders in 2024 and 2025 were Schulyer Drive (23) and Prospect Avenue (20) in Edison. Next came Sturgis Road in Edison and Rose Street in Metuchen (14 each), then Magnolia Road and the Garden State Parkway in Woodbridge and Duclos Lane in Edison (12 each). Vinyard Road in Edison had 11, and more cross streets may tie at 11 because the file stops there.</p>
+  <p>These cross street counts come from a different field in the records than the intersection table above, so the two do not match. Schulyer Drive has 23 here and 18 in the county intersection table.</p>
+  <p>Fatal accidents on Route 27 in Middlesex from 2023 to 2025 (2025 preliminary) were in Edison (3), North Brunswick (2), Highland Park (1, with 2 people killed), New Brunswick (1) and Woodbridge (1, in 2023). For one of these reports, ask the department of the Middlesex town where it happened, or use the State Police portal if troopers investigated.</p>
+  <p>Outside Middlesex, Route 27 continues through places including <a href="/new-jersey/franklin-township-somerset-nj-car-accidents">Franklin Township in Somerset County</a>, <a href="/new-jersey/linden-nj-car-accidents">Linden</a>, <a href="/new-jersey/elizabeth-nj-car-accidents">Elizabeth</a> and <a href="/new-jersey/newark-nj-car-accidents">Newark</a>. The Union County share is on our <a href="/new-jersey/union-county-car-accident-help">Union County car accident page</a>.</p>
+  <p class="source">Source: <code>lane2-content/data/profiles/route-27-nj-accidents.json</code> (county, town and cross street tables) and, for the fatal list, our uncut recount <code>lane2-content/data/middlesex-county-car-accident-help/middlesex-route27-fatal-2023-2025.csv</code>, because the profile's fatal table stops at 8 rows. NJDOT crash records 2023 to 2025 via nj-crashes, retrieved 2026-11-10. Route 27 here means state Route 27 records only, not county or local roads with the same number. Its 2025 total is 100.4 percent of 2024, still preliminary.</p>
+</section>
+
+<section id="south-brunswick">
+  <h2>South Brunswick: fewer pedestrians, more deaths at angle collisions</h2>
+  <p>South Brunswick had 830 accidents where someone was hurt or killed in 2023 and 2024, and 13 people died. That is the same number of deaths as Woodbridge, which had almost three times as many accidents.</p>
+  <p>Most of those deaths came from right angle accidents: 8 of the 13. The worst year was 2024, when 6 fatal accidents killed 10 people. Pedestrian accidents were rare, 11 in two years.</p>
+  <p>Day to day, the town's pattern is the rear-end accident. It made up 46.1 percent of accidents where someone was hurt, the highest share of the five places on this page. About 5.4 percent happened on dark roads with no street lights, against 2.9 percent countywide.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>South Brunswick road names with the most accidents where someone was hurt or killed, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">Road name in the records</th><th scope="col">Hurt or killed</th><th scope="col">All accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row"><a href="/new-jersey/route-1-nj-accidents">Route 1</a></th><td>167</td><td>627</td><td>1</td></tr>
+      <tr><th scope="row"><a href="/new-jersey/route-130-nj-accidents">Route 130</a></th><td>88</td><td>261</td><td>4</td></tr>
+      <tr><th scope="row"><a href="#route-27">Route 27</a></th><td>58</td><td>206</td><td>0</td></tr>
+      <tr><th scope="row">Route 1 (Herbert Highway)</th><td>56</td><td>194</td><td>3</td></tr>
+      <tr><th scope="row">Route 1 secondary (Herbert Highway)</th><td>41</td><td>158</td><td>1</td></tr>
+      <tr><th scope="row">Route 535</th><td>33</td><td>128</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>Route 1's three record names add up to at least 264 accidents where someone was hurt and 5 deaths. Route 130 had 4 deaths on its main record name alone.</p>
+  <p>Ridge Road at Route 1 is the top corner. It appears twice in the records under two Route 1 names, with 5 and 3 accidents where someone was hurt in 2024 and 2025, at coordinates a few meters apart. Five corners tie at 4: Route 535 at Stults Road, Allston Road at Route 27, Davidsons Mill Road at Route 535, Melrich Road at Route 130 secondary, and Ridge Road at Schalks Crossing Road. At least nine more file rows sit at 3, and the second Ridge Road at Route 1 record is one of them.</p>
+  <p>Friday was the peak day, with 152 accidents where someone was hurt in two years. The 2025 preliminary total is 93 percent of 2024. For the report, use the South Brunswick police route in the <a href="#report-by-agency">report list above</a>.</p>
+  <p class="source">Source: <code>lane2-content/data/profiles/south-brunswick-nj-car-accidents.json</code>, NJDOT crash records 2023 to 2025 via nj-crashes, retrieved 2026-11-10. Intersection counts are floors; the two Ridge Road rows are not merged in the data.</p>
+</section>
+
+<section id="perth-amboy">
+  <h2>Perth Amboy: angle collisions and pedestrians on city streets</h2>
+  <p>Perth Amboy's pattern looks like no other place on this page. Right angle accidents were its most common type where someone was hurt, 30.9 percent, against 20.0 percent countywide. Pedestrian accidents were 16.2 percent, more than three times the county share.</p>
+  <p>The city had 776 accidents where someone was hurt or killed in 2023 and 2024, with 1,032 people hurt and 3 killed. It had 131 pedestrian accidents and 41 bicycle accidents in those two years.</p>
+  <p>Parked cars feature too. Police recorded 885 accidents where a parked vehicle was struck, about 27 percent of all 3,297 accidents in the city. Most hurt no one: 52 did.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Perth Amboy intersections with the most accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Intersection</th><th scope="col">Hurt or killed</th><th scope="col">People hurt</th><th scope="col">All accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Route 35 (Convery Boulevard) at Sayre Avenue</th><td>11</td><td>20</td><td>26</td></tr>
+      <tr><th scope="row">Fayette Street at Oak Street</th><td>9</td><td>11</td><td>18</td></tr>
+      <tr><th scope="row">Hall Avenue at Penn Street</th><td>8</td><td>9</td><td>12</td></tr>
+      <tr><th scope="row">New Brunswick Avenue (County 616) at Route 35 (Convery Boulevard)</th><td>7</td><td>11</td><td>17</td></tr>
+      <tr><th scope="row">Hall Avenue at Johnstone Street</th><td>7</td><td>11</td><td>12</td></tr>
+      <tr><th scope="row">Johnstone Street at Lawrie Street</th><td>7</td><td>9</td><td>7</td></tr>
+      <tr><th scope="row">Route 184 secondary (Harding Avenue) at Route 35 (Convery Boulevard)</th><td>6</td><td>8</td><td>10</td></tr>
+      <tr><th scope="row">Florida Grove Road (County 655) at Route 184 (Pfeiffer Boulevard)</th><td>5</td><td>9</td><td>15</td></tr>
+      <tr><th scope="row">Oak Street at Smith Street (County 656)</th><td>5</td><td>5</td><td>9</td></tr>
+      <tr><th scope="row">Cornell Street at Washington Street</th><td>5</td><td>8</td><td>7</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p>Below these 10, at least five more corners tie at 4. Route 35 at Sayre Avenue is fourth in the whole county.</p>
+  <p>By road, <a href="/new-jersey/route-35-nj-accidents">Route 35</a> (Convery Boulevard) had 82 accidents where someone was hurt in 2023 and 2024, plus 33 under its plain Route 35 name. Market Street had 31, and 16 of those involved a pedestrian, the most of any Perth Amboy road in the file. Smith Street had 11 pedestrian accidents among its 44. <a href="/new-jersey/hudson-county-car-accident-help#route-440">Route 440</a> had 28 plus 15 on its secondary record name.</p>
+  <p>Accidents where someone was hurt were spread evenly across the week, with Sunday (120) close to Friday (123). Dark streets with continuous lighting account for about 27 percent of them. The 2025 preliminary total is 94 percent of 2024. For the report, use the Perth Amboy Records window in the <a href="#report-by-agency">report list above</a>.</p>
+  <p class="source">Source: <code>lane2-content/data/profiles/perth-amboy-nj-car-accidents.json</code>, NJDOT crash records 2023 to 2025 via nj-crashes, retrieved 2026-11-10. Intersections use 2024 and 2025; spelling variants are not merged.</p>
+</section>
+
+<section id="middlesex-pages">
+  <h2>More Middlesex County pages, by town and road</h2>
+  <h3 id="middlesex-town-pages">Middlesex towns with their own page</h3>
+  <ul>
+    <li><a href="/new-jersey/woodbridge-nj-car-accidents">Woodbridge car accident data and police report steps</a></li>
+    <li><a href="/new-jersey/edison-nj-car-accidents">Edison car accident data and police report steps</a></li>
+    <li><a href="/new-jersey/old-bridge-nj-car-accidents">Old Bridge car accident data and police report steps</a></li>
+    <li><a href="/new-jersey/sayreville-nj-car-accidents">Sayreville car accident data</a></li>
+  </ul>
+  <h3 id="middlesex-road-pages">Roads through Middlesex</h3>
+  <ul>
+    <li><a href="/new-jersey/route-1-nj-accidents">Route 1 accident data in New Jersey</a></li>
+    <li><a href="/new-jersey/route-9-nj-accidents">Route 9 accidents in New Jersey</a></li>
+    <li><a href="/new-jersey/route-18-nj-accidents">Route 18 accident data in New Jersey</a></li>
+    <li><a href="/new-jersey/route-35-nj-accidents">Route 35 accident data in New Jersey</a></li>
+    <li><a href="/new-jersey/route-130-nj-accidents">Route 130 accidents in New Jersey</a></li>
+    <li><a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway accident data</a></li>
+    <li><a href="/new-jersey/hudson-county-car-accident-help#route-440">Route 440 accident data</a></li>
+    <li><a href="/new-jersey/route-18-new-brunswick-crash-guide">Route 18 in New Brunswick: what to note after an accident</a></li>
+    <li><a href="/new-jersey/route-1-edison-accident-location-checklist">Route 1 in Edison: an accident location checklist</a></li>
+    <li><a href="/new-jersey/route9-sayreville-crash-contact-and-trip-notes">Route 9 in Sayreville: contacts and trip notes</a></li>
+  </ul>
+  <h3 id="middlesex-neighbors">Neighboring counties and accident types</h3>
+  <ul>
+    <li><a href="/new-jersey/union-county-car-accident-help">Union County car accident help</a></li>
+    <li><a href="/new-jersey/somerset-county-rideshare-accident-help">Somerset County rideshare accident help</a></li>
+    <li><a href="/new-jersey/monmouth-county-motorcycle-accident-help">Monmouth County motorcycle accident help</a></li>
+    <li><a href="/new-jersey/mercer-county-truck-accident-help">Mercer County truck accident help</a></li>
+    <li><a href="/new-jersey/new-jersey-truck-accident-help">Truck accidents in New Jersey</a>, <a href="/new-jersey/new-jersey-rideshare-accident-help">rideshare accidents in New Jersey</a> and <a href="/new-jersey/new-jersey-motorcycle-accident-help">motorcycle accidents in New Jersey</a></li>
+    <li><a href="/new-jersey/most-dangerous-intersections-nj">New Jersey intersections with the most accidents</a> and the statewide <a href="/new-jersey/new-jersey-car-accident-help">New Jersey car accident help guide</a></li>
+  </ul>
+  <p>Middlesex has no separate truck, rideshare or motorcycle page on this site yet, so the statewide pages are the closest match.</p>
+</section>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened in Middlesex County. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident in Middlesex County? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=middlesex-county-car-accident-help">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="method">
+  <h2>Where the Middlesex figures come from</h2>
+  <p>Every Middlesex number above starts as a police crash record filed with NJDOT. The 2023 records come from NJDOT's per-table archive, and the 2024 and 2025 records from its Crash Data Portal. The open-source <a href="https://github.com/hudcostreets/nj-crashes">nj-crashes project</a> put them in one format, and its fatal records are filled in from <a href="https://www.nj.gov/njsp/info/fatalacc/index.shtml">NJ State Police fatal statistics</a> (retrieved 2026-11-10). We downloaded that file on 2026-11-06. On this page, "hurt" means police listed one or more people as injured or killed in the accident.</p>
+  <p>The 2023 and 2024 records are complete; 2025 is preliminary, and each 2025 figure carries that label. Towns, roads, accident types and timing rest on 2023 and 2024. Corners and cross streets rest on 2024 and 2025, since street names were written differently before 2024. A misspelled street name splits one corner into two rows, so corner counts are minimums. Record names such as "US 1 SECONDARY" appear here as plain route names. These are counts with no traffic volumes behind them, so they cannot rank how risky a road or corner is. Full method: <code>lane2-content/data/README.md</code>; Middlesex recounts: <code>lane2-content/data/middlesex-county-car-accident-help/</code>.</p>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=home">Start the New Jersey accident quiz ↗</a></div></footer></div>

@@ -3,7 +3,7 @@ window.__h=async v=>{const b=await crypto.subtle.digest('SHA-256',new TextEncode
 window.__get=async k=>{const r=await fetch('https://sitemap.injuriescases.com/_stage/'+k+'.txt',{cache:'no-store'});if(!r.ok)throw new Error('fetch '+r.status);return r.text()};
 window.__pages=null;window.__pg=async s=>{if(!__pages){__pages=await (await fetch('https://sitemap.injuriescases.com/_stage/pages.json',{cache:'no-store'})).json()}return __pages[s]};
 window.__code=async s=>{window.__codeOk=null;const p=await __pg(s);const ed=ace.edit(document.querySelectorAll('.ace_editor')[0]);const before=await __h(ed.getValue());
- if(before!==p.snap&&before!==p.code.slice(0,16))return 'REFUSED editor holds '+before+' expected '+p.snap;
+ if(!(p.accept||[p.snap]).includes(before)&&before!==p.code.slice(0,16))return 'REFUSED editor holds '+before+' expected '+p.snap;
  ed.setValue(await __get(p.code),-1);await new Promise(r=>setTimeout(r,800));const after=await __h(ed.getValue());window.__codeOk=(after===p.code.slice(0,16))?s:null;return JSON.stringify({before,after,ok:after===p.code.slice(0,16)})};
 window.__settings=async s=>{if(window.__codeOk!==s)return 'SKIPPED: code step not confirmed for '+s;const p=await __pg(s),V=p.V,res={};const wait=ms=>new Promise(r=>setTimeout(r,ms));
  const set=(el,val)=>{const proto=el.tagName==='TEXTAREA'?HTMLTextAreaElement.prototype:HTMLInputElement.prototype;el.focus();Object.getOwnPropertyDescriptor(proto,'value').set.call(el,val);el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}));el.blur();el.dispatchEvent(new Event('blur',{bubbles:true}))};

@@ -1,0 +1,219 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><style>.research-chart{margin:30px 0}.research-series .research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important}.quiz-cta .button{display:inline-block;margin-top:12px}</style><style>.place-page figure.research-chart img,.mva-site[data-conversion-batch] .place-page figure.research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto}.place-page figure.research-chart.portrait img,.mva-site[data-conversion-batch] .place-page figure.research-chart.portrait img{max-width:540px!important}.place-page .mva-review-scroll table{min-width:640px}.place-page .research-data-links a{overflow-wrap:anywhere}@media(max-width:600px){.mva-site[data-conversion-batch] .place-page .article-image img,.place-page .article-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page town-page" id="hamilton-township-mercer">
+
+<h1>Hamilton NJ accident data: injury crashes in Hamilton Township, Mercer County, and which police hold the report</h1>
+
+<section id="answer">
+  <p class="lead">Hamilton Township had 1,344 police-reported car accidents in 2023 and 2024 where someone was hurt or killed. That is more than any other town in Mercer County, Trenton included. In those two years 1,891 people were hurt and 18 were killed.</p>
+  <p>Which police wrote your report depends on the road. In 2024, 373 of the 378 accidents recorded on the township's interstates (I-295 and I-195) carry a New Jersey State Police station. Accidents on township and county streets almost never do.</p>
+  <p>These are counts from 2023 to 2025, with 2025 still preliminary. They are not live traffic, and they say nothing about who caused any accident.</p>
+  <p class="source">Hamilton figures come from our own tally of NJDOT crash records (2023 to 2025), using the cleaned copy kept by <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a>, with State Police fatal data added (retrieved 2026-11-10). Working files: the Hamilton profile and hamilton-cuts-2023-2025.csv; see "Where the Hamilton counts come from" below.</p>
+  <div class="quiz-cta quiz-cta-inline">
+    <p>Hurt in a car accident in Hamilton Township, on Route 33, I-295 or a local street? The New Jersey questionnaire is a short set of questions about your injury, whether you already have a lawyer, fault, medical attention, the police report and the date, followed by a contact form. It is free and there is no obligation. If your answers qualify, a sponsoring lawyer or legal consultant may call you.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=hamilton-township-mercer-nj-car-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="hamilton-vs-trenton">
+  <h2>More injury crashes than Trenton, far fewer pedestrian crashes</h2>
+  <p>Trenton recorded slightly more accidents overall in 2023 and 2024 (5,712 against Hamilton's 5,672). Hamilton still had more accidents where someone was hurt or killed: 1,344 against 1,182. Hamilton alone holds about 28 percent of Mercer County's injury and fatal accidents.</p>
+  <p>The pedestrian picture runs the other way. Trenton recorded 175 accidents involving a pedestrian in those two years, Hamilton 50. Statewide, Hamilton ranks 13th of the 573 municipality names in the crash records by injury and fatal accidents.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Hamilton Township, Trenton and Mercer County, police-reported accidents 2023 and 2024 (both years complete)</caption>
+      <thead>
+        <tr><th scope="col">Place</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Hamilton Township</th><td>5,672</td><td>1,344</td><td>1,891</td><td>18</td><td>50</td></tr>
+        <tr><th scope="row">Trenton</th><td>5,712</td><td>1,182</td><td>1,523</td><td>20</td><td>175</td></tr>
+        <tr><th scope="row">Mercer County, all records</th><td>21,424</td><td>4,736</td><td>6,433</td><td>66</td><td>318</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: lane2-content/data/counties/mercer.json (municipalities_2023_2024, two_year_2023_2024) and the Hamilton profile (rank), from NJDOT crash records via nj-crashes (retrieved 2026-11-10). The 573 names include legacy labels such as Princeton Twp, so the list is longer than the state's actual number of municipalities. The county row covers every Mercer record, including 9 under the legacy Princeton Twp label and 2 with no municipality. Counts, not rates: these figures do not adjust for traffic volume, road length or population.</p>
+</section>
+
+<section id="crash-types">
+  <h2>Right-angle crashes lead in Hamilton, rear-end crashes lead countywide</h2>
+  <p>Police code each accident by type. In Hamilton, "Right Angle" is the largest group of injury and fatal accidents, at 29 percent. Across Mercer County as a whole, rear-end accidents are the largest group instead. Left-turn and U-turn accidents also make up a larger share in Hamilton than in the county.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Share of injury and fatal accidents by police-coded type, 2023 and 2024</caption>
+      <thead>
+        <tr><th scope="col">Accident type (as coded)</th><th scope="col">Hamilton count</th><th scope="col">Hamilton share</th><th scope="col">Mercer County share</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Right Angle</th><td>391</td><td>29.1%</td><td>25.3%</td></tr>
+        <tr><th scope="row">Same Direction (Rear End)</th><td>346</td><td>25.7%</td><td>28.1%</td></tr>
+        <tr><th scope="row">Fixed Object</th><td>168</td><td>12.5%</td><td>13.3%</td></tr>
+        <tr><th scope="row">Same Direction (Side Swipe)</th><td>98</td><td>7.3%</td><td>6.6%</td></tr>
+        <tr><th scope="row">Left Turn/U Turn</th><td>97</td><td>7.2%</td><td>5.6%</td></tr>
+        <tr><th scope="row">Struck Parked Vehicle</th><td>69</td><td>5.1%</td><td>4.1%</td></tr>
+        <tr><th scope="row">Pedestrian</th><td>48</td><td>3.6%</td><td>6.0%</td></tr>
+        <tr><th scope="row">Opposite Direction (Head On, Angular)</th><td>44</td><td>3.3%</td><td>3.7%</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: crash_type_mix_2023_2024 in the Hamilton profile and lane2-content/data/counties/mercer.json (retrieved 2026-11-10). The type is the police officer's coding of how vehicles met. It is not a finding of fault. Insurers assign fault from all the facts, not from the police report alone (<a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">DOBI, Everything You Wanted to Know About Auto Insurance 2026</a>, pp. 26 to 27, retrieved 2026-11-10). More on angle accidents: <a href="/new-jersey/nj-new-jersey-side-impact-collision-claim-support-help">side-impact and T-bone car accidents in New Jersey</a>.</p>
+</section>
+
+<section id="which-police">
+  <h2>Who has your Hamilton accident report: State Police or the township</h2>
+  <p>Hamilton's records include accidents on I-295, I-195 and the New Jersey Turnpike. On those roads the records nearly always name a State Police station. On township and county streets they almost never do. We use 2024 here because the station field is filled in most completely that year.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Hamilton Township accidents in 2024 by road system, and how many name a State Police station</caption>
+      <thead>
+        <tr><th scope="col">Road system (NJDOT code)</th><th scope="col">All accidents</th><th scope="col">With a State Police station</th><th scope="col">Main stations named</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Interstates (I-295, I-195)</th><td>378</td><td>373</td><td>Bordentown (I-295), Hamilton (I-195)</td></tr>
+        <tr><th scope="row">New Jersey Turnpike (I-95 in the record)</th><td>51</td><td>47</td><td>Moorestown, Cranbury</td></tr>
+        <tr><th scope="row">State highways (such as Route 33, Route 130, Route 206)</th><td>393</td><td>66</td><td>mixed</td></tr>
+        <tr><th scope="row">County roads</th><td>692</td><td>1</td><td>none to speak of</td></tr>
+        <tr><th scope="row">Municipal streets</th><td>1,123</td><td>6</td><td>none to speak of</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: hamilton-cuts-2023-2025.csv, cuts road_system_x_nsp_2024, interstate_route_x_station_2023_2024 and nj_turnpike_route95_by_year_station (script hamilton_cuts.py), from NJDOT crash records via nj-crashes (retrieved 2026-11-10). "With a State Police station" means the record's station field is filled in; we read this as a State Police report, which is an inference from the data and not an official agency list. In 2023 the field is blank on 185 of 400 interstate records, so 2023 is left out of this table.</p>
+
+  <h3>If State Police took the report (I-295, I-195, the Turnpike)</h3>
+  <p>For a crash on I-295 or I-195 through Hamilton, or on a New Jersey Turnpike segment counted in Hamilton's records, you order the report yourself at <a href="https://www.njportal.com/njsp/crashreports/">njportal.com/njsp/crashreports</a>. An I-295 or I-195 report costs $13.00 there; a Turnpike report costs $5.00. Reports can be ordered for six years from the year of the crash. If yours is not ready, the portal says to search again in a couple of days. For questions about I-295 or I-195 reports, the portal lists the State Police at (609) 882-2000 ext. 2234. For Turnpike reports, it lists the Turnpike Authority at (732) 442-8600 ext. 2431. Requests for serious or fatal crash records can take up to a month, and the portal asks you to call the State Police only after that month has passed.</p>
+  <p class="source">Source: NJSP crash reports portal, <a href="https://www.njportal.com/njsp/crashreports/">https://www.njportal.com/njsp/crashreports/</a> (fees, six years, phone numbers and the one-month wait, retrieved 2026-11-10); research/nj-primary-sources.md section 8.</p>
+
+  <h3>If Hamilton's own police took the report (local and county streets)</h3>
+  <p>Reports written by a local police department are requested from that department, not from the State Police portal. Ask for the case number at the scene, then contact the township police records unit. We could not reach the township's website on 2026-11-10, so we do not list its records process, fees or wait time here. If no officer investigated, New Jersey's SR-1 self-reporting form is the driver's form; the police NJTR-1 report is completed by police only.</p>
+  <p class="source">Sources: research/nj-primary-sources.md section 8 (municipal procedures vary and were not verified); <a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">NJDOT Police Resources</a> (NJTR-1 is police-only, retrieved 2026-11-10). Agency-by-agency steps: <a href="/new-jersey/nj-car-accident-report">how to get a New Jersey car accident report</a>.</p>
+  <p>Once you have the report, DOBI advises: "Review report for details, such as how many passengers were listed... If you see inconsistencies, let your insurance company know and contact the police department that responded to the scene."</p>
+  <p class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">DOBI, Everything You Wanted to Know About Auto Insurance 2026</a>, p. 25, retrieved 2026-11-10)</p>
+</section>
+
+<section id="deaths">
+  <h2>Where the 18 deaths happened</h2>
+  <p>Interstates carried 12 percent of Hamilton's injury and fatal accidents in 2023 and 2024 (163 of 1,344). They account for 6 of the 18 deaths, and all six were on I-295. Three of those fatal accidents were coded fixed object, two overturned and one rear end.</p>
+  <p>Accidents involving a pedestrian killed five people in Hamilton in 2023 and 2024, all of them in 2024. Two of those fatal accidents were on municipal streets, two on state highways and one on a county road. Deaths overall went from 6 in 2023 to 12 in 2024; the preliminary 2025 count is 5.</p>
+  <p class="source">Source: hamilton-cuts-2023-2025.csv, cuts road_system_2023_2024 and fatal_by_road_system_crash_type_2023_2024; top_roads_2023_2024 and years in the Hamilton profile (retrieved 2026-11-10). Small counts swing from year to year; they do not show a trend. Related: <a href="/new-jersey/pedestrian-crash-new-jersey">pedestrian accidents in New Jersey</a>.</p>
+</section>
+
+<section id="roads">
+  <h2>Hamilton roads with the most injury accidents</h2>
+  <p>Route 33 leads, and it appears in the records under two names. "NJ 33" (117) and "NJ 33 (Greenwood Avenue)" (30) are listed separately, together 147 injury and fatal accidents. I-295 is second with 65, and it has the most deaths of any road in town. Klockner Road is split the same way: "Klockner Rd" (27) and "Klockner Road" (21) together come to 48, which would put it fifth.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Roads in Hamilton Township by accidents where someone was hurt or killed, 2023 and 2024 (road names as recorded)</caption>
+      <thead>
+        <tr><th scope="col">Road (record name)</th><th scope="col">Hurt or killed</th><th scope="col">All accidents</th><th scope="col">Killed</th><th scope="col">Pedestrian accidents</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">NJ 33 (<a href="/new-jersey/route-33-nj-accidents">Route 33 car accidents</a>)</th><td>117</td><td>382</td><td>0</td><td>6</td></tr>
+        <tr><th scope="row">I-295</th><td>65</td><td>327</td><td>6</td><td>0</td></tr>
+        <tr><th scope="row">Route 533</th><td>58</td><td>196</td><td>1</td><td>2</td></tr>
+        <tr><th scope="row">I-195</th><td>50</td><td>214</td><td>0</td><td>0</td></tr>
+        <tr><th scope="row">US 206 (<a href="/new-jersey/route-206-nj-accidents">Route 206 car accidents</a>)</th><td>41</td><td>178</td><td>1</td><td>1</td></tr>
+        <tr><th scope="row">US 130 (<a href="/new-jersey/route-130-nj-accidents">Route 130 car accidents</a>)</th><td>30</td><td>118</td><td>0</td><td>1</td></tr>
+        <tr><th scope="row">NJ 33 (Greenwood Avenue)</th><td>30</td><td>86</td><td>1</td><td>5</td></tr>
+        <tr><th scope="row">Mercer County 622</th><td>28</td><td>78</td><td>0</td><td>0</td></tr>
+        <tr><th scope="row">Klockner Rd</th><td>27</td><td>82</td><td>0</td><td>1</td></tr>
+        <tr><th scope="row">I-295 Secondary</th><td>27</td><td>141</td><td>0</td><td>0</td></tr>
+        <tr><th scope="row">Route 535</th><td>21</td><td>82</td><td>0</td><td>1</td></tr>
+        <tr><th scope="row">N Clinton Ave / S Clinton Ave</th><td>21</td><td>55</td><td>0</td><td>2</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: top_roads_2023_2024 in the Hamilton profile (retrieved 2026-11-10). Ties: Klockner Rd and I-295 Secondary share 9th place at 27. Five roads tie for 11th at 21: Route 535, N/S Clinton Avenue, Klockner Road, I-195 Secondary and Mercer County 606. The table shows two of them (hamilton-ties.csv, script hamilton_ties.py). Names are not merged, so each count is a floor. "I-295 Secondary" is a separate road name in the records; we do not add it to I-295.</p>
+</section>
+
+<section id="intersections">
+  <h2>South Clinton Avenue and Klockner Road keep coming up at intersections</h2>
+  <p>The intersection with the most injury and fatal accidents in 2024 and 2025 is Maddock Avenue at South Clinton Avenue, with 12. Across all 23 Hamilton intersections with four or more injury and fatal accidents, South Clinton Avenue appears three times. Klockner Road appears four times, at Route 33, Route 533, Hamilton Avenue and Whitehorse-Hamilton Square Road.</p>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Hamilton Township intersections by accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+      <thead>
+        <tr><th scope="col">Intersection (record names)</th><th scope="col">Hurt or killed</th><th scope="col">2024</th><th scope="col">2025 (preliminary)</th><th scope="col">People hurt</th><th scope="col">All accidents</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Maddock Avenue at South Clinton Avenue</th><td>12</td><td>6</td><td>6</td><td>27</td><td>22</td></tr>
+        <tr><th scope="row">Klockner Road at NJ 33 (Greenwood Avenue)</th><td>11</td><td>5</td><td>6</td><td>17</td><td>17</td></tr>
+        <tr><th scope="row">South Clinton Avenue at Woodside Avenue</th><td>11</td><td>5</td><td>6</td><td>19</td><td>15</td></tr>
+        <tr><th scope="row">Donald Drive at NJ 33 (Greenwood Avenue)</th><td>9</td><td>5</td><td>4</td><td>11</td><td>26</td></tr>
+        <tr><th scope="row">"Justice Samuel A; Alito West" at Kuser Road (Mercer County 619)</th><td>8</td><td>3</td><td>5</td><td>12</td><td>15</td></tr>
+        <tr><th scope="row">Kuser Road at Yardville-Hamilton Square Road</th><td>8</td><td>5</td><td>3</td><td>12</td><td>14</td></tr>
+        <tr><th scope="row">Klockner Road at Route 533 (Whitehorse Mercerville Road)</th><td>8</td><td>2</td><td>6</td><td>16</td><td>10</td></tr>
+        <tr><th scope="row">Douglas Avenue at Sloan Avenue</th><td>7</td><td>3</td><td>4</td><td>9</td><td>16</td></tr>
+        <tr><th scope="row">Flock Road at Route 533 (Quakerbridge Road)</th><td>5</td><td>1</td><td>4</td><td>10</td><td>9</td></tr>
+        <tr><th scope="row">Kuser Road at Whitehorse-Hamilton Square Road</th><td>5</td><td>3</td><td>2</td><td>9</td><td>9</td></tr>
+        <tr><th scope="row">Hamilton Avenue (Mercer County 606) at Klockner Road</th><td>5</td><td>2</td><td>3</td><td>6</td><td>7</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: top_intersections_2024_2025 in the Hamilton profile (retrieved 2026-11-10). Three intersections tie at 5, so all three are shown. Below them, twelve more intersections tie at 4 each, so any "top 15" would be an arbitrary cut; the street counts in the text cover all 23 intersections with 4 or more (hamilton-ties.csv, script hamilton_ties.py). Spelling variants are not merged, so every count is a floor. The first street name in row 5 is reproduced exactly as recorded. No intersection in this list had a death in 2024 or 2025. Statewide list: <a href="/new-jersey/most-dangerous-intersections-nj">New Jersey intersections with the most injury accidents</a>.</p>
+</section>
+
+<section id="timing">
+  <h2>Weekday afternoons, and October</h2>
+  <p>The three hours from 3 pm to 6 pm hold 305 of Hamilton's 1,344 injury and fatal accidents in 2023 and 2024, close to a quarter. The single busiest hour starts at 5 pm (107). Friday has the most (211) and Sunday the fewest (159). October stands out with 144, against 91 in February, the lowest month.</p>
+  <p>About a quarter of injury and fatal accidents happened in the dark (358), most of them on lit streets. Four of the 18 deaths happened on roads with no street lights.</p>
+  <p class="source">Source: time (by_3h_window, by_hour, by_weekday, by_month) and light_2023_2024 in the Hamilton profile (retrieved 2026-11-10). Statewide pattern: <a href="/new-jersey/when-do-most-car-accidents-happen">when most New Jersey car accidents happen</a>.</p>
+</section>
+
+<section id="by-year">
+  <h2>Hamilton accidents by year, 2023 to 2025</h2>
+  <div class="table-wrap">
+    <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+      <caption>Police-reported accidents in Hamilton Township by year</caption>
+      <thead>
+        <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">2023</th><td>2,900</td><td>668</td><td>927</td><td>6</td><td>27</td><td>16</td></tr>
+        <tr><th scope="row">2024</th><td>2,772</td><td>676</td><td>964</td><td>12</td><td>23</td><td>17</td></tr>
+        <tr><th scope="row">2025 (preliminary)</th><td>2,909</td><td>647</td><td>857</td><td>5</td><td>19</td><td>11</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="source">Source: years in the Hamilton profile (retrieved 2026-11-10). The 2025 total is 1.05 times the 2024 total, so 2025 does not look visibly incomplete for Hamilton, but it is still preliminary and can change.</p>
+</section>
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened in Hamilton Township. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident in Hamilton Township? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=hamilton-township-mercer-nj-car-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="nearby">
+  <h2>Nearby Mercer County pages</h2>
+  <ul>
+    <li><a href="/new-jersey/trenton-nj-car-accidents">Trenton car accident data</a>, Hamilton's neighbor and the other large Mercer County town in the table above.</li>
+    <li><a href="/new-jersey/route-33-nj-accidents">Route 33 car accidents</a>, the road with the most injury accidents in Hamilton.</li>
+    <li><a href="/new-jersey/route-206-nj-accidents">Route 206 car accidents</a> and <a href="/new-jersey/route-130-nj-accidents">Route 130 car accidents</a>, both state highways through the township.</li>
+    <li><a href="/new-jersey/mercer-county-truck-accident-help">Truck accidents in Mercer County</a>.</li>
+    <li><a href="/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">How fault is split when both drivers share blame in New Jersey</a>.</li>
+    <li><a href="/new-jersey/new-jersey-car-accident-help">What to do after a car accident anywhere in New Jersey</a>.</li>
+  </ul>
+</section>
+
+<section id="method">
+  <h2>Where the Hamilton counts come from</h2>
+  <p>Data: NJDOT crash records for 2023 (per-table archive) and 2024 to 2025 (NJDOT Crash Data Portal), as normalized by hudcostreets/nj-crashes, with fatal accidents supplemented from the NJ State Police feed (file downloaded 2026-11-06). Hamilton Township means NJDOT municipality "Hamilton Twp" in Mercer County, which is different from Hamilton Township in Atlantic County.</p>
+  <p>Headline counts use 2023 and 2024, both complete. The Hamilton intersection list draws on 2024 and the preliminary 2025 records only. The 2023 file spells street names differently, so mixing it in would split the same corner into several rows. An injury or fatal accident is one where at least one person was hurt or killed. People hurt and killed are summed per accident. The State Police table reads the record's station field and uses 2024 only.</p>
+  <p>All figures are counts, not risk rates; there is no traffic-volume denominator. They cannot show who caused any accident, whether a claim exists, or what a claim is worth.</p>
+  <p class="source">Files: lane2-content/data/README.md; lane2-content/data/profiles/hamilton-township-mercer-nj-car-accidents.json; lane2-content/data/counties/mercer.json; lane2-content/data/hamilton-township-mercer-nj-car-accidents/hamilton_cuts.py and hamilton-cuts-2023-2025.csv; hamilton_ties.py and hamilton-ties.csv (all roads with 21 or more and all intersections with 4 or more).</p>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=hamilton-township-mercer-nj-car-accidents">Start the New Jersey accident quiz ↗</a></div></footer></div>
