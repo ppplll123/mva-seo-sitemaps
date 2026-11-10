@@ -40,3 +40,17 @@ window.__stub=async s=>{const p=await __pg('STUB:'+s);const wait=ms=>new Promise
  return JSON.stringify(res)};
 window.__stubcode=async s=>{const p=await __pg('STUB:'+s);const ed=ace.edit(document.querySelectorAll('.ace_editor')[0]);const before=await __h(ed.getValue());
  if(!p.accept.includes(before)&&before!==p.code.slice(0,16))return 'REFUSED '+before;ed.setValue(await __get(p.code),-1);await new Promise(r=>setTimeout(r,800));const after=await __h(ed.getValue());window.__codeOk=after===p.code.slice(0,16)?'STUB:'+s:null;return JSON.stringify({before,after,ok:after===p.code.slice(0,16)})};
+window.__newcode=async s=>{const p=await __pg('NEW:'+s);const ed=ace.edit(document.querySelectorAll('.ace_editor')[0]);const before=await __h(ed.getValue());
+ if(!p.accept.includes(before))return 'REFUSED '+before;ed.setValue(await __get(p.code),-1);await new Promise(r=>setTimeout(r,800));const after=await __h(ed.getValue());window.__codeOk=after===p.code.slice(0,16)?'NEW:'+s:null;return JSON.stringify({before,after,ok:after===p.code.slice(0,16)})};
+window.__newsettings=async s=>{if(window.__codeOk!=='NEW:'+s)return 'SKIPPED';const p=await __pg('NEW:'+s),V=p.V,res={};const wait=ms=>new Promise(r=>setTimeout(r,ms));
+ const set=(el,val)=>{const proto=el.tagName==='TEXTAREA'?HTMLTextAreaElement.prototype:HTMLInputElement.prototype;el.focus();Object.getOwnPropertyDescriptor(proto,'value').set.call(el,val);el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}));el.blur();el.dispatchEvent(new Event('blur',{bubbles:true}))};
+ const tab=t=>{const r=[...document.querySelectorAll('[role=radio],label,button')].find(e=>e.textContent.trim()===t);r&&r.click()};
+ const lab=t=>[...document.querySelectorAll('label,div,span,p')].find(e=>e.textContent.trim()===t&&e.childElementCount<=1);
+ const fld=t=>{let q=lab(t);for(let i=0;i<5&&q;i++){q=q.parentElement;const f=q&&q.querySelector('input[type=text],input:not([type]),textarea');if(f)return f}return null};
+ tab('Basic');await wait(500);for(const k of ['Page Title','Page Description']){set(fld(k),V[k]);await wait(200);res[k]=fld(k).value===V[k]}
+ tab('Page Meta');await wait(600);for(const k of ['Social Media Title','Social Media Description']){set(fld(k),V[k]);await wait(200);res[k]=fld(k).value===V[k]}
+ if(!lab('Add canonical URL')){const x=[...document.querySelectorAll('*')].find(e=>e.childElementCount===0&&e.textContent.trim()==='SEO Meta');x&&x.click();await wait(600)}
+ const c=fld('Add canonical URL');set(c,p.canon);await wait(300);res.canon=c.value===p.canon;
+ const ta=[...document.querySelectorAll('textarea')].find(t=>/Lennon/.test(t.placeholder));set(ta,await __get(p.schema));await wait(500);res.schema=(await __h(ta.value))===p.schema.slice(0,16);
+ if(Object.values(res).every(v=>v===true)){[...document.querySelectorAll('button')].find(e=>e.textContent.trim()==='Save'&&!e.disabled).click();await wait(4000);[...document.querySelectorAll('button')].find(e=>e.textContent.trim()==='Publish'&&!e.disabled).click();res.saved=true}
+ return JSON.stringify(res)};
