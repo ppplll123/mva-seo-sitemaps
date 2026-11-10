@@ -1,0 +1,322 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><style>.research-chart{margin:30px 0}.research-chart img{display:block;width:100%;height:auto;max-width:100%}.quiz-cta .button{display:inline-block;margin-top:12px}</style><style>.report-access tr.through-us th,.report-access tr.through-us td{background:#fff3d6!important;border-top:3px solid #c89443}.report-access tr.through-us a{font-weight:700}.mva-site[data-conversion-batch] .report-access figure.research-chart img,.report-access figure.research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto}.mva-site[data-conversion-batch] .report-access figure.research-chart.portrait img,.report-access figure.research-chart.portrait img{max-width:540px!important}.report-access .mva-review-scroll table{min-width:760px}.report-access .research-data-links a{overflow-wrap:anywhere}@media(max-width:600px){.mva-site[data-conversion-batch] .report-access .article-image img,.report-access .article-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article guide" id="nj-car-accident-report">
+
+<h1>How to get your New Jersey car accident report</h1>
+
+<section id="short-answer">
+<p><strong>Your car accident report is held by the police agency whose officer took it, so you request it from that agency.</strong> If a New Jersey State Police trooper took it, request it on the state's NJ.gov Crash Reports Request portal for $13. For a crash on the New Jersey Turnpike or the Garden State Parkway, use the same portal's toll road option for $5. If a town's police department took it, use that town's records unit or the online portal its official page links to.</p>
+<p class="source">Source: NJ State Police and NJ Turnpike Authority, Crash Reports Request help page, <a href="https://www.njportal.com/NJSP/CrashReports/Home/Help">njportal.com/NJSP/CrashReports/Home/Help</a>, read 2026-11-06, retrieved 2026-11-10.</p>
+<p>The state portal does not cover the Atlantic City Expressway. Its help page sends those requests to the Atlantic City Expressway Authority, P.O. Box 389, Hammonton, NJ 08037, phone (609) 965-7200 ext. 108.</p>
+<p class="source">Source: <a href="https://www.njportal.com/NJSP/CrashReports/Home/Help">Crash Reports Request help page</a>, retrieved 2026-11-10.</p>
+<p><strong>Was the car accident today or this week?</strong> The report is probably not searchable yet. The State Police page says a report becomes searchable only after it is complete and approved, which can take 14 business days from the crash date. If the search says the report is not yet available, the portal says to "search again in a couple days."</p>
+<p class="source">Sources: NJ State Police, non-toll road crash report search page, <a href="https://www.njportal.com/NJSP/CrashReports/Search/SearchReportsRequest?selectedType=Non-Toll%20Roads">njportal.com, Non-Toll Roads search</a>, read 2026-11-06, retrieved 2026-11-10; <a href="https://www.njportal.com/njsp/crashreports/">Crash Reports Request portal home</a>, retrieved 2026-11-10.</p>
+</section>
+
+<section id="quiz-mid" class="quiz-cta">
+<p>Hurt in a New Jersey car accident and still waiting on the report? The 30-second New Jersey questionnaire asks whether a police report was filed, not for a copy of it. It also asks about your injury, any lawyer you already have, fault, medical attention and the date. If your answers fit, a sponsoring lawyer's office may call you for a free, no-obligation claim assessment. The questionnaire does not request or deliver your accident report.</p>
+<p><a class="button" data-quiz-link="mid" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=nj-car-accident-report">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+<section id="which-agency">
+<h2>Which agency investigated your car accident?</h2>
+<p>The road name or the county alone does not tell you which records office has your report. A State Police trooper, a town officer or an authority police officer could have taken it. Work through these checks in order.</p>
+<ol>
+<li><strong>Look at what the officer gave you.</strong> If you have a case number or a card with a department name, that department holds the report.</li>
+<li><strong>Turnpike or Garden State Parkway.</strong> Start with the state portal's toll road option. If the crash was fatal, the portal sends the basic report request to the Turnpike Authority's records request form instead.</li>
+<li><strong>Atlantic City Expressway.</strong> Contact the Atlantic City Expressway Authority (details above). The state portal cannot fill these requests.</li>
+<li><strong>A trooper responded on another road.</strong> Use the state portal's non-toll road option.</li>
+<li><strong>Port Authority, NJ Transit, Palisades Interstate Parkway or Delaware River Port Authority police responded.</strong> Check that agency's official page, linked in the table below.</li>
+<li><strong>A town officer responded, or you are not sure.</strong> Call the records unit of the police department in the town where the car accident happened. Ask whether their officers took the report, and give the date and the names involved.</li>
+</ol>
+<p>Did the crash happen more than 15 business days ago, and the state portal still finds nothing? The portal's help page says to email the State Police at njsprecords@njsp.gov.</p>
+<p class="source">Sources: <a href="https://www.njportal.com/NJSP/CrashReports/Home/Help">Crash Reports Request help page</a>, retrieved 2026-11-10. Fatal crash routing: <a href="https://www.njportal.com/njsp/crashreports/">Crash Reports Request portal home</a>, retrieved 2026-11-10.</p>
+</section>
+
+<section id="agency-table">
+<h2>Where to request your report: 16 New Jersey agencies</h2>
+<p>We read the report pages of six state and regional agencies and the police of the ten largest New Jersey towns by 2020 Census population. The table gives each agency's request route, fee and timing in its own words. "Not stated" means the page does not say. These are page statements, not measured delivery times. Fees and timing can change, so check the official page before you pay.</p>
+<p>Five agency pages did not return readable text to our 2026-11-10 check. For those rows we show only the agency and its official page.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>How to request a car accident report from 16 New Jersey agencies, as stated on each agency's public page (read 2026-11-06, rechecked 2026-11-10)</caption>
+<thead>
+<tr>
+<th scope="col">Agency</th>
+<th scope="col">How to request</th>
+<th scope="col">Fee as stated</th>
+<th scope="col">Timing as stated</th>
+<th scope="col">Official page</th>
+<th scope="col">Retrieved</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">New Jersey State Police (non-toll roads)</th>
+<td>Online, NJ.gov Crash Reports Request portal</td>
+<td>$13.00</td>
+<td>Completion and approval "can take 14 business days from the crash date"</td>
+<td><a href="https://www.njportal.com/NJSP/CrashReports/Search/SearchReportsRequest?selectedType=Non-Toll%20Roads">njportal.com, Non-Toll Roads search</a></td>
+<td>2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">New Jersey Turnpike Authority (Turnpike and Garden State Parkway)</th>
+<td>Online, same portal, toll road option; fatal crashes through the Turnpike Authority records request form</td>
+<td>$5.00</td>
+<td>"May take up to 14 business days depending on their stage of processing"</td>
+<td><a href="https://www.njportal.com/NJSP/CrashReports/Home/Help">njportal.com help page</a></td>
+<td>2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">Port Authority of New York and New Jersey Police</th>
+<td colspan="3">Page did not return readable text to our 2026-11-10 check. Check this page for the current route, fee and timing.</td>
+<td><a href="https://www.panynj.gov/police/en/services/police-reports.html">panynj.gov police reports</a></td>
+<td>Not readable 2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">NJ Transit Police</th>
+<td colspan="3">Page did not return readable text to our 2026-11-10 check. Check this page for the current route, fee and timing.</td>
+<td><a href="https://police.njtransit.com/bureaus/records">police.njtransit.com records</a></td>
+<td>Not readable 2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">Palisades Interstate Parkway Police</th>
+<td>Online, LexisNexis Police Reports (BuyCrash)</td>
+<td>Not stated</td>
+<td>Not stated</td>
+<td><a href="https://parkwaypolice.org/resources/">parkwaypolice.org resources</a></td>
+<td>2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">Delaware River Port Authority Police (DRPA and PATCO)</th>
+<td colspan="3">Page did not return readable text to our 2026-11-10 check. Check this page for the current route, fee and timing.</td>
+<td><a href="https://www.drpa.org/police/police-reports.html">drpa.org police reports</a></td>
+<td>Not readable 2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">Newark Police Division (Essex)</th>
+<td colspan="3">Page did not return readable text to our 2026-11-10 check. Check this page for the current route, fee and timing.</td>
+<td><a href="https://www.newarknj.gov/166/Office-of-the-City-Clerk">newarknj.gov City Clerk</a></td>
+<td>Not readable 2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">Jersey City Police Department (Hudson)</th>
+<td>In person, Two Jackson Square, 356 Martin Luther King Drive, 2nd floor</td>
+<td>Amount not stated; cash or money order only</td>
+<td>Not stated</td>
+<td><a href="https://www.jerseycitynj.gov/cityhall/public_safety/parking">jerseycitynj.gov</a></td>
+<td>2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">Paterson Police Department (Passaic)</th>
+<td>Online, LexisNexis link on the official resources page</td>
+<td>Not stated</td>
+<td>Not stated</td>
+<td><a href="https://www.njoag.gov/ppd/reports-and-resources/ppdresources/">njoag.gov Paterson PD resources</a></td>
+<td>2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">Elizabeth Police Department (Union)</th>
+<td>Online, CrashDocs (crashdocs.org)</td>
+<td>Free ("Reports are free for the public")</td>
+<td>Available on CrashDocs in 3 to 5 business days after supervisor approval, then emailed after the online steps</td>
+<td><a href="https://www.elizabethnj.org/497/Car-Fax-Reports">elizabethnj.org</a></td>
+<td>2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">Lakewood Police Department (Ocean)</th>
+<td>Online (CrashDocs or LexisNexis), in person at 231 3rd Street, by mail (PO Box 540) or by email (records@lakewoodpolicenj.com)</td>
+<td>Not stated</td>
+<td>Not stated</td>
+<td><a href="https://www.lakewoodpolicenj.com/records/">lakewoodpolicenj.com records</a></td>
+<td>2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">Edison Police Department (Middlesex)</th>
+<td>In person at headquarters, 100 Municipal Boulevard, Records Bureau</td>
+<td>$0.05 per letter page, $0.07 per legal page</td>
+<td>"Generally" available in 7 to 10 business days; serious crashes may take longer</td>
+<td><a href="https://edisonnj.gov/departments/public_safety/accident_police_reports.php">edisonnj.gov accident reports</a></td>
+<td>2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">Woodbridge Police Department (Middlesex)</th>
+<td>In person, Records Bureau, ground floor, 1 Main Street</td>
+<td>$0.50 per page</td>
+<td>Not stated</td>
+<td><a href="https://www.twp.woodbridge.nj.us/225/Police-Reports">twp.woodbridge.nj.us police reports</a></td>
+<td>2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">Toms River Police Department (Ocean)</th>
+<td>Online (CrashDocs), in person at 255 Oak Avenue, by email (PoliceRecords@trpolice.org) or by mail (PO Box 876)</td>
+<td>$5.00 by mail; other routes not stated</td>
+<td>Allow 3 business days before going in person; mail requests "usually processed within a few days of their receipt"</td>
+<td><a href="https://trpolice.org/administration-bureau/records/police-reports-investigation-and-accident-reports/">trpolice.org records</a></td>
+<td>2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">Hamilton Township Police Division (Mercer)</th>
+<td colspan="3">Page did not return readable text to our 2026-11-10 check. Check this page for the current route, fee and timing.</td>
+<td><a href="https://www.hamiltontwpnj.gov/602/Records-Unit">hamiltontwpnj.gov Records Unit</a></td>
+<td>Not readable 2026-11-10</td>
+</tr>
+<tr>
+<th scope="row">Trenton Police Department (Mercer)</th>
+<td>In person at 225 N Clinton Avenue, or by mail</td>
+<td>Service window: $0.50 per page for pages 1 to 10, $0.10 per page after that. Mail: flat $5</td>
+<td>Not stated</td>
+<td><a href="https://www.trentonnj.org/402/Police-Report">trentonnj.org police report</a></td>
+<td>2026-11-10</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="source">Source: our agency dataset, <a href="https://sitemap.injuriescases.com/data/nj-research/nj-crash-report-access-by-agency.csv">nj-crash-report-access-by-agency.csv</a>, pages read 2026-11-06. Each official page in the table was retrieved again on 2026-11-10.</p>
+<p class="source">Rechecked and matching on 2026-11-10: the NJ.gov portal, Palisades, Jersey City, Paterson, Elizabeth, Lakewood, Edison, Woodbridge, Toms River and Trenton. No readable text: Port Authority, NJ Transit, Delaware River Port Authority, Newark and Hamilton.</p>
+<p>Of the 11 agencies whose pages we could recheck, 7 state a fee (counting free and per-page charges) and 5 state any timing. The fixed charges run from free in Elizabeth to $13 for the State Police. Per-page charges in Edison, Woodbridge and Trenton are not whole-report prices. We have not covered county agencies or other towns. If your town is not listed, ask its police records unit.</p>
+<p class="source">Source: <a href="https://sitemap.injuriescases.com/data/nj-research/nj-crash-report-access-by-agency.csv">agency dataset</a>, pages retrieved 2026-11-10.</p>
+</section>
+
+<section id="portals">
+<h2>The online portals, and what to expect from each</h2>
+<h3>NJ.gov Crash Reports Request (State Police and Turnpike Authority)</h3>
+<p>This is the state's own portal for State Police non-toll road reports and Turnpike and Garden State Parkway reports. You can search by case number, driver's license number, license plate number or the last name of someone involved. An account is optional. The portal takes major credit cards and debit cards processed as credit, and eCheck if you set up an account.</p>
+<p>When the report is ready, you get an email with download instructions. The help page says the report then stays available for 14 days from that email, so download and save it as soon as it arrives. The portal only holds crashes from the last 6 years before the current year. For older crashes, the help page points you to the State Police.</p>
+<p>The portal also takes a separate Records Request for serious or fatal crash investigation material. It costs $20. It asks for a case number, a court order docket number and a bar association number.</p>
+<p class="source">Source: <a href="https://www.njportal.com/NJSP/CrashReports/Home/Help">Crash Reports Request help page</a> and <a href="https://www.njportal.com/NJSP/CrashReports/Search/SearchReportsRequest?selectedType=Non-Toll%20Roads">non-toll road search page</a>, retrieved 2026-11-10.</p>
+<p>So it needs court papers. The portal says this material requires "a subpoena signed by an officer of the court or an order issued by a judge." It also says the basic report, the NJTR-1, "does not include additional investigative documents."</p>
+<p class="source">Source: <a href="https://www.njportal.com/njsp/crashreports/">Crash Reports Request portal home</a>, retrieved 2026-11-10.</p>
+<h3>CrashDocs</h3>
+<p>Elizabeth, Lakewood and Toms River link to CrashDocs from their official pages. Elizabeth's page gives the clearest steps. You enter the report or reference number, the date of the car accident and the last name of a driver or involved party. Elizabeth says its reports are free for the public. Our automated check of crashdocs.org was blocked on 2026-11-10, so we could not read the portal's own terms.</p>
+<p class="source">Sources: <a href="https://www.elizabethnj.org/497/Car-Fax-Reports">elizabethnj.org</a>, <a href="https://www.lakewoodpolicenj.com/records/">lakewoodpolicenj.com</a> and <a href="https://trpolice.org/administration-bureau/records/police-reports-investigation-and-accident-reports/">trpolice.org</a>, retrieved 2026-11-10.</p>
+<h3>BuyCrash and LexisNexis Police Reports</h3>
+<p>The Palisades Interstate Parkway Police, Paterson and Lakewood point to LexisNexis. None of the three pages states a price. Paterson and Lakewood still link the older policereports.lexisnexis.com address. It did not respond to our checks on 2026-11-06 and 2026-11-10. If a link fails, call that department's records unit and ask for its current route.</p>
+<p class="source">Sources: <a href="https://parkwaypolice.org/resources/">parkwaypolice.org</a>, <a href="https://www.njoag.gov/ppd/reports-and-resources/ppdresources/">njoag.gov Paterson PD resources</a> and <a href="https://www.lakewoodpolicenj.com/records/">lakewoodpolicenj.com</a>, retrieved 2026-11-10; link check recorded 2026-11-10.</p>
+<p>CrashDocs and LexisNexis are run by private companies, not by the police. If nothing shows up after the stated wait, the report may not be approved yet. The state portal says a report "will not be searchable or located until the report is completed and approved." Check the agency, the road category and your details before you pay again.</p>
+<p class="source">Source: <a href="https://www.njportal.com/njsp/crashreports/">Crash Reports Request portal home</a>, retrieved 2026-11-10.</p>
+</section>
+
+<section id="what-to-bring">
+<h2>What to have ready when you ask</h2>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>What New Jersey police agencies say you need to request a car accident report (pages retrieved 2026-11-10)</caption>
+<thead>
+<tr><th scope="col">Item</th><th scope="col">What the agency pages say</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Crash date</th><td>The State Police non-toll search form asks for it. Elizabeth also asks for the date. Trenton asks for the date the report was taken.</td></tr>
+<tr><th scope="row">Report or case number</th><td>Elizabeth asks for the report or reference number (EPD case number). The state portal and Trenton do not require it. Enter State Police case numbers without dashes.</td></tr>
+<tr><th scope="row">Another identifier</th><td>The state portal accepts a driver's license number, a license plate number or an involved person's last name instead of the case number.</td></tr>
+<tr><th scope="row">Photo ID</th><td>Lakewood asks for a copy of a valid picture ID and a phone number for mail and email requests. Toms River requires proper identification in person and a driver's license copy by email. Trenton says identification must be shown.</td></tr>
+<tr><th scope="row">Payment</th><td>Card on the state portal. Cash or money order only at Jersey City. Trenton by mail: a $5 cashier's check from individuals. Toms River by mail: a $5 fee, payable to Toms River Township.</td></tr>
+<tr><th scope="row">Who is asking</th><td>Trenton accepts mail requests only from the person named in the report, their attorney or their insurance company. Elizabeth's steps ask you to confirm you are a party involved in the car accident.</td></tr>
+</tbody>
+</table></div>
+</div>
+<p class="source">Sources: <a href="https://www.njportal.com/NJSP/CrashReports/Home/Help">Crash Reports Request help page</a>, <a href="https://www.jerseycitynj.gov/cityhall/public_safety/parking">jerseycitynj.gov</a>, <a href="https://www.elizabethnj.org/497/Car-Fax-Reports">elizabethnj.org</a>, <a href="https://www.lakewoodpolicenj.com/records/">lakewoodpolicenj.com</a>, <a href="https://trpolice.org/administration-bureau/records/police-reports-investigation-and-accident-reports/">trpolice.org</a> and <a href="https://www.trentonnj.org/402/Police-Report">trentonnj.org</a>, retrieved 2026-11-10.</p>
+</section>
+
+<section id="after-you-get-it">
+<h2>Once you have the report</h2>
+<p>Save the file as soon as it arrives. The state portal's download link lasts 14 days from the notice email.</p>
+<p class="source">Source: <a href="https://www.njportal.com/NJSP/CrashReports/Home/Help">Crash Reports Request help page</a>, retrieved 2026-11-10.</p>
+<p>Read it for mistakes. The state insurance regulator, NJ DOBI, says to review the report for details such as how many passengers were listed. If you see inconsistencies, it says to let your insurance company know and to contact the police department that responded to the scene.</p>
+<p class="source">Source: NJ DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026)</a>, p. 25, retrieved 2026-11-10.</p>
+<p>The basic report is the NJTR-1, the New Jersey Police Crash Investigation Report. Only police complete it, and NJDOT collects these reports from police statewide. Most of it is codes. Our guide to <a href="/new-jersey/nj-how-to-read-a-new-jersey-crash-report-after-an-accident">how to read a New Jersey crash report</a> walks through the form.</p>
+<p class="source">Source: NJDOT, <a href="https://dot.nj.gov/transportation/refdata/accident/policeres.shtm">Police Resources page</a> (archived copy of 2026-02-22, retrieved 2026-11-10; the live NJDOT host blocked our check).</p>
+</section>
+
+<section id="fault">
+<h2>Does the police report decide who was at fault?</h2>
+<p>No. DOBI says insurance companies assign fault from all the facts, such as police reports and statements. Disagree with the fault share your insurance company gives you? DOBI says insurers must have an internal appeal process. After that, you can go to DOBI's Office of Insurance Claims Ombudsman.</p>
+<p class="source">Sources: NJ DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026)</a>, pp. 26 and 27, and <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">Comparative Negligence Settlements FAQ</a>, retrieved 2026-11-10.</p>
+<p>Being partly at fault does not on its own stop you from recovering. Under New Jersey law, your own negligence does not bar recovery if it "was not greater than the negligence of the person against whom recovery is sought." Your damages are then reduced by your share. In DOBI's example, a driver 10% at fault with $1,000 of damage is paid $900, and a driver 80% at fault gets nothing from the other driver.</p>
+<p class="source">Sources: N.J.S.A. 2A:15-5.1, <a href="http://web.archive.org/web/20261009074503/https://law.justia.com/codes/new-jersey/title-2a/section-2a-15-5-1/">statute text (Justia 2025 edition, archived copy)</a>; NJ DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026)</a>, pp. 26 and 27; both retrieved 2026-11-10.</p>
+<p>Fault matters less for your medical bills. Your own policy's Personal Injury Protection (PIP) pays your medical expenses "no matter who caused the auto accident." That is what "no-fault" means in New Jersey. A claim against the other driver is separate and does depend on fault.</p>
+<p class="source">Source: NJ DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">New Jersey Auto Insurance Buyer's Guide (2026)</a>, p. 2, retrieved 2026-11-10.</p>
+<p>More on both: <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault insurance works after a car accident</a> and <a href="/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">what partly at fault meant in real New Jersey cases</a>. This is general information, not legal advice.</p>
+</section>
+
+<section id="no-police">
+<h2>If no police officer came to the car accident</h2>
+<p>Then there may be no police report to request. Ask the police records unit in the town where the car accident happened whether a report was made.</p>
+<p>New Jersey law still puts a duty on the driver when someone is hurt or killed, or when property damage to any one person is over $500. The driver must tell the local police, county police or State Police as fast as they can. Within 10 days, the driver must also send a written report to the Motor Vehicle Commission. That written report is not required if a police officer files a written report. A knowing violation carries a fine of $30 to $100.</p>
+<p class="source">Source: N.J.S.A. 39:4-130, <a href="http://web.archive.org/web/20260920182556/https://law.justia.com/codes/new-jersey/title-39/section-39-4-130/">statute text (Justia 2025 edition, archived copy)</a>, retrieved 2026-11-10.</p>
+<p>For a car accident the police did not investigate, NJDOT says the SR-1, the New Jersey Self-Reporting Crash form, "is the only form that can be used for this purpose." You can fill it in online and get an acknowledgment back within minutes. NJDOT says that receipt "can be submitted to an insurance company." A separate SR-1S form takes supplemental information.</p>
+<p class="source">Source: NJDOT, <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">Self-Reporting Crash Form page</a> (archived copy of 2026-09-18, retrieved 2026-11-10; the live NJDOT host blocked our check).</p>
+<p>For what to record yourself, see <a href="/new-jersey/nj-how-to-use-photos-and-videos-after-a-car-accident">how to use photos and videos after a car accident</a>.</p>
+</section>
+
+<section id="faq">
+<h2>Questions people ask</h2>
+
+<h3>How do I look up an accident report in NJ?</h3>
+<p>Find out which agency took the report, then use that agency's route. For State Police, Turnpike and Garden State Parkway reports, use the NJ.gov Crash Reports Request portal. You can search by case number, driver's license number, plate number or an involved person's last name. For town police, use the route in the table above or call the town's records unit.</p>
+<p class="source">Source: <a href="https://www.njportal.com/NJSP/CrashReports/Home/Help">Crash Reports Request help page</a>, retrieved 2026-11-10.</p>
+
+<h3>How long does it take to get an accident report in NJ?</h3>
+<p>Only 5 of the 11 agency pages we could recheck state any timing, and they measure different steps. The State Police say completion and approval can take 14 business days from the crash date. The Turnpike Authority's portal requests may take up to 14 business days. Elizabeth says 3 to 5 business days after approval, and Edison says generally 7 to 10 business days. Toms River recommends allowing 3 business days before going in person. It says mail requests are usually processed within a few days. The other six do not say, so ask the records unit.</p>
+<p class="source">Sources: <a href="https://www.njportal.com/NJSP/CrashReports/Search/SearchReportsRequest?selectedType=Non-Toll%20Roads">non-toll road search page</a>, <a href="https://www.njportal.com/NJSP/CrashReports/Home/Help">help page</a>, <a href="https://www.elizabethnj.org/497/Car-Fax-Reports">elizabethnj.org</a>, <a href="https://edisonnj.gov/departments/public_safety/accident_police_reports.php">edisonnj.gov</a> and <a href="https://trpolice.org/administration-bureau/records/police-reports-investigation-and-accident-reports/">trpolice.org</a>, retrieved 2026-11-10.</p>
+
+<h3>Can I get an accident report online in NJ?</h3>
+<p>Often, yes. 7 of the 11 agency pages we could recheck list an online route: the NJ.gov portal, CrashDocs or LexisNexis. Jersey City, Edison, Woodbridge and Trenton list in-person routes, and Trenton also takes mail.</p>
+<p class="source">Source: <a href="https://sitemap.injuriescases.com/data/nj-research/nj-crash-report-access-by-agency.csv">agency dataset</a>, pages retrieved 2026-11-10.</p>
+
+<h3>Can I file an accident report online in NJ?</h3>
+<p>Yes, if the police did not investigate. NJDOT offers the SR-1 Self-Reporting Crash form online, with a paper PDF version as well. The portals in the table above are different: they give you a copy of a report a police officer already wrote.</p>
+<p class="source">Source: NJDOT, <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">Self-Reporting Crash Form page</a> (archived copy of 2026-09-18, retrieved 2026-11-10).</p>
+
+<h3>How long do I have to report an accident in NJ?</h3>
+<p>If someone was hurt or killed, or property damage to any one person is over $500, the driver must tell police by the quickest means. A written report to the Motor Vehicle Commission is due within 10 days, unless a police officer filed a written report.</p>
+<p class="source">Source: N.J.S.A. 39:4-130, <a href="http://web.archive.org/web/20260920182556/https://law.justia.com/codes/new-jersey/title-39/section-39-4-130/">statute text (Justia 2025 edition, archived copy)</a>, retrieved 2026-11-10.</p>
+<p>Reporting the car accident is not the same as making an injury claim. An injury lawsuit generally must be filed within two years. A claim against a public body, such as a town, the state, NJ Transit or the Turnpike Authority, needs a written notice within 90 days. These are general rules with exceptions, so check your own dates with a lawyer.</p>
+<p class="source">Sources: N.J.S.A. 2A:14-2, <a href="http://web.archive.org/web/20260930102816/https://law.justia.com/codes/new-jersey/title-2a/section-2a-14-2/">statute text (Justia 2025 edition, archived copy)</a>; N.J.S.A. 59:8-8, as quoted in <a href="https://www.courtlistener.com/opinion/8267675/odonnell-v-nj-tpk-auth/">O'Donnell v. N.J. Turnpike Authority, 236 N.J. 335 (2019)</a>; both retrieved 2026-11-10.</p>
+
+<h3>Are accident reports public record in NJ?</h3>
+<p>The basic one is, according to the state portal: "The basic crash investigation report is a public record." It adds that "Serious/Fatal Investigation reports associated with a crash are not public records." Those need a subpoena or a judge's order.</p>
+<p class="source">Source: <a href="https://www.njportal.com/njsp/crashreports/">Crash Reports Request portal home</a>, retrieved 2026-11-10.</p>
+<p>Town agencies still set their own request rules. Trenton accepts mail requests only from the person named in the report, their attorney or their insurance company. Elizabeth says its reports are free for the public and asks you to confirm you are a party involved.</p>
+<p class="source">Source: <a href="https://www.trentonnj.org/402/Police-Report">trentonnj.org</a> and <a href="https://www.elizabethnj.org/497/Car-Fax-Reports">elizabethnj.org</a>, retrieved 2026-11-10.</p>
+
+<h3>How do I get a NJ State Police accident report?</h3>
+<p>Use the NJ.gov Crash Reports Request portal and choose the non-toll road option. The fee is $13. The State Police page says a report can take 14 business days from the crash date to be complete, approved and searchable.</p>
+<p class="source">Source: <a href="https://www.njportal.com/NJSP/CrashReports/Home/Help">Crash Reports Request help page</a> and <a href="https://www.njportal.com/NJSP/CrashReports/Search/SearchReportsRequest?selectedType=Non-Toll%20Roads">non-toll road search page</a>, retrieved 2026-11-10.</p>
+</section>
+
+<section id="related">
+<h2>Car accident data for the towns in this table</h2>
+<p>Each of the ten towns above has a page with its police-reported car accident counts.</p>
+<ul>
+<li><a href="/new-jersey/newark-nj-car-accidents">Newark car accidents</a></li>
+<li><a href="/new-jersey/jersey-city-nj-car-accidents">Jersey City car accidents</a></li>
+<li><a href="/new-jersey/paterson-nj-car-accidents">Paterson car accidents</a></li>
+<li><a href="/new-jersey/elizabeth-nj-car-accidents">Elizabeth car accidents</a></li>
+<li><a href="/new-jersey/lakewood-nj-car-accidents">Lakewood car accidents</a></li>
+<li><a href="/new-jersey/edison-nj-car-accidents">Edison car accidents</a></li>
+<li><a href="/new-jersey/woodbridge-nj-car-accidents">Woodbridge car accidents</a></li>
+<li><a href="/new-jersey/toms-river-nj-car-accidents">Toms River car accidents</a></li>
+<li><a href="/new-jersey/hamilton-township-mercer-nj-car-accidents">Hamilton Township (Mercer) car accidents</a></li>
+<li><a href="/new-jersey/trenton-nj-car-accidents">Trenton car accidents</a></li>
+</ul>
+<p>For Parkway crashes, see <a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway car accidents</a>.</p>
+<p>Other next steps: <a href="/new-jersey/nj-what-to-do-in-the-first-24-hours-after-a-new-jersey-car-accident">what to do in the first 24 hours after a New Jersey car accident</a> and <a href="/new-jersey/medical-records-injury-claim-new-jersey">which records to keep for an injury claim</a>.</p>
+</section>
+
+<section id="method">
+<h2>How we built this page</h2>
+<p>On 6 November 2026 we read the public report pages of 16 agencies. Six are state and regional: the State Police, the Turnpike Authority, the Port Authority Police, NJ Transit Police, the Palisades Interstate Parkway Police and the DRPA Police. Ten are town police: Newark, Jersey City, Paterson, Elizabeth, Lakewood, Edison, Woodbridge, Toms River, Hamilton (Mercer) and Trenton.</p>
+<p>Town size comes from the NJ Department of Labor's 2020 Census municipal tables. For each agency we recorded the request route, fee, timing, report number and ID rules and the page URL. Where the page states it, we also kept the sentence that says so. We did not request any report, submit any form or measure real delivery times.</p>
+<p>On 10 November 2026 we reloaded every official page. Eleven loaded and still showed the same fees and timing. Five did not return readable text, so we removed their details and kept only the link.</p>
+<p class="source">Sources: <a href="https://sitemap.injuriescases.com/data/nj-research/nj-crash-report-access-by-agency.csv">agency dataset (CSV)</a>; <a href="https://www.nj.gov/labor/labormarketinformation/demographics/us-census-data/2020census.shtml">NJ Department of Labor, 2020 Census data</a>, read 2026-11-06.</p>
+</section>
+
+<section id="quiz-end" class="quiz-cta">
+<p>Not sure whether your New Jersey car accident is worth discussing with a lawyer? Take the 30-second screening questionnaire. It asks about your injury, any lawyer you already have, fault, medical attention, the police report and the date, then a contact form. Qualifying readers may be introduced to a sponsoring lawyer or legal consultant, who calls by phone. Free, and you are under no obligation.</p>
+<p><a class="button" data-quiz-link="end" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=nj-car-accident-report">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=nj-car-accident-report">Start the New Jersey accident quiz ↗</a></div></footer></div>

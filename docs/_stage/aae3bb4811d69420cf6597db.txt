@@ -1,0 +1,191 @@
+<style id="nj-decision-guide-style">.mva-site .nj-decision-guide{margin:30px 0;padding:20px;border:1px solid currentColor;border-radius:8px;min-width:0}.mva-site .nj-decision-scroll{overflow-x:auto;max-width:100%;min-width:0;contain:inline-size}.mva-site .nj-decision-guide table{border-collapse:collapse;min-width:620px;width:100%;font-size:17px;line-height:1.55}.mva-site .nj-decision-guide caption{text-align:left;font-weight:700;padding:12px 0}.mva-site .nj-decision-guide th,.mva-site .nj-decision-guide td{padding:14px;border:1px solid currentColor;text-align:left;vertical-align:top;overflow-wrap:anywhere}.mva-site .nj-decision-guide th{background:var(--panel)}.mva-site .nj-decision-guide .decision-note{font-size:15px}.mva-site .nj-decision-scroll:focus-visible{outline:3px solid currentColor;outline-offset:3px}@media(max-width:700px){.mva-site .nj-decision-guide{padding:14px}}</style><style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article guide" id="new-jersey-car-accident-help">
+
+<h1>New Jersey car accident help: injuries, medical bills and claims</h1>
+
+<section id="short-answer">
+<p><strong>After a New Jersey car accident, get medical attention, make sure the police know about it, and tell your own insurance company.</strong> Your own policy's PIP pays your medical bills no matter who caused the car accident. A separate claim against the other driver's insurance company can cover losses PIP does not, and that claim depends on fault, your lawsuit option and the deadlines below.</p>
+<p class="source">Sources: NJ Department of Banking and Insurance (DOBI), <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">New Jersey Auto Insurance Buyer's Guide 2026</a>, p. 2 (PIP); N.J.S.A. 39:4-130 (police notice), statute text via <a href="http://web.archive.org/web/20260920182556/https://law.justia.com/codes/new-jersey/title-39/section-39-4-130/">Justia 2025 edition (archived 2026-09-20)</a>; both retrieved 2026-11-10. The insurance company steps are covered in the sections below.</p>
+<p>This guide follows the order things usually happen: the first hours, the report, medical attention and PIP, a claim against the other driver, and the deadlines. Each step links to a page with the detail.</p>
+<p>This is general information, not legal advice.</p>
+</section>
+
+<section id="quiz-top" class="quiz-cta">
+<p>Hurt in a New Jersey car accident? Your PIP pays your medical bills either way. The New Jersey questionnaire is about something else: whether the other driver's insurance company may also owe you. It asks about your injury, any lawyer you already have, fault, medical attention, the police report and the date, then asks for your contact details. If your answers qualify, a sponsoring lawyer or legal consultant may call you. It is free, with no obligation.</p>
+<p><a class="button" data-quiz-link="top" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=new-jersey-car-accident-help">Start the New Jersey accident questionnaire</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+<section id="first-hours">
+<h2>The first hours after the car accident</h2>
+<p>Call 911 if anyone is hurt or the scene is not safe. Medical needs come first, and you do not need to settle any insurance question before you get care.</p>
+<p>Once you are safe, write down what you can while it is fresh. Note the date, the time, the exact location, the vehicles involved, and whether you were a driver or a passenger. Write what you saw and felt, and leave gaps where you do not know. It is fine to say you did not see the other driver's signal or do not know their speed. A guess written down now is harder to correct later.</p>
+<p>Photos of the vehicles, the road and any visible injuries help. So do the names and contact details of witnesses. The <a href="/new-jersey/nj-what-to-do-in-the-first-24-hours-after-a-new-jersey-car-accident">first 24 hours checklist</a> and the guide to <a href="/new-jersey/nj-how-to-use-photos-and-videos-after-a-car-accident">using photos and videos after a car accident</a> cover this in detail.</p>
+</section>
+
+<section id="report">
+<h2>Report the car accident: police and the SR-1 form</h2>
+<p>New Jersey law requires the driver to notify the police "by the quickest means of communication" after a car accident that causes injury or death, or property damage to any one person over $500. You can call the local police, the county police or the State Police.</p>
+<p>The driver must also send a written report to the Motor Vehicle Commission within 10 days. That written report is not required if a police officer files a written report of the car accident. If the driver is physically unable to report, another occupant or the owner must do it.</p>
+<p class="source">Source: N.J.S.A. 39:4-130, statute text via <a href="http://web.archive.org/web/20260920182556/https://law.justia.com/codes/new-jersey/title-39/section-39-4-130/">Justia 2025 edition (archived 2026-09-20)</a>, retrieved 2026-11-10.</p>
+<p>If police came and investigated, they complete the NJTR-1 police report. If police did not investigate, NJDOT's SR-1 Self-Reporting Crash form is the only form for reporting it. The SR-1 can be filed online, and NJDOT says the instant acknowledgment "can be submitted to an insurance company." You do not need to file an SR-1 yourself if police already investigated.</p>
+<p class="source">Source: NJDOT, <a href="http://web.archive.org/web/20260918164037/https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">Self-Reporting Crash Form page (archived 2026-09-18)</a>, retrieved 2026-11-10.</p>
+<p>DOBI advises getting a copy of the police report, checking details such as how many passengers are listed, and telling your insurance company and the police department about any mistakes. The report is held by the agency that took it. See <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey car accident report</a> and <a href="/new-jersey/nj-how-to-read-a-new-jersey-crash-report-after-an-accident">how to read the report</a>.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026)</a>, p. 25, retrieved 2026-11-10.</p>
+<p>The police report does not decide fault. DOBI says insurance companies assign fault from all the facts, including police reports and statements.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026)</a>, pp. 26 to 27, retrieved 2026-11-10.</p>
+</section>
+
+<section id="medical-pip">
+<h2>Medical attention and who pays the medical bills</h2>
+<p>Your own auto policy's Personal Injury Protection (PIP) pays your medical expenses no matter who caused the car accident. That is why New Jersey is called a no-fault state. "No-fault" describes how your medical bills are paid. It does not mean nobody is at fault, and it does not stop you from claiming against the driver who caused the car accident.</p>
+<p class="source">Sources: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>, p. 2; <a href="https://www.courtlistener.com/opinion/1480699/zabilowicz-v-kelsey/">Zabilowicz v. Kelsey, 200 N.J. 507 (2009)</a>; both retrieved 2026-11-10.</p>
+<p>How much PIP pays depends on the options on your policy on the date of the car accident. The most common medical limit is $250,000 per person, but many drivers choose a lower limit. The standard deductible is $250, and you pay a 20% co-payment on expenses between the deductible and $5,000. If you chose your health insurance as primary, your health plan pays first and its own rules apply.</p>
+<p class="source">Sources: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>, pp. 2, 5 to 7; DOBI, <a href="https://www.nj.gov/dobi/division_consumers/insurance/pipoption.htm">Selecting Your Health Insurer for PIP Option</a>; both retrieved 2026-11-10.</p>
+<p>Practical steps that help the bills reach the right place:</p>
+<ul>
+<li>Give every provider your PIP claim number, not just the insurance card you showed at the scene.</li>
+<li>When a bill arrives, ask the billing office where it sent the bill and whether anything is missing.</li>
+<li>If pain started or got worse after you went home, tell the clinician when it began and what you can no longer do. See <a href="/new-jersey/nj-how-long-car-accident-symptoms-can-take-to-show-up">how long car accident symptoms can take to show up</a>.</li>
+<li>Keep each corrected or revised bill with the one it replaces, so the same service is not counted twice.</li>
+</ul>
+<p>For limits and co-pays, read <a href="/new-jersey/pip-coverage-limits-medical-bills-new-jersey">what PIP covers and its limits</a>. For the health insurance question, read <a href="/new-jersey/pip-health-insurance-medical-bills-new-jersey">PIP or health insurance first</a>. To keep your records in order, see <a href="/new-jersey/medical-records-injury-claim-new-jersey">the records for a New Jersey car accident injury claim</a>. Missed work has its own guide: <a href="/new-jersey/nj-can-you-claim-lost-wages-after-a-car-accident-in-nj">lost wages after a car accident in NJ</a>.</p>
+</section>
+
+<section id="claim-other-driver">
+<h2>A claim against the other driver</h2>
+<p>PIP and the other driver's bodily injury liability coverage are two different things. The other driver's liability coverage pays people hurt in a car accident that driver caused. DOBI says it compensates for pain, suffering and economic damages such as lost wages.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>, p. 2, retrieved 2026-11-10.</p>
+<p>So when an insurance company calls, ask three questions first: whose policy is this, which person's injury is it about, and what is the claim number. A PIP payment from your own insurance company is not a decision about who caused the car accident.</p>
+
+<h3>Your lawsuit option</h3>
+<p>Every New Jersey auto policy with PIP carries one of two lawsuit options, chosen on the Coverage Selection Form. Under the "limitation on lawsuit" option, you can claim pain and suffering only if your injury is one of these: death, dismemberment, significant disfigurement or scarring, a displaced fracture, loss of a fetus, or a permanent injury. A permanent injury means a body part or organ has not healed to function normally and will not with further treatment, and a doctor must certify it, based on objective clinical evidence. Under the "no limitation on lawsuit" option, you can claim pain and suffering for any injury.</p>
+<p>The limitation does not stop a claim for economic losses, such as medical bills PIP did not pay or lost wages. If you never made a written choice, the law treats you as having chosen the limitation option. Basic and Special Automobile Insurance Policies carry the limitation option.</p>
+<p class="source">Sources: N.J.S.A. 39:6A-8, statute text via <a href="http://web.archive.org/web/20260501025515/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8/">Justia 2025 edition (archived 2026-05-01)</a>; N.J.S.A. 39:6A-8.1, via <a href="http://web.archive.org/web/20240515013024/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8-1/">Justia 2023 edition (archived 2024-05-15)</a>; DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>, pp. 10 to 11; all retrieved 2026-11-10.</p>
+<p>Check your declarations page or Coverage Selection Form to see which option applied on the date of the car accident. Real New Jersey appeals on this point are collected in <a href="/new-jersey/nj-verbal-threshold-appeals-rulings">verbal threshold appeals rulings</a>, and <a href="/new-jersey/nj-10-ways-to-prove-pain-and-suffering-after-an-accident">proving pain and suffering</a> explains what records matter.</p>
+
+<h3>If you were partly at fault</h3>
+<p>You do not need to be 0% at fault. Under New Jersey's comparative negligence law, you can still recover if your share of fault is not greater than the share of the person you claim against. Your recovery is reduced by your own percentage. DOBI's example: at 10% fault you receive 90% of your damages, and at 80% fault you receive nothing from the other driver.</p>
+<p class="source">Sources: N.J.S.A. 2A:15-5.1, statute text via <a href="http://web.archive.org/web/20261009074503/https://law.justia.com/codes/new-jersey/title-2a/section-2a-15-5-1/">Justia 2025 edition (archived 2026-10-09)</a>; DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026)</a>, pp. 26 to 27; both retrieved 2026-11-10.</p>
+<p>If your insurance company assigns you a fault percentage you disagree with, it must have an internal appeal process, and you can take the dispute to DOBI's Office of Insurance Claims Ombudsman. See the <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">DOBI comparative negligence FAQ</a> (retrieved 2026-11-10), the guide to <a href="/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">real fault splits in New Jersey cases</a>, and <a href="/new-jersey/nj-what-evidence-helps-prove-fault-after-an-nj-crash">what evidence helps prove fault</a>.</p>
+
+<h3>Medical bills above your PIP limit</h3>
+<p>Since a 2019 change in the law, medical bills that go beyond your PIP limit or that PIP does not cover can be claimed from the driver at fault. You cannot claim amounts PIP has paid or will pay. In May 2026 the NJ Supreme Court held that future medical bills still within your remaining PIP limit must go through PIP.</p>
+<p class="source">Source: <a href="https://www.courtlistener.com/opinion/10854078/lakita-d-murray-v-christopher-b-punina/">Murray v. Punina, A-51-24 (N.J. May 6, 2026)</a>, quoting N.J.S.A. 39:6A-12, retrieved 2026-11-10.</p>
+
+<h3>If the other driver has no insurance or too little</h3>
+<p>Uninsured motorist (UM) coverage on your own policy pays you when the at-fault driver lacks the required insurance. Underinsured motorist (UIM) coverage can pay the rest of your damages, up to the difference between your UIM limit and the other driver's liability limit. The Basic Policy has no UM or UIM coverage. Read the <a href="/new-jersey/nj-uninsured-motorist-claim-help">uninsured motorist claim guide</a>, the <a href="/new-jersey/nj-uninsured-underinsured-motorist-appeals-decisions">UM and UIM appeals decisions</a>, and the <a href="/new-jersey/nj-hit-and-run-accident-claim-help">hit and run guide</a>.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>, pp. 3, 5, 8, retrieved 2026-11-10.</p>
+</section>
+
+<section id="insurer-contact">
+<h2>Talking to the insurance companies</h2>
+<p>A first call to your insurance company goes better with this list in front of you:</p>
+<ol>
+<li>Use the claims contact from your policy or the company's official site.</li>
+<li>Give the date, time, place and vehicles involved.</li>
+<li>Say whether you were the driver or a passenger, and that you were hurt.</li>
+<li>Describe what you saw, and say plainly what you do not know.</li>
+<li>Ask which claim number covers your medical bills, which covers the car, and which covers an injury claim.</li>
+<li>Ask what documents they still need and how to send them.</li>
+<li>Write down the name, date, claim number and the next step agreed.</li>
+</ol>
+<p>Some mistakes come up again and again. Each has a simple fix.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Common mistakes after a New Jersey car accident and what to do instead</caption>
+<thead>
+<tr><th scope="col">Mistake</th><th scope="col">What to do instead</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Guessing a detail to make the account sound stronger</th><td>Say what you saw and mark what you do not know. Do not invent a speed, signal or movement.</td></tr>
+<tr><th scope="row">Treating a PIP payment as proof of fault</th><td>Ask which claim the payment was for. Medical payment and fault are separate questions.</td></tr>
+<tr><th scope="row">Leaving out earlier injuries or later improvement</th><td>Give an accurate history. An honest record is easier to explain than one that hides things.</td></tr>
+<tr><th scope="row">Keeping only an edited photo or video</th><td>Keep the original file and label any copies or clips.</td></tr>
+<tr><th scope="row">Signing after a phone summary of an offer</th><td>Get the complete written release and check which losses and people it covers. See <a href="/new-jersey/nj-8-questions-to-ask-before-accepting-a-settlement-offer">questions to ask before accepting a settlement offer</a>.</td></tr>
+<tr><th scope="row">Judging your claim by a policy limit or an online "average"</th><td>A policy limit is not a value. There is <a href="/new-jersey/average-car-accident-settlement-nj-no-public-data">no public NJ settlement average</a>.</td></tr>
+</tbody>
+</table></div>
+</div>
+<p>For calls from an adjuster after the first notice, see <a href="/new-jersey/nj-what-to-expect-from-an-insurance-adjuster-after-an-accident">what to expect from an insurance adjuster</a>. For the car itself, see the <a href="/new-jersey/nj-new-jersey-property-damage-claim-help-and-steps-guide">property damage claim guide</a>.</p>
+</section>
+
+<section id="deadlines">
+<h2>Deadlines that apply in New Jersey</h2>
+<p>Most lawsuits for an injury must be filed within two years after the claim arises. That is the general rule, and exceptions exist.</p>
+<p class="source">Source: N.J.S.A. 2A:14-2, statute text via <a href="http://web.archive.org/web/20260930102816/https://law.justia.com/codes/new-jersey/title-2a/section-2a-14-2/">Justia 2025 edition (archived 2026-09-30)</a>, retrieved 2026-11-10.</p>
+<p>If a government vehicle or public entity was involved, such as a town, the state, NJ Transit or the Turnpike Authority, the deadline is much shorter. A written notice of claim must reach the public entity no later than the 90th day after the claim arises. A court may allow late notice within one year only in extraordinary circumstances.</p>
+<p class="source">Source: N.J.S.A. 59:8-8 and 59:8-9, as quoted in <a href="https://www.courtlistener.com/opinion/8267675/odonnell-v-nj-tpk-auth/">O'Donnell v. N.J. Turnpike Auth., 236 N.J. 335 (2019)</a>, retrieved 2026-11-10.</p>
+<p>A lawsuit over unpaid PIP benefits has its own, separate time limit under N.J.S.A. 39:6A-13.1. It is generally two years, with rules that depend on when expenses arose and when PIP last paid.</p>
+<p class="source">Source: statute text as quoted in <a href="https://www.courtlistener.com/opinion/7403318/aponte-correa-v-allstate-insurance/">Aponte-Correa v. Allstate Ins. Co. (App. Div. 1999)</a>; <a href="https://www.courtlistener.com/opinion/10854078/lakita-d-murray-v-christopher-b-punina/">Murray v. Punina (N.J. 2026)</a>; both retrieved 2026-11-10.</p>
+<p>Which deadline applies, and when it started, depends on your facts. Do not count on having two years. If a public entity may be involved, act on the notice right away.</p>
+</section>
+
+<section id="faq">
+<h2>Questions people ask</h2>
+<h3>What does it mean when they say NJ is a no-fault state?</h3>
+<p>It means your own PIP pays your medical expenses no matter who caused the car accident. You can still claim against the driver at fault for losses PIP does not cover, subject to your lawsuit option. Read <a href="/new-jersey/is-nj-a-no-fault-state">is NJ a no-fault state</a> for more.</p>
+<h3>Is personal injury protection the same as bodily injury coverage?</h3>
+<p>No. PIP is on your own policy and pays your medical bills. Bodily injury liability is on the at-fault driver's policy and pays people that driver hurt, including for pain and suffering (DOBI <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>, p. 2).</p>
+<h3>Can you still sue if you have limited tort?</h3>
+<p>Yes. The limitation on lawsuit option limits only claims for pain and suffering, and only unless your injury fits one of the listed types. Claims for economic losses are not limited (N.J.S.A. 39:6A-8, cited above).</p>
+<h3>What is the statute of limitations for a personal injury claim in New Jersey?</h3>
+<p>Generally two years under N.J.S.A. 2A:14-2. Claims against a public entity need a notice of claim within 90 days under N.J.S.A. 59:8-8. See the deadlines section above.</p>
+<h3>Should I get a lawyer for a car accident that wasn't my fault?</h3>
+<p>That depends on your injury, your coverage and whether fault is disputed. In New Jersey, a lawyer's contingent fee in an injury case is capped by court rule, starting at 33 1/3% of the first $750,000 recovered (Rule 1:21-7, <a href="http://web.archive.org/web/20211230044710/https://www.njcourts.gov/attorneys/assets/rules/r1-21.pdf">2021 copy of the official rule</a>, retrieved 2026-11-10). See <a href="/new-jersey/nj-7-signs-you-may-need-an-accident-lawyer-after-a-crash">signs you may need an accident lawyer</a>.</p>
+</section>
+
+<section id="quiz-end" class="quiz-cta">
+<p>If someone else caused your New Jersey car accident and you were hurt, the questionnaire checks whether a claim against their insurance company may be worth a closer look. If your answers qualify, a sponsoring lawyer or legal consultant may call you by phone. Free, no obligation.</p>
+<p><a class="button" data-quiz-link="end" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=new-jersey-car-accident-help">Start the New Jersey accident questionnaire</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+<section id="all-guides">
+<h2>Every New Jersey car accident guide by topic</h2>
+<h3>Insurance and who pays</h3>
+<ul>
+<li><a href="/new-jersey/is-nj-a-no-fault-state">Is NJ a no-fault state</a></li>
+<li><a href="/new-jersey/pip-coverage-limits-medical-bills-new-jersey">What PIP covers and its limits</a></li>
+<li><a href="/new-jersey/pip-health-insurance-medical-bills-new-jersey">PIP or health insurance first</a></li>
+<li><a href="/new-jersey/nj-uninsured-motorist-claim-help">Uninsured and underinsured motorist claims</a></li>
+<li><a href="/new-jersey/nj-can-you-claim-lost-wages-after-a-car-accident-in-nj">Lost wages after a car accident</a></li>
+<li><a href="/new-jersey/nj-new-jersey-property-damage-claim-help-and-steps-guide">Property damage claims</a></li>
+</ul>
+<h3>Reports, records and evidence</h3>
+<ul>
+<li><a href="/new-jersey/nj-car-accident-report">Getting your car accident report</a></li>
+<li><a href="/new-jersey/nj-how-to-read-a-new-jersey-crash-report-after-an-accident">Reading the police report</a></li>
+<li><a href="/new-jersey/medical-records-injury-claim-new-jersey">Medical records for an injury claim</a></li>
+<li><a href="/new-jersey/nj-what-evidence-helps-prove-fault-after-an-nj-crash">Evidence that helps prove fault</a></li>
+</ul>
+<h3>Fault, lawsuits and settlements</h3>
+<ul>
+<li><a href="/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">Partly at fault: real NJ fault splits</a></li>
+<li><a href="/new-jersey/nj-verbal-threshold-appeals-rulings">Limitation on lawsuit: appeals rulings</a></li>
+<li><a href="/new-jersey/nj-10-ways-to-prove-pain-and-suffering-after-an-accident">Proving pain and suffering</a></li>
+<li><a href="/new-jersey/nj-8-questions-to-ask-before-accepting-a-settlement-offer">Before accepting a settlement offer</a></li>
+<li><a href="/new-jersey/nj-7-signs-you-may-need-an-accident-lawyer-after-a-crash">Signs you may need a lawyer</a></li>
+</ul>
+<h3>Your type of car accident</h3>
+<ul>
+<li><a href="/new-jersey/rear-end-crash-new-jersey">Rear-end car accidents</a></li>
+<li><a href="/new-jersey/passenger-accident-new-jersey">Hurt as a passenger</a></li>
+<li><a href="/new-jersey/pedestrian-crash-new-jersey">Pedestrians hit by a car</a></li>
+<li><a href="/new-jersey/nj-hit-and-run-accident-claim-help">Hit and run</a></li>
+<li><a href="/new-jersey/new-jersey-truck-accident-help">Truck accidents</a></li>
+<li><a href="/new-jersey/new-jersey-motorcycle-accident-help">Motorcycle accidents</a></li>
+<li><a href="/new-jersey/new-jersey-rideshare-accident-help">Uber and Lyft accidents</a></li>
+</ul>
+<h3>Where it happened</h3>
+<ul>
+<li><a href="/new-jersey/newark-nj-car-accidents">Newark car accidents</a></li>
+<li><a href="/new-jersey/jersey-city-nj-car-accidents">Jersey City car accidents</a></li>
+<li><a href="/new-jersey/bergen-county-car-accident-help">Bergen County car accidents</a></li>
+<li><a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway car accidents</a></li>
+<li><a href="/new-jersey">All New Jersey guides and places</a></li>
+</ul>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=home">Start the New Jersey accident quiz ↗</a></div></footer></div>

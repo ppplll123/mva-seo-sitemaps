@@ -1,0 +1,158 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.supplied-editorial .article-image img{max-height:none;object-fit:contain}.supplied-editorial blockquote{border-left:4px solid #c89443;background:#f5efdf;padding:18px 24px;margin:24px 0}.supplied-editorial blockquote p{margin:0}.supplied-editorial li{margin:10px 0}.supplied-editorial .rich-intro{max-width:760px}.supplied-editorial h3{font-size:23px}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article guide" id="pip-coverage-limits-medical-bills-new-jersey">
+
+<h1>New Jersey PIP Coverage Limits: Medical Bills After a Car Accident</h1>
+
+<section id="short-answer">
+<p><strong>In New Jersey, your own auto policy's PIP pays your medical bills after a car accident, no matter who caused it, up to the medical limit you chose.</strong> On a standard policy that limit can be $15,000, $50,000, $75,000, $150,000 or $250,000 (some insurers sell more), and most drivers pick $250,000. You pay a deductible ($250 unless you chose a higher one) plus a 20% co-pay on bills between the deductible and $5,000.</p>
+<p class="source">Sources: NJ Department of Banking and Insurance (DOBI), <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">New Jersey Auto Insurance Buyer's Guide 2026</a>, pp. 7 and 12 (Policy Options Chart); DOBI, <a href="https://www.nj.gov/dobi/division_consumers/insurance/pipoption.htm">Selecting Your Health Insurer for PIP Option</a>. Retrieved 2026-11-10.</p>
+<p>If your bills go past your PIP limit, or PIP does not cover them, you can claim those unpaid medical expenses from the driver who caused the car accident. That is a separate, fault-based claim.</p>
+<p class="source">Source: Murray v. Punina, A-51-24 (N.J. May 6, 2026), quoting N.J.S.A. 39:6A-12 as amended in 2019, <a href="https://www.courtlistener.com/opinion/10854078/lakita-d-murray-v-christopher-b-punina/">courtlistener.com</a>, retrieved 2026-11-10.</p>
+<p>PIP pays your medical bills either way. If someone else caused the car accident, the questionnaire asks whether the other driver's insurance company may also owe you, for example for bills above your limit or for pain and suffering.</p>
+<p><a class="button" data-quiz-link="mid" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=pip-coverage-limits-medical-bills-new-jersey">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+<p class="disclaimer">This is general information, not legal advice.</p>
+
+<section id="what-pip-covers">
+<h2>What New Jersey PIP covers</h2>
+<p>PIP has two parts. The first is medical expense coverage: treatment from hospitals, doctors and other medical providers, and medical equipment needed to treat your injuries. The second is additional PIP coverage for some other losses because you are hurt.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/insurance/pipoption.htm">Selecting Your Health Insurer for PIP Option</a>, retrieved 2026-11-10.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>The parts of New Jersey PIP on a standard policy (DOBI 2026)</caption>
+<thead>
+<tr><th scope="col">Benefit</th><th scope="col">What DOBI says it pays</th><th scope="col">Is it automatic?</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Medical expenses</th><td>Treatment from hospitals, doctors and other providers, and needed medical equipment</td><td>Yes, up to the medical limit you chose</td></tr>
+<tr><th scope="row">Income continuation</th><td>Lost wages if you cannot work because of the car accident, less any Temporary Disability Benefits, up to the amount you select</td><td>Part of the Extra PIP Package, which you can decline</td></tr>
+<tr><th scope="row">Essential services</th><td>Services you normally do yourself, such as cleaning, mowing the lawn, shoveling snow or laundry</td><td>Extra PIP Package</td></tr>
+<tr><th scope="row">Death benefit</th><td>Income continuation and essential services benefits not yet collected, paid to family or the estate</td><td>Extra PIP Package</td></tr>
+<tr><th scope="row">Funeral expense benefit</th><td>Reasonable funeral expenses up to the limit you select</td><td>Extra PIP Package</td></tr>
+</tbody>
+</table></div>
+</div>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>, p. 7 (Extra PIP Package Coverage) and p. 12 (most consumers choose the Extra PIP Package), retrieved 2026-11-10.</p>
+<p>So check your declarations page before you count on wage or household help. A medical-only selection does not include them. Our <a href="/new-jersey/nj-can-you-claim-lost-wages-after-a-car-accident-in-nj">guide to lost wages after a New Jersey car accident</a> covers the income side.</p>
+<p>New Jersey also sets payment rules for PIP medical care. DOBI publishes an automobile medical fee schedule with separate exhibits for home care services, ambulance services and durable medical equipment. A fee schedule sets how much a listed service is paid. It does not mean every listed service is approved for every patient.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/pipinfo/aicrapg.htm">PIP Information for Health Care Providers</a> (fee schedule exhibits 3, 4 and 5), retrieved 2026-11-10.</p>
+</section>
+
+<section id="limit-options">
+<h2>PIP limit options in New Jersey</h2>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>PIP medical expense limit and deductible choices on the standard policy</caption>
+<thead>
+<tr><th scope="col">Choice</th><th scope="col">Options that cost less</th><th scope="col">What most drivers choose</th><th scope="col">Options that cost more</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Medical expense limit</th><td>$15,000; $50,000; $75,000; $150,000</td><td>$250,000</td><td>Some insurers offer more than $250,000</td></tr>
+<tr><th scope="row">Medical deductible</th><td>$500; $1,000; $2,000; $2,500</td><td>$250</td><td>None listed</td></tr>
+</tbody>
+</table></div>
+</div>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>, p. 12 (Policy Options Chart), retrieved 2026-11-10.</p>
+<p>Do not assume you have $250,000. Many people choose a lower limit to save on the premium. The limit that counts is the one on your policy on the date of the car accident.</p>
+<h3>The $250,000 rule for certain serious injuries</h3>
+<p>Even with a lower limit, the standard policy still pays up to $250,000 for certain injuries. These are permanent or significant brain injury, spinal cord injury or disfigurement. They also include medically necessary treatment of other permanent or significant injuries at a trauma center or acute care hospital right after the accident, until the patient is stable. Those payments reduce the lower limit you chose. The Basic Policy has a $15,000 PIP limit with the same up-to-$250,000 rule for these injuries.</p>
+<p class="source">Sources: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>, p. 5 (Standard and Basic policy chart and footnote); DOBI, <a href="https://www.nj.gov/dobi/division_consumers/insurance/standardpolicy.html">Standard Policy page</a>. Retrieved 2026-11-10.</p>
+</section>
+
+<section id="deductible-copay">
+<h2>How the PIP deductible and 20% co-pay work</h2>
+<p>You pay the deductible first. Then, whatever deductible you chose, you pay 20% of medical expenses between the deductible and $5,000, and the insurance company pays 80%. Above $5,000, the insurance company pays the bills up to your limit. DOBI gives this example for $10,000 of medical expenses.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>DOBI worked example: $10,000 of medical expenses</caption>
+<thead>
+<tr><th scope="col">Driver</th><th scope="col">Deductible chosen</th><th scope="col">20% co-pay (deductible to $5,000)</th><th scope="col">Driver pays in total</th><th scope="col">Insurance company pays</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Sam</th><td>$250</td><td>$950 (20% of $4,750)</td><td>$1,200</td><td>$8,800</td></tr>
+<tr><th scope="row">Jane</th><td>$2,500</td><td>$500 (20% of $2,500)</td><td>$3,000</td><td>$7,000</td></tr>
+</tbody>
+</table></div>
+</div>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>, p. 7 (Personal Injury Protection example), retrieved 2026-11-10. DOBI notes Jane's $2,500 deductible came with a 25% PIP premium reduction in its example. That is DOBI's example, not a promised saving.</p>
+<p>Under the co-pay rule, your share of covered bills inside your limit is your deductible plus 20% of the gap between it and $5,000. With the $250 deductible that is $1,200.</p>
+<p>If you chose your health plan as primary, its deductibles and co-pays apply instead, and PIP pays second. Our <a href="/new-jersey/pip-health-insurance-medical-bills-new-jersey">guide on whether PIP or health insurance pays first</a> explains that choice.</p>
+</section>
+
+<section id="limit-vs-balance">
+<h2>Your limit, what PIP has paid and your bill are three different numbers</h2>
+<p>A provider balance does not prove your PIP has run out. One hospital visit can also produce several bills, for example from the facility, the doctor and imaging. Ask which number someone is quoting before you act on it.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Which figure are you looking at?</caption>
+<thead>
+<tr><th scope="col">Figure</th><th scope="col">Where to find it</th><th scope="col">What it does not tell you</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Medical expense limit</th><td>Your declarations page for the policy in force on the accident date</td><td>How much is left on this claim</td></tr>
+<tr><th scope="row">Amount PIP has paid</th><td>The insurance company's written payment record for your claim</td><td>Whether the next treatment will be approved</td></tr>
+<tr><th scope="row">Provider balance</th><td>The bill, with its service date</td><td>Whether PIP is used up, or whether you owe the full amount</td></tr>
+</tbody>
+</table></div>
+</div>
+<p>If the insurance company says your PIP is exhausted, ask for the payment record in writing. Keep it with your bills and records. Our <a href="/new-jersey/medical-records-injury-claim-new-jersey">guide to medical records for a New Jersey injury claim</a> lists what to keep.</p>
+</section>
+
+<section id="treatment-review">
+<h2>How PIP reviews treatment</h2>
+<p>Your doctor asks the PIP insurance company to approve some treatment through decision point review and precertification. Providers treating PIP patients must use a standard form, the Uniform Attending Provider Treatment Plan Form, for these requests. DOBI also publishes uniform internal appeal forms.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/pipinfo/aicrapg.htm">PIP Information for Health Care Providers</a>, retrieved 2026-11-10.</p>
+<p>An unresolved PIP dispute can go to binding dispute resolution under the policy. DOBI's current administrator is Forthright, which runs the <a href="https://www.nj-no-fault.com/">New Jersey No-Fault PIP Arbitration Program</a>. A provider filing for its own bill must first finish the insurance company's internal appeal. PIP arbitration is not the process for a claim against the other driver.</p>
+<p class="source">Sources: N.J.A.C. 11:3-5 (2013 text posted by DOBI), <a href="https://www.nj.gov/dobi/pipinfo/njac11_3_5_effect130104.pdf">nj.gov/dobi</a>; N.J.A.C. 11:3-4.7B as described there; Forthright, <a href="https://www.nj-no-fault.com/">nj-no-fault.com</a>. Retrieved 2026-11-10.</p>
+<p>Treatment decisions belong to your doctor, not to a payment record. Never delay emergency care while a claim is reviewed. Published appeal decisions are summarized in our page on <a href="/new-jersey/nj-pip-appeals-decisions-permanent-injury">New Jersey PIP denial appeals</a>.</p>
+</section>
+
+<section id="above-the-limit">
+<h2>Medical bills above your PIP limit</h2>
+<p>Since a 2019 change to the law, medical expenses that go beyond your PIP limit, or that PIP does not cover, can be claimed from everyone legally responsible for the car accident. Before that change, the Supreme Court's Haines v. Taft decision had blocked this for people with lower limits. Amounts PIP has paid or can pay are kept out of the injury case, so you are not paid twice.</p>
+<p class="source">Sources: Murray v. Punina, A-51-24 (N.J. May 6, 2026), quoting N.J.S.A. 39:6A-12 and describing L. 2019, cc. 244 and 245, <a href="https://www.courtlistener.com/opinion/10854078/lakita-d-murray-v-christopher-b-punina/">courtlistener.com</a>; Haines v. Taft, 237 N.J. 271 (2019), <a href="https://www.courtlistener.com/opinion/8269493/haines-v-taft/">courtlistener.com</a>. Retrieved 2026-11-10.</p>
+<p>In May 2026 the New Jersey Supreme Court added a limit to this. Future medical costs that will not go past your remaining PIP limit count as "collectible" under PIP. They must be pursued through PIP, not in the case against the other driver.</p>
+<p class="source">Source: <a href="https://www.courtlistener.com/opinion/10854078/lakita-d-murray-v-christopher-b-punina/">Murray v. Punina (N.J. 2026)</a>, retrieved 2026-11-10.</p>
+<p>The lawsuit option on your policy does not stop this kind of claim. The limitation on lawsuit option only limits claims for pain and suffering. Claims for economic losses, such as unpaid medical expenses and lost wages, are not limited by it. Read more about the <a href="/new-jersey/nj-verbal-threshold-appeals-rulings">limitation on lawsuit option</a>.</p>
+<p class="source">Sources: N.J.S.A. 39:6A-8, 2025 edition via Justia (secondary), <a href="http://web.archive.org/web/20260501025515/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8/">archived copy</a>; DOBI, <a href="https://www.nj.gov/dobi/division_consumers/insurance/standardpolicy.html">Standard Policy page</a>. Retrieved 2026-11-10.</p>
+<p>A claim against the other driver depends on fault. In New Jersey you can still recover if your share of fault is not greater than the other driver's, but the award is reduced by your share. See <a href="/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">what happens when you are partly at fault</a>. If the other driver had no insurance or too little, read about <a href="/new-jersey/nj-uninsured-motorist-claim-help">uninsured and underinsured motorist claims</a>.</p>
+<p class="source">Source: N.J.S.A. 2A:15-5.1, 2025 edition via Justia (secondary), <a href="http://web.archive.org/web/20261009074503/https://law.justia.com/codes/new-jersey/title-2a/section-2a-15-5-1/">archived copy</a>, retrieved 2026-11-10.</p>
+</section>
+
+<section id="next-steps">
+<h2>What to do next</h2>
+<ol>
+<li>Find your declarations page and write down your PIP medical limit, deductible and whether you have the Extra PIP Package.</li>
+<li>Give every provider your PIP claim number, and ask them to bill the PIP insurance company (or your health plan, if you chose it as primary).</li>
+<li>Ask the insurance company for a written record of what PIP has paid so far.</li>
+<li>If a bill is denied, get the written reason and ask your provider about the internal appeal.</li>
+<li>Get a copy of your <a href="/new-jersey/nj-car-accident-report">New Jersey car accident report</a>. You will need it for any claim against the other driver.</li>
+</ol>
+<p>For the full list of steps after a car accident, start at the <a href="/new-jersey">New Jersey car accident hub</a> or the <a href="/new-jersey/new-jersey-car-accident-help">New Jersey car accident help guide</a>. For the difference between no-fault and fault, read <a href="/new-jersey/is-nj-a-no-fault-state">is New Jersey a no-fault state</a>.</p>
+</section>
+
+<section id="faq">
+<h2>Questions people ask about New Jersey PIP</h2>
+<h3>How much PIP coverage do I need in NJ?</h3>
+<p>No single amount fits everyone. DOBI says most New Jersey drivers buy $250,000, and lower limits cost less. Before choosing your health plan as primary, DOBI suggests checking whether your health coverage pays for auto accident injuries.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/insurance/pipoption.htm">Selecting Your Health Insurer for PIP Option</a>, retrieved 2026-11-10.</p>
+<h3>Is personal injury protection the same as bodily injury coverage?</h3>
+<p>No. PIP pays your own medical expenses no matter who caused the accident. Bodily injury liability pays claims by other people who are hurt in an accident you cause, including pain and suffering and lost wages.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>, p. 2, retrieved 2026-11-10.</p>
+<h3>What happens if you don't have PIP insurance?</h3>
+<p>People with no auto insurance in their household may be able to seek PIP benefits from the Unsatisfied Claim and Judgment Fund, run by NJ PLIGA. Eligibility rules apply.</p>
+<p class="source">Source: <a href="https://www.courtlistener.com/opinion/10854078/lakita-d-murray-v-christopher-b-punina/">Murray v. Punina (N.J. 2026)</a>, describing N.J.S.A. 39:6-86.1, retrieved 2026-11-10.</p>
+<h3>How long does PIP pay for treatment in NJ?</h3>
+<p>PIP is capped by your dollar limit, and treatment goes through the insurance company's review rules. A lawsuit for PIP benefits has its own time rule. It is generally two years after you have the expense and know it came from the accident, or four years after the accident if that is earlier. If PIP has paid benefits, a suit for more benefits can be started within two years of the last payment. Courts also allow some claims for expected future treatment within a reasonable time. These rules depend on your facts, so do not count on a date without advice.</p>
+<p class="source">Sources: N.J.S.A. 39:6A-13.1(a) as quoted in Aponte-Correa v. Allstate Ins. Co. (App. Div. 1999), <a href="https://www.courtlistener.com/opinion/7403318/aponte-correa-v-allstate-insurance/">courtlistener.com</a>; <a href="https://www.courtlistener.com/opinion/10854078/lakita-d-murray-v-christopher-b-punina/">Murray v. Punina (N.J. 2026)</a>. Retrieved 2026-11-10. Current statute text not read from the Legislature site.</p>
+</section>
+
+<section id="cta-end">
+<h2>Did someone else cause your car accident?</h2>
+<p>Your PIP covers your medical bills up to your limit. The questionnaire asks a few questions about your injury, medical attention, the police report, fault, the date and whether you already have a lawyer. If you qualify, a sponsoring lawyer or legal consultant may call you. It is free and there is no obligation.</p>
+<p><a class="button" data-quiz-link="end" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=pip-coverage-limits-medical-bills-new-jersey">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=home">Start the New Jersey accident quiz ↗</a></div></footer></div>

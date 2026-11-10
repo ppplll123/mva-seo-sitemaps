@@ -1,0 +1,195 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article guide" id="nj-10-ways-to-prove-pain-and-suffering-after-an-accident">
+
+<h1>10 ways to prove pain and suffering after a New Jersey car accident</h1>
+
+<section id="short-answer">
+<p><strong>You prove pain and suffering with medical records that show what the car accident did to your body, plus a steady, honest record of how it changed your daily life.</strong> First, check which lawsuit option your auto policy has. If it is the "Limited Right to Sue" option, you can claim pain and suffering from the driver who caused the car accident only if your injury fits a short list, such as a displaced fracture, significant scarring or a permanent injury backed by objective medical proof.</p>
+<p class="source">Source: NJ Department of Banking and Insurance (DOBI), <a href="https://www.nj.gov/dobi/division_consumers/insurance/standardpolicy.html">Standard Auto Insurance Policy, "The Right to Sue"</a>, retrieved 2026-11-10.</p>
+<p>New Jersey law calls pain and suffering "noneconomic loss." It is separate from your medical bills and lost wages, which are economic losses.</p>
+<p class="source">Source: N.J.S.A. 39:6A-8, statute text via <a href="http://web.archive.org/web/20260501025515/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8/">Justia 2025 edition (Wayback snapshot 2026-05-01)</a>, secondary copy, retrieved 2026-11-10.</p>
+<p>This is general information, not legal advice.</p>
+</section>
+
+<section id="quiz-mid" class="quiz-cta">
+<p>Hurt in a New Jersey car accident? Your own PIP pays medical bills no matter who caused it. The short New Jersey questionnaire is about something else: whether the other driver's insurance company may also owe you, including for pain and suffering. It asks about your injury, any lawyer you already have, fault, medical attention, the police report and the date. If your answers fit, a sponsoring lawyer or legal consultant may call you. It is free and there is no obligation.</p>
+<p><a class="button" data-quiz-link="mid" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=nj-10-ways-to-prove-pain-and-suffering-after-an-accident">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+<section id="lawsuit-option">
+<h2>Step one: find out what you have to prove</h2>
+<p>Every New Jersey Standard Policy holder picks one of two lawsuit options on the Coverage Selection Form. The choice also covers your spouse, children and other relatives living with you who are not on another auto policy. If nobody made a written choice, the law treats the policy as Limited Right to Sue. Basic Policy and Special Automobile Insurance Policy (SAIP) holders always have the limitation on lawsuit option.</p>
+<p class="source">Sources: <a href="https://www.nj.gov/dobi/division_consumers/insurance/standardpolicy.html">DOBI Standard Policy page</a>; <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">DOBI New Jersey Auto Insurance Buyer's Guide 2026</a>, pp. 4-5, 10-11; N.J.S.A. 39:6A-8.1 via <a href="http://web.archive.org/web/20240515013024/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8-1/">Justia 2023 edition (Wayback snapshot 2024-05-15)</a>, secondary copy. All retrieved 2026-11-10.</p>
+
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>What each New Jersey lawsuit option means for a pain and suffering claim against the driver who caused the car accident</caption>
+<thead>
+<tr>
+<th scope="col">Your option</th>
+<th scope="col">Can you claim pain and suffering?</th>
+<th scope="col">What the proof has to show</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">No Limitation on Lawsuit ("Unlimited Right to Sue")</th>
+<td>Yes, for any injury.</td>
+<td>That the other driver caused the car accident and the injury, and how the injury affected you.</td>
+</tr>
+<tr>
+<th scope="row">Limitation on Lawsuit ("Limited Right to Sue", often called the "verbal threshold")</th>
+<td>Only if the injury is one of these: death, dismemberment (loss of a body part), significant disfigurement or significant scarring, a displaced fracture, loss of a fetus, or a permanent injury.</td>
+<td>The same as above, plus that the injury fits the list. For a permanent injury, your doctor must certify it based on objective clinical evidence.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="source">Sources: N.J.S.A. 39:6A-8(a) and (b), via <a href="http://web.archive.org/web/20260501025515/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8/">Justia 2025 edition (Wayback 2026-05-01)</a>, secondary copy; <a href="https://www.nj.gov/dobi/division_consumers/insurance/standardpolicy.html">DOBI Standard Policy page</a>. Retrieved 2026-11-10.</p>
+
+<h3>What "permanent" means under the limited option</h3>
+<p>Under the statute, an injury counts as permanent when the body part or organ has not healed to work normally and will not do so with more medical treatment. DOBI's page adds that this must rest on "objective medical proof." Feeling pain every day is real, but the law asks a narrower question: will the injured part work normally again?</p>
+<p class="source">Sources: N.J.S.A. 39:6A-8(a), via <a href="http://web.archive.org/web/20260501025515/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8/">Justia 2025 edition (Wayback 2026-05-01)</a>, secondary copy; <a href="https://www.nj.gov/dobi/division_consumers/insurance/standardpolicy.html">DOBI Standard Policy page</a>. Retrieved 2026-11-10.</p>
+
+<h3>The physician certification</h3>
+<p>If a lawsuit is filed under the limited option, the injured person must serve a doctor's certification within 60 days after the other driver files an answer. The certification must be based on objective clinical evidence. A court can allow one more period of up to 60 days for good cause. A false certification is a fourth-degree crime.</p>
+<p class="source">Source: N.J.S.A. 39:6A-8(a), via <a href="http://web.archive.org/web/20260501025515/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8/">Justia 2025 edition (Wayback 2026-05-01)</a>, secondary copy, retrieved 2026-11-10.</p>
+
+<h3>What you do not have to prove</h3>
+<p>You do not have to show a "serious life impact." That was a test under the older threshold. The New Jersey Supreme Court held in DiProspero v. Penn, 183 N.J. 477 (2005), that it does not apply to the current threshold adopted in 1998.</p>
+<p class="source">Source: Zabilowicz v. Kelsey, 200 N.J. 507 (2009), note 4, citing DiProspero v. Penn, <a href="https://www.courtlistener.com/opinion/1480699/zabilowicz-v-kelsey/">CourtListener</a>, retrieved 2026-11-10.</p>
+<p>Two more points can change the answer. If the driver who hit you is from out of state and not in the New Jersey PIP system, that driver may not be able to use the threshold against you. And if you were partly at fault, you can still recover, but your damages are reduced by your share of fault, and you get nothing from that driver if your share is greater than theirs.</p>
+<p class="source">Sources: <a href="https://www.courtlistener.com/opinion/1480699/zabilowicz-v-kelsey/">Zabilowicz v. Kelsey, 200 N.J. 507 (2009)</a>; N.J.S.A. 2A:15-5.1 via <a href="http://web.archive.org/web/20261009074503/https://law.justia.com/codes/new-jersey/title-2a/section-2a-15-5-1/">Justia 2025 edition (Wayback 2026-10-09)</a>, secondary copy; <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">DOBI "Everything You Wanted to Know About Auto Insurance" (2026)</a>, pp. 26-27. Retrieved 2026-11-10.</p>
+<p>See <a href="/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">what partly at fault meant in real New Jersey cases</a>.</p>
+</section>
+
+<section id="ten-ways">
+<h2>The 10 ways to prove pain and suffering</h2>
+<p>None of these guarantees a claim or a payment. They help make sure the record shows what really happened. Never get treatment you do not need just to build a file.</p>
+<ol>
+<li><strong>Get medical attention and describe every symptom.</strong> Tell the clinician what hurts, when it started and what it stops you doing. Symptoms left out of early records are harder to connect to the car accident later.</li>
+<li><strong>Keep the objective findings, not only the pain scores.</strong> Under the limited option, the doctor's certification must rest on objective clinical evidence. Keep imaging reports, test results and exam findings such as measured range of motion. Your own reading of a scan is not evidence.</li>
+<li><strong>Ask your treating doctor the permanency question directly.</strong> Ask whether the injured part has healed to work normally, and whether further treatment is expected to fix it. Ask the doctor to write the answer down. That is the statute's test, word for word.</li>
+<li><strong>Follow the treatment plan and keep the dates.</strong> A record of visits, referrals and instructions shows how the injury developed. If you miss care because of transport, work or cost, tell your provider so the real reason is in the record.</li>
+<li><strong>Disclose old injuries and conditions.</strong> If the car accident made an old problem worse, the records need to say so in medical terms. In one 2025 appeal, a jury instruction on aggravation was not given because there was no medical evidence that the car accident aggravated the earlier condition.</li>
+<li><strong>Link the injury to this car accident.</strong> Keep the crash report, photos and your first medical notes together. In two 2025 appeals in the table below, the claim failed on causation: the injured person could not show the car accident caused the injury.</li>
+<li><strong>Keep a short dated journal.</strong> Write what you could not do, what needed help and how you slept. Write it close to the day. Mark later memories as written later. Record good days and improvement too.</li>
+<li><strong>Compare before and after.</strong> Note what you did before the car accident, such as work tasks, sports, childcare or chores, and what changed. Keep work changes separate from lost pay, which is an economic loss.</li>
+<li><strong>Keep photos of visible injuries and scars over time.</strong> Significant scarring and significant disfigurement are listed injuries under the limited option. Keep the original files with their dates. Do not stage photos.</li>
+<li><strong>Ask people who saw the change to write their own account.</strong> A spouse, coworker or friend can describe what they saw, in their own words. Do not write it for them.</li>
+</ol>
+<p class="source">Sources: N.J.S.A. 39:6A-8(a), via <a href="http://web.archive.org/web/20260501025515/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8/">Justia 2025 edition (Wayback 2026-05-01)</a>, secondary copy, retrieved 2026-11-10 (items 2, 3, 9). Appeals: see the table below (items 5, 6).</p>
+<p>For a checklist of documents, see <a href="/new-jersey/medical-records-injury-claim-new-jersey">which medical records to keep for a car accident injury claim</a>. For photos, see <a href="/new-jersey/nj-how-to-use-photos-and-videos-after-a-car-accident">how to use photos and videos after a car accident</a>.</p>
+</section>
+
+<section id="appeals">
+<h2>Where proof fell short in recent New Jersey appeals</h2>
+<p>These are examples from Appellate Division opinions we coded in November 2026. They show which proof problems came up. They do not predict how any other case will go, and they say nothing about what a claim is worth.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Selected 2025 Appellate Division opinions on the limitation on lawsuit threshold (all unpublished; coded 2026-11-05)</caption>
+<thead>
+<tr>
+<th scope="col">Case</th>
+<th scope="col">County</th>
+<th scope="col">Threshold result</th>
+<th scope="col">What the opinion pointed to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="https://law.justia.com/cases/new-jersey/appellate-division-unpublished/2025/a-0609-24.html">Orlando v. Williams, A-0609-24</a></th>
+<td>Essex</td>
+<td>Not met</td>
+<td>No "competent and admissible evidence showing permanence" of the injuries or "causally linking them to the accident."</td>
+</tr>
+<tr>
+<th scope="row"><a href="https://law.justia.com/cases/new-jersey/appellate-division-unpublished/2025/a-3033-23.html">Joo v. Corless, A-3033-23</a></th>
+<td>Middlesex</td>
+<td>Not met</td>
+<td>No "medical evidence that a preexisting condition was aggravated by the motor vehicle accident."</td>
+</tr>
+<tr>
+<th scope="row"><a href="https://law.justia.com/cases/new-jersey/appellate-division-unpublished/2025/a-3828-22.html">Williams-Siraj v. Schwartz, A-3828-22</a></th>
+<td>Essex</td>
+<td>Not met</td>
+<td>The plaintiff "failed to prove that defendants proximately caused the injuries."</td>
+</tr>
+<tr>
+<th scope="row"><a href="https://law.justia.com/cases/new-jersey/appellate-division-unpublished/2025/a-1360-23.html">Presbery v. Willitts, A-1360-23</a></th>
+<td>Burlington</td>
+<td>Met</td>
+<td>The injuries described included a permanent cervical disc herniation and aggravation of earlier degeneration that had caused no symptoms before. The jury's award was affirmed.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="source">Source: opinions as linked (Justia, retrieved 2026-11-05 and coded in nj-verbal-threshold-appeals-rulings.csv). More cases: <a href="/new-jersey/nj-verbal-threshold-appeals-rulings">13 New Jersey verbal threshold rulings and what went wrong</a>.</p>
+<p>The same kind of injury can go either way. Herniated discs appear on both sides of this table. What differed was the medical proof of permanence and causation.</p>
+</section>
+
+<section id="not-pain-and-suffering">
+<h2>What pain and suffering does not cover</h2>
+<p>Your own Personal Injury Protection (PIP) pays your medical bills no matter who caused the car accident, up to your PIP limit. That part does not depend on your lawsuit option.</p>
+<p class="source">Source: <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">DOBI Buyer's Guide 2026</a>, p. 2; <a href="https://www.nj.gov/dobi/division_consumers/insurance/standardpolicy.html">DOBI Standard Policy page</a>. Retrieved 2026-11-10.</p>
+<p>The limited option does not stop a claim for economic loss, such as lost wages or medical bills your PIP does not cover. Since a 2019 change in the law, medical bills above or outside your PIP limits can be claimed from the driver at fault. In 2026 the New Jersey Supreme Court held that future medical costs that will stay within your remaining PIP limits must go through PIP instead.</p>
+<p class="source">Sources: N.J.S.A. 39:6A-8(a), via <a href="http://web.archive.org/web/20260501025515/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8/">Justia 2025 edition (Wayback 2026-05-01)</a>, secondary copy; <a href="https://www.courtlistener.com/opinion/10854078/lakita-d-murray-v-christopher-b-punina/">Murray v. Punina, A-51-24 (N.J. May 6, 2026)</a>. Retrieved 2026-11-10.</p>
+<p>Read more: <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault insurance works after a car accident</a>, <a href="/new-jersey/pip-coverage-limits-medical-bills-new-jersey">PIP limits and medical bills</a> and <a href="/new-jersey/nj-can-you-claim-lost-wages-after-a-car-accident-in-nj">claiming lost wages after a car accident</a>.</p>
+
+<h3>Things that do not prove pain and suffering</h3>
+<ul>
+<li>A "multiplier" of your medical bills. The threshold statute and DOBI's guidance do not use one.</li>
+<li>Someone else's settlement or verdict. Each case turns on its own medical proof, fault and policy.</li>
+<li>The lawsuit option alone. Having the unlimited option does not guarantee compensation.</li>
+</ul>
+</section>
+
+<section id="next-step">
+<h2>What to do next</h2>
+<ol>
+<li>Find your Coverage Selection Form or declarations page and check the lawsuit option. If you cannot find it, ask your insurance company for a copy.</li>
+<li>Get a copy of the police report. See <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey car accident report</a>.</li>
+<li>Keep getting the medical attention your doctor recommends, and start the journal today.</li>
+<li>If an uninsured or hit-and-run driver caused the car accident, read about <a href="/new-jersey/nj-uninsured-motorist-claim-help">uninsured and underinsured motorist claims in New Jersey</a>.</li>
+<li>Before you accept any offer, go through <a href="/new-jersey/nj-8-questions-to-ask-before-accepting-a-settlement-offer">the questions to ask before accepting a settlement offer</a>.</li>
+</ol>
+<p>Time limits apply. A lawsuit for injury generally must be filed within two years, but there are exceptions. A claim against a public entity, such as a town or state vehicle, needs a written notice within 90 days. Your own deadline depends on your facts, so check it early with a lawyer.</p>
+<p class="source">Sources: N.J.S.A. 2A:14-2 via <a href="http://web.archive.org/web/20260930102816/https://law.justia.com/codes/new-jersey/title-2a/section-2a-14-2/">Justia 2025 edition (Wayback 2026-09-30)</a>, secondary copy; N.J.S.A. 59:8-8 as quoted in <a href="https://www.courtlistener.com/opinion/8267675/odonnell-v-nj-tpk-auth/">O'Donnell v. N.J. Turnpike Auth., 236 N.J. 335 (2019)</a>. Retrieved 2026-11-10.</p>
+</section>
+
+<section id="faq">
+<h2>Questions people ask</h2>
+<h3>Can you still sue if you have limited tort?</h3>
+<p>Yes. In New Jersey, limited tort is the "Limitation on Lawsuit" option. You can still sue for economic losses such as lost wages. You can sue for pain and suffering only if your injury is on the statute's list, such as a displaced fracture, significant scarring or a permanent injury certified by a doctor.</p>
+<p class="source">Source: <a href="https://www.nj.gov/dobi/division_consumers/insurance/standardpolicy.html">DOBI Standard Policy page</a>, retrieved 2026-11-10.</p>
+<h3>What does "no limitation on lawsuit" mean?</h3>
+<p>It means you keep the right to sue the driver who caused the car accident for pain and suffering for any injury. DOBI calls it the "Unlimited Right to Sue." It costs more than the limited option.</p>
+<p class="source">Sources: <a href="https://www.nj.gov/dobi/division_consumers/insurance/standardpolicy.html">DOBI Standard Policy page</a>; <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">DOBI Buyer's Guide 2026</a>, pp. 10-11. Retrieved 2026-11-10.</p>
+<h3>Do soft-tissue injuries count as permanent?</h3>
+<p>There is no rule that they never count or always count. The question is whether the body part will heal to work normally, shown by objective clinical evidence.</p>
+<p class="source">Source: N.J.S.A. 39:6A-8(a), via <a href="http://web.archive.org/web/20260501025515/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8/">Justia 2025 edition (Wayback 2026-05-01)</a>, secondary copy, retrieved 2026-11-10.</p>
+<h3>What is the time limit for a car accident injury lawsuit in New Jersey?</h3>
+<p>Generally two years, under N.J.S.A. 2A:14-2, with exceptions. Claims against public entities need notice within 90 days. Do not rely on a date you work out yourself.</p>
+<p class="source">Source: N.J.S.A. 2A:14-2 via <a href="http://web.archive.org/web/20260930102816/https://law.justia.com/codes/new-jersey/title-2a/section-2a-14-2/">Justia 2025 edition (Wayback 2026-09-30)</a>, secondary copy, retrieved 2026-11-10.</p>
+</section>
+
+<section id="quiz-end" class="quiz-cta">
+<p>Not sure whether the other driver's insurance company may owe you for pain and suffering? The short New Jersey questionnaire asks about your injury, any lawyer you already have, fault, medical attention, the police report and the date. It does not estimate a dollar amount. If your answers fit, a sponsoring lawyer or legal consultant may call you. It is free, with no obligation.</p>
+<p><a class="button" data-quiz-link="end" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=nj-10-ways-to-prove-pain-and-suffering-after-an-accident">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+<section id="related">
+<h2>Related New Jersey guides</h2>
+<ul>
+<li><a href="/new-jersey">New Jersey car accident guides</a></li>
+<li><a href="/new-jersey/is-nj-a-no-fault-state">How New Jersey no-fault insurance works after a car accident</a></li>
+<li><a href="/new-jersey/nj-verbal-threshold-appeals-rulings">New Jersey verbal threshold rulings and what went wrong</a></li>
+<li><a href="/new-jersey/nj-pip-appeals-decisions-permanent-injury">New Jersey PIP appeals decisions</a></li>
+<li><a href="/new-jersey/medical-records-injury-claim-new-jersey">Medical records for a car accident injury claim</a></li>
+</ul>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=home">Start the New Jersey accident quiz ↗</a></div></footer></div>

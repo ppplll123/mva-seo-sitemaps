@@ -1,0 +1,244 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><style>.research-chart{margin:30px 0}.research-series .research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important}.quiz-cta .button{display:inline-block;margin-top:12px}</style><style>.place-page figure.research-chart img,.mva-site[data-conversion-batch] .place-page figure.research-chart img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto}.place-page figure.research-chart.portrait img,.mva-site[data-conversion-batch] .place-page figure.research-chart.portrait img{max-width:540px!important}.place-page .mva-review-scroll table{min-width:640px}.place-page .research-data-links a{overflow-wrap:anywhere}@media(max-width:600px){.mva-site[data-conversion-batch] .place-page .article-image img,.place-page .article-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article place-page road-page" id="route-1">
+
+<h1>Had a car accident on Route 1 in NJ? 4,601 people were hurt in two years, and Old Post Road in Edison tops the list</h1>
+
+<section id="answer">
+  <p class="lead">New Jersey crash records show 3,253 car accidents on Route 1 in 2023 and 2024 in which someone was hurt or killed, about 4.5 a day. 4,601 people were hurt and 50 were killed.</p>
+  <p>The cross street with the most of these accidents in 2024 and 2025 was Old Post Road in Edison, with 59. Middlesex County had 44 percent of the road's accidents where someone was hurt.</p>
+  <p>This page does not show live traffic or today's Route 1 accidents. It covers police-reported accidents from 2023 to 2025, and 2025 is still preliminary.</p>
+  <p class="source" data-file="lane2-content/data/profiles/route-1-nj-accidents.json (two_year_2023_2024, by_county_2023_2024, top_cross_streets_2024_2025)">Source: NJDOT crash records 2023 to 2025 as normalized by the open-source <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a> project (retrieved 2026-11-10), fatal accidents supplemented from <a href="https://nj.gov/njsp/info/fatalacc/">NJ State Police fatal crash statistics</a> (retrieved 2026-11-10). Analysis by us; method at the end of this page.</p>
+  <div class="quiz-cta quiz-cta-inline">
+    <p>Hurt in a car accident on Route 1, from Trenton to Fort Lee? The free New Jersey questionnaire asks a few short questions, with no obligation. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-1-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+<section id="corridor">
+  <h2>Route 1 is a different road in each county</h2>
+  <p>The records place Route 1 accidents in 20 towns across six counties. In Mercer and Middlesex it is a suburban highway that carries a large share of each town's injury accidents. In Union, Essex and Hudson counties it is the shared Route 1&amp;9, through Rahway, Linden, Elizabeth, Newark, Jersey City and North Bergen, where it is a smaller share of busier towns.</p>
+  <p>In West Windsor, Route 1 accounts for 39 percent of all the town's accidents where someone was hurt. It is about a third in Lawrence, South Brunswick and North Brunswick, and about a quarter in Edison and North Bergen. In Newark it is 4 percent.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 1 accidents by town, 2023 and 2024, ordered by median recorded milepost (south to north)</caption>
+    <thead>
+      <tr><th scope="col">Town (county)</th><th scope="col">Median milepost</th><th scope="col">Someone hurt or killed</th><th scope="col">People killed</th><th scope="col">Route 1 share of the town's hurt-or-killed accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Trenton (Mercer)</th><td>1.1</td><td>58</td><td>0</td><td>4.9%</td></tr>
+      <tr><th scope="row">Lawrence Township (Mercer)</th><td>5.6</td><td>126</td><td>3</td><td>33.8%</td></tr>
+      <tr><th scope="row">West Windsor Township (Mercer)</th><td>10.8</td><td>181</td><td>2</td><td>38.6%</td></tr>
+      <tr><th scope="row">Plainsboro Township (Middlesex)</th><td>12.2</td><td>29</td><td>2</td><td>25.7%</td></tr>
+      <tr><th scope="row">South Brunswick Township (Middlesex)</th><td>17.5</td><td>271</td><td>6</td><td>32.7%</td></tr>
+      <tr><th scope="row">North Brunswick Township (Middlesex)</th><td>22.7</td><td>228</td><td>1</td><td>30.8%</td></tr>
+      <tr><th scope="row">New Brunswick (Middlesex)</th><td>27.2</td><td>77</td><td>1</td><td>6.9%</td></tr>
+      <tr><th scope="row">Edison Township (Middlesex)</th><td>30.9</td><td>512</td><td>6</td><td>25.9%</td></tr>
+      <tr><th scope="row">Woodbridge Township (Middlesex)</th><td>35.4</td><td>328</td><td>3</td><td>13.4%</td></tr>
+      <tr><th scope="row">Rahway (Union)</th><td>39.3</td><td>42</td><td>1</td><td>9.2%</td></tr>
+      <tr><th scope="row">Linden (Union)</th><td>41.1</td><td>241</td><td>4</td><td>22.1%</td></tr>
+      <tr><th scope="row">Elizabeth (Union)</th><td>44.7</td><td>236</td><td>8</td><td>10.3%</td></tr>
+      <tr><th scope="row">Newark (Essex)</th><td>48.3</td><td>207</td><td>7</td><td>3.9%</td></tr>
+      <tr><th scope="row">Jersey City (Hudson)</th><td>54.6</td><td>238</td><td>2</td><td>9.3%</td></tr>
+      <tr><th scope="row">North Bergen Township (Hudson)</th><td>58.3</td><td>218</td><td>2</td><td>27.2%</td></tr>
+      <tr><th scope="row">Fairview (Bergen)</th><td>61.0</td><td>30</td><td>0</td><td>20.4%</td></tr>
+      <tr><th scope="row">Ridgefield (Bergen)</th><td>61.9</td><td>61</td><td>1</td><td>16.6%</td></tr>
+      <tr><th scope="row">Palisades Park (Bergen)</th><td>63.0</td><td>24</td><td>0</td><td>8.2%</td></tr>
+      <tr><th scope="row">Fort Lee (Bergen)</th><td>64.4</td><td>56</td><td>1</td><td>6.9%</td></tr>
+      <tr><th scope="row">Kearny (Hudson)*</th><td>see note</td><td>90</td><td>0</td><td>11.6%</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source" data-file="lane2-content/data/route-1-nj-accidents/route1_corridor_by_municipality.csv">Source: NJDOT crash records via nj-crashes, NJSP fatal supplement; our count. Milepost is the median of the mileposts police recorded for that town's Route 1 accidents, 2023 to 2025; map order only, not a direction of travel. Town share = Route 1 accidents where someone was hurt or killed divided by all such accidents in the town, 2023 and 2024. * 262 of Kearny's 346 Route 1 records in 2023 and 2024 are on the Route 1 truck route, whose mileposts are numbered separately in the records, so Kearny is listed last.</p>
+  <p>Car accident pages for towns on this list: <a href="/new-jersey/edison-nj-car-accidents">car accidents in Edison, street by street</a>, <a href="/new-jersey/woodbridge-nj-car-accidents">car accidents in Woodbridge</a>, <a href="/new-jersey/linden-nj-car-accidents">car accidents in Linden</a>, <a href="/new-jersey/elizabeth-nj-car-accidents">car accidents in Elizabeth</a>, <a href="/new-jersey/newark-nj-car-accidents">car accidents in Newark</a>, <a href="/new-jersey/jersey-city-nj-car-accidents">car accidents in Jersey City</a>, <a href="/new-jersey/north-bergen-nj-car-accidents">car accidents in North Bergen</a> and <a href="/new-jersey/trenton-nj-car-accidents">car accidents in Trenton</a>. South Brunswick and North Brunswick are covered in <a href="/new-jersey/middlesex-county-car-accident-help#south-brunswick">Middlesex County car accident help: South Brunswick</a> and <a href="/new-jersey/middlesex-county-car-accident-help#north-brunswick">North Brunswick</a>, Kearny in <a href="/new-jersey/hudson-county-car-accident-help#kearny">Hudson County car accident help: Kearny</a>, and Fort Lee in <a href="/new-jersey/bergen-county-car-accident-help#fort-lee">Bergen County car accident help: Fort Lee</a>.</p>
+
+  <h3>Counties</h3>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 1 accidents by county, 2023 and 2024</caption>
+    <thead>
+      <tr><th scope="col">County</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">Route 1 share of the county's hurt-or-killed accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Middlesex</th><td>5,431</td><td>1,445</td><td>11.0%</td><td>19</td></tr>
+      <tr><th scope="row">Hudson</th><td>2,431</td><td>546</td><td>8.7%</td><td>4</td></tr>
+      <tr><th scope="row">Union</th><td>1,950</td><td>519</td><td>5.6%</td><td>13</td></tr>
+      <tr><th scope="row">Mercer</th><td>1,582</td><td>365</td><td>7.7%</td><td>5</td></tr>
+      <tr><th scope="row">Essex</th><td>700</td><td>207</td><td>1.9%</td><td>7</td></tr>
+      <tr><th scope="row">Bergen</th><td>826</td><td>171</td><td>1.6%</td><td>2</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source" data-file="lane2-content/data/profiles/route-1-nj-accidents.json (by_county_2023_2024); lane2-content/data/route-1-nj-accidents/route1_county_share.csv; lane2-content/data/counties/*.json">Source: NJDOT crash records via nj-crashes; our count. One in nine accidents where someone was hurt anywhere in Middlesex County in 2023 and 2024 was on Route 1.</p>
+</section>
+
+<section id="route-1-and-9">
+  <h2>Route 1&amp;9, the Pulaski Skyway and the truck route</h2>
+  <p>Many searches are for "Route 1 and 9". In these records the shared Route 1&amp;9 stretch is filed as Route 1. We found no 2023 or 2024 Route 9 records with a US prefix in Union, Essex or Hudson County, so accidents on Route 1&amp;9 in Elizabeth, Newark or Jersey City are counted on this page.</p>
+  <p>Police also file named pieces of the road. In 2023 and 2024, 352 Route 1 records name the General Pulaski Skyway, 100 of them with someone hurt. Another 516 records are on the Route 1 truck route (Lincoln Highway and the Blakeslee route), 133 with someone hurt and 2 people killed.</p>
+  <p class="source" data-file="lane2-content/data/route-1-nj-accidents/route1_road_name_variants.csv">Source: NJDOT crash records via nj-crashes, 2023 and 2024; our count of the road names police recorded. Other recorded names include Herbert Highway, Tonnelle Avenue, Broad Avenue and the Trenton Freeway.</p>
+  <p>For a Skyway accident, see <a href="/new-jersey/pulaski-skyway-crash-next-steps">what to do after a Pulaski Skyway accident</a>. Route 9 south of Woodbridge has its own page: <a href="/new-jersey/route-9-nj-accidents">Route 9 accident data</a>.</p>
+</section>
+
+<section id="cross-streets">
+  <h2>Which Route 1 cross streets have the most accidents where someone was hurt?</h2>
+  <p>Old Post Road in Edison leads with 59 accidents where someone was hurt in 2024 and 2025, ahead of Ford Avenue in Woodbridge with 43. Edison has four of the top eight cross streets. Park Avenue in Linden and Duncan Avenue in Jersey City tie at 24, so the table shows 11 rows.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 1 cross streets with the most accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+    <thead>
+      <tr><th scope="col">Cross street, as recorded</th><th scope="col">Town (county)</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Old Post Road</th><td>Edison (Middlesex)</td><td>59</td><td>235</td><td>0</td></tr>
+      <tr><th scope="row">Ford Avenue (Middlesex County 648)</th><td>Woodbridge (Middlesex)</td><td>43</td><td>174</td><td>0</td></tr>
+      <tr><th scope="row">Prince Street</th><td>Edison (Middlesex)</td><td>37</td><td>115</td><td>0</td></tr>
+      <tr><th scope="row">New Road</th><td>South Brunswick (Middlesex)</td><td>30</td><td>108</td><td>1</td></tr>
+      <tr><th scope="row">Harrison Street (Mercer County 629)</th><td>West Windsor (Mercer)</td><td>29</td><td>86</td><td>0</td></tr>
+      <tr><th scope="row">Plainfield Avenue (recorded as Rt 529)</th><td>Edison (Middlesex)</td><td>27</td><td>88</td><td>2</td></tr>
+      <tr><th scope="row">Hackensack Avenue</th><td>Kearny (Hudson)</td><td>26</td><td>109</td><td>0</td></tr>
+      <tr><th scope="row">Grandview Avenue (Middlesex County 660)</th><td>Edison (Middlesex)</td><td>26</td><td>81</td><td>0</td></tr>
+      <tr><th scope="row">South Stiles Street (Union County 615)</th><td>Linden (Union)</td><td>25</td><td>79</td><td>0</td></tr>
+      <tr><th scope="row">Park Avenue (Union County 616)</th><td>Linden (Union)</td><td>24</td><td>84</td><td>0</td></tr>
+      <tr><th scope="row">Duncan Avenue</th><td>Jersey City (Hudson)</td><td>24</td><td>68</td><td>0</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source" data-file="lane2-content/data/route-1-nj-accidents/route1_cross_streets_ki20plus_2024_2025.csv">Source: NJDOT crash records via nj-crashes; our count of the cross street police recorded for each Route 1 accident. Next come five cross streets at 22 each: Aaron Road (North Brunswick), Fairmount Avenue (Elizabeth, 1 killed), Blackhorse Lane (South Brunswick), Franklin Corner Road (Lawrence) and Pierson Avenue (Edison). Ridge Road in South Brunswick had 21, with 3 people killed.</p>
+  <p>Treat every count as a floor. Spelling variants are not merged, and 2,621 of the 12,957 Route 1 records for 2024 and 2025 (20 percent) name no cross street. We rank only 2024 and 2025 because street naming in the files changed after 2023. Statewide rankings: <a href="/new-jersey/most-dangerous-intersections-nj">New Jersey intersections with the most accidents where someone was hurt</a>.</p>
+  <p>If your accident was in Edison, <a href="/new-jersey/route-1-edison-accident-location-checklist">the Route 1 Edison location checklist</a> walks through recording where on the road it happened.</p>
+</section>
+
+<section id="deaths">
+  <h2>Deaths on Route 1 follow a different pattern from injuries</h2>
+  <p>Rear end collisions were 56 percent of Route 1 accidents where someone was hurt in 2023 and 2024, but they killed 2 people. Right angle collisions killed 13, and accidents coded as pedestrian killed 14.</p>
+  <p>Darkness stands out more. 36 of the 50 people killed in 2023 and 2024 died in accidents recorded as dark, 72 percent. Statewide, about half of deaths (642 of 1,294) were in accidents recorded as dark.</p>
+  <p class="source" data-file="lane2-content/data/route-1-nj-accidents/route1_deaths_by_type_and_light.csv; lane2-content/data/statewide.json (light_2023_2024)">Source: NJDOT crash records via nj-crashes, NJSP fatal supplement; our count of people killed by the police-coded collision type and light condition. The statewide figure sums the three dark codes in statewide.json.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>People killed in Route 1 accidents by town, 2023 to 2025 (2025 preliminary), towns with 3 or more</caption>
+    <thead>
+      <tr><th scope="col">Town (county)</th><th scope="col">Fatal accidents</th><th scope="col">People killed</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Elizabeth (Union)</th><td>6</td><td>9</td></tr>
+      <tr><th scope="row">Edison Township (Middlesex)</th><td>7</td><td>7</td></tr>
+      <tr><th scope="row">Newark (Essex)</th><td>4</td><td>7</td></tr>
+      <tr><th scope="row">South Brunswick Township (Middlesex)</th><td>5</td><td>7</td></tr>
+      <tr><th scope="row">North Bergen Township (Hudson)</th><td>4</td><td>5</td></tr>
+      <tr><th scope="row">Linden (Union)</th><td>3</td><td>4</td></tr>
+      <tr><th scope="row">Jersey City (Hudson)</th><td>3</td><td>3</td></tr>
+      <tr><th scope="row">Lawrence Township (Mercer)</th><td>3</td><td>3</td></tr>
+      <tr><th scope="row">Woodbridge Township (Middlesex)</th><td>3</td><td>3</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source" data-file="lane2-content/data/route-1-nj-accidents/route1_fatal_by_municipality_year.csv">Source: NJDOT crash records via nj-crashes, NJSP fatal supplement; our count. Fort Lee, Plainsboro, Rahway and West Windsor had 2 deaths each; New Brunswick, North Brunswick, Ridgefield and Trenton 1 each. In all, 60 people died in 50 fatal accidents over the three years.</p>
+  <p>The 2025 file holds 10 deaths, against 23 in 2024. That file is preliminary, so do not read the drop as a trend yet.</p>
+</section>
+
+<section id="pedestrians">
+  <h2>Pedestrians on Route 1: Elizabeth, Linden and North Bergen</h2>
+  <p>Police recorded 90 pedestrian accidents on Route 1 in 2023 and 2024, under 1 percent of all records. Yet 16 pedestrians died, a third of the road's 50 deaths. That third is close to the statewide share (409 of 1,294).</p>
+  <p>Over half of the 90 were in three towns on the Route 1&amp;9 stretch: Elizabeth (24), Linden (13) and North Bergen (11). Edison had 9, and lost the most pedestrians: 4 died there in 2023 and 2024.</p>
+  <p class="source" data-file="lane2-content/data/profiles/route-1-nj-accidents.json (two_year_2023_2024, by_municipality_2023_2024); lane2-content/data/route-1-nj-accidents/route1_corridor_by_municipality.csv; lane2-content/data/route-1-nj-accidents/route1_pedestrian_by_municipality.csv; lane2-content/data/statewide.json">Source: NJDOT crash records via nj-crashes, NJSP fatal supplement; our count. Pedestrians killed counts persons; a few were killed in accidents police coded as another collision type. The 2025 preliminary file adds 49 more pedestrian accidents.</p>
+  <p>More on these accidents: <a href="/new-jersey/pedestrian-crash-new-jersey">pedestrian accidents in New Jersey</a>.</p>
+</section>
+
+<section id="crash-types">
+  <h2>Collision types on Route 1 compared with New Jersey</h2>
+  <p>Same direction collisions dominate: rear end and side swipe together were 72 percent of Route 1 accidents where someone was hurt, against 39 percent statewide. These are the types police coded on the report. They describe how vehicles met, not who caused any accident.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Police-coded collision type, Route 1 accidents where someone was hurt or killed, 2023 and 2024, with the statewide share</caption>
+    <thead>
+      <tr><th scope="col">Collision type (police code)</th><th scope="col">Route 1 count</th><th scope="col">Route 1 share</th><th scope="col">Statewide share</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Same direction, rear end</th><td>1,825</td><td>56.1%</td><td>30.7%</td></tr>
+      <tr><th scope="row">Same direction, side swipe</th><td>526</td><td>16.2%</td><td>8.5%</td></tr>
+      <tr><th scope="row">Right angle</th><td>311</td><td>9.6%</td><td>22.4%</td></tr>
+      <tr><th scope="row">Fixed object</th><td>295</td><td>9.1%</td><td>11.6%</td></tr>
+      <tr><th scope="row">Pedestrian</th><td>81</td><td>2.5%</td><td>6.6%</td></tr>
+      <tr><th scope="row">Left turn or U turn</th><td>50</td><td>1.5%</td><td>4.6%</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source" data-file="lane2-content/data/profiles/route-1-nj-accidents.json (crash_type_mix_2023_2024); lane2-content/data/statewide.json (crash_type_mix_2023_2024)">Source: NJDOT crash records via nj-crashes; our count. Share = share of accidents where someone was hurt or killed.</p>
+  <p>If you were in a rear end collision, see <a href="/new-jersey/rear-end-crash-new-jersey">rear end car accidents in New Jersey</a>.</p>
+</section>
+
+<section id="when">
+  <h2>Route 1 has more late-night injury accidents than New Jersey as a whole</h2>
+  <p>From 9 pm to 3 am, Route 1 had 19.5 percent of its accidents where someone was hurt in 2023 and 2024. Statewide that window holds 13.0 percent. The afternoon peak, 3 pm to 6 pm, is lower than usual: 18.5 percent against 23.7 percent statewide.</p>
+  <p>The single busiest hour of the week was Friday 5 pm to 6 pm, with 42 such accidents. December had the most (330) and February the fewest (210).</p>
+  <p class="source" data-file="lane2-content/data/profiles/route-1-nj-accidents.json (time); lane2-content/data/statewide.json (time.by_3h_window); lane2-content/data/route-1-nj-accidents/route1_top_weekday_hours_2023_2024.csv">Source: NJDOT crash records via nj-crashes, 2023 and 2024; our count by recorded accident time. Hour-by-hour statewide detail: <a href="/new-jersey/when-do-most-car-accidents-happen">when car accidents happen in New Jersey</a>.</p>
+</section>
+
+<section id="by-year">
+  <h2>How many accidents does Route 1 have each year?</h2>
+  <p>The yearly count is steady at about 6,300 to 6,600 police-reported accidents, with about 1,600 a year where someone was hurt.</p>
+  <div class="table-wrap">
+  <div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+    <caption>Route 1 car accidents by year, New Jersey, 2023 to 2025</caption>
+    <thead>
+      <tr><th scope="col">Year</th><th scope="col">All accidents</th><th scope="col">Someone hurt or killed</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th><th scope="col">Bicycle accidents</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">2023</th><td>6,346</td><td>1,612</td><td>2,262</td><td>27</td><td>44</td><td>18</td></tr>
+      <tr><th scope="row">2024</th><td>6,574</td><td>1,641</td><td>2,339</td><td>23</td><td>46</td><td>23</td></tr>
+      <tr><th scope="row">2025 (preliminary)</th><td>6,383</td><td>1,552</td><td>2,193</td><td>10</td><td>49</td><td>18</td></tr>
+    </tbody>
+  </table></div>
+  </div>
+  <p class="source" data-file="lane2-content/data/profiles/route-1-nj-accidents.json (years, ratio_2025_total_to_2024_total)">Source: NJDOT crash records via nj-crashes, NJSP fatal supplement; our count. 2023 and 2024 complete; 2025 preliminary.</p>
+  <p>Road-wide, the 2025 file already holds 97 percent of 2024's records. Town by town it is uneven: Newark's 2025 Route 1 records are 51 percent of its 2024 count, North Bergen's 70 percent, Jersey City's 74 percent and New Brunswick's 88 percent. For those towns the 2025 numbers are visibly incomplete.</p>
+  <p class="source" data-file="lane2-content/data/route-1-nj-accidents/route1_corridor_by_municipality.csv (ratio_2025_2024)">Source: our count of Route 1 records per town, 2025 against 2024.</p>
+</section>
+
+<section id="next-step">
+  <h2>After a car accident on Route 1: which police report to ask for</h2>
+  <p>Route 1 accidents are mostly handled by town police, not the State Police. Only 144 of the 19,303 Route 1 records for 2023 to 2025 name a State Police station, and 87 of those are in Trenton. So the report usually sits with the police department of the town where the accident happened.</p>
+  <p class="source" data-file="lane2-content/data/route-1-nj-accidents/route1_state_police_station.csv">Source: NJDOT crash records via nj-crashes; our count of records with a State Police station filled in (an undocumented field that fills less often in 2023, so a floor). This says nothing about who responded to any one accident.</p>
+  <ul>
+    <li>Edison: the township says motor vehicle accident reports are generally available in 7 to 10 business days, and serious crashes may take longer. Reports are obtained at police headquarters. <span class="source">(<a href="https://www.edisonnj.org/departments/public_safety/accident_police_reports.php">Edison Police Division, Accident Reports/Police Reports</a>, retrieved 2026-11-10)</span></li>
+    <li>South Brunswick: the police department's online reports page links to an online service for crash reports already submitted, and gives the email PDRec@sbpdnj.net for questions. <span class="source">(<a href="https://southbrunswicknj.gov/police/online-reports/">South Brunswick Police, Online Reports</a>, retrieved 2026-11-10)</span></li>
+    <li>If the State Police handled it: request the report through the official NJSP crash report portal. The basic report can be downloaded once it is approved; the page lists a $13.00 fee for non-toll road reports. <span class="source">(<a href="https://www.njportal.com/njsp/crashreports/">NJSP crash reports portal</a>, retrieved 2026-11-10)</span></li>
+  </ul>
+  <p>For every other town on Route 1, ask the town's police department. Fees and waits vary by department; we did not verify them. Write down the town, the cross street and any milepost sign, since the records file each accident by town and cross street.</p>
+</section>
+
+<section id="method">
+  <h2>Method and data</h2>
+  <ul>
+    <li>Records: NJDOT crash records for 2023 (per-table archive) and 2024 and 2025 (NJDOT Crash Data Portal), normalized by <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a>, fatal accidents supplemented from <a href="https://nj.gov/njsp/info/fatalacc/">NJ State Police fatal crash statistics</a>. Data file downloaded 2026-11-06.</li>
+    <li>Route 1 selection: records with route number 1 and a road name with a state or US prefix. County roads numbered 1 are excluded. Road names include US 1, US 1 Secondary, US 1 Truck, US 1 Business and named segments; we counted all of them. The selection also holds a few dozen records whose road name is another route (for example 10 named I-95 and 5 named US 130 in 2023 and 2024).</li>
+    <li>"Someone hurt or killed" means a police-reported accident with at least one person hurt or killed.</li>
+    <li>Period: 2023 and 2024 are complete at state level; headline, town and county totals use these two years. 2025 is preliminary and always labelled.</li>
+    <li>Cross streets: 2024 and 2025 only, spelling variants not merged, so counts are a floor.</li>
+    <li>These are counts, not risk rates. We have no traffic volume, so a busier stretch will show more accidents.</li>
+  </ul>
+  <p class="source" data-file="lane2-content/data/README.md; lane2-content/data/build_place_profiles.py; lane2-content/data/route-1-nj-accidents/route1_cuts.py">Scripts: build_place_profiles.py and route1_cuts.py, run 2026-11-10.</p>
+</section>
+
+
+<section class="place-common" id="what-these-numbers-mean">
+  <h2>What these numbers can and cannot tell you</h2>
+  <p>The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us. They show where and when accidents where someone was hurt happened on Route 1. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+  <h3>Rules that apply anywhere in New Jersey</h3>
+  <ul>
+    <li>Your own auto policy's PIP pays your medical bills "no matter who caused the auto accident." A claim against the other driver for pain and suffering is separate and depends on fault and on the lawsuit option on your policy. <span class="source">(<a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, p. 2)</span></li>
+    <li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's (the "51 percent" rule). Your damages are reduced by your share. <span class="source">(N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a>)</span></li>
+    <li>If someone is hurt, the driver must tell the police right away. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <span class="source">(N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a>)</span></li>
+    <li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <span class="source">(N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8)</span></li>
+  </ul>
+  <p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+  <div class="quiz-cta">
+    <p>Hurt in a car accident on Route 1? Take the 30-second New Jersey quiz. It asks about your injury, fault, medical attention, the police report and the date to see if you qualify for a free, no-obligation claim assessment. If your answers fit, a sponsoring lawyer's office may call you.</p>
+    <p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-1-nj-accidents">Start the New Jersey accident quiz</a></p>
+    <p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+  </div>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=route-1-nj-accidents">Start the New Jersey accident quiz ↗</a></div></footer></div>

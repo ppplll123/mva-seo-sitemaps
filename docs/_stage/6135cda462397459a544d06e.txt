@@ -1,0 +1,157 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.supplied-editorial .article-image img{max-height:none;object-fit:contain}.supplied-editorial blockquote{border-left:4px solid #c89443;background:#f5efdf;padding:18px 24px;margin:24px 0}.supplied-editorial blockquote p{margin:0}.supplied-editorial li{margin:10px 0}.supplied-editorial .rich-intro{max-width:760px}.supplied-editorial h3{font-size:23px}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article guide" id="medical-records-injury-claim-new-jersey">
+
+<h1>Medical records for a New Jersey car accident injury claim</h1>
+
+<section id="short-answer">
+<p><strong>Keep every record that shows when you were hurt, what care you received, what it cost and who paid.</strong> That means emergency room and follow-up records, test reports, itemized bills, insurance company payment explanations, receipts and your own dated symptom notes. In New Jersey these records do two jobs: they support your own PIP medical claim, and if you sue the other driver, they are the base for any physician certification and for claiming bills PIP does not cover.</p>
+<p>You have a federal right to copies of your medical and billing records from your providers and health plan, with few exceptions. Ask your own auto insurance company early which forms and documents it needs.</p>
+<p class="source">Sources: US Department of Health and Human Services, <a href="https://www.hhs.gov/hipaa/for-individuals/medical-records/index.html">Your Medical Records</a>, retrieved 2026-11-10. NJ Department of Banking and Insurance (DOBI), <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026)</a>, p. 25 "After an Accident", retrieved 2026-11-10.</p>
+</section>
+
+<section id="cta-top" class="cta">
+<p>Your PIP pays your medical bills no matter who caused the car accident. If another driver caused it, a short free questionnaire asks about your injury, medical attention, police report and accident date. If you qualify, a sponsoring lawyer or legal consultant may call you about a claim against that driver's insurance company. No obligation.</p>
+<p><a class="button" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=medical-records-injury-claim-new-jersey" data-quiz-link="after-answer">Start the New Jersey questionnaire</a></p>
+<p class="note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+<section id="why-records-matter">
+<h2>Why your records matter in New Jersey</h2>
+<p>This is general information, not legal advice.</p>
+
+<h3>For your PIP claim</h3>
+<p>PIP on your own policy pays your medical expenses regardless of fault. That is why New Jersey is called a no-fault state. It is a different idea from being "not at fault" for the car accident.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">New Jersey Auto Insurance Buyer's Guide (2026)</a>, p. 2, retrieved 2026-11-10. See also <a href="/new-jersey/is-nj-a-no-fault-state">is New Jersey a no-fault state</a>.</p>
+<p>Your bills and payment explanations show what PIP has paid and what you still owe. Even after the deductible, you pay a 20% co-payment on medical expenses between your deductible and $5,000. DOBI's example: $10,000 of expenses with the $250 deductible means you pay $250 plus $950, and the insurer pays $8,800.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide (2026)</a>, pp. 6 to 7, retrieved 2026-11-10. More on <a href="/new-jersey/pip-coverage-limits-medical-bills-new-jersey">PIP limits and deductibles</a>.</p>
+<p>If you chose your health insurance as primary for car accident injuries, your health plan's deductibles, co-pays and pre-certification rules apply first, and PIP pays second. Keep both sets of payment explanations.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/insurance/pipoption.htm">Selecting Your Health Insurer for PIP Option</a>, retrieved 2026-11-10. See <a href="/new-jersey/pip-health-insurance-medical-bills-new-jersey">PIP or health insurance first</a>.</p>
+
+<h3>For a lawsuit under the limitation on lawsuit option</h3>
+<p>Every New Jersey policy with PIP carries one of two lawsuit options. If no written choice was made, the limitation on lawsuit option applies by default. Under it, you can claim pain and suffering from the other driver only for certain injuries: death, dismemberment, significant disfigurement or scarring, displaced fractures, loss of a fetus, or a permanent injury.</p>
+<p>An injury counts as permanent when the body part or organ has not healed to function normally and will not heal with further treatment. If you sue, a physician certification based on objective clinical evidence must be served within 60 days after the defendant's answer. Your treating records are what that physician reviews.</p>
+<p>The option does not limit claims for economic loss, such as medical bills PIP does not cover and lost wages.</p>
+<p class="source">Sources: N.J.S.A. 39:6A-8 and 39:6A-8.1, statute text via <a href="http://web.archive.org/web/20260501025515/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8/">Justia 2025 edition (archived copy)</a>; DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know (2026)</a>, p. 9 "Do You Want an Unlimited Right to Sue?"; all retrieved 2026-11-10. See how courts applied it in <a href="/new-jersey/nj-verbal-threshold-appeals-rulings">verbal threshold appeals rulings</a>.</p>
+
+<h3>For bills above or outside PIP</h3>
+<p>Medical expenses that exceed your PIP limit, or that PIP does not cover, can be claimed against the driver who caused the car accident. Amounts PIP paid or will pay cannot be claimed again in that lawsuit. In May 2026 the NJ Supreme Court held that future treatment costs that fit within your remaining PIP limit must go through PIP.</p>
+<p class="source">Source: <a href="https://www.courtlistener.com/opinion/10854078/lakita-d-murray-v-christopher-b-punina/">Murray v. Punina, A-51-24 (N.J. May 6, 2026)</a>, quoting N.J.S.A. 39:6A-12, retrieved 2026-11-10.</p>
+</section>
+
+<section id="records-table">
+<h2>Which records to keep and what each one shows</h2>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Records after a New Jersey car accident and how they are used</caption>
+<thead>
+<tr><th scope="col">Record</th><th scope="col">What it shows</th><th scope="col">Where it is used</th><th scope="col">What it does not show alone</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">EMS and emergency room records</th><td>Your first recorded complaints, exam and care, with dates and times</td><td>PIP claim; any lawsuit</td><td>That every later symptom came from the car accident</td></tr>
+<tr><th scope="row">Follow-up visit notes</th><td>Findings, history and the treatment course over time</td><td>PIP claim; physician certification</td><td>A guaranteed recovery or payment</td></tr>
+<tr><th scope="row">Imaging and test reports</th><td>Reported results, a common source of objective clinical evidence</td><td>Physician certification; PIP claim</td><td>A legal decision on permanency</td></tr>
+<tr><th scope="row">Itemized bills</th><td>Each service, date and charge</td><td>PIP claim; claim for bills PIP did not cover</td><td>Whether a balance is owed or recoverable</td></tr>
+<tr><th scope="row">Insurance company payment explanations and denials</th><td>What PIP or health insurance paid, reduced or refused, and why</td><td>Tracking what remains unpaid</td><td>Whether a denial was correct</td></tr>
+<tr><th scope="row">Receipts</th><td>Prescriptions, equipment, travel to treatment and other actual spending</td><td>PIP claim; economic loss claim</td><td>Automatic repayment under your policy</td></tr>
+<tr><th scope="row">Work and pay records</th><td>Missed hours, pay and changed duties</td><td>PIP income continuation, if you bought it; lost wage claim</td><td>Medical inability without a clinician's note</td></tr>
+<tr><th scope="row">Your dated symptom notes</th><td>What you noticed, when, and how daily tasks changed</td><td>Memory aid for your clinician and your claim</td><td>A diagnosis</td></tr>
+<tr><th scope="row">Police car accident report</th><td>Recorded people, vehicles, place and accounts</td><td>Fault questions with the other driver's insurance company</td><td>Your injuries, or final fault</td></tr>
+</tbody>
+</table></div>
+</div>
+<p class="source">Sources: income continuation is part of PIP's optional extra package, DOBI <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide (2026)</a>, p. 12 policy options chart; insurers assign fault from all the facts, not only the police report, DOBI <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know (2026)</a>, pp. 25 to 26; both retrieved 2026-11-10. Table layout is our own summary.</p>
+<p>Related guides: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey car accident report</a>, <a href="/new-jersey/nj-can-you-claim-lost-wages-after-a-car-accident-in-nj">lost wages after a car accident</a> and <a href="/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">partly at fault car accidents</a>.</p>
+</section>
+
+<section id="get-copies">
+<h2>How to get copies of your medical records</h2>
+<p>Under the HIPAA Privacy Rule you can inspect and get copies of your medical and billing records held by covered providers and health plans, with few exceptions. Only you or your personal representative has that right.</p>
+<ul>
+<li>A provider may charge reasonable costs for copying and mailing, but not a fee for searching for or retrieving your records.</li>
+<li>A provider cannot refuse you a copy because you have not paid for the care.</li>
+<li>Psychotherapy notes kept separately by a mental health professional are not included.</li>
+<li>If something in your record is wrong, you can ask for an amendment. If the provider disagrees, you can add a statement of disagreement to your record.</li>
+</ul>
+<p class="source">Source: HHS, <a href="https://www.hhs.gov/hipaa/for-individuals/medical-records/index.html">Your Medical Records</a>, retrieved 2026-11-10.</p>
+<p>Ask each place for what you need by name and date range. The emergency room, the imaging center, your follow-up doctor and your health plan each keep their own files. A request for visit notes may not include the itemized bill, so ask for both. Keep the original of anything you receive and never edit a record yourself.</p>
+</section>
+
+<section id="er-questions">
+<h2>Questions to ask before you leave the emergency room</h2>
+<p>Write the answers down, or ask for them in writing. They become part of your record and help you follow the care plan.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Emergency room discharge questions to note</caption>
+<thead>
+<tr><th scope="col">Question</th><th scope="col">What to write down</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Are any test results still pending?</th><td>Who will give you the result and when</td></tr>
+<tr><th scope="row">Who should I see for follow-up?</th><td>The named doctor or clinic and the timing they gave</td></tr>
+<tr><th scope="row">What should I do at home?</th><td>The written instructions, medicines and any activity limits</td></tr>
+<tr><th scope="row">What changes mean I should come back?</th><td>The return instructions the clinician gave you</td></tr>
+<tr><th scope="row">How do I get copies of today's records and bill?</th><td>The records office and billing office contacts</td></tr>
+</tbody>
+</table></div>
+</div>
+<p>After a blow to the head, the CDC says to call 911 or go to an emergency department right away for danger signs. These include a headache that gets worse and does not go away, repeated vomiting, seizures, weakness or numbness, slurred speech, confusion, or being very drowsy or impossible to wake.</p>
+<p class="source">Source: Centers for Disease Control and Prevention, <a href="https://www.cdc.gov/traumatic-brain-injury/signs-symptoms/index.html">Signs and Symptoms of TBI</a>, retrieved 2026-11-10. For symptoms that appear later, see <a href="/new-jersey/nj-how-long-car-accident-symptoms-can-take-to-show-up">how long car accident symptoms can take to show up</a>.</p>
+</section>
+
+<section id="bill-log">
+<h2>Keep one log for bills and payments</h2>
+<p>A new statement is often the same bill again, not a new expense. Keep one line per service so totals are not counted twice.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Medical bill and payment log</caption>
+<thead>
+<tr><th scope="col">Column</th><th scope="col">What to enter</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Service</th><td>Provider, date of service and account number</td></tr>
+<tr><th scope="row">Statement</th><td>Statement date, charge and balance shown; keep earlier versions</td></tr>
+<tr><th scope="row">Sent to</th><td>PIP carrier or health plan, and the date</td></tr>
+<tr><th scope="row">Result</th><td>Paid, reduced, denied or waiting, with the explanation's date</td></tr>
+<tr><th scope="row">You paid</th><td>Date, amount and receipt, including the deductible and 20% co-payment</td></tr>
+<tr><th scope="row">Still open</th><td>The unpaid amount and who you contacted about it</td></tr>
+</tbody>
+</table></div>
+</div>
+<p>If a claim is denied, you are entitled to a written explanation. Keep it with the bill it concerns.</p>
+<p class="source">Source: DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know (2026)</a>, p. 29 "You Have the Right to the Prompt and Fair Handling of Claims", retrieved 2026-11-10.</p>
+<p>Disputes over PIP payments go through a separate process from an injury claim against the other driver. See <a href="/new-jersey/pip-coverage-limits-medical-bills-new-jersey">PIP coverage limits and medical bills</a> before you respond to a denial.</p>
+</section>
+
+<section id="symptom-notes">
+<h2>How to keep your own symptom notes</h2>
+<p>Keep three things separate: what you noticed, what a clinician recorded, and what the insurance company asked. A useful note has the date you wrote it, the date it happened, the ordinary task, and what changed.</p>
+<p>For example: "Written on the 13th about the 12th, in the evening: reaching to my usual kitchen shelf hurt, so I asked for help. I will tell my doctor." Write what really happened, including days you felt better.</p>
+<p>Tell your clinician your real history, including earlier problems with the same body part. If cost or transport delayed treatment, say so to the clinician rather than leaving an unexplained gap. Do not add visits to make a file look stronger. Treatment should follow medical need.</p>
+<p>For how notes and records relate to pain and suffering, see <a href="/new-jersey/nj-10-ways-to-prove-pain-and-suffering-after-an-accident">ways to show pain and suffering</a>.</p>
+</section>
+
+<section id="deadlines">
+<h2>Collecting records does not pause any deadline</h2>
+<p>Waiting for a chart or bill does not extend a legal deadline. In New Jersey a personal injury lawsuit generally must be started within two years after the claim arises. A claim against a public entity, such as a town or state vehicle, needs a written notice of claim within 90 days.</p>
+<p class="source">Sources: N.J.S.A. 2A:14-2, statute text via <a href="http://web.archive.org/web/20260930102816/https://law.justia.com/codes/new-jersey/title-2a/section-2a-14-2/">Justia 2025 edition (archived copy)</a>; N.J.S.A. 59:8-8 as quoted in <a href="https://www.courtlistener.com/opinion/8267675/odonnell-v-nj-tpk-auth/">O'Donnell v. N.J. Turnpike Authority, 236 N.J. 335 (2019)</a>; both retrieved 2026-11-10.</p>
+<p>Suits over PIP benefits have their own time limit, which runs from when you incur an expense and from the accident date, with an extension after the last PIP payment. The dates on your bills and payment explanations matter here. Exceptions apply, so ask a New Jersey lawyer about your own dates.</p>
+<p class="source">Source: N.J.S.A. 39:6A-13.1(a), as quoted in <a href="https://www.courtlistener.com/opinion/7403318/aponte-correa-v-allstate-insurance/">Aponte-Correa v. Allstate Ins. Co. (App. Div. 1999)</a>, retrieved 2026-11-10.</p>
+</section>
+
+<section id="next-step">
+<h2>Your next step</h2>
+<ol>
+<li>Call your own auto insurance company and ask which forms and documents it needs for your PIP claim.</li>
+<li>Request your emergency room records and itemized bill, then records from each follow-up provider.</li>
+<li>Start the bill log and your symptom notes today, and keep originals of everything.</li>
+<li>Check your policy's lawsuit option and PIP limit on your coverage selection form or declarations page.</li>
+</ol>
+<p>If the other driver had little or no insurance, see <a href="/new-jersey/nj-uninsured-motorist-claim-help">uninsured motorist claim help</a>. Before signing any agreement, see <a href="/new-jersey/nj-8-questions-to-ask-before-accepting-a-settlement-offer">questions to ask before accepting a settlement offer</a>. More topics are on the <a href="/new-jersey">New Jersey car accident hub</a>.</p>
+</section>
+
+<section id="cta-bottom" class="cta">
+<p>Your records show what happened to you. If another driver caused your car accident, the free questionnaire asks a few questions about your injury, medical attention, police report and date. Qualifying readers may get a phone call from a sponsoring lawyer or legal consultant. No obligation.</p>
+<p><a class="button" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=medical-records-injury-claim-new-jersey" data-quiz-link="end">Start the New Jersey questionnaire</a></p>
+<p class="note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=home">Start the New Jersey accident quiz ↗</a></div></footer></div>

@@ -1,0 +1,166 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><main id="main"><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><article class="l2-article guide" id="nj-new-jersey-property-damage-claim-help-and-steps-guide">
+
+<h1>New Jersey property damage claim: steps after a car accident</h1>
+
+<section id="short-answer">
+<p><strong>After a New Jersey car accident, you can claim for your car's damage in one of two ways.</strong> You can claim with your own insurance company if your policy has collision or comprehensive coverage, and it pays after your deductible. Or you can claim with the other driver's insurance company, which pays only to the extent its driver was legally responsible.</p>
+<p>Your PIP (no-fault) coverage does not help here. New Jersey's Department of Banking and Insurance (DOBI) says PIP pays only your own medical expenses and "does not pay for damage to a vehicle."</p>
+<p class="source">Source: NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk1.htm">Filing an Auto Damage Claim with Your Own Insurance Company</a>, introduction and question 1; NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk2.htm">Filing an Auto Damage Claim with Another Insurance Company</a>, introduction and question 1. Both retrieved 2026-11-10.</p>
+<p>This is general information, not legal advice.</p>
+</section>
+
+<section id="quiz-mid" class="quiz-cta">
+<p>Were you also hurt in the car accident? Your car claim and any injury claim are separate files. The 30-second New Jersey questionnaire is about the injury side, not your repair or your car's value. It asks about your injury, any lawyer you already have, fault, medical attention, the police report and the date. If your answers qualify, a sponsoring lawyer or legal consultant may call you. It is free and there is no obligation.</p>
+<p><a class="button" data-quiz-link="mid" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=nj-new-jersey-property-damage-claim-help-and-steps-guide">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+<section id="two-routes">
+<h2>Your own insurance company or the other driver's: how the two claims differ</h2>
+<p>DOBI publishes a separate guide for each route. The table puts their answers side by side so you can pick the route that fits your policy and the facts.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>New Jersey vehicle damage claims: own insurer (first party) versus other driver's insurer (third party), as DOBI describes them</caption>
+<thead>
+<tr><th scope="col">Question</th><th scope="col">Claim with your own insurance company</th><th scope="col">Claim with the other driver's insurance company</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">What you need</th><td>Collision or comprehensive ("physical damage") coverage on your policy.</td><td>Another driver who was legally responsible, in whole or in part.</td></tr>
+<tr><th scope="row">What it pays</th><td>Repair, or your car's value if the damage exceeds it, minus your deductible.</td><td>Your damage only to the extent its driver was legally responsible. This may not cover your full loss.</td></tr>
+<tr><th scope="row">First contact</th><td>Within 10 working days of notice, or inspection within 7 working days.</td><td>Same 10 and 7 working day rule. It need not inspect if it does not believe its driver was at fault.</td></tr>
+<tr><th scope="row">Time to settle</th><td>30 calendar days from notice, with a written reason if it takes longer.</td><td>45 calendar days from notice, with a written reason if it takes longer.</td></tr>
+<tr><th scope="row">Rental car</th><td>Usually only if you bought rental coverage. Theft claims often have a stated rental amount starting 48 hours after the theft.</td><td>Must commit once it knows its driver is 50% or more at fault. Paid in proportion to its driver's fault.</td></tr>
+<tr><th scope="row">Your relationship</th><td>A contract: your policy's "Conditions" or "Insured's Duties After a Loss" section applies to you.</td><td>No contract with you. Its main duty is to its own policyholder.</td></tr>
+</tbody>
+</table></div>
+</div>
+<p class="source">Sources: NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk1.htm">own insurer guide</a>, introduction and questions 2, 4, 5 and 6; NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk2.htm">other insurer guide</a>, introduction and questions 4, 7, 8 and 9. Retrieved 2026-11-10.</p>
+<p>The other driver's coverage can be small. DOBI's 2026 Buyer's Guide shows $25,000 per accident of property damage liability as the minimum on a standard policy, and $5,000 on a Basic Policy.</p>
+<p class="source">Source: NJ DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">New Jersey Auto Insurance Buyer's Guide 2026</a>, policy options and Basic Policy pages, retrieved 2026-11-10.</p>
+</section>
+
+<section id="steps">
+<h2>Steps after a car accident damages your car</h2>
+<ol>
+<li><strong>Tell the police when the law requires it.</strong> A driver must notify the police by the quickest means when a car accident causes injury, death or property damage to any one person over $500. A written report to the Motor Vehicle Commission within 10 days is also required, unless an officer files a written report. DOBI also says to report theft, vandalism and hit-and-run damage to the police right away.</li>
+<li><strong>Report the claim right away.</strong> Tell your insurance agent or company, and the other driver's insurance company if you claim against it. Exchange insurance details with the other driver.</li>
+<li><strong>Let the insurance company inspect before repairs.</strong> DOBI says you must make the car available for inspection before it is repaired. The insurer can only ask for a time and place that is reasonably convenient for you.</li>
+<li><strong>Stop further damage and keep receipts.</strong> If you leave a broken windshield uncovered, the insurer may refuse the later rain damage. Save receipts for emergency repairs so you can submit them.</li>
+<li><strong>Give the documents asked for.</strong> Your own insurer may ask for a proof of loss, repair estimates, the police report, and the title or bill of sale. Send it any legal papers you receive about the car accident.</li>
+<li><strong>Cooperate with the investigation.</strong> Both DOBI guides warn that a claim can be denied if you do not cooperate. Your own insurer may require an examination under oath, and you may have a lawyer present.</li>
+</ol>
+<p class="source">Sources: N.J.S.A. 39:4-130 (duty to report), text via Justia 2025 edition, <a href="http://web.archive.org/web/20260920182556/https://law.justia.com/codes/new-jersey/title-39/section-39-4-130/">Wayback snapshot 2026-09-20</a>, retrieved 2026-11-10; NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk1.htm">own insurer guide</a>, questions 2, 3 and 4; NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk2.htm">other insurer guide</a>, questions 2, 3 and 7. Retrieved 2026-11-10.</p>
+<p>Need the police report for the claim? See <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey car accident report</a>.</p>
+</section>
+
+<section id="fault">
+<h2>How fault changes what the other driver's insurance company pays</h2>
+<p>New Jersey uses comparative negligence. You can collect from the other driver if your share of fault is not greater than theirs. What you get is reduced by your share.</p>
+<p>DOBI's example: the other driver is 80% at fault and you are 20%, so their insurance company offers 80% of your damage. Rental payments follow the same split. If an insurer allows $30 a day and its driver is 60% at fault, it reimburses $18 a day.</p>
+<p>A traffic ticket does not settle fault. DOBI says a citation, or even a conviction, does not by itself make a driver 100% responsible. DOBI also notes that only a judge or jury can finally decide fault and how much is owed.</p>
+<p class="source">Sources: N.J.S.A. 2A:15-5.1, text via Justia 2025 edition, <a href="http://web.archive.org/web/20261009074503/https://law.justia.com/codes/new-jersey/title-2a/section-2a-15-5-1/">Wayback snapshot 2026-10-09</a>; NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk2.htm">other insurer guide</a>, questions 4, 9 and 23. Retrieved 2026-11-10.</p>
+<p>For more on split fault, see <a href="/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">what happens when you are partly at fault in a New Jersey car accident</a>.</p>
+</section>
+
+<section id="repairs">
+<h2>Repairs: your shop, parts and rental car</h2>
+<h3>Choosing the repair shop</h3>
+<p>You can choose your own licensed repair shop. The insurance company has to try to reach an agreed price with that shop. If it cannot, it gives you names of licensed shops that will do the work at its price.</p>
+<p>You can also ask the insurer to recommend a shop near the car. DOBI says that shop's work is guaranteed and the insurance company stands behind the guarantee.</p>
+<h3>New parts and aftermarket parts</h3>
+<p>The insurer only has to restore your car to its condition before the loss. That can mean original equipment (OEM) parts or aftermarket parts warranted as like kind and quality. You do not have to accept aftermarket parts, but you may pay the price difference for OEM parts. The appraisal must say in writing which parts are aftermarket.</p>
+<p>The insurer does not pay for "betterment." DOBI's example: if a five-year-old transmission is replaced with a new one, you pay the difference in value.</p>
+<h3>Rental car and storage</h3>
+<p>With the other driver's insurance company, ask about a rental car when you first report. It must tell you how much it would allow, and must commit once its driver is 50% or more at fault. If it offers a flat daily amount, it must tell you where you can rent for that amount. Payment runs until the repair is done, or until a total loss claim settles. If your car is safe to drive, rental is paid only while the car is in the shop.</p>
+<p>Storage fees add up daily. DOBI says the insurance company must give you 3 working days' notice before it stops paying storage, so you can move the car.</p>
+<p class="source">Sources: NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk1.htm">own insurer guide</a>, questions 6, 7, 9 to 12; NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk2.htm">other insurer guide</a>, questions 9, 10, 12 to 15. Retrieved 2026-11-10.</p>
+<p>If the car you were driving was a rental, see the <a href="/new-jersey/nj-new-jersey-rental-car-accident-claim-support-guide">New Jersey rental car accident claim guide</a>.</p>
+</section>
+
+<section id="total-loss">
+<h2>When the insurance company says your car is a total loss</h2>
+<p>A car is a total loss when the repair cost equals or exceeds its actual cash value (ACV) on the date of the loss. ACV is what the car would have sold for that day. DOBI notes insurers often total a car at 80% of ACV, because hidden damage often appears once repairs start.</p>
+<p>Each insurance company must use one of three valuation methods approved by the Commissioner for all its total loss claims:</p>
+<ul>
+<li>the average retail value of substantially similar cars in two named used-car price guides;</li>
+<li>a dealer quote for a substantially similar car within 25 miles of where your car is normally kept; or</li>
+<li>an approved valuation service, such as a computer database of fair market values.</li>
+</ul>
+<p>The insurer must tell you which method it used. It must also give you an itemized list of all additions, deductions and sales tax.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Total loss questions and what DOBI says the insurance company must or may do</caption>
+<thead>
+<tr><th scope="col">Your question</th><th scope="col">What DOBI says</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Can it deduct for old damage or rust?</th><td>Yes, but each deduction must be itemized with a dollar amount. It is limited to how much fixing that condition would raise the resale value.</td></tr>
+<tr><th scope="row">I found the same car for more money. What now?</th><td>If you find a substantially similar car within 30 days of receiving the settlement check, the insurer must pay the difference, negotiate that car's price, or find you a similar car within 25 miles at its offer price. Your own insurer may instead invoke the policy's appraisal clause.</td></tr>
+<tr><th scope="row">Can I keep the car?</th><td>Only if the insurer agrees. If it does, it deducts the salvage value from your settlement.</td></tr>
+<tr><th scope="row">Can I repair a car I kept?</th><td>Yes. If the car is 8 or fewer years from the current model year, you first need a salvage certificate from the Motor Vehicle Commission, then a special MVC inspection after repair.</td></tr>
+<tr><th scope="row">Does it pay off my car loan?</th><td>No. It pays the actual cash value. If you owe more than that, you still owe the difference. The check is often made out to your lender too.</td></tr>
+</tbody>
+</table></div>
+</div>
+<p class="source">Sources: NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk1.htm">own insurer guide</a>, questions 8 and 14 to 19; NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk2.htm">other insurer guide</a>, questions 11 and 16 to 21. Retrieved 2026-11-10.</p>
+</section>
+
+<section id="diminished-value">
+<h2>After the repair: questions about diminished value</h2>
+<p>Some owners feel a repaired car is worth less because of the car accident. Neither DOBI vehicle claim guide covers diminished value, and this page does not state a New Jersey rule for it. What DOBI does say is narrower. Your own insurer must restore the car to its condition before the loss. The other driver's insurer pays only to the extent its driver was legally responsible.</p>
+<p class="source">Sources: NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk1.htm">own insurer guide</a>, introduction and question 11; NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk2.htm">other insurer guide</a>, introduction and question 14. Retrieved 2026-11-10.</p>
+<p>If you still plan to raise a value question, keep it specific and backed by records:</p>
+<ul>
+<li>Say exactly what the concern is. An unfinished repair, a total loss value and value after a finished repair are different questions.</li>
+<li>Keep the estimate, the final repair invoice and any written assessment of the finished work.</li>
+<li>Record the car's condition before the car accident: trim, mileage, options and any earlier damage.</li>
+<li>Do not treat a listing price, an offer for your car and a completed sale as the same evidence.</li>
+<li>Before paying for an appraisal, ask what method it uses, what it costs and which question it answers.</li>
+<li>Keep the insurance company's written reply, and note whether it disputes fault, coverage, the evidence or the amount.</li>
+</ul>
+</section>
+
+<section id="disputes">
+<h2>If you disagree with the offer or the claim is denied</h2>
+<p><strong>With your own insurance company,</strong> either side can request an appraisal under your policy. Usually you each pick and pay an appraiser, and they choose a neutral umpire whose cost you may split. A decision by any two of the three is binding.</p>
+<p><strong>With either insurance company,</strong> you can file an appeal with the company's internal appeals panel. If you are still unhappy, you can ask DOBI's Insurance Claims Ombudsman to review the decision: 1-800-446-7467, ombudsman@dobi.nj.gov, or 20 West State Street, PO Box 472, Trenton NJ 08625-0472. Against the other driver's insurer, DOBI also lists claiming on your own policy and getting legal advice.</p>
+<p><strong>If the other driver's insurer says its policy does not cover the car accident,</strong> DOBI says a Standard Policy holder can make an uninsured motorist claim with their own company, less a $500 deductible. If the other driver had too little coverage, an underinsured motorist claim may cover the rest, also less $500. A Basic Policy has no UM or UIM coverage. See <a href="/new-jersey/nj-uninsured-motorist-claim-help">uninsured motorist claims in New Jersey</a>.</p>
+<p><strong>Do not let the claim sit.</strong> DOBI says you must accept a final settlement or file a lawsuit within the statute of limitations, or you may lose the right to any settlement. This page does not state that period for vehicle damage. Ask a New Jersey lawyer about your dates.</p>
+<p class="source">Sources: NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk1.htm">own insurer guide</a>, questions 20 to 22; NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk2.htm">other insurer guide</a>, questions 5, 6, 22 and 23; NJ DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a> (no UM/UIM on the Basic Policy). Retrieved 2026-11-10.</p>
+</section>
+
+<section id="if-hurt">
+<h2>If you were also hurt: keep the car claim separate</h2>
+<p>Your medical bills go through your own PIP, whoever caused the car accident. A claim against the other driver for an injury depends on fault and on the lawsuit option on your policy. A check for your car does not decide any of that.</p>
+<p>Before you sign anything to close the car claim, read which losses and which people the paper releases. If it mentions injury claims, get advice first. The <a href="/new-jersey/nj-8-questions-to-ask-before-accepting-a-settlement-offer">questions to ask before accepting a settlement offer</a> can help.</p>
+<p class="source">Source: research/nj-primary-sources.md section 1, citing NJ DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Buyer's Guide 2026</a>, p. 2, retrieved 2026-11-10.</p>
+<ul>
+<li><a href="/new-jersey/is-nj-a-no-fault-state">How New Jersey no-fault insurance works after a car accident</a></li>
+<li><a href="/new-jersey/pip-coverage-limits-medical-bills-new-jersey">What PIP covers and its limits for medical bills</a></li>
+<li><a href="/new-jersey/medical-records-injury-claim-new-jersey">Medical records to keep for an injury claim</a></li>
+<li><a href="/new-jersey/nj-what-to-expect-from-an-insurance-adjuster-after-an-accident">What to expect from an insurance adjuster</a></li>
+<li><a href="/new-jersey/new-jersey-car-accident-help">New Jersey car accident help: injuries, medical bills and claims</a></li>
+</ul>
+</section>
+
+<section id="quiz-end" class="quiz-cta">
+<p>Car claim moving, but you are still hurt? Your PIP pays your medical bills either way. The 30-second questionnaire is about whether you may also have an injury claim against the other driver. It cannot value your car or speed up your repair. If your answers qualify, a sponsoring lawyer or legal consultant may call you, free and with no obligation.</p>
+<p><a class="button" data-quiz-link="end" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=nj-new-jersey-property-damage-claim-help-and-steps-guide">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+
+<section id="sources">
+<h2>Sources</h2>
+<ul>
+<li>NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk1.htm">What You Should Know About Filing an Auto Damage Claim with Your Own Insurance Company</a>, retrieved 2026-11-10.</li>
+<li>NJ DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/wysk2.htm">What You Should Know About Filing an Auto Damage Claim with Another Insurance Company</a>, retrieved 2026-11-10.</li>
+<li>NJ DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">New Jersey Auto Insurance Buyer's Guide 2026</a>, retrieved 2026-11-10.</li>
+<li>N.J.S.A. 39:4-130, Justia 2025 edition, <a href="http://web.archive.org/web/20260920182556/https://law.justia.com/codes/new-jersey/title-39/section-39-4-130/">Wayback snapshot 2026-09-20</a>, retrieved 2026-11-10.</li>
+<li>N.J.S.A. 2A:15-5.1, Justia 2025 edition, <a href="http://web.archive.org/web/20261009074503/https://law.justia.com/codes/new-jersey/title-2a/section-2a-15-5-1/">Wayback snapshot 2026-10-09</a>, retrieved 2026-11-10.</li>
+</ul>
+<p>General information for New Jersey car accident questions. Injuries Cases Autos is not a law firm, insurer or appraiser. Back to the <a href="/new-jersey">New Jersey car accident hub</a>.</p>
+</section>
+
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=home">Start the New Jersey accident quiz ↗</a></div></footer></div>
