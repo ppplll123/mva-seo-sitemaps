@@ -1,0 +1,7 @@
+year,status,window,start,end,ped_crashes_all_hours,ped_crashes_5to8pm,ped_crashes_5to8pm_dark,ped_killed_all_hours,ki_crashes_5to8pm,all_crashes_5to8pm
+2023,complete,28 days before,2023-10-08,2023-11-04,385,97,71,14,845,3892
+2023,complete,28 days after,2023-11-05,2023-12-02,423,166,146,24,1115,5149
+2024,complete,28 days before,2024-10-06,2024-11-02,406,105,59,27,945,4289
+2024,complete,28 days after,2024-11-03,2024-11-30,440,154,132,31,1116,5167
+2025,preliminary,28 days before,2025-10-05,2025-11-01,403,103,63,12,957,4183
+2025,preliminary,28 days after,2025-11-02,2025-11-29,375,130,121,13,1121,5190
