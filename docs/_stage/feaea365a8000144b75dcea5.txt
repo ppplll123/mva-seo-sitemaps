@@ -1,0 +1,299 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><main id="main"><nav class="l2-crumbs" aria-label="Breadcrumb" style="max-width:780px;margin:24px auto -40px;padding:0 30px;font-size:14px"><a href="/">Home</a> <span aria-hidden="true">/</span> <a href="/new-jersey">New Jersey accident guides</a></nav><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}.l2-article .byline{font-size:15px;opacity:.8;margin:-10px 0 18px}.l2-article .key-facts{background:var(--panel);border-radius:10px;padding:18px 20px;margin:22px 0 26px}.l2-article .key-facts h2,.l2-article .key-facts h3{margin:0 0 10px;font-size:15px;text-transform:uppercase;letter-spacing:.06em}.l2-article .key-facts ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}.l2-article .key-facts li{background:var(--paper);border-left:4px solid var(--ink);padding:12px 14px;margin:0;font-size:16px;line-height:1.4}.l2-article .key-facts li strong,.l2-article .key-facts li b{display:block;font-size:26px;line-height:1.1;margin-bottom:4px}.l2-article sup a{text-decoration:none;font-size:12px;padding:0 2px}.l2-article #sources{font-size:14px;line-height:1.5;border-top:1px solid color-mix(in srgb,var(--ink) 20%,transparent);margin-top:40px;padding-top:12px}.l2-article #sources h2{font-size:18px}.l2-article #sources li{margin:4px 0;overflow-wrap:anywhere}.l2-article details{background:var(--panel);padding:12px 16px;margin:18px 0;border-radius:8px}.l2-article summary{cursor:pointer;font-weight:700}.l2-article .l2-tablewrap{background:linear-gradient(to right,var(--paper) 30%,transparent),linear-gradient(to left,var(--paper) 30%,transparent) 100% 0,radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;background-repeat:no-repeat;background-size:40px 100%,40px 100%,14px 100%,14px 100%;background-attachment:local,local,scroll,scroll}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><style>/* Final presentation layer for lane 2 bodies (2026-11-11). Scoped to article.l2-article.df.
+   Uses only the site tokens --ink, --paper, --panel, --accent. Load after L2_CSS. */
+.l2-article.df{max-width:800px;font-size:18px}
+.l2-article.df h1{margin-bottom:12px}
+.l2-article.df h2{font-size:26px;line-height:1.25;margin:56px 0 14px}
+.l2-article.df h2::after{content:"";display:block;width:56px;height:5px;border-radius:3px;background:var(--accent);margin-top:10px}
+.l2-article.df h3{font-size:20px}
+.l2-article.df p{line-height:1.65;margin:10px 0 16px;max-width:68ch}
+.l2-article.df strong.df-k{font-weight:700}
+
+/* jump pills under the h1 */
+.l2-article.df .df-jump{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 20px;font:700 14px/1.3 Arial,sans-serif}
+.l2-article.df .df-jump span{opacity:.75;margin-right:2px}
+.l2-article.df .df-jump a{display:inline-block;padding:7px 13px;border-radius:20px;border:1.5px solid var(--ink);color:var(--ink);text-decoration:none;background:var(--paper)}
+.l2-article.df .df-jump a:first-of-type{background:var(--accent);border-color:var(--accent)}
+
+/* answer card */
+.l2-article.df .df-answer{background:var(--accent);border-radius:16px;padding:22px 26px 10px;margin:4px 0 30px}
+.l2-article.df .df-answer::before{content:"Quick answer";display:inline-block;background:var(--ink);color:var(--paper);font:700 12px/1 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;padding:7px 12px;border-radius:20px;margin-bottom:12px}
+.l2-article.df .df-answer p{max-width:none}
+.l2-article.df .df-answer p.df-lead{font-size:20px;line-height:1.5;font-weight:400}
+.l2-article.df .df-answer p.df-lead > strong:first-child{display:block;font-size:23px;line-height:1.35;font-weight:800;margin-bottom:8px}
+.l2-article.df .df-answer .source,.l2-article.df .df-answer .note{opacity:.9}
+.l2-article.df .df-answer a{color:var(--ink)}
+
+/* stat cards */
+.l2-article.df .df-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:16px 0 18px}
+.l2-article.df .df-stats-2{grid-template-columns:repeat(2,1fr)}
+.l2-article.df .df-stats-3{grid-template-columns:repeat(3,1fr)}
+.l2-article.df .df-stat{background:var(--paper);border-radius:12px;padding:14px 14px 12px;display:flex;flex-direction:column;gap:5px}
+.l2-article.df .df-stat-q{font:700 11px/1 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;opacity:.7}
+.l2-article.df .df-stat-n{font:800 32px/1 Arial,sans-serif;letter-spacing:-.02em}
+.l2-article.df .df-stat-t{font:14px/1.35 Arial,sans-serif;opacity:.85}
+
+/* bar charts built from table numbers */
+.l2-article.df .df-chart{margin:20px 0 6px;padding:16px 18px 12px;background:var(--panel);border-radius:14px;font:15px/1.35 Arial,sans-serif}
+.l2-article.df .df-chart-t{font-weight:700;font-size:15px;margin:0 0 8px}
+.l2-article.df .df-legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:0 0 10px;font-size:13px;font-weight:700}
+.l2-article.df .df-key::before{content:"";display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:var(--ink)}
+.l2-article.df .df-key-c::before{background:color-mix(in srgb,var(--ink) 30%,transparent)}
+.l2-article.df .df-rows{list-style:none;margin:0;padding:0}
+.l2-article.df .df-row{display:grid;grid-template-columns:minmax(0,38%) 1fr;gap:12px;align-items:center;margin:0;padding:6px 0;border-bottom:1px solid color-mix(in srgb,var(--ink) 10%,transparent)}
+.l2-article.df .df-row:last-child{border-bottom:0}
+.l2-article.df .df-lab{font-weight:700;overflow-wrap:anywhere}
+.l2-article.df .df-bars{display:grid;grid-template-columns:1fr 54px;gap:3px 8px;align-items:center}
+.l2-article.df .df-bar{height:14px;background:color-mix(in srgb,var(--ink) 8%,transparent);border-radius:7px;overflow:hidden}
+.l2-article.df .df-fill{display:block;height:100%;background:var(--ink);border-radius:7px;min-width:3px}
+.l2-article.df .df-bar-c{height:8px}
+.l2-article.df .df-bar-c .df-fill{background:color-mix(in srgb,var(--ink) 30%,transparent)}
+.l2-article.df .df-val{font-weight:700;font-variant-numeric:tabular-nums;text-align:right}
+.l2-article.df .df-val-c{font-weight:400;font-size:13px;opacity:.8}
+.l2-article.df .df-map .df-rows{position:relative;padding-left:26px}
+.l2-article.df .df-map .df-rows::before{content:"";position:absolute;left:8px;top:8px;bottom:8px;width:6px;border-radius:3px;background:var(--ink);opacity:.85}
+.l2-article.df .df-map .df-row{position:relative}
+.l2-article.df .df-map .df-row::before{content:"";position:absolute;left:-23px;top:50%;width:12px;height:12px;margin-top:-6px;border-radius:50%;background:var(--accent);border:3px solid var(--ink);box-sizing:border-box}
+
+/* the full table under each chart, behind a native toggle */
+.l2-article.df .df-tablebox{margin:4px 0 24px}
+.l2-article.df .df-tablebox > summary{cursor:pointer;display:inline-flex;align-items:center;gap:8px;font:700 14px/1.3 Arial,sans-serif;padding:8px 14px;border-radius:20px;border:1.5px solid color-mix(in srgb,var(--ink) 35%,transparent);list-style:none}
+.l2-article.df .df-tablebox > summary::-webkit-details-marker{display:none}
+.l2-article.df .df-tablebox > summary::after{content:"+";font-size:17px;line-height:1}
+.l2-article.df .df-tablebox[open] > summary::after{content:"\2212"}
+.l2-article.df .df-tablebox[open] > summary{margin-bottom:6px}
+
+/* tables: rounded box, dark header, edge shadow while more columns are hidden */
+.l2-article.df .l2-tablewrap{position:relative;border-radius:12px;border:1px solid color-mix(in srgb,var(--ink) 18%,transparent);
+  background:linear-gradient(to right,var(--paper) 30%,transparent) left center/40px 100% no-repeat local,
+             linear-gradient(to left,var(--paper) 30%,transparent) right center/40px 100% no-repeat local,
+             linear-gradient(to right,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/14px 100% no-repeat scroll,
+             linear-gradient(to left,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/14px 100% no-repeat scroll}
+.l2-article.df table{font-size:15px}
+.l2-article.df caption{font:700 14px/1.4 Arial,sans-serif;padding:12px 12px 8px;position:sticky;left:0}
+.l2-article.df thead th{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.l2-article.df td{background:transparent;font-variant-numeric:tabular-nums}
+
+/* quiz CTA: one clear action card */
+.l2-article.df .quiz-cta{background:var(--ink);color:var(--paper);border:0;border-radius:16px;padding:24px 26px;margin:34px 0;box-shadow:0 8px 24px color-mix(in srgb,var(--ink) 25%,transparent)}
+.l2-article.df .quiz-cta p{max-width:none;color:var(--paper)}
+.l2-article.df .quiz-cta p:first-child{font-size:19px;line-height:1.5}
+.l2-article.df .quiz-cta .button{background:var(--accent);color:var(--ink);border-radius:30px;padding:16px 26px;font-size:18px;margin-top:6px}
+.l2-article.df .quiz-cta .button::after{content:" \2192"}
+.l2-article.df .quiz-cta .cta-note,.l2-article.df .quiz-cta p.note{font-size:13px;opacity:.8;background:none;padding:0;border-radius:0}
+.l2-article.df .quiz-cta a:not(.button){color:var(--paper)}
+.l2-article.df .df-answer .quiz-cta{margin:18px -10px 18px}
+
+/* numbered steps */
+.l2-article.df ol.df-steps{list-style:none;counter-reset:dfstep;padding:0;margin:18px 0}
+.l2-article.df ol.df-steps > li{counter-increment:dfstep;position:relative;background:var(--panel);border-radius:12px;padding:14px 16px 14px 62px;margin:10px 0;line-height:1.55}
+.l2-article.df ol.df-steps > li::before{content:counter(dfstep);position:absolute;left:14px;top:12px;width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--paper);font:700 17px/34px Arial,sans-serif;text-align:center}
+.l2-article.df .df-rules ul{list-style:none;padding:0}
+.l2-article.df .df-rules ul > li{background:var(--panel);border-left:5px solid var(--accent);border-radius:8px;padding:12px 16px;margin:10px 0}
+.l2-article.df p.note{background:var(--panel);border-radius:10px;padding:12px 16px}
+
+/* "How we built this page": the original-research box */
+.l2-article.df .df-method{background:var(--panel);border-radius:16px;padding:6px 24px 14px;margin-top:48px;border-left:6px solid var(--ink)}
+.l2-article.df .df-method h2{margin-top:18px}
+.l2-article.df .df-method p,.l2-article.df .df-method li{font-size:16px}
+
+/* related links as chips */
+.l2-article.df .df-links ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.l2-article.df .df-links li{margin:0;display:inline-flex;align-items:center}
+.l2-article.df .df-links ul a{display:inline-block;padding:8px 14px;border-radius:20px;background:var(--panel);text-decoration:none;color:var(--ink);font:15px/1.35 Arial,sans-serif}
+
+/* footnote markers: small round badges, not academic superscripts */
+.l2-article.df sup.df-fn{font:700 10px/0 Arial,sans-serif;margin-left:3px;vertical-align:2px}
+.l2-article.df sup.df-fn a{display:inline-block;min-width:16px;height:16px;line-height:16px;text-align:center;text-decoration:none;border-radius:8px;background:color-mix(in srgb,var(--ink) 10%,transparent);color:var(--ink)}
+.l2-article.df .df-fnline{margin:-6px 0 12px}
+
+/* FAQ accordions */
+.l2-article.df .df-faq{border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent);padding:4px 0}
+.l2-article.df .df-faq summary{cursor:pointer;list-style:none;display:flex;gap:12px;align-items:flex-start;padding:10px 0}
+.l2-article.df .df-faq summary::-webkit-details-marker{display:none}
+.l2-article.df .df-faq summary::before{content:"+";flex:0 0 28px;height:28px;border-radius:50%;background:var(--ink);color:var(--paper);font:700 20px/28px Arial,sans-serif;text-align:center;margin-top:1px}
+.l2-article.df .df-faq[open] summary::before{content:"\2212"}
+.l2-article.df .df-faq summary h3{margin:0;font-size:19px;line-height:1.35}
+.l2-article.df .df-faq > :not(summary){margin-left:40px}
+
+/* sources list: present and linked, but quiet */
+.l2-article.df .df-sources{margin-top:48px;padding-top:6px;border-top:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}
+.l2-article.df .df-sources h2{font-size:18px;margin-top:16px}
+.l2-article.df .df-sources h2::after{display:none}
+.l2-article.df .df-sources ol{list-style:decimal;padding-left:24px;margin:8px 0;font:13.5px/1.5 Arial,sans-serif;opacity:.9}
+.l2-article.df .df-sources li{margin:5px 0;padding-left:4px}
+.l2-article.df .df-src-body a{overflow-wrap:anywhere}
+.l2-article.df .df-back{text-decoration:none;margin-left:4px}
+.l2-article.df :target{scroll-margin-top:20px}
+.l2-article.df li:target{background:color-mix(in srgb,var(--accent) 60%,transparent)}
+
+@media(max-width:700px){
+  .l2-article.df{font-size:17px}
+  .l2-article.df h2{font-size:23px;margin-top:44px}
+  .l2-article.df .df-answer{padding:18px 16px 6px;margin-left:-6px;margin-right:-6px}
+  .l2-article.df .df-answer p.df-lead{font-size:18px}
+  .l2-article.df .df-answer p.df-lead > strong:first-child{font-size:21px}
+  .l2-article.df .df-jump{gap:6px;font-size:13px}
+  .l2-article.df .df-jump span{display:none}
+  .l2-article.df .df-jump a{padding:6px 11px}
+  .l2-article.df .df-stats,.l2-article.df .df-stats-3{grid-template-columns:repeat(2,1fr)}
+  .l2-article.df .df-stat-n{font-size:27px}
+  .l2-article.df .df-chart{padding:14px 12px 10px}
+  .l2-article.df .df-row{grid-template-columns:1fr;gap:4px}
+  .l2-article.df .df-map .df-row::before{top:12px;margin-top:0}
+  .l2-article.df .quiz-cta{padding:20px 18px}
+  .l2-article.df .quiz-cta .button{display:block;text-align:center}
+  .l2-article.df .df-answer .quiz-cta{margin:16px -6px}
+  .l2-article.df th[scope="row"]{position:sticky;left:0;z-index:1;background:var(--paper);min-width:120px}
+  /* text tables become one card per row on phones (labels come from data-label) */
+  .l2-article.df table.df-stack{min-width:0;width:100%;border:0}
+  .l2-article.df table.df-stack thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .l2-article.df table.df-stack tbody,.l2-article.df table.df-stack tr,.l2-article.df table.df-stack th,.l2-article.df table.df-stack td{display:block}
+  .l2-article.df table.df-stack tr{background:var(--panel);border-radius:10px;margin:0 8px 10px;padding:10px 14px}
+  .l2-article.df table.df-stack th,.l2-article.df table.df-stack td{border:0;padding:4px 0;min-width:0;position:static;background:transparent}
+  .l2-article.df table.df-stack tbody th{font-size:16px;color:var(--ink)}
+  .l2-article.df table.df-stack td::before{content:attr(data-label);display:block;font:700 12px/1.3 Arial,sans-serif;letter-spacing:.04em;text-transform:uppercase;opacity:.65;margin-bottom:2px}
+  .l2-article.df .l2-tablewrap:has(table.df-stack){border:0;background:none;overflow:visible}
+  .l2-article.df ol.df-steps > li{padding-left:56px}
+  .l2-article.df .df-faq > :not(summary){margin-left:0}
+  .l2-article.df .df-method{padding:4px 16px 10px}
+}
+/* Optional site-shell fix (outside the article layer). Pre-existing: at 390 px the footer
+   flex row (.mva-footer-grid) does not wrap, so .mva-footer-contact sticks out to 450 px.
+   Verified in Chromium on the after-*.html previews: scrollWidth 450 -> 390. */
+@media(max-width:700px){.mva-footer-grid{flex-wrap:wrap;row-gap:24px}.mva-footer-grid>*{min-width:0;max-width:100%}}
+</style><article class="l2-article guide df" id="partly-at-fault-nj-car-accident-real-fault-splits">
+<h1>Partly at Fault in a NJ Car Accident? 40% Kept $364,800. 75% Got Zero.</h1><nav class="df-jump" aria-label="Jump to" data-df="added"><span>Jump to:</span><a href="#faq">Questions</a><a href="#sources">Sources</a></nav>
+<p class="byline">By Sandra H. Brown, Injuries Cases Autos research. Updated <time datetime="2026-11-11">11 November 2026</time></p>
+<section id="answer" class="df-answer">
+<p class="df-lead"><strong>Yes, you can still recover in New Jersey if you were partly at fault, as long as your share is 50 percent or less.</strong> Your money is cut by your share. Above 50 percent you get nothing from the other side.</p>
+<aside class="key-facts"><ul>
+<li data-origin="original"><strong>40 percent</strong> at fault: a cyclist's estate still kept $364,800</li>
+<li data-origin="original"><strong>51 percent</strong> at fault: a jury split of 51/49 meant a no-cause verdict and $0</li>
+<li data-origin="original"><strong>2</strong> of 7: real NJ fault splits where the injured person was over 50 percent and got $0</li>
+<li><strong>$900</strong> of $1,000: what DOBI says you collect at 10 percent fault</li>
+</ul></aside>
+</section>
+<section class="quiz-cta" id="quiz-mid">
+<p>Hurt, and the other driver says you share the blame? A 30-second questionnaire checks whether a lawyer's office may review your claim for free.</p>
+<p><a class="button" data-quiz-link="mid" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=partly-at-fault-nj-car-accident-real-fault-splits">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+<section id="fault-splits">
+<h2>How did New Jersey juries actually split fault?</h2>
+<p><strong class="df-k">Injured people at 20 and 40 percent fault kept reduced awards.</strong> Those at 51 and 75 percent got nothing. The ladder below runs from the smallest share on the injured person to the largest.</p>
+<p>The Dutton estate at 40 percent and the Brooks estate at 51 percent sit 11 points apart, and that gap decided $364,800 versus nothing. Rice and Dutton both turned on where the injured person was and what the driver could see; the <a href="/new-jersey/hit-by-car-pedestrian-cyclist-nj-appeals">pedestrian and cyclist appeals</a> page covers them in full.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table class="df-stack">
+<caption>The partial-fault ladder: 4 New Jersey fault splits with a share on the injured person</caption>
+<thead>
+<tr><th scope="col">Decision</th><th scope="col">Who was blamed, how much</th><th scope="col">What it did to the money</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row" data-label="Decision"><a href="https://www.courtlistener.com/opinion/6486568/morales-hurtado-v-reinoso/">Morales-Hurtado v. Reinoso (2018, published)</a></th><td data-label="Who was blamed, how much">Injured driver 20, other driver 80 (rear-end crash of a jitney).</td><td data-label="What it did to the money">$50,000 for pain and suffering plus $71,615.73 in past medical costs, subject to the 20 percent reduction. Later reversed for a new trial over defence counsel's conduct.</td></tr>
+<tr><th scope="row" data-label="Decision"><a href="https://www.courtlistener.com/opinion/6487385/dutton-v-rando/">Dutton v. Rando (2019, published)</a></th><td data-label="Who was blamed, how much">Cyclist 40, SUV driver 60.</td><td data-label="What it did to the money">$500,000 wrongful death plus $108,000 survivorship damages, molded to a $364,800 judgment ($608,000 x 60 percent).</td></tr>
+<tr><th scope="row" data-label="Decision"><a href="https://law.justia.com/cases/new-jersey/appellate-division-unpublished/2025/a-3405-22.html">Brooks v. Longcor (2025, unpublished)</a></th><td data-label="Who was blamed, how much">Driver who died 51, truck owner and truck driver 49 (car hit a truck parked on the shoulder; the driver had a .054 blood alcohol level).</td><td data-label="What it did to the money">Nothing. The split "resulted in a no-cause verdict." Affirmed on appeal.</td></tr>
+<tr><th scope="row" data-label="Decision"><a href="https://www.courtlistener.com/opinion/6485067/rice-v-miller/">Rice v. Miller (2018, published)</a></th><td data-label="Who was blamed, how much">Pedestrian 75, driver 25 (crossing a highway).</td><td data-label="What it did to the money">Nothing. Judgment for the driver because the pedestrian's share was greater.</td></tr>
+</tbody>
+</table></div>
+</div>
+<p>One more pedestrian case is not a split: in <a href="https://law.justia.com/cases/new-jersey/appellate-division-unpublished/2025/a-2565-23.html">Daniels v. Bussey (2025, unpublished)</a> the jury found the driver not negligent, so there was no recovery, and the crosswalk jury instructions were upheld.</p>
+<details><summary>Multi-driver cases: the injured driver at 0 percent</summary>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table class="df-stack">
+<caption>Three splits between other drivers</caption>
+<thead>
+<tr><th scope="col">Decision</th><th scope="col">Split</th><th scope="col">Result</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row" data-label="Decision"><a href="https://law.justia.com/cases/new-jersey/appellate-division-unpublished/2025/a-1017-23.html">Robinson v. Stengel (2025)</a></th><td data-label="Split">60 and 40 between two defendant groups</td><td data-label="Result">$3.5 million verdict affirmed</td></tr>
+<tr><th scope="row" data-label="Decision"><a href="https://law.justia.com/cases/new-jersey/appellate-division-unpublished/2025/a-2567-23.html">Cain v. DiMeglio (2025)</a></th><td data-label="Split">U-turning driver 65, following driver 35</td><td data-label="Result">$325,000 judgment against the U-turning driver</td></tr>
+<tr><th scope="row" data-label="Decision"><a href="https://www.courtlistener.com/opinion/4888351/jose-carbajal-vs-nancy-v-patel-l-4317-17-middlesex-county-and/">Carbajal v. Patel (2021)</a></th><td data-label="Split">Identified driver 60, phantom vehicle 40</td><td data-label="Result">$200,000 verdict</td></tr>
+</tbody>
+</table></div>
+</div>
+</details>
+</section>
+<section id="dobi-examples">
+<h2>How much do you get at 10, 50 or 80 percent fault?</h2>
+<p><strong class="df-k">At 10 percent you collect $900 of $1,000 in damage, at 50 percent $500, and at 80 percent nothing from the other driver.</strong> These are DOBI's own worked examples.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table class="df-stack">
+<caption>DOBI examples: $1,000 of damage, claim against the other driver's insurance company</caption>
+<thead>
+<tr><th scope="col">Your share of fault</th><th scope="col">Paid by the other driver's insurance company</th><th scope="col">DOBI source</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row" data-label="Your share of fault">10 percent</th><td data-label="Paid by the other driver&#x27;s insurance company">$900</td><td data-label="DOBI source">Comparative Negligence FAQ, question 5</td></tr>
+<tr><th scope="row" data-label="Your share of fault">50 percent</th><td data-label="Paid by the other driver&#x27;s insurance company">$500</td><td data-label="DOBI source">Comparative Negligence FAQ, question 5</td></tr>
+<tr><th scope="row" data-label="Your share of fault">80 percent</th><td data-label="Paid by the other driver&#x27;s insurance company">Nothing from the other driver</td><td data-label="DOBI source">Everything You Wanted to Know About Auto Insurance (2026), pages 26 to 27</td></tr>
+</tbody>
+</table></div>
+</div>
+<p>The rule behind these numbers is modified comparative negligence: you recover if your fault is not greater than the other side's, minus your own percentage. The same cut applies to other costs you claim, such as rental car charges.</p>
+<p>Some pages say a partly at fault driver "can recover up to 50 percent" of their losses. That misreads the rule: the cut equals your share, so at 10 percent fault you keep 90 percent.</p>
+<p>Who pays for your car damage? Under your own collision coverage, your fault share does not reduce the payment; against the other driver, it does. See the <a href="/new-jersey/nj-new-jersey-property-damage-claim-help-and-steps-guide">property damage claim steps</a>.<sup class="df-fn"><a href="#src-1">1</a></sup></p>
+
+</section>
+<section id="jury">
+<h2>Can you recover if you are exactly 50 percent at fault?</h2>
+<p>Yes. At exactly 50 percent you still recover half, because your share is not greater than the other side's.</p>
+<p>The <a href="https://law.justia.com/cases/new-jersey/appellate-division-unpublished/2025/a-1446-23.html">Koukounias hit-and-run UM trial (2025, unpublished)</a> shows the line: the jury split fault 50/50 and stopped. The judge sent it back, saying her share was exactly fifty percent and so not greater than fifty. The rest of that case is on the <a href="/new-jersey/nj-hit-and-run-accident-claim-help">hit-and-run claim help</a> page.</p>
+</section>
+<section id="two-drivers">
+<h2>Who pays when two other drivers share the blame?</h2>
+<p>A defendant 60 percent or more at fault can be made to pay all your damages; below 60 percent, each pays only its own share.</p>
+<p>In Carbajal the identified driver at 60 percent paid the balance after the phantom driver's UM payment. For chain-reaction crashes see <a href="/new-jersey/describe-multiple-vehicle-crash-nj">help after a multiple-vehicle car accident</a>, and for fled or uninsured drivers <a href="/new-jersey/nj-uninsured-motorist-claim-help">how uninsured motorist claims work</a>.</p>
+</section>
+<section id="insurer-percentage">
+<h2>Who decides your fault percentage, and can you appeal it?</h2>
+<p><strong class="df-k">Most claims never reach a jury: the other driver's insurance company sets the percentage.</strong> You can challenge it through the insurer's internal appeal, the DOBI Claims Ombudsman or court.</p>
+<p>The steps and what to say are on <a href="/new-jersey/nj-what-to-expect-from-an-insurance-adjuster-after-an-accident">what to expect from an insurance adjuster</a>. Keep the written fault decision, and read <a href="/new-jersey/nj-8-questions-to-ask-before-accepting-a-settlement-offer">questions to ask before accepting a settlement offer</a> before you sign a release.<sup class="df-fn"><a href="#src-2">2</a></sup></p>
+
+</section>
+<section id="fault-check">
+<h2>Which facts moved the percentage in these cases?</h2>
+<p>Three kinds of fact moved the splits above: where the injured person was, other vehicles, and alcohol evidence.</p>
+<ul>
+<li><strong>Position and visibility:</strong> Rice (75 percent) and Dutton (40 percent) turned on where the person was and what the driver could see.</li>
+<li><strong>Other vehicles, including one that fled:</strong> other drivers' shares changed who paid in Carbajal, Cain and Robinson.</li>
+<li><strong>Alcohol evidence:</strong> it became a comparative negligence defence in Brooks, where the driver ended at 51 percent.</li>
+</ul>
+<p>For police reports, statements and other proof, see <a href="/new-jersey/nj-what-evidence-helps-prove-fault-after-an-nj-crash">what evidence helps prove fault after a New Jersey crash</a>, and get your <a href="/new-jersey/nj-car-accident-report">New Jersey car accident report</a>.</p>
+</section>
+<section id="other-rules">
+<h2>Does PIP pay regardless of fault?</h2>
+<p>Yes. PIP pays eligible medical bills whoever caused the crash; fault only matters for what you claim from the other driver.</p>
+<ul>
+<li>PIP limits: see <a href="/new-jersey/pip-coverage-limits-medical-bills-new-jersey">PIP limits and medical bills in New Jersey</a>.</li>
+<li>Lawsuit option: with the limitation on lawsuit option, pain and suffering also needs a threshold injury. See <a href="/new-jersey/nj-verbal-threshold-appeals-rulings">how the verbal threshold worked in 13 rulings</a>.</li>
+<li>Local data: Rice and Brooks were tried in Camden County. See <a href="/new-jersey/camden-county-car-accident-help">Camden County car accident help</a>.<sup class="df-fn"><a href="#src-3">3</a></sup></li>
+</ul>
+
+</section>
+<section id="faq" class="df-faqs">
+<h2>FAQ</h2>
+<details class="df-faq" open><summary><h3>Is NJ an at-fault state for car accidents?</h3></summary>
+<p>Both. New Jersey is no-fault for PIP medical bills, and comparative fault applies when you claim against the other driver. See <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault insurance works</a>.</p>
+</details><details class="df-faq"><summary><h3>What happens if the other driver is at fault?</h3></summary>
+<p>If the other driver carries more than half the fault, you can claim from their insurance company, reduced by any share put on you. Robinson and Cain show injured drivers at 0 percent keeping a $3.5 million verdict and a $325,000 judgment.</p>
+</details><details class="df-faq"><summary><h3>Who is most at fault in a rear-end collision?</h3></summary>
+<p>Not always the rear driver. In Cain, a three-car rear-end crash after an aborted U-turn and sudden stop, the jury put 65 percent on the U-turning driver and 35 percent on the following driver. See <a href="/new-jersey/rear-end-crash-new-jersey">rear-end accident help in New Jersey</a>.</p>
+</details><details class="df-faq"><summary><h3>Should I get a lawyer for a car accident that wasn't my fault?</h3></summary>
+<p>A lawyer's review can matter most when the insurer puts your share near the 50 percent line: in Brooks, 51 percent meant nothing at all.</p>
+</details></section>
+<section class="quiz-cta" id="quiz-end">
+<p>Think the other driver was more to blame than you? Answer a few short questions, about 30 seconds, to see if a lawyer's office may review your claim for free.</p>
+<p><a class="button" data-quiz-link="end" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=partly-at-fault-nj-car-accident-real-fault-splits">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+<section id="sources" class="df-sources"><h2>Sources</h2><ol class="df-src"><li id="src-1">DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">Auto Comparative Negligence Settlement FAQ</a>, questions 1 and 5; DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/everythingauto2026.pdf">Everything You Wanted to Know About Auto Insurance (2026, PDF)</a>, pages 26 to 27. N.J.S.A. 2A:15-5.1, <a href="http://web.archive.org/web/20261009074503/https://law.justia.com/codes/new-jersey/title-2a/section-2a-15-5-1/">Justia 2025 edition</a>; N.J.S.A. 2A:15-5.3(a), (c), (e), <a href="http://web.archive.org/web/20240623201114/https://law.justia.com/codes/new-jersey/title-2a/section-2a-15-5-3/">Justia 2023 edition</a>.</li><li id="src-2">DOBI, <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">Auto Comparative Negligence Settlement FAQ</a>, questions 3, 4, 6 and 7.</li><li id="src-3">DOBI, <a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">Auto Insurance Buyer's Guide 2026 (PDF)</a>, pages 2 and 10 to 11; N.J.S.A. 39:6A-8, <a href="http://web.archive.org/web/20260501025515/https://law.justia.com/codes/new-jersey/title-39/section-39-6a-8/">Justia 2025 edition</a>.</li></ol></section><details id="method"><summary>How we counted</summary>
+<ul>
+<li>The eight decisions in the tables come from our 76-decision index of New Jersey car accident and coverage appeals: 52 published (2018 to 2026) and 24 unpublished 2025 Appellate Division decisions.</li>
+<li>Seven state a numerical fault split; Daniels is a no-negligence verdict. Brooks's 51/49 split was read from the opinion text. Each decision links to its free full text.</li>
+<li>Percentages and amounts are quoted from the opinions and our coded table of decisions, part of the <a href="/new-jersey/nj-car-accident-appeals-index">76-decision New Jersey car accident appeals index</a>. <a href="https://sitemap.injuriescases.com/data/nj-research/nj-comparative-fault-appeals.csv">Download the dataset</a>.</li>
+<li>General information, not legal advice. Appealed cases show how the rule was applied, not what a typical claim is worth.</li>
+</ul>
+</details>
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section aria-label="About Injuries Cases Autos" class="mva-footer-about"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav aria-label="Footer navigation" class="mva-footer-nav"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section aria-label="Contact" class="mva-footer-contact"><h2>Contact</h2><address>111 Town Square Place<br/>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=partly-at-fault-nj-car-accident-real-fault-splits">Start the New Jersey accident quiz ↗</a></div></footer></div>
