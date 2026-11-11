@@ -1,0 +1,39 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,North Bergen Twp,10,4530,0.2,5
+town,Kearny Town,19,3750,0.5,4
+town,Jersey City,16,12420,0.1,4
+town,Secaucus Town,11,2099,0.5,4
+town,Bayonne City,11,2882,0.4,0
+town,Union City,3,2594,0.1,0
+town,Harrison Town,2,1258,0.2,0
+town,East Newark Boro,1,111,0.9,0
+town,Guttenberg Town,1,323,0.3,0
+town,Hoboken City,0,668,0.0,0
+town,Municipality not coded,0,1,0.0,0
+town,Weehawken Twp,0,1272,0.0,0
+town,West New York Town,0,1287,0.0,0
+hour_oct_nov,00:00 to 00:59,,,,0
+hour_oct_nov,01:00 to 01:59,,,,1
+hour_oct_nov,02:00 to 02:59,,,,0
+hour_oct_nov,03:00 to 03:59,,,,1
+hour_oct_nov,04:00 to 04:59,,,,0
+hour_oct_nov,05:00 to 05:59,,,,0
+hour_oct_nov,06:00 to 06:59,,,,1
+hour_oct_nov,07:00 to 07:59,,,,0
+hour_oct_nov,08:00 to 08:59,,,,2
+hour_oct_nov,09:00 to 09:59,,,,1
+hour_oct_nov,10:00 to 10:59,,,,0
+hour_oct_nov,11:00 to 11:59,,,,1
+hour_oct_nov,12:00 to 12:59,,,,1
+hour_oct_nov,13:00 to 13:59,,,,0
+hour_oct_nov,14:00 to 14:59,,,,1
+hour_oct_nov,15:00 to 15:59,,,,1
+hour_oct_nov,16:00 to 16:59,,,,0
+hour_oct_nov,17:00 to 17:59,,,,2
+hour_oct_nov,18:00 to 18:59,,,,1
+hour_oct_nov,19:00 to 19:59,,,,2
+hour_oct_nov,20:00 to 20:59,,,,0
+hour_oct_nov,21:00 to 21:59,,,,1
+hour_oct_nov,22:00 to 22:59,,,,1
+hour_oct_nov,23:00 to 23:59,,,,0
+county_total,Hudson,74,33195,0.2,17

@@ -1,0 +1,67 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Bridgewater Twp,260,3495,7.4,117
+town,Franklin Twp,235,4440,5.3,99
+town,Branchburg Twp,204,762,26.8,94
+town,Hillsborough Twp,254,1550,16.4,81
+town,Montgomery Twp,189,784,24.1,76
+town,Bedminster Twp,101,903,11.2,37
+town,Warren Twp,59,707,8.3,30
+town,Bernards Twp,60,752,8.0,25
+town,Watchung Boro,26,805,3.2,15
+town,North Plainfield Boro,26,1796,1.4,11
+town,Raritan Boro,20,958,2.1,10
+town,Green Brook Twp,28,632,4.4,7
+town,Far Hills Boro,8,81,9.9,6
+town,Bound Brook Boro,16,611,2.6,4
+town,Peapack-Gladstone Boro,8,71,11.3,3
+town,Bernardsville Boro,5,212,2.4,2
+town,Somerville Boro,6,610,1.0,1
+town,Manville Boro,4,553,0.7,1
+town,Millstone Boro,4,44,9.1,1
+town,Rocky Hill Boro,2,34,5.9,0
+town,South Bound Brook Boro,0,150,0.0,0
+road,US 22,157,,,82
+road,US 202,151,,,70
+road,US 206,146,,,57
+road,I-287,96,,,52
+road,I-78,66,,,39
+road,RT 514 (AMWELL ROAD),37,,,12
+road,ROUTE 514,32,,,16
+road,Route 27,31,,,13
+road,ROUTE 533,26,,,6
+road,ROUTE 518,24,,,9
+road,SOMERSET COUNTY 601,21,,,7
+road,Route 28,20,,,4
+road,ROUTE 527,19,,,7
+road,GREAT ROAD (SOMERSET COUNTY 601),18,,,10
+road,RT 527 (EASTON AVENUE),15,,,5
+road,ROUTE 567,14,,,7
+road,RT 533 (RIVER ROAD),14,,,5
+road,SOMERSET COUNTY 637,14,,,5
+road,SOMERSET COUNTY 625,13,,,7
+road,SOUTH MIDDLEBUSH ROAD (SOMERSET COUNTY 615),10,,,5
+hour_oct_nov,00:00 to 00:59,,,,24
+hour_oct_nov,01:00 to 01:59,,,,17
+hour_oct_nov,02:00 to 02:59,,,,14
+hour_oct_nov,03:00 to 03:59,,,,10
+hour_oct_nov,04:00 to 04:59,,,,13
+hour_oct_nov,05:00 to 05:59,,,,33
+hour_oct_nov,06:00 to 06:59,,,,32
+hour_oct_nov,07:00 to 07:59,,,,34
+hour_oct_nov,08:00 to 08:59,,,,17
+hour_oct_nov,09:00 to 09:59,,,,15
+hour_oct_nov,10:00 to 10:59,,,,6
+hour_oct_nov,11:00 to 11:59,,,,4
+hour_oct_nov,12:00 to 12:59,,,,10
+hour_oct_nov,13:00 to 13:59,,,,7
+hour_oct_nov,14:00 to 14:59,,,,12
+hour_oct_nov,15:00 to 15:59,,,,14
+hour_oct_nov,16:00 to 16:59,,,,21
+hour_oct_nov,17:00 to 17:59,,,,69
+hour_oct_nov,18:00 to 18:59,,,,68
+hour_oct_nov,19:00 to 19:59,,,,54
+hour_oct_nov,20:00 to 20:59,,,,40
+hour_oct_nov,21:00 to 21:59,,,,40
+hour_oct_nov,22:00 to 22:59,,,,34
+hour_oct_nov,23:00 to 23:59,,,,32
+county_total,Somerset,1515,19950,7.6,620

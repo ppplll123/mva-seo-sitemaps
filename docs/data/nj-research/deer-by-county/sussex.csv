@@ -1,0 +1,66 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Sparta Twp,198,1053,18.8,75
+town,Frankford Twp,125,374,33.4,43
+town,Vernon Twp,99,451,22.0,37
+town,Hardyston Twp,77,335,23.0,36
+town,Wantage Twp,107,443,24.2,32
+town,Andover Twp,72,273,26.4,23
+town,Fredon Twp,56,134,41.8,22
+town,Hopatcong Boro,55,330,16.7,21
+town,Hampton Twp,56,254,22.0,20
+town,Lafayette Twp,54,263,20.5,18
+town,Sandvston Twp,44,124,35.5,14
+town,Green Twp,27,98,27.6,10
+town,Franklin Boro,34,271,12.5,9
+town,Byram Twp,29,235,12.3,9
+town,Montague Twp,31,192,16.1,8
+town,Newton Town,17,441,3.9,8
+town,Andover Boro,17,92,18.5,4
+town,Stillwater Twp,17,69,24.6,4
+town,Branchville Boro,12,36,33.3,4
+town,Stanhope Boro,11,119,9.2,4
+town,Hamburg Boro,5,122,4.1,3
+town,Ogdensburg Boro,1,5,20.0,1
+town,Sussex Boro,1,94,1.1,0
+road,US 206,153,,,51
+road,Route 94,129,,,52
+road,Route 15,74,,,32
+road,Route 23,63,,,29
+road,RT 565 (ROSS CORNER SUSSEX ROAD),38,,,16
+road,ROUTE 517,32,,,6
+road,RT 515 (VERNON ROAD),16,,,9
+road,ROUTE 565,15,,,0
+road,NEWTON SPARTA ROAD (SUSSEX COUNTY 616),14,,,6
+road,Route 181,14,,,5
+road,PLAINS ROAD,13,,,5
+road,RT 517 (SANDHILL ROAD),13,,,4
+road,RT 519 (NEWTON HALSEY ROAD),13,,,7
+road,OLD STANHOPE ROAD (SUSSEX COUNTY 605),12,,,7
+road,RT 517 (NEWTON SPARTA ROAD),12,,,4
+road,SUSSEX COUNTY 616,11,,,5
+road,RT 565 (GLENWOOD ROAD),10,,,2
+hour_oct_nov,00:00 to 00:59,,,,5
+hour_oct_nov,01:00 to 01:59,,,,5
+hour_oct_nov,02:00 to 02:59,,,,5
+hour_oct_nov,03:00 to 03:59,,,,3
+hour_oct_nov,04:00 to 04:59,,,,11
+hour_oct_nov,05:00 to 05:59,,,,14
+hour_oct_nov,06:00 to 06:59,,,,31
+hour_oct_nov,07:00 to 07:59,,,,32
+hour_oct_nov,08:00 to 08:59,,,,19
+hour_oct_nov,09:00 to 09:59,,,,12
+hour_oct_nov,10:00 to 10:59,,,,2
+hour_oct_nov,11:00 to 11:59,,,,5
+hour_oct_nov,12:00 to 12:59,,,,5
+hour_oct_nov,13:00 to 13:59,,,,3
+hour_oct_nov,14:00 to 14:59,,,,3
+hour_oct_nov,15:00 to 15:59,,,,8
+hour_oct_nov,16:00 to 16:59,,,,14
+hour_oct_nov,17:00 to 17:59,,,,38
+hour_oct_nov,18:00 to 18:59,,,,70
+hour_oct_nov,19:00 to 19:59,,,,42
+hour_oct_nov,20:00 to 20:59,,,,27
+hour_oct_nov,21:00 to 21:59,,,,18
+hour_oct_nov,22:00 to 22:59,,,,24
+hour_oct_nov,23:00 to 23:59,,,,9
+county_total,Sussex,1145,5808,19.7,405

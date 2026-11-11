@@ -1,0 +1,61 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Washington Twp,75,355,21.1,37
+town,White Twp,65,276,23.6,29
+town,Mansfield Twp,79,305,25.9,27
+town,Knowlton Twp,53,394,13.5,27
+town,Blairstown Twp,73,214,34.1,26
+town,Allamuchy Twp,64,448,14.3,25
+town,Independence Twp,45,154,29.2,21
+town,Frelinghuysen Twp,50,163,30.7,18
+town,Franklin Twp,38,127,29.9,18
+town,Hope Twp,52,229,22.7,16
+town,Greenwich Twp,32,266,12.0,14
+town,Harmony Twp,38,116,32.8,12
+town,Lopatcong Twp,37,326,11.3,12
+town,Pohatcong Twp,17,227,7.5,7
+town,Washington Boro,10,256,3.9,5
+town,Oxford Twp,11,64,17.2,4
+town,Liberty Twp,16,47,34.0,3
+town,Hackettstown Town,7,294,2.4,2
+town,Hardwick Twp,4,122,3.3,2
+town,Phillipsburg Town,3,513,0.6,2
+town,Alpha Boro,4,41,9.8,0
+town,Belvidere Town,1,41,2.4,0
+road,Route 57,106,,,44
+road,I-80,92,,,38
+road,US 46,63,,,28
+road,Route 94,58,,,18
+road,Route 31,48,,,23
+road,ROUTE 519,45,,,11
+road,I-78,30,,,13
+road,RT 517 (ALLAMUCHY ROAD),16,,,3
+road,RT 519 (BELVIDERE ROAD),13,,,7
+road,US 22,12,,,5
+road,ROUTE 517,11,,,5
+road,RT 519 (JOHNSONBURG ROAD),10,,,3
+road,WARREN COUNTY 632,10,,,2
+hour_oct_nov,00:00 to 00:59,,,,12
+hour_oct_nov,01:00 to 01:59,,,,5
+hour_oct_nov,02:00 to 02:59,,,,4
+hour_oct_nov,03:00 to 03:59,,,,7
+hour_oct_nov,04:00 to 04:59,,,,12
+hour_oct_nov,05:00 to 05:59,,,,9
+hour_oct_nov,06:00 to 06:59,,,,29
+hour_oct_nov,07:00 to 07:59,,,,18
+hour_oct_nov,08:00 to 08:59,,,,10
+hour_oct_nov,09:00 to 09:59,,,,7
+hour_oct_nov,10:00 to 10:59,,,,5
+hour_oct_nov,11:00 to 11:59,,,,3
+hour_oct_nov,12:00 to 12:59,,,,1
+hour_oct_nov,13:00 to 13:59,,,,3
+hour_oct_nov,14:00 to 14:59,,,,3
+hour_oct_nov,15:00 to 15:59,,,,5
+hour_oct_nov,16:00 to 16:59,,,,4
+hour_oct_nov,17:00 to 17:59,,,,30
+hour_oct_nov,18:00 to 18:59,,,,41
+hour_oct_nov,19:00 to 19:59,,,,27
+hour_oct_nov,20:00 to 20:59,,,,28
+hour_oct_nov,21:00 to 21:59,,,,16
+hour_oct_nov,22:00 to 22:59,,,,18
+hour_oct_nov,23:00 to 23:59,,,,10
+county_total,Warren,774,4978,15.5,307

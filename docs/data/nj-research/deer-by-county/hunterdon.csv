@@ -1,0 +1,76 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Raritan Twp,284,1267,22.4,115
+town,Readington Twp,275,910,30.2,107
+town,Clinton Twp,180,930,19.4,94
+town,West Amwell Twp,72,166,43.4,30
+town,East Amwell Twp,62,210,29.5,28
+town,Union Twp,65,555,11.7,27
+town,Kingwood Twp,82,153,53.6,26
+town,Franklin Twp,91,273,33.3,24
+town,Lebanon Twp,67,254,26.4,23
+town,Tewksbury Twp,55,239,23.0,17
+town,Delaware Twp,40,109,36.7,15
+town,Alexandria Twp,45,125,36.0,14
+town,Bethlehem Twp,33,330,10.0,11
+town,Holland Twp,24,51,47.1,11
+town,Flemington Boro,13,647,2.0,6
+town,Lebanon Boro,14,106,13.2,5
+town,Hampton Boro,8,67,11.9,5
+town,Glen Gardner Boro,10,94,10.6,3
+town,Clinton Town,9,221,4.1,3
+town,Lambertville City,5,162,3.1,3
+town,High Bridge Boro,8,108,7.4,1
+town,Frenchtown Boro,5,53,9.4,1
+town,Bloomsbury Boro,3,120,2.5,1
+town,Califon Boro,3,33,9.1,1
+town,Milford Twp,3,33,9.1,1
+town,Stockton Boro,2,24,8.3,1
+town,Municipality not coded,0,1,0.0,0
+road,Route 31,181,,,105
+road,US 202,172,,,80
+road,US 22,100,,,42
+road,ROUTE 523,87,,,17
+road,I-78,75,,,37
+road,Route 12,64,,,19
+road,ROUTE 513,48,,,2
+road,Route 29,40,,,15
+road,Route 173,23,,,8
+road,ROUTE 519,21,,,1
+road,RT 523 (FLEMINGTON-WHITEHOUSE ROAD),21,,,15
+road,ROUTE 517,19,,,4
+road,ROUTE 579,19,,,4
+road,Route 179,19,,,10
+road,HUNTERDON COUNTY 617,18,,,5
+road,HUNTERDON COUNTY 650,17,,,3
+road,HUNTERDON COUNTY 629,16,,,4
+road,RT 513 (PITTSTOWN ROAD),16,,,7
+road,RT 579 (RINGOES-CROTON ROAD),16,,,6
+road,HUNTERDON COUNTY 620,12,,,1
+road,SIDNEY ROAD (HUNTERDON COUNTY 617),12,,,4
+road,RT 514 (OLD YORK ROAD),11,,,7
+road,RT 523 (STOCKTON-FLEMINGTON ROAD),11,,,5
+hour_oct_nov,00:00 to 00:59,,,,12
+hour_oct_nov,01:00 to 01:59,,,,17
+hour_oct_nov,02:00 to 02:59,,,,14
+hour_oct_nov,03:00 to 03:59,,,,6
+hour_oct_nov,04:00 to 04:59,,,,17
+hour_oct_nov,05:00 to 05:59,,,,20
+hour_oct_nov,06:00 to 06:59,,,,35
+hour_oct_nov,07:00 to 07:59,,,,39
+hour_oct_nov,08:00 to 08:59,,,,26
+hour_oct_nov,09:00 to 09:59,,,,6
+hour_oct_nov,10:00 to 10:59,,,,8
+hour_oct_nov,11:00 to 11:59,,,,5
+hour_oct_nov,12:00 to 12:59,,,,4
+hour_oct_nov,13:00 to 13:59,,,,8
+hour_oct_nov,14:00 to 14:59,,,,6
+hour_oct_nov,15:00 to 15:59,,,,11
+hour_oct_nov,16:00 to 16:59,,,,17
+hour_oct_nov,17:00 to 17:59,,,,63
+hour_oct_nov,18:00 to 18:59,,,,69
+hour_oct_nov,19:00 to 19:59,,,,59
+hour_oct_nov,20:00 to 20:59,,,,29
+hour_oct_nov,21:00 to 21:59,,,,42
+hour_oct_nov,22:00 to 22:59,,,,41
+hour_oct_nov,23:00 to 23:59,,,,19
+county_total,Hunterdon,1458,7241,20.1,573

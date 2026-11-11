@@ -1,0 +1,57 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Hopewell Twp,221,1000,22.1,89
+town,Hamilton Twp,136,5672,2.4,60
+town,West Windsor Twp,133,1884,7.1,58
+town,Ewing Twp,111,1697,6.5,36
+town,Robbinsville Twp,65,1004,6.5,33
+town,East Windsor Twp,59,1264,4.7,27
+town,Lawrence Twp,40,1917,2.1,19
+town,Princeton,50,967,5.2,13
+town,Trenton City,6,5712,0.1,5
+town,Pennington Boro,6,87,6.9,3
+town,Hightstown Boro,2,182,1.1,1
+town,Hopewell Boro,1,27,3.7,1
+town,Municipality not coded,0,2,0.0,0
+town,Princeton Twp,0,9,0.0,0
+road,I-295,116,,,53
+road,Route 29,55,,,23
+road,Route 31,52,,,25
+road,US 130,48,,,22
+road,I-195,26,,,13
+road,ROUTE 535,20,,,7
+road,RT 571 (HIGHTSTOWN ROAD),19,,,9
+road,ROUTE 546,18,,,4
+road,US 206,18,,,6
+road,Route 33,17,,,7
+road,ROUTE 571,16,,,3
+road,ROUTE 579,15,,,4
+road,US 1,15,,,8
+road,RT 535 (OLD TRENTON ROAD),13,,,6
+road,ROUTE 533,12,,,4
+road,ROUTE 526,11,,,4
+road,I-95,10,,,4
+hour_oct_nov,00:00 to 00:59,,,,12
+hour_oct_nov,01:00 to 01:59,,,,7
+hour_oct_nov,02:00 to 02:59,,,,7
+hour_oct_nov,03:00 to 03:59,,,,9
+hour_oct_nov,04:00 to 04:59,,,,10
+hour_oct_nov,05:00 to 05:59,,,,18
+hour_oct_nov,06:00 to 06:59,,,,21
+hour_oct_nov,07:00 to 07:59,,,,24
+hour_oct_nov,08:00 to 08:59,,,,21
+hour_oct_nov,09:00 to 09:59,,,,4
+hour_oct_nov,10:00 to 10:59,,,,5
+hour_oct_nov,11:00 to 11:59,,,,1
+hour_oct_nov,12:00 to 12:59,,,,6
+hour_oct_nov,13:00 to 13:59,,,,7
+hour_oct_nov,14:00 to 14:59,,,,4
+hour_oct_nov,15:00 to 15:59,,,,7
+hour_oct_nov,16:00 to 16:59,,,,13
+hour_oct_nov,17:00 to 17:59,,,,26
+hour_oct_nov,18:00 to 18:59,,,,38
+hour_oct_nov,19:00 to 19:59,,,,28
+hour_oct_nov,20:00 to 20:59,,,,29
+hour_oct_nov,21:00 to 21:59,,,,19
+hour_oct_nov,22:00 to 22:59,,,,13
+hour_oct_nov,23:00 to 23:59,,,,16
+county_total,Mercer,830,21424,3.9,345

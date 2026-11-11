@@ -1,0 +1,70 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Monroe Twp,165,1764,9.4,89
+town,Washington Twp,128,2804,4.6,62
+town,Franklin Twp,137,1230,11.1,54
+town,Deptford Twp,80,2386,3.4,39
+town,Elk Twp,77,383,20.1,29
+town,Logan Twp,44,737,6.0,26
+town,Mantua Twp,43,599,7.2,24
+town,Harrison Twp,53,697,7.6,23
+town,Woolwich Twp,59,546,10.8,20
+town,West Deptford Twp,33,915,3.6,19
+town,South Harrison Twp,39,259,15.1,16
+town,East Greenwich Twp,30,383,7.8,14
+town,Glassboro Boro,29,1139,2.5,14
+town,Clayton Boro,21,217,9.7,7
+town,Newfield Boro,4,29,13.8,4
+town,Paulsboro Boro,4,187,2.1,4
+town,Greenwich Twp,7,165,4.2,3
+town,Pitman Boro,4,105,3.8,1
+town,Westville Boro,3,269,1.1,1
+town,Swedesboro Boro,2,104,1.9,1
+town,Woodbury City,2,652,0.3,1
+town,National Park Boro,2,39,5.1,0
+town,Woodbury Heights Boro,2,96,2.1,0
+town,Municipality not coded,0,43,0.0,0
+town,Perth Amboy City,0,1,0.0,0
+town,Wenonah Boro,0,33,0.0,0
+road,Route 55,94,,,57
+road,US 322,74,,,34
+road,I-295,43,,,32
+road,NJ Turnpike,33,,,15
+road,Route 47,33,,,13
+road,Route 45,21,,,8
+road,Route 42,19,,,14
+road,HURFVILLE-CROSSKEYS ROAD (GLOUCESTER COUNTY 654),16,,,8
+road,ROUTE 555,15,,,5
+road,RT 555 (TUCKAHOE ROAD),15,,,6
+road,FRIES MILL ROAD (GLOUCESTER COUNTY 655),14,,,6
+road,Atlantic City Expressway,13,,,10
+road,RT 553 (BUCK ROAD),12,,,5
+road,US 40,12,,,6
+road,ROUTE 538,11,,,0
+road,US 130,11,,,8
+road,MALAGA ROAD (GLOUCESTER COUNTY 659),10,,,7
+road,PITMAN DOWNER ROAD (GLOUCESTER COUNTY 658),10,,,3
+hour_oct_nov,00:00 to 00:59,,,,15
+hour_oct_nov,01:00 to 01:59,,,,13
+hour_oct_nov,02:00 to 02:59,,,,9
+hour_oct_nov,03:00 to 03:59,,,,12
+hour_oct_nov,04:00 to 04:59,,,,19
+hour_oct_nov,05:00 to 05:59,,,,24
+hour_oct_nov,06:00 to 06:59,,,,23
+hour_oct_nov,07:00 to 07:59,,,,33
+hour_oct_nov,08:00 to 08:59,,,,8
+hour_oct_nov,09:00 to 09:59,,,,10
+hour_oct_nov,10:00 to 10:59,,,,7
+hour_oct_nov,11:00 to 11:59,,,,5
+hour_oct_nov,12:00 to 12:59,,,,3
+hour_oct_nov,13:00 to 13:59,,,,1
+hour_oct_nov,14:00 to 14:59,,,,2
+hour_oct_nov,15:00 to 15:59,,,,1
+hour_oct_nov,16:00 to 16:59,,,,12
+hour_oct_nov,17:00 to 17:59,,,,39
+hour_oct_nov,18:00 to 18:59,,,,59
+hour_oct_nov,19:00 to 19:59,,,,54
+hour_oct_nov,20:00 to 20:59,,,,32
+hour_oct_nov,21:00 to 21:59,,,,22
+hour_oct_nov,22:00 to 22:59,,,,26
+hour_oct_nov,23:00 to 23:59,,,,22
+county_total,Gloucester,968,15782,6.1,451

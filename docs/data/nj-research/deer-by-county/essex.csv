@@ -1,0 +1,58 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,West Orange Twp,87,2532,3.4,33
+town,Livingston Twp,82,1463,5.6,29
+town,Cedar Grove Twp,62,576,10.8,18
+town,Roseland Boro,43,563,7.6,18
+town,Millburn Twp,36,1344,2.7,18
+town,Fairfield Boro,25,466,5.4,12
+town,Bloomfield Twp,31,2593,1.2,11
+town,Montclair Twp,25,2495,1.0,10
+town,Verona Twp,22,565,3.9,9
+town,West Caldwell Twp,18,378,4.8,6
+town,South Orange Village Twp,13,880,1.5,4
+town,Belleville Twp,8,1972,0.4,3
+town,Newark City,24,19696,0.1,2
+town,North Caldwell Boro,9,80,11.2,2
+town,Caldwell Boro,5,333,1.5,2
+town,Orange City,2,1993,0.1,2
+town,Nutley Twp,9,1301,0.7,1
+town,Maplewood Twp,4,849,0.5,1
+town,East Orange City,3,4648,0.1,1
+town,Irvington Twp,2,3222,0.1,1
+town,Glen Ridge Boro,1,230,0.4,1
+town,Essex Fells Boro,2,46,4.3,0
+town,Municipality not coded,0,9,0.0,0
+road,I-280,52,,,28
+road,Route 23,35,,,10
+road,Garden State Parkway,32,,,12
+road,ROUTE 508,17,,,6
+road,Route 10,16,,,3
+road,ESSEX COUNTY 636,15,,,3
+road,I-80,11,,,4
+road,ESSEX COUNTY 611,10,,,3
+road,ROUTE 577,10,,,3
+hour_oct_nov,00:00 to 00:59,,,,13
+hour_oct_nov,01:00 to 01:59,,,,7
+hour_oct_nov,02:00 to 02:59,,,,2
+hour_oct_nov,03:00 to 03:59,,,,5
+hour_oct_nov,04:00 to 04:59,,,,5
+hour_oct_nov,05:00 to 05:59,,,,5
+hour_oct_nov,06:00 to 06:59,,,,8
+hour_oct_nov,07:00 to 07:59,,,,14
+hour_oct_nov,08:00 to 08:59,,,,4
+hour_oct_nov,09:00 to 09:59,,,,4
+hour_oct_nov,10:00 to 10:59,,,,1
+hour_oct_nov,11:00 to 11:59,,,,4
+hour_oct_nov,12:00 to 12:59,,,,1
+hour_oct_nov,13:00 to 13:59,,,,0
+hour_oct_nov,14:00 to 14:59,,,,4
+hour_oct_nov,15:00 to 15:59,,,,4
+hour_oct_nov,16:00 to 16:59,,,,5
+hour_oct_nov,17:00 to 17:59,,,,22
+hour_oct_nov,18:00 to 18:59,,,,12
+hour_oct_nov,19:00 to 19:59,,,,15
+hour_oct_nov,20:00 to 20:59,,,,16
+hour_oct_nov,21:00 to 21:59,,,,13
+hour_oct_nov,22:00 to 22:59,,,,13
+hour_oct_nov,23:00 to 23:59,,,,7
+county_total,Essex,513,48234,1.1,184

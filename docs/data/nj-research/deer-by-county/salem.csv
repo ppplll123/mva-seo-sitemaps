@@ -1,0 +1,46 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Carneys Point Twp,39,712,5.5,24
+town,Pittsgrove Twp,64,388,16.5,23
+town,Upper Pittsgrove Twp,35,424,8.3,21
+town,Pilesgrove Twp,47,300,15.7,12
+town,Mannington Twp,37,137,27.0,12
+town,Quinton Twp,28,108,25.9,11
+town,Alloway Twp,26,129,20.2,11
+town,Pennsville Twp,27,550,4.9,9
+town,Oldmans Twp,17,189,9.0,7
+town,Elsinboro Twp,3,8,37.5,1
+town,Lower Alloways Crk Twp,2,22,9.1,1
+town,Woodstown Boro,1,68,1.5,1
+town,Penns Grove Boro,1,110,0.9,0
+town,Elmer Boro,0,2,0.0,0
+town,Salem City,0,105,0.0,0
+road,US 40,28,,,18
+road,Route 49,24,,,9
+road,NJ Turnpike,16,,,9
+road,Route 45,12,,,4
+road,RT 553 (BUCK ROAD),10,,,5
+hour_oct_nov,00:00 to 00:59,,,,7
+hour_oct_nov,01:00 to 01:59,,,,2
+hour_oct_nov,02:00 to 02:59,,,,4
+hour_oct_nov,03:00 to 03:59,,,,1
+hour_oct_nov,04:00 to 04:59,,,,4
+hour_oct_nov,05:00 to 05:59,,,,6
+hour_oct_nov,06:00 to 06:59,,,,15
+hour_oct_nov,07:00 to 07:59,,,,7
+hour_oct_nov,08:00 to 08:59,,,,7
+hour_oct_nov,09:00 to 09:59,,,,4
+hour_oct_nov,10:00 to 10:59,,,,2
+hour_oct_nov,11:00 to 11:59,,,,0
+hour_oct_nov,12:00 to 12:59,,,,0
+hour_oct_nov,13:00 to 13:59,,,,1
+hour_oct_nov,14:00 to 14:59,,,,0
+hour_oct_nov,15:00 to 15:59,,,,1
+hour_oct_nov,16:00 to 16:59,,,,2
+hour_oct_nov,17:00 to 17:59,,,,12
+hour_oct_nov,18:00 to 18:59,,,,22
+hour_oct_nov,19:00 to 19:59,,,,8
+hour_oct_nov,20:00 to 20:59,,,,12
+hour_oct_nov,21:00 to 21:59,,,,7
+hour_oct_nov,22:00 to 22:59,,,,5
+hour_oct_nov,23:00 to 23:59,,,,4
+county_total,Salem,327,3252,10.1,133

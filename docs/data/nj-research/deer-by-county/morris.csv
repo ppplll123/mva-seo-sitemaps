@@ -1,0 +1,85 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Parsippany-Troy Hills,140,4059,3.4,60
+town,Randolph Twp,108,1289,8.4,50
+town,Mount Olive Twp,116,1355,8.6,48
+town,Washington Twp,130,559,23.3,45
+town,Roxbury Twp,86,1650,5.2,36
+town,Rockaway Twp,76,1286,5.9,33
+town,Montville Twp,72,866,8.3,33
+town,Denville Twp,77,1320,5.8,31
+town,Morris Twp,61,1114,5.5,31
+town,Jefferson Twp,61,530,11.5,28
+town,Lincoln Park Boro,43,226,19.0,27
+town,Hanover Twp,57,1773,3.2,26
+town,Chester Twp,54,233,23.2,20
+town,Florham Park Boro,41,504,8.1,16
+town,Harding Twp,39,301,13.0,16
+town,Riverdale Boro,19,327,5.8,13
+town,Chatham Twp,18,213,8.5,13
+town,East Hanover Twp,34,566,6.0,12
+town,Pequannock Twp,43,595,7.2,10
+town,Morristown Town,14,972,1.4,8
+town,Mendham Twp,16,95,16.8,7
+town,Rockaway Boro,13,434,3.0,7
+town,Morris Plains Boro,10,398,2.5,7
+town,Long Hill Twp,17,228,7.5,6
+town,Boonton Twp,17,87,19.5,5
+town,Chester Boro,11,166,6.6,5
+town,Mine Hill Twp,10,146,6.8,5
+town,Kinnelon Boro,7,120,5.8,4
+town,Butler Boro,12,283,4.2,3
+town,Wharton Boro,12,598,2.0,3
+town,Boonton Town,8,366,2.2,3
+town,Mendham Boro,8,109,7.3,3
+town,Dover Town,6,1411,0.4,3
+town,Madison Boro,6,236,2.5,3
+town,Chatham Boro,6,383,1.6,2
+town,Mountain Lakes Boro,6,152,3.9,2
+town,Netcong Boro,3,115,2.6,1
+town,Mount Arlington Boro,10,312,3.2,0
+town,Municipality not coded,0,15,0.0,0
+town,Victory Gardens Boro,0,63,0.0,0
+road,I-80,134,,,62
+road,Route 10,132,,,71
+road,US 46,119,,,41
+road,I-287,111,,,59
+road,US 206,66,,,33
+road,Route 23,44,,,20
+road,US 202,44,,,21
+road,ROUTE 513,42,,,15
+road,ROUTE 510,27,,,12
+road,Route 15,26,,,12
+road,Route 24,17,,,9
+road,NAUGHRIGHT RD,15,,,4
+road,Route 53,15,,,9
+road,I-280,13,,,5
+road,RT 510 (MENDHAM ROAD),13,,,4
+road,BERKSHIRE VALLEY ROAD (MORRIS COUNTY 699),12,,,6
+road,MORRIS COUNTY 617,12,,,4
+road,RT 513 (WEST MILL ROAD),11,,,6
+road,RT 517 (SCHOOLEY`S MOUNTAIN ROAD),10,,,2
+hour_oct_nov,00:00 to 00:59,,,,23
+hour_oct_nov,01:00 to 01:59,,,,18
+hour_oct_nov,02:00 to 02:59,,,,20
+hour_oct_nov,03:00 to 03:59,,,,20
+hour_oct_nov,04:00 to 04:59,,,,8
+hour_oct_nov,05:00 to 05:59,,,,27
+hour_oct_nov,06:00 to 06:59,,,,33
+hour_oct_nov,07:00 to 07:59,,,,34
+hour_oct_nov,08:00 to 08:59,,,,32
+hour_oct_nov,09:00 to 09:59,,,,5
+hour_oct_nov,10:00 to 10:59,,,,12
+hour_oct_nov,11:00 to 11:59,,,,11
+hour_oct_nov,12:00 to 12:59,,,,7
+hour_oct_nov,13:00 to 13:59,,,,3
+hour_oct_nov,14:00 to 14:59,,,,11
+hour_oct_nov,15:00 to 15:59,,,,12
+hour_oct_nov,16:00 to 16:59,,,,26
+hour_oct_nov,17:00 to 17:59,,,,58
+hour_oct_nov,18:00 to 18:59,,,,75
+hour_oct_nov,19:00 to 19:59,,,,60
+hour_oct_nov,20:00 to 20:59,,,,46
+hour_oct_nov,21:00 to 21:59,,,,27
+hour_oct_nov,22:00 to 22:59,,,,32
+hour_oct_nov,23:00 to 23:59,,,,25
+county_total,Morris,1467,25455,5.8,625

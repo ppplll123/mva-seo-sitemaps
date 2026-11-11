@@ -1,0 +1,114 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Middletown Twp,238,2822,8.4,112
+town,Marlboro Twp,241,1750,13.8,111
+town,Wall Twp,265,3193,8.3,109
+town,Holmdel Twp,165,1060,15.6,83
+town,Freehold Twp,201,1991,10.1,80
+town,Tinton Falls Boro,169,1378,12.3,77
+town,Ocean Twp,136,2023,6.7,53
+town,Manalapan Twp,141,1273,11.1,52
+town,Upper Freehold Twp,115,549,20.9,51
+town,Howell Twp,171,1962,8.7,50
+town,Colts Neck Twp,116,534,21.7,47
+town,Millstone Twp,100,606,16.5,44
+town,Neptune Twp,78,2381,3.3,30
+town,Little Silver Boro,26,324,8.0,14
+town,Hazlet Twp,37,1170,3.2,10
+town,Eatontown Boro,35,1073,3.3,10
+town,Aberdeen Twp,21,746,2.8,9
+town,West Long Branch Boro,9,207,4.3,6
+town,Matawan Boro,5,101,5.0,4
+town,Oceanport Boro,13,202,6.4,3
+town,Long Branch City,7,921,0.8,3
+town,Red Bank Boro,7,1042,0.7,3
+town,Shrewsbury Boro,10,342,2.9,2
+town,Deal Boro,8,170,4.7,2
+town,Rumson Boro,8,109,7.3,2
+town,Fair Haven Boro,7,88,8.0,2
+town,Atlantic Highlands Boro,4,90,4.4,2
+town,Sea Bright Boro,4,116,3.4,2
+town,Brielle Boro,9,165,5.5,1
+town,Allentown Boro,3,24,12.5,1
+town,Highlands Boro,2,35,5.7,1
+town,Roosevelt Boro,2,8,25.0,1
+town,Freehold Boro,1,629,0.2,1
+town,Keansburg Boro,3,371,0.8,0
+town,Manasquan Boro,3,245,1.2,0
+town,Spring Lake Heights Boro,3,96,3.1,0
+town,Farmingdale Boro,2,42,4.8,0
+town,Monmouth Beach Boro,2,59,3.4,0
+town,Sea Girt Boro,2,60,3.3,0
+town,Belmar Boro,1,441,0.2,0
+town,Bradley Beach Boro,1,164,0.6,0
+town,Englishtown Boro,1,67,1.5,0
+town,Keyport Boro,1,528,0.2,0
+town,Neptune City Boro,1,277,0.4,0
+town,Allenhurst Boro,0,13,0.0,0
+town,Asbury Park City,0,927,0.0,0
+town,Avon-By-The-Sea Boro,0,29,0.0,0
+town,Interlaken Boro,0,22,0.0,0
+town,Lake Como Boro,0,63,0.0,0
+town,Loch Arbour Village,0,18,0.0,0
+town,Municipality not coded,0,2,0.0,0
+town,Shrewsbury Twp,0,7,0.0,0
+town,Spring Lake Boro,0,80,0.0,0
+town,Union Beach Boro,0,30,0.0,0
+road,Garden State Parkway,345,,,178
+road,Route 18,184,,,86
+road,Route 33,123,,,44
+road,Route 35,116,,,48
+road,Route 34,111,,,47
+road,US 9,82,,,42
+road,I-195,76,,,48
+road,Route 36,64,,,21
+road,Route 79,51,,,21
+road,RT 537 (MONMOUTH ROAD),38,,,19
+road,ROUTE 537,36,,,12
+road,ROUTE 520,34,,,17
+road,Route 138,26,,,15
+road,Route 71,24,,,8
+road,ROUTE 524,21,,,2
+road,ROUTE 547,20,,,5
+road,RT 520 (EAST GREYSTONE-MARLBORO ROAD),20,,,7
+road,MONMOUTH COUNTY 3,19,,,4
+road,Route 66,19,,,11
+road,DEAL ROAD,16,,,10
+road,RT 539 (HORNERSTOWN-WHITING ROAD),16,,,8
+road,RT 524 (STAGE COACH ROAD),15,,,7
+road,RT 537 (COLTS NECK ROAD),15,,,8
+road,Route 70,15,,,5
+road,TENNENT ROAD (MONMOUTH COUNTY 3),14,,,5
+road,FIVE POINTS RD / HOWELL RD,13,,,4
+road,MONMOUTH COUNTY 4 II,13,,,4
+road,WEST PARK AVENUE (MONMOUTH COUNTY 14),13,,,1
+road,MONMOUTH COUNTY 52,12,,,7
+road,PHALANX ROAD (MONMOUTH COUNTY 54),12,,,6
+road,ROUTE 527,11,,,6
+road,MONMOUTH COUNTY 16,10,,,4
+road,MONMOUTH COUNTY 46,10,,,2
+road,RT 526 (WAKER AVENUE),10,,,4
+hour_oct_nov,00:00 to 00:59,,,,46
+hour_oct_nov,01:00 to 01:59,,,,41
+hour_oct_nov,02:00 to 02:59,,,,33
+hour_oct_nov,03:00 to 03:59,,,,26
+hour_oct_nov,04:00 to 04:59,,,,33
+hour_oct_nov,05:00 to 05:59,,,,42
+hour_oct_nov,06:00 to 06:59,,,,66
+hour_oct_nov,07:00 to 07:59,,,,58
+hour_oct_nov,08:00 to 08:59,,,,27
+hour_oct_nov,09:00 to 09:59,,,,13
+hour_oct_nov,10:00 to 10:59,,,,13
+hour_oct_nov,11:00 to 11:59,,,,14
+hour_oct_nov,12:00 to 12:59,,,,13
+hour_oct_nov,13:00 to 13:59,,,,8
+hour_oct_nov,14:00 to 14:59,,,,11
+hour_oct_nov,15:00 to 15:59,,,,23
+hour_oct_nov,16:00 to 16:59,,,,37
+hour_oct_nov,17:00 to 17:59,,,,72
+hour_oct_nov,18:00 to 18:59,,,,92
+hour_oct_nov,19:00 to 19:59,,,,79
+hour_oct_nov,20:00 to 20:59,,,,64
+hour_oct_nov,21:00 to 21:59,,,,63
+hour_oct_nov,22:00 to 22:59,,,,64
+hour_oct_nov,23:00 to 23:59,,,,40
+county_total,Monmouth,2374,32625,7.3,978

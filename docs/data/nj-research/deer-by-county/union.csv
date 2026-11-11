@@ -1,0 +1,55 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Union Twp,60,6696,0.9,20
+town,Summit City,26,1179,2.2,16
+town,Clark Twp,27,1535,1.8,13
+town,Springfield Twp,32,1969,1.6,12
+town,Scotch Plains Twp,30,826,3.6,11
+town,Mountainside Boro,19,367,5.2,10
+town,Plainfield City,26,3640,0.7,9
+town,Rahway City,19,2005,0.9,9
+town,Berkeley Heights Twp,18,601,3.0,9
+town,Cranford Twp,25,1571,1.6,8
+town,Linden City,21,4789,0.4,7
+town,Hillside Twp,8,2120,0.4,4
+town,Westfield Town,15,1170,1.3,3
+town,Kenilworth Boro,6,678,0.9,3
+town,Fanwood Boro,8,250,3.2,2
+town,Roselle Boro,8,1605,0.5,2
+town,New Providence Boro,6,371,1.6,1
+town,Garwood Boro,3,156,1.9,1
+town,Roselle Park Boro,3,602,0.5,1
+town,Mount Holly Twp,1,1,100.0,1
+town,Elizabeth City,16,10155,0.2,0
+town,Municipality not coded,0,55,0.0,0
+town,Wall Twp,0,1,0.0,0
+town,Winfield Twp,0,40,0.0,0
+road,Garden State Parkway,58,,,23
+road,I-78,36,,,17
+road,US 22,36,,,21
+road,Route 82,11,,,3
+road,US 1,10,,,4
+hour_oct_nov,00:00 to 00:59,,,,6
+hour_oct_nov,01:00 to 01:59,,,,6
+hour_oct_nov,02:00 to 02:59,,,,3
+hour_oct_nov,03:00 to 03:59,,,,6
+hour_oct_nov,04:00 to 04:59,,,,5
+hour_oct_nov,05:00 to 05:59,,,,4
+hour_oct_nov,06:00 to 06:59,,,,8
+hour_oct_nov,07:00 to 07:59,,,,5
+hour_oct_nov,08:00 to 08:59,,,,10
+hour_oct_nov,09:00 to 09:59,,,,2
+hour_oct_nov,10:00 to 10:59,,,,1
+hour_oct_nov,11:00 to 11:59,,,,2
+hour_oct_nov,12:00 to 12:59,,,,1
+hour_oct_nov,13:00 to 13:59,,,,1
+hour_oct_nov,14:00 to 14:59,,,,2
+hour_oct_nov,15:00 to 15:59,,,,1
+hour_oct_nov,16:00 to 16:59,,,,2
+hour_oct_nov,17:00 to 17:59,,,,8
+hour_oct_nov,18:00 to 18:59,,,,19
+hour_oct_nov,19:00 to 19:59,,,,13
+hour_oct_nov,20:00 to 20:59,,,,7
+hour_oct_nov,21:00 to 21:59,,,,12
+hour_oct_nov,22:00 to 22:59,,,,10
+hour_oct_nov,23:00 to 23:59,,,,8
+county_total,Union,377,42382,0.9,142

@@ -1,0 +1,58 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Wayne Twp,192,3828,5.0,69
+town,West Milford Twp,79,585,13.5,30
+town,Clifton City,78,8897,0.9,21
+town,Ringwood Boro,56,467,12.0,19
+town,Little Falls Twp,28,1104,2.5,14
+town,Totowa Boro,31,1179,2.6,13
+town,Wanaque Boro,15,529,2.8,8
+town,Bloomingdale Boro,19,281,6.8,7
+town,Paterson City,15,11466,0.1,7
+town,Woodland Park Boro,15,733,2.0,7
+town,Hawthorne Boro,19,682,2.8,6
+town,Pompton Lakes Boro,14,388,3.6,6
+town,North Haledon Boro,18,147,12.2,3
+town,Municipality not coded,2,45,4.4,2
+town,Passaic City,10,3852,0.3,1
+town,Haledon Boro,3,213,1.4,1
+town,Bloomsbury Boro,0,1,0.0,0
+town,ElmWood Park Boro,0,1,0.0,0
+town,Prospect Park Boro,0,335,0.0,0
+road,Route 23,41,,,17
+road,I-80,38,,,18
+road,US 202,37,,,14
+road,US 46,29,,,18
+road,Garden State Parkway,26,,,12
+road,ROUTE 504,18,,,4
+road,PASSAIC COUNTY 681,17,,,6
+road,RT 511 (GREENWOOD LAKE TURNPIKE),17,,,10
+road,RT 513 (UNION VALLEY ROAD),16,,,5
+road,Route 208,14,,,6
+road,Route 3,14,,,4
+road,ROUTE 511,13,,,1
+road,PASSAIC COUNTY 689,11,,,7
+hour_oct_nov,00:00 to 00:59,,,,5
+hour_oct_nov,01:00 to 01:59,,,,6
+hour_oct_nov,02:00 to 02:59,,,,2
+hour_oct_nov,03:00 to 03:59,,,,7
+hour_oct_nov,04:00 to 04:59,,,,4
+hour_oct_nov,05:00 to 05:59,,,,15
+hour_oct_nov,06:00 to 06:59,,,,14
+hour_oct_nov,07:00 to 07:59,,,,17
+hour_oct_nov,08:00 to 08:59,,,,11
+hour_oct_nov,09:00 to 09:59,,,,4
+hour_oct_nov,10:00 to 10:59,,,,3
+hour_oct_nov,11:00 to 11:59,,,,6
+hour_oct_nov,12:00 to 12:59,,,,4
+hour_oct_nov,13:00 to 13:59,,,,2
+hour_oct_nov,14:00 to 14:59,,,,1
+hour_oct_nov,15:00 to 15:59,,,,5
+hour_oct_nov,16:00 to 16:59,,,,10
+hour_oct_nov,17:00 to 17:59,,,,15
+hour_oct_nov,18:00 to 18:59,,,,19
+hour_oct_nov,19:00 to 19:59,,,,23
+hour_oct_nov,20:00 to 20:59,,,,9
+hour_oct_nov,21:00 to 21:59,,,,13
+hour_oct_nov,22:00 to 22:59,,,,10
+hour_oct_nov,23:00 to 23:59,,,,9
+county_total,Passaic,594,34733,1.7,214

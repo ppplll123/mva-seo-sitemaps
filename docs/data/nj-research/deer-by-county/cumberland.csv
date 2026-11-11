@@ -1,0 +1,48 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Vineland City,127,3641,3.5,61
+town,Upper Deerfield Twp,67,609,11.0,26
+town,Millville City,64,1451,4.4,26
+town,Maurice River Twp,42,307,13.7,19
+town,Deerfield Twp,30,211,14.2,12
+town,Commercial Twp,20,109,18.3,9
+town,Hopewell Twp,24,135,17.8,8
+town,Stow Creek Twp,13,37,35.1,7
+town,Fairfield Twp,27,191,14.1,6
+town,Lawrence Twp,23,77,29.9,5
+town,Bridgeton City,10,645,1.6,3
+town,Downe Twp,10,42,23.8,2
+town,Shiloh Boro,2,22,9.1,1
+town,Greenwich Twp,1,6,16.7,1
+road,Route 47,31,,,18
+road,Route 49,27,,,10
+road,Route 55,26,,,20
+road,CUMBERLAND COUNTY 670,25,,,4
+road,ROUTE 553,23,,,9
+road,ROUTE 552,16,,,3
+road,Route 56,12,,,6
+road,CUMBERLAND COUNTY 610,11,,,2
+hour_oct_nov,00:00 to 00:59,,,,14
+hour_oct_nov,01:00 to 01:59,,,,4
+hour_oct_nov,02:00 to 02:59,,,,4
+hour_oct_nov,03:00 to 03:59,,,,4
+hour_oct_nov,04:00 to 04:59,,,,11
+hour_oct_nov,05:00 to 05:59,,,,14
+hour_oct_nov,06:00 to 06:59,,,,12
+hour_oct_nov,07:00 to 07:59,,,,11
+hour_oct_nov,08:00 to 08:59,,,,5
+hour_oct_nov,09:00 to 09:59,,,,3
+hour_oct_nov,10:00 to 10:59,,,,2
+hour_oct_nov,11:00 to 11:59,,,,4
+hour_oct_nov,12:00 to 12:59,,,,3
+hour_oct_nov,13:00 to 13:59,,,,4
+hour_oct_nov,14:00 to 14:59,,,,2
+hour_oct_nov,15:00 to 15:59,,,,0
+hour_oct_nov,16:00 to 16:59,,,,1
+hour_oct_nov,17:00 to 17:59,,,,12
+hour_oct_nov,18:00 to 18:59,,,,19
+hour_oct_nov,19:00 to 19:59,,,,14
+hour_oct_nov,20:00 to 20:59,,,,12
+hour_oct_nov,21:00 to 21:59,,,,16
+hour_oct_nov,22:00 to 22:59,,,,5
+hour_oct_nov,23:00 to 23:59,,,,10
+county_total,Cumberland,460,7483,6.1,186

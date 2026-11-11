@@ -1,0 +1,70 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Piscataway Twp,173,3823,4.5,78
+town,South Brunswick Twp,140,3520,4.0,64
+town,Woodbridge Twp,130,10147,1.3,61
+town,Edison Twp,107,8552,1.3,50
+town,Old Bridge Twp,116,3597,3.2,48
+town,Monroe Twp,140,1491,9.4,45
+town,North Brunswick Twp,62,2808,2.2,33
+town,Sayreville Boro,58,3132,1.9,27
+town,East Brunswick Twp,57,3480,1.6,26
+town,Cranbury Twp,50,800,6.2,21
+town,Plainsboro Twp,45,607,7.4,20
+town,South Plainfield Boro,38,1667,2.3,13
+town,Metuchen Boro,12,1162,1.0,7
+town,Highland Park Boro,11,379,2.9,4
+town,Carteret Boro,11,1137,1.0,3
+town,New Brunswick City,10,4877,0.2,3
+town,Milltown Boro,5,290,1.7,3
+town,Middlesex Boro,10,618,1.6,2
+town,Perth Amboy City,5,3297,0.2,2
+town,Helmetta Boro,3,41,7.3,2
+town,Dunellen Boro,2,362,0.6,2
+town,South River Boro,3,282,1.1,1
+town,Spotswood Boro,11,285,3.9,0
+town,Bridgewater Twp,0,1,0.0,0
+town,Hainesport Twp,0,1,0.0,0
+town,Jamesburg Boro,0,355,0.0,0
+town,Municipality not coded,0,2,0.0,0
+town,South Amboy City,0,453,0.0,0
+road,US 1,86,,,53
+road,Garden State Parkway,78,,,41
+road,US 130,55,,,37
+road,I-287,52,,,36
+road,Route 18,46,,,22
+road,I-95,44,,,23
+road,US 9,38,,,22
+road,Route 27,24,,,15
+road,MIDDLESEX COUNTY 622,23,,,3
+road,RIVER ROAD (MIDDLESEX COUNTY 622),21,,,11
+road,MIDDLESEX COUNTY 615,15,,,0
+road,PERRINEVILLE ROAD (MIDDLESEX COUNTY 625),15,,,7
+road,ROUTE 535,14,,,2
+road,ROUTE 527,12,,,1
+road,RT 522 (BUCKELEW AVENUE),11,,,4
+road,SPOTSWOOD-ENGLISHTOWN ROAD (MIDDLESEX COUNTY 613),11,,,3
+hour_oct_nov,00:00 to 00:59,,,,38
+hour_oct_nov,01:00 to 01:59,,,,32
+hour_oct_nov,02:00 to 02:59,,,,19
+hour_oct_nov,03:00 to 03:59,,,,18
+hour_oct_nov,04:00 to 04:59,,,,17
+hour_oct_nov,05:00 to 05:59,,,,18
+hour_oct_nov,06:00 to 06:59,,,,21
+hour_oct_nov,07:00 to 07:59,,,,22
+hour_oct_nov,08:00 to 08:59,,,,21
+hour_oct_nov,09:00 to 09:59,,,,10
+hour_oct_nov,10:00 to 10:59,,,,8
+hour_oct_nov,11:00 to 11:59,,,,8
+hour_oct_nov,12:00 to 12:59,,,,7
+hour_oct_nov,13:00 to 13:59,,,,4
+hour_oct_nov,14:00 to 14:59,,,,3
+hour_oct_nov,15:00 to 15:59,,,,9
+hour_oct_nov,16:00 to 16:59,,,,17
+hour_oct_nov,17:00 to 17:59,,,,25
+hour_oct_nov,18:00 to 18:59,,,,42
+hour_oct_nov,19:00 to 19:59,,,,31
+hour_oct_nov,20:00 to 20:59,,,,32
+hour_oct_nov,21:00 to 21:59,,,,43
+hour_oct_nov,22:00 to 22:59,,,,41
+hour_oct_nov,23:00 to 23:59,,,,29
+county_total,Middlesex,1199,57166,2.1,515

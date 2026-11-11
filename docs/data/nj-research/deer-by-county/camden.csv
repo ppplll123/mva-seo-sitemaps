@@ -1,0 +1,78 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Cherry Hill Twp,165,5514,3.0,86
+town,Winslow Twp,175,1913,9.1,76
+town,Gloucester Twp,92,2318,4.0,46
+town,Waterford Twp,54,335,16.1,23
+town,Voorhees Twp,72,1341,5.4,22
+town,Camden City,19,4653,0.4,8
+town,Barrington Boro,9,382,2.4,7
+town,Lawnside Boro,9,345,2.6,7
+town,Pennsauken Twp,10,1484,0.7,6
+town,Lindenwold Boro,14,707,2.0,5
+town,Berlin Twp,13,248,5.2,5
+town,Pine Hill Boro,12,298,4.0,4
+town,Runnemede Boro,6,408,1.5,4
+town,Clementon Boro,11,391,2.8,3
+town,Gibbsboro Boro,11,100,11.0,3
+town,Chesilhurst Boro,6,26,23.1,3
+town,Somerdale Boro,5,445,1.1,3
+town,Gloucester City,4,1204,0.3,3
+town,Berlin Boro,9,388,2.3,2
+town,Haddonfield Boro,4,308,1.3,2
+town,Magnolia Boro,7,273,2.6,1
+town,Audubon Boro,3,323,0.9,1
+town,Haddon Heights Boro,2,505,0.4,1
+town,Hi-Nella Boro,1,5,20.0,1
+town,Bellmawr Boro,2,1990,0.1,0
+town,Mount Ephriam Boro,2,406,0.5,0
+town,Haddon Twp,1,228,0.4,0
+town,Merchantville Boro,1,176,0.6,0
+town,Audubon Park Boro,0,8,0.0,0
+town,Brooklawn Boro,0,178,0.0,0
+town,Collingswood Boro,0,611,0.0,0
+town,Laurel Springs Boro,0,15,0.0,0
+town,Oaklyn Boro,0,114,0.0,0
+town,Stratford Boro,0,206,0.0,0
+town,Tavistock Boro,0,26,0.0,0
+town,Woodlynne Boro,0,41,0.0,0
+road,Route 73,66,,,30
+road,US 30,47,,,22
+road,Atlantic City Expressway,45,,,26
+road,I-295,27,,,18
+road,ROUTE 561,25,,,6
+road,Route 42,20,,,14
+road,CAMDEN COUNTY 675,18,,,4
+road,NJ Turnpike,17,,,11
+road,Route 70,16,,,9
+road,CAMDEN COUNTY 671,14,,,4
+road,Route 38,12,,,9
+road,CAMDEN COUNTY 670,10,,,3
+road,CAMDEN COUNTY 673,10,,,0
+road,ROUTE 536,10,,,3
+road,Route 154,10,,,5
+road,Route 41,10,,,5
+hour_oct_nov,00:00 to 00:59,,,,13
+hour_oct_nov,01:00 to 01:59,,,,11
+hour_oct_nov,02:00 to 02:59,,,,13
+hour_oct_nov,03:00 to 03:59,,,,5
+hour_oct_nov,04:00 to 04:59,,,,12
+hour_oct_nov,05:00 to 05:59,,,,15
+hour_oct_nov,06:00 to 06:59,,,,13
+hour_oct_nov,07:00 to 07:59,,,,26
+hour_oct_nov,08:00 to 08:59,,,,9
+hour_oct_nov,09:00 to 09:59,,,,5
+hour_oct_nov,10:00 to 10:59,,,,5
+hour_oct_nov,11:00 to 11:59,,,,3
+hour_oct_nov,12:00 to 12:59,,,,2
+hour_oct_nov,13:00 to 13:59,,,,2
+hour_oct_nov,14:00 to 14:59,,,,5
+hour_oct_nov,15:00 to 15:59,,,,2
+hour_oct_nov,16:00 to 16:59,,,,9
+hour_oct_nov,17:00 to 17:59,,,,27
+hour_oct_nov,18:00 to 18:59,,,,24
+hour_oct_nov,19:00 to 19:59,,,,36
+hour_oct_nov,20:00 to 20:59,,,,27
+hour_oct_nov,21:00 to 21:59,,,,19
+hour_oct_nov,22:00 to 22:59,,,,22
+hour_oct_nov,23:00 to 23:59,,,,17
+county_total,Camden,719,27913,2.6,322

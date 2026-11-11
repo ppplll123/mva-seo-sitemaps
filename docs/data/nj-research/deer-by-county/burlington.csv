@@ -1,0 +1,96 @@
+section,name,animal_crashes_2023_2024,all_crashes_2023_2024,animal_share_of_all_crashes_pct,oct_nov_animal_crashes_2023_2024
+town,Mount Laurel Twp,212,3199,6.6,109
+town,Medford Twp,199,1207,16.5,92
+town,Evesham Twp,115,1382,8.3,56
+town,Pemberton Twp,128,945,13.5,45
+town,Southampton Twp,108,673,16.0,43
+town,Westampton Twp,53,1016,5.2,29
+town,Shamong Twp,59,259,22.8,22
+town,Mansfield Twp,58,669,8.7,22
+town,Springfield Twp,50,400,12.5,21
+town,Woodland Twp,48,195,24.6,20
+town,Chesterfield Twp,44,263,16.7,20
+town,Bass River Twp,44,230,19.1,19
+town,Burlington Twp,37,1286,2.9,17
+town,Hainesport Twp,33,317,10.4,15
+town,Tabernacle Twp,46,198,23.2,14
+town,Eastampton Twp,23,174,13.2,14
+town,Bordentown Twp,30,999,3.0,13
+town,Lumberton Twp,38,425,8.9,12
+town,Willingboro Twp,22,1145,1.9,11
+town,Moorestown Twp,35,1026,3.4,10
+town,North Hanover Twp,25,94,26.6,8
+town,Maple Shade Twp,14,1036,1.4,7
+town,Mount Holly Twp,14,534,2.6,7
+town,Burlington City,9,1006,0.9,7
+town,Delran Twp,14,738,1.9,5
+town,Medford Lakes Boro,15,140,10.7,4
+town,Florence Twp,12,681,1.8,4
+town,New Hanover Twp,12,49,24.5,4
+town,Delanco Twp,7,107,6.5,4
+town,Palmyra Boro,4,140,2.9,4
+town,Washington Twp,6,114,5.3,3
+town,Wrightstown Boro,4,34,11.8,2
+town,Bordentown City,3,148,2.0,2
+town,Pemberton Boro,3,131,2.3,2
+town,Cinnaminson Twp,3,646,0.5,1
+town,Edgewater Park Twp,3,314,1.0,1
+town,Beverly City,1,60,1.7,1
+town,Riverton Boro,4,48,8.3,0
+town,Fieldsboro Boro,0,9,0.0,0
+town,Riverside Twp,0,69,0.0,0
+road,US 206,108,,,43
+road,Route 70,78,,,35
+road,Route 38,61,,,31
+road,I-295,53,,,32
+road,Route 73,46,,,23
+road,CHURCH ROAD (BURLINGTON COUNTY 616),41,,,15
+road,NJ Turnpike,40,,,24
+road,US 130,36,,,16
+road,Route 72,29,,,14
+road,Route 68,27,,,6
+road,TUCKERTON ROAD (BURLINGTON COUNTY 620),27,,,14
+road,RT 541 (STOKES ROAD),24,,,11
+road,RT 537 (MONMOUTH ROAD),23,,,14
+road,Garden State Parkway,21,,,14
+road,MAGNOLIA ROAD (BURLINGTON COUNTY 644),20,,,10
+road,RT 530 (LAKEHURST ROAD),19,,,6
+road,BURLINGTON COUNTY 620,17,,,8
+road,HARTFORD ROAD,17,,,9
+road,RT 530 (PEMBERTON BROWNS MILLS ROAD),17,,,4
+road,ROUTE 537,16,,,4
+road,HARTFORD ROAD (BURLINGTON COUNTY 686),15,,,8
+road,MT LAUREL ROAD (BURLINGTON COUNTY 603),15,,,7
+road,RT 541 (MEDFORD-MT HOLLY ROAD),14,,,3
+road,SOUTH CHURCH ROAD (BURLINGTON COUNTY 607),14,,,5
+road,ATSION ROAD,12,,,5
+road,HOPEWELL ROAD,12,,,10
+road,I-95,11,,,8
+road,RT 532 (CHATSWORTH ROAD),11,,,5
+road,HAINSPORT-MT LAUREL ROAD (BURLINGTON COUNTY 674),10,,,3
+road,RT 532 (TABERNACLE ROAD),10,,,6
+hour_oct_nov,00:00 to 00:59,,,,27
+hour_oct_nov,01:00 to 01:59,,,,26
+hour_oct_nov,02:00 to 02:59,,,,10
+hour_oct_nov,03:00 to 03:59,,,,9
+hour_oct_nov,04:00 to 04:59,,,,28
+hour_oct_nov,05:00 to 05:59,,,,38
+hour_oct_nov,06:00 to 06:59,,,,45
+hour_oct_nov,07:00 to 07:59,,,,43
+hour_oct_nov,08:00 to 08:59,,,,27
+hour_oct_nov,09:00 to 09:59,,,,15
+hour_oct_nov,10:00 to 10:59,,,,8
+hour_oct_nov,11:00 to 11:59,,,,8
+hour_oct_nov,12:00 to 12:59,,,,9
+hour_oct_nov,13:00 to 13:59,,,,6
+hour_oct_nov,14:00 to 14:59,,,,7
+hour_oct_nov,15:00 to 15:59,,,,9
+hour_oct_nov,16:00 to 16:59,,,,24
+hour_oct_nov,17:00 to 17:59,,,,61
+hour_oct_nov,18:00 to 18:59,,,,74
+hour_oct_nov,19:00 to 19:59,,,,56
+hour_oct_nov,20:00 to 20:59,,,,44
+hour_oct_nov,21:00 to 21:59,,,,32
+hour_oct_nov,22:00 to 22:59,,,,38
+hour_oct_nov,23:00 to 23:59,,,,26
+county_total,Burlington,1535,22106,6.9,670
