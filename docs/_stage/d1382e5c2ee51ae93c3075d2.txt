@@ -1,0 +1,402 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.appeals-guide .coverage-graphic img{max-height:none;object-fit:contain}.appeals-guide .article-image img{height:auto}.appeals-guide #dataset table{min-width:760px}.appeals-guide #dataset .button{white-space:normal}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><style id="um-uim-tables">.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}</style><style>.appeals-guide{min-width:0;max-width:100%}.appeals-guide .articlebody{min-width:0;max-width:760px}.appeals-guide .mva-review-scroll{width:100%;max-width:100%;min-width:0;contain:inline-size;overflow-x:auto;margin:28px 0}.appeals-guide table{width:100%;min-width:580px;border-collapse:collapse;font-size:17px;line-height:1.55}.appeals-guide caption{text-align:left;font-weight:700;padding:12px 0}.appeals-guide th,.appeals-guide td{text-align:left;vertical-align:top;border:1px solid #c5c5bf;padding:14px}.appeals-guide thead{background:#172c53;color:white}.appeals-guide tbody th{width:45%;font-weight:600;background:#f1eee6}.appeals-guide .callout{background:var(--panel);border-left:4px solid var(--ink);padding:18px 24px;margin:28px 0}.appeals-guide a{overflow-wrap:anywhere}.research-series .article-image img{height:auto;max-height:none;object-fit:contain}.research-series details{border-top:1px solid #c5c5bf;padding:18px 0}.research-series summary{font-weight:700;cursor:pointer;line-height:1.45}.research-series details p{margin:12px 0 0}.research-series .tldr{background:var(--panel);border-left:4px solid #c89443;padding:18px 24px;margin:28px 0}.research-series .gr-article{max-width:none;padding:0;font-size:19px;line-height:1.75}.research-series .gr-index{max-width:none;padding:0;font-size:18px;line-height:1.65}.research-series .gr-index table{min-width:1200px;font-size:14px;line-height:1.5}.research-series .gr-index tbody th{width:auto;font-weight:600;background:#f1eee6}.research-series .gr-filters{gap:12px}.research-series .gr-filters input,.research-series .gr-filters select{min-height:44px;max-width:100%;font-size:16px}.research-series .gr-filters input{min-width:0;flex:1 1 230px}.research-series.research-index .articlebody{max-width:100%}.research-series .gr-chart{max-width:100%}.research-series .gr-bar-row{min-width:0}.research-series .gr-num{min-width:0}.research-series .gr-chart *{box-sizing:border-box}@media(max-width:600px){.research-series .gr-article h1,.research-series .gr-index h1{font-size:30px}.research-series .gr-bar-row{grid-template-columns:minmax(0,1fr) minmax(60px,1fr) 24px;gap:8px}.research-series .gr-filters select{width:100%}.research-series .callout,.research-series .tldr{padding:16px}.research-series .gr-chart{padding:14px}}</style><style>.research-series{max-width:1000px!important;margin:48px auto!important;padding:0 30px!important}.research-series .articlebody{max-width:none!important;width:100%}.research-series .article-image img{width:auto!important;max-width:100%!important;height:auto!important;max-height:340px!important;object-fit:contain!important;margin:auto}.research-series table{min-width:640px}.research-series table th:first-child,.research-series table td:first-child{width:auto!important}.research-series table thead th{background:#172c53!important;color:#fff!important}.research-series .mva-review-scroll{max-width:100%;overflow-x:auto}.research-series .mva-review-scroll:focus-visible{outline:3px solid #c89443}@media(max-width:600px){.research-series{padding:0 22px!important}.research-series h1{font-size:34px!important}}</style><main id="main"><nav class="l2-crumbs" aria-label="Breadcrumb" style="max-width:780px;margin:24px auto -40px;padding:0 30px;font-size:14px"><a href="/">Home</a> <span aria-hidden="true">/</span> <a href="/new-jersey">New Jersey accident guides</a></nav><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}.l2-article .byline{font-size:15px;opacity:.8;margin:-10px 0 18px}.l2-article .key-facts{background:var(--panel);border-radius:10px;padding:18px 20px;margin:22px 0 26px}.l2-article .key-facts h2,.l2-article .key-facts h3{margin:0 0 10px;font-size:15px;text-transform:uppercase;letter-spacing:.06em}.l2-article .key-facts ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}.l2-article .key-facts li{background:var(--paper);border-left:4px solid var(--ink);padding:12px 14px;margin:0;font-size:16px;line-height:1.4}.l2-article .key-facts li strong,.l2-article .key-facts li b{display:block;font-size:26px;line-height:1.1;margin-bottom:4px}.l2-article sup a{text-decoration:none;font-size:12px;padding:0 2px}.l2-article #sources{font-size:14px;line-height:1.5;border-top:1px solid color-mix(in srgb,var(--ink) 20%,transparent);margin-top:40px;padding-top:12px}.l2-article #sources h2{font-size:18px}.l2-article #sources li{margin:4px 0;overflow-wrap:anywhere}.l2-article details{background:var(--panel);padding:12px 16px;margin:18px 0;border-radius:8px}.l2-article summary{cursor:pointer;font-weight:700}.l2-article .l2-tablewrap{background:linear-gradient(to right,var(--paper) 30%,transparent),linear-gradient(to left,var(--paper) 30%,transparent) 100% 0,radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;background-repeat:no-repeat;background-size:40px 100%,40px 100%,14px 100%,14px 100%;background-attachment:local,local,scroll,scroll}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><style>/* Final presentation layer for lane 2 bodies (2026-11-11). Scoped to article.l2-article.df.
+   Uses only the site tokens --ink, --paper, --panel, --accent. Load after L2_CSS. */
+.l2-article.df{max-width:800px;font-size:18px}
+.l2-article.df h1{margin-bottom:12px}
+.l2-article.df h2{font-size:26px;line-height:1.25;margin:56px 0 14px}
+.l2-article.df h2::after{content:"";display:block;width:56px;height:5px;border-radius:3px;background:var(--accent);margin-top:10px}
+.l2-article.df h3{font-size:20px}
+.l2-article.df p{line-height:1.65;margin:10px 0 16px;max-width:68ch}
+.l2-article.df strong.df-k{font-weight:700}
+
+/* jump pills under the h1 */
+.l2-article.df .df-jump{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 20px;font:700 14px/1.3 Arial,sans-serif}
+.l2-article.df .df-jump span{opacity:.75;margin-right:2px}
+.l2-article.df .df-jump a{display:inline-block;padding:7px 13px;border-radius:20px;border:1.5px solid var(--ink);color:var(--ink);text-decoration:none;background:var(--paper)}
+.l2-article.df .df-jump a:first-of-type{background:var(--accent);border-color:var(--accent)}
+
+/* answer card */
+.l2-article.df .df-answer{background:var(--accent);border-radius:16px;padding:22px 26px 10px;margin:4px 0 30px}
+.l2-article.df .df-answer::before{content:"Quick answer";display:inline-block;background:var(--ink);color:var(--paper);font:700 12px/1 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;padding:7px 12px;border-radius:20px;margin-bottom:12px}
+.l2-article.df .df-answer p{max-width:none}
+.l2-article.df .df-answer p.df-lead{font-size:20px;line-height:1.5;font-weight:400}
+.l2-article.df .df-answer p.df-lead > strong:first-child{display:block;font-size:23px;line-height:1.35;font-weight:800;margin-bottom:8px}
+.l2-article.df .df-answer .source,.l2-article.df .df-answer .note{opacity:.9}
+.l2-article.df .df-answer a{color:var(--ink)}
+
+/* stat cards */
+.l2-article.df .df-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:16px 0 18px}
+.l2-article.df .df-stats-2{grid-template-columns:repeat(2,1fr)}
+.l2-article.df .df-stats-3{grid-template-columns:repeat(3,1fr)}
+.l2-article.df .df-stat{background:var(--paper);border-radius:12px;padding:14px 14px 12px;display:flex;flex-direction:column;gap:5px}
+.l2-article.df .df-stat-q{font:700 11px/1 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;opacity:.7}
+.l2-article.df .df-stat-n{font:800 32px/1 Arial,sans-serif;letter-spacing:-.02em}
+.l2-article.df .df-stat-t{font:14px/1.35 Arial,sans-serif;opacity:.85}
+
+/* bar charts built from table numbers */
+.l2-article.df .df-chart{margin:20px 0 6px;padding:16px 18px 12px;background:var(--panel);border-radius:14px;font:15px/1.35 Arial,sans-serif}
+.l2-article.df .df-chart-t{font-weight:700;font-size:15px;margin:0 0 8px}
+.l2-article.df .df-legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:0 0 10px;font-size:13px;font-weight:700}
+.l2-article.df .df-key::before{content:"";display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:var(--ink)}
+.l2-article.df .df-key-c::before{background:color-mix(in srgb,var(--ink) 30%,transparent)}
+.l2-article.df .df-rows{list-style:none;margin:0;padding:0}
+.l2-article.df .df-row{display:grid;grid-template-columns:minmax(0,38%) 1fr;gap:12px;align-items:center;margin:0;padding:6px 0;border-bottom:1px solid color-mix(in srgb,var(--ink) 10%,transparent)}
+.l2-article.df .df-row:last-child{border-bottom:0}
+.l2-article.df .df-lab{font-weight:700;overflow-wrap:anywhere}
+.l2-article.df .df-bars{display:grid;grid-template-columns:1fr 54px;gap:3px 8px;align-items:center}
+.l2-article.df .df-bar{height:14px;background:color-mix(in srgb,var(--ink) 8%,transparent);border-radius:7px;overflow:hidden}
+.l2-article.df .df-fill{display:block;height:100%;background:var(--ink);border-radius:7px;min-width:3px}
+.l2-article.df .df-bar-c{height:8px}
+.l2-article.df .df-bar-c .df-fill{background:color-mix(in srgb,var(--ink) 30%,transparent)}
+.l2-article.df .df-val{font-weight:700;font-variant-numeric:tabular-nums;text-align:right}
+.l2-article.df .df-val-c{font-weight:400;font-size:13px;opacity:.8}
+.l2-article.df .df-map .df-rows{position:relative;padding-left:26px}
+.l2-article.df .df-map .df-rows::before{content:"";position:absolute;left:8px;top:8px;bottom:8px;width:6px;border-radius:3px;background:var(--ink);opacity:.85}
+.l2-article.df .df-map .df-row{position:relative}
+.l2-article.df .df-map .df-row::before{content:"";position:absolute;left:-23px;top:50%;width:12px;height:12px;margin-top:-6px;border-radius:50%;background:var(--accent);border:3px solid var(--ink);box-sizing:border-box}
+
+/* the full table under each chart, behind a native toggle */
+.l2-article.df .df-tablebox{margin:4px 0 24px}
+.l2-article.df .df-tablebox > summary{cursor:pointer;display:inline-flex;align-items:center;gap:8px;font:700 14px/1.3 Arial,sans-serif;padding:8px 14px;border-radius:20px;border:1.5px solid color-mix(in srgb,var(--ink) 35%,transparent);list-style:none}
+.l2-article.df .df-tablebox > summary::-webkit-details-marker{display:none}
+.l2-article.df .df-tablebox > summary::after{content:"+";font-size:17px;line-height:1}
+.l2-article.df .df-tablebox[open] > summary::after{content:"\2212"}
+.l2-article.df .df-tablebox[open] > summary{margin-bottom:6px}
+
+/* tables: rounded box, dark header, edge shadow while more columns are hidden */
+.l2-article.df .l2-tablewrap{position:relative;border-radius:12px;border:1px solid color-mix(in srgb,var(--ink) 18%,transparent);
+  background:linear-gradient(to right,var(--paper) 30%,transparent) left center/40px 100% no-repeat local,
+             linear-gradient(to left,var(--paper) 30%,transparent) right center/40px 100% no-repeat local,
+             linear-gradient(to right,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/14px 100% no-repeat scroll,
+             linear-gradient(to left,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/14px 100% no-repeat scroll}
+.l2-article.df table{font-size:15px}
+.l2-article.df caption{font:700 14px/1.4 Arial,sans-serif;padding:12px 12px 8px;position:sticky;left:0}
+.l2-article.df thead th{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.l2-article.df td{background:transparent;font-variant-numeric:tabular-nums}
+
+/* quiz CTA: one clear action card */
+.l2-article.df .quiz-cta{background:var(--ink);color:var(--paper);border:0;border-radius:16px;padding:24px 26px;margin:34px 0;box-shadow:0 8px 24px color-mix(in srgb,var(--ink) 25%,transparent)}
+.l2-article.df .quiz-cta p{max-width:none;color:var(--paper)}
+.l2-article.df .quiz-cta p:first-child{font-size:19px;line-height:1.5}
+.l2-article.df .quiz-cta .button{background:var(--accent);color:var(--ink);border-radius:30px;padding:16px 26px;font-size:18px;margin-top:6px}
+.l2-article.df .quiz-cta .button::after{content:" \2192"}
+.l2-article.df .quiz-cta .cta-note,.l2-article.df .quiz-cta p.note{font-size:13px;opacity:.8;background:none;padding:0;border-radius:0}
+.l2-article.df .quiz-cta a:not(.button){color:var(--paper)}
+.l2-article.df .df-answer .quiz-cta{margin:18px -10px 18px}
+
+/* numbered steps */
+.l2-article.df ol.df-steps{list-style:none;counter-reset:dfstep;padding:0;margin:18px 0}
+.l2-article.df ol.df-steps > li{counter-increment:dfstep;position:relative;background:var(--panel);border-radius:12px;padding:14px 16px 14px 62px;margin:10px 0;line-height:1.55}
+.l2-article.df ol.df-steps > li::before{content:counter(dfstep);position:absolute;left:14px;top:12px;width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--paper);font:700 17px/34px Arial,sans-serif;text-align:center}
+.l2-article.df .df-rules ul{list-style:none;padding:0}
+.l2-article.df .df-rules ul > li{background:var(--panel);border-left:5px solid var(--accent);border-radius:8px;padding:12px 16px;margin:10px 0}
+.l2-article.df p.note{background:var(--panel);border-radius:10px;padding:12px 16px}
+
+/* "How we built this page": the original-research box */
+.l2-article.df .df-method{background:var(--panel);border-radius:16px;padding:6px 24px 14px;margin-top:48px;border-left:6px solid var(--ink)}
+.l2-article.df .df-method h2{margin-top:18px}
+.l2-article.df .df-method p,.l2-article.df .df-method li{font-size:16px}
+
+/* related links as chips */
+.l2-article.df .df-links ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.l2-article.df .df-links li{margin:0;display:inline-flex;align-items:center}
+.l2-article.df .df-links ul a{display:inline-block;padding:8px 14px;border-radius:20px;background:var(--panel);text-decoration:none;color:var(--ink);font:15px/1.35 Arial,sans-serif}
+
+/* footnote markers: small round badges, not academic superscripts */
+.l2-article.df sup.df-fn{font:700 10px/0 Arial,sans-serif;margin-left:3px;vertical-align:2px}
+.l2-article.df sup.df-fn a{display:inline-block;min-width:16px;height:16px;line-height:16px;text-align:center;text-decoration:none;border-radius:8px;background:color-mix(in srgb,var(--ink) 10%,transparent);color:var(--ink)}
+.l2-article.df .df-fnline{margin:-6px 0 12px}
+
+/* FAQ accordions */
+.l2-article.df .df-faq{border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent);padding:4px 0}
+.l2-article.df .df-faq summary{cursor:pointer;list-style:none;display:flex;gap:12px;align-items:flex-start;padding:10px 0}
+.l2-article.df .df-faq summary::-webkit-details-marker{display:none}
+.l2-article.df .df-faq summary::before{content:"+";flex:0 0 28px;height:28px;border-radius:50%;background:var(--ink);color:var(--paper);font:700 20px/28px Arial,sans-serif;text-align:center;margin-top:1px}
+.l2-article.df .df-faq[open] summary::before{content:"\2212"}
+.l2-article.df .df-faq summary h3{margin:0;font-size:19px;line-height:1.35}
+.l2-article.df .df-faq > :not(summary){margin-left:40px}
+
+/* sources list: present and linked, but quiet */
+.l2-article.df .df-sources{margin-top:48px;padding-top:6px;border-top:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}
+.l2-article.df .df-sources h2{font-size:18px;margin-top:16px}
+.l2-article.df .df-sources h2::after{display:none}
+.l2-article.df .df-sources ol{list-style:decimal;padding-left:24px;margin:8px 0;font:13.5px/1.5 Arial,sans-serif;opacity:.9}
+.l2-article.df .df-sources li{margin:5px 0;padding-left:4px}
+.l2-article.df .df-src-body a{overflow-wrap:anywhere}
+.l2-article.df .df-back{text-decoration:none;margin-left:4px}
+.l2-article.df :target{scroll-margin-top:20px}
+.l2-article.df li:target{background:color-mix(in srgb,var(--accent) 60%,transparent)}
+
+@media(max-width:700px){
+  .l2-article.df{font-size:17px}
+  .l2-article.df h2{font-size:23px;margin-top:44px}
+  .l2-article.df .df-answer{padding:18px 16px 6px;margin-left:-6px;margin-right:-6px}
+  .l2-article.df .df-answer p.df-lead{font-size:18px}
+  .l2-article.df .df-answer p.df-lead > strong:first-child{font-size:21px}
+  .l2-article.df .df-jump{gap:6px;font-size:13px}
+  .l2-article.df .df-jump span{display:none}
+  .l2-article.df .df-jump a{padding:6px 11px}
+  .l2-article.df .df-stats,.l2-article.df .df-stats-3{grid-template-columns:repeat(2,1fr)}
+  .l2-article.df .df-stat-n{font-size:27px}
+  .l2-article.df .df-chart{padding:14px 12px 10px}
+  .l2-article.df .df-row{grid-template-columns:1fr;gap:4px}
+  .l2-article.df .df-map .df-row::before{top:12px;margin-top:0}
+  .l2-article.df .quiz-cta{padding:20px 18px}
+  .l2-article.df .quiz-cta .button{display:block;text-align:center}
+  .l2-article.df .df-answer .quiz-cta{margin:16px -6px}
+  .l2-article.df th[scope="row"]{position:sticky;left:0;z-index:1;background:var(--paper);min-width:120px}
+  /* text tables become one card per row on phones (labels come from data-label) */
+  .l2-article.df table.df-stack{min-width:0;width:100%;border:0}
+  .l2-article.df table.df-stack thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .l2-article.df table.df-stack tbody,.l2-article.df table.df-stack tr,.l2-article.df table.df-stack th,.l2-article.df table.df-stack td{display:block}
+  .l2-article.df table.df-stack tr{background:var(--panel);border-radius:10px;margin:0 8px 10px;padding:10px 14px}
+  .l2-article.df table.df-stack th,.l2-article.df table.df-stack td{border:0;padding:4px 0;min-width:0;position:static;background:transparent}
+  .l2-article.df table.df-stack tbody th{font-size:16px;color:var(--ink)}
+  .l2-article.df table.df-stack td::before{content:attr(data-label);display:block;font:700 12px/1.3 Arial,sans-serif;letter-spacing:.04em;text-transform:uppercase;opacity:.65;margin-bottom:2px}
+  .l2-article.df .l2-tablewrap:has(table.df-stack){border:0;background:none;overflow:visible}
+  .l2-article.df ol.df-steps > li{padding-left:56px}
+  .l2-article.df .df-faq > :not(summary){margin-left:0}
+  .l2-article.df .df-method{padding:4px 16px 10px}
+}
+
+/* ---- live visual audit fixes (11-Nov-2026, qa/live-visual-audit-20261111.md, CSS items 1-19) ---- */
+/* 4. H1: capped on desktop, clamped on phones */
+.l2-article.df h1{font-size:clamp(2rem,3.4vw,2.6rem);line-height:1.15;letter-spacing:-.03em}
+/* chart legend names the plotted measure */
+.l2-article.df .df-legend-l{font-weight:400;opacity:.75;margin-right:-8px}
+.l2-article.df .df-legend-l::after{content:":"}
+/* 17. near-equal values: value tiles instead of identical-looking bars */
+.l2-article.df .df-flat .df-rows{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:8px}
+.l2-article.df .df-flat .df-row{display:flex;flex-direction:column-reverse;align-items:flex-start;justify-content:flex-end;gap:2px;border:0;background:var(--paper);border-radius:10px;padding:10px 12px}
+.l2-article.df .df-flat .df-bars{display:block}
+.l2-article.df .df-flat .df-bar{display:none}
+.l2-article.df .df-flat .df-val{display:block;text-align:left;font-size:24px;line-height:1.1}
+.l2-article.df .df-flat .df-lab{font-weight:400;font-size:14px}
+/* 6. key facts inside the quick answer: one frame, not three */
+.l2-article.df .df-answer .key-facts{background:none;padding:0;margin:16px 0 14px;border-radius:0}
+/* 7. card grid: 4 across for 4 facts, 3 for 3, 2x2 otherwise on narrow widths */
+.l2-article.df .key-facts ul{grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.l2-article.df .key-facts ul:has(> li:nth-child(4):last-child){grid-template-columns:repeat(4,minmax(0,1fr))}
+.l2-article.df .key-facts ul:has(> li:nth-child(3):last-child){grid-template-columns:repeat(3,minmax(0,1fr))}
+.l2-article.df .key-facts li{border-left:0;border-radius:10px;padding:12px 14px;font-size:15px;line-height:1.35}
+/* 8. key-fact headline: the number, or an emphasised number inside the sentence */
+.l2-article.df .key-facts li strong.df-kf-n{display:block;font:800 26px/1.1 Arial,sans-serif;letter-spacing:-.01em;margin-bottom:4px}
+.l2-article.df .key-facts li .df-kf-p{display:none}
+.l2-article.df .key-facts li strong.df-kf-x,.l2-article.df .key-facts li.df-kf-inline strong{display:inline;font:800 1.5em/1 Arial,sans-serif;margin:0}
+.l2-article.df .key-facts li.df-kf-inline{font-size:18px;line-height:1.4;font-weight:700}
+/* 15. footnote badge moved into the last card stays inline */
+.l2-article.df .key-facts li sup.df-fn{display:inline}
+/* 9. in-body quiz card: shorter */
+.l2-article.df .quiz-cta{padding:20px 22px;margin:26px 0}
+.l2-article.df .quiz-cta p{margin:6px 0}
+.l2-article.df .quiz-cta p:first-child{font-size:17px;line-height:1.45}
+.l2-article.df .quiz-cta .button{padding:14px 24px;font-size:17px;margin-top:4px}
+.l2-article.df .quiz-cta .cta-note,.l2-article.df .quiz-cta p.note{font-size:12px;line-height:1.35;margin-top:8px}
+/* 12. tables: hint and readable columns */
+.l2-article.df td{min-width:7em}
+.l2-article.df .df-swipe{display:none;font:700 12px/1.3 Arial,sans-serif;opacity:.7;margin:8px 0 -12px;text-align:right}
+
+@media(max-width:700px){
+  .l2-article.df .df-answer .key-facts{margin:12px 0 10px}
+  .l2-article.df .key-facts ul,.l2-article.df .key-facts ul:has(> li:nth-child(4):last-child),.l2-article.df .key-facts ul:has(> li:nth-child(3):last-child){grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .l2-article.df .key-facts ul > li:nth-child(3):last-child{grid-column:1 / -1}
+  .l2-article.df .key-facts li{padding:10px 11px;font-size:13.5px;line-height:1.3}
+  .l2-article.df .key-facts li strong.df-kf-n{font-size:1.5rem;margin-bottom:3px}
+  .l2-article.df .key-facts li.df-kf-inline{font-size:15px}
+  .l2-article.df .df-swipe{display:block}
+  .l2-article.df .l2-tablewrap{background:linear-gradient(to right,var(--paper) 30%,transparent) left center/40px 100% no-repeat local,
+             linear-gradient(to left,var(--paper) 30%,transparent) right center/40px 100% no-repeat local,
+             linear-gradient(to right,color-mix(in srgb,var(--ink) 30%,transparent),transparent) left center/18px 100% no-repeat scroll,
+             linear-gradient(to left,color-mix(in srgb,var(--ink) 38%,transparent),transparent) right center/24px 100% no-repeat scroll}
+  /* 13. stacked table cards: label left, value right, tight rows */
+  .l2-article.df table.df-stack tr{margin:0 0 8px;padding:8px 12px}
+  .l2-article.df table.df-stack th,.l2-article.df table.df-stack td{padding:3px 0;font-size:15px;line-height:1.4}
+  .l2-article.df table.df-stack td{display:grid;grid-template-columns:minmax(0,38%) minmax(0,1fr);gap:10px;align-items:baseline}
+  .l2-article.df table.df-stack td::before{font-size:11px;letter-spacing:.03em;margin:0;line-height:1.35}
+  .l2-article.df table.df-stack tbody th{font-size:15.5px;padding-bottom:4px}
+  /* 14. place rules: plain list, not tinted boxes */
+  .l2-article.df .df-rules ul > li{background:none;border-left:3px solid var(--accent);border-radius:0;padding:2px 0 2px 12px;margin:12px 0}
+  .l2-article.df .quiz-cta{padding:18px 16px;margin:22px 0}
+  .l2-article.df .quiz-cta .button{padding:13px 18px}
+}
+@media(max-width:480px){
+  /* 4. phone H1 */
+  .l2-article.df h1{font-size:clamp(1.6rem,6.5vw,2.1rem);line-height:1.15;margin-bottom:10px}
+  /* 10. jump chips keep their label */
+  .l2-article.df .df-jump span{display:inline;font-size:12px}
+  .l2-article.df .df-jump{margin-bottom:12px}
+  .l2-article.df .byline{font-size:13px;margin:-4px 0 12px}
+  /* 18. full-bleed article on phones */
+  .l2-article.df{padding:0 16px;margin:22px auto}
+  .l2-article.df .df-answer,.l2-article.df .quiz-cta{margin-left:-16px;margin-right:-16px;border-radius:0}
+  .l2-article.df .df-answer{padding:16px 16px 4px}
+  .l2-article.df .df-answer::before{margin-bottom:8px}
+  .l2-article.df .df-answer p.df-lead{font-size:17px;line-height:1.45;margin:6px 0 8px}
+  .l2-article.df .df-answer p.df-lead > strong:first-child{font-size:19px;line-height:1.3;margin-bottom:6px}
+  .l2-article.df .df-answer .quiz-cta{margin:14px -16px}
+  .l2-article.df .df-chart{margin-left:-16px;margin-right:-16px;border-radius:0;padding:14px 16px 10px}
+}
+/* Optional site-shell fix (outside the article layer). Pre-existing: at 390 px the footer
+   flex row (.mva-footer-grid) does not wrap, so .mva-footer-contact sticks out to 450 px.
+   Verified in Chromium on the after-*.html previews: scrollWidth 450 -> 390. */
+@media(max-width:700px){.mva-footer-grid{flex-wrap:wrap;row-gap:24px}.mva-footer-grid>*{min-width:0;max-width:100%}}
+/* 19. footer quiz link under the copyright: a styled pill, not a stray bold line */
+.mva-footer-bottom{flex-wrap:wrap;align-items:center;gap:12px 22px}
+.mva-footer-bottom .mva-footer-quiz{display:inline-block;padding:9px 16px;border:1.5px solid var(--ink);border-radius:22px;text-decoration:none;font:700 14px/1.3 Arial,sans-serif}
+/* 11. breadcrumb gets air below it */
+.l2-crumbs{margin-bottom:-26px!important}
+@media(max-width:480px){
+  /* 11. tighter phone header so the H1 starts near y 120 */
+  .mva-site > header{padding:12px 16px;gap:6px 10px;align-items:center;flex-wrap:nowrap}
+  .mva-site > header .brand{font-size:16px;line-height:1.2;min-width:0}
+  .mva-site > header .brand small{display:none}
+  .mva-site > header nav{gap:10px;font-size:13px;flex-shrink:0}
+  .mva-site > header .navcta{padding:6px 11px}
+  .l2-crumbs{padding:0 16px!important;margin:14px auto -8px!important;font-size:13px!important}
+  /* 18. Dorik wraps the code block in a 10 px padded container: full-bleed on phones */
+  [class*="dorik-container"]:has(.mva-site){padding-left:0;padding-right:0}
+  footer.mva-contact-footer{padding:24px 16px}
+}
+</style><article class="l2-article article long-form appeals-guide research-series df"><h1>Most dangerous intersections in New Jersey: the 25 with the most injury crashes</h1><nav class="df-jump" aria-label="Jump to" data-df="added"><span>Jump to:</span><a href="#sources">Sources</a></nav>
+<p class="byline">By Sandra H. Brown, Injuries Cases Autos research. Updated <time datetime="2026-11-11">11 November 2026</time></p>
+<figure class="article-image"><img alt="Editorial illustration of an intersection and 25 NJ intersections" decoding="async" fetchpriority="high" height="1024" src="https://cdn.dorik.com/6acbe74237318c00111fbd1e/images/intersection-cover-aqhZa.webp" width="1536"/><figcaption>Editorial illustration, not an actual intersection or road survey.</figcaption></figure><div class="articlebody">
+<p>Route 30 (White Horse Pike) at Gibbsboro Road in Clementon, Camden County, has the most injury crashes of any New Jersey intersection: 25 in 2024 and 2025, with 43 people hurt. The state's official list of ten names none of our top 25.</p>
+<aside class="key-facts"><ul>
+<li data-origin="original" class="df-kf"><strong class="df-kf-n">25</strong> injury crashes and 43 people hurt at White Horse Pike and Gibbsboro Road</li>
+<li data-origin="original" class="df-kf"><strong class="df-kf-n">0</strong> of our top 25 appear on the state's 10 "most dangerous intersections"</li>
+<li data-origin="original" class="df-kf"><strong class="df-kf-n">24</strong> of 25: right-angle or left-turn is the most common crash type</li>
+<li data-origin="original" class="df-kf"><strong class="df-kf-n">3</strong> of the top 7 are in Union County: Elizabeth, Plainfield and Rahway</li>
+</ul></aside>
+<section class="callout quiz-cta"><p><strong>Hurt at one of these intersections?</strong> Answer a few short questions, about 30 seconds, to see if a sponsoring lawyer's office may review your claim for free.</p><p><a class="button" data-cta="nj-quiz" data-quiz-link="intro" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=most-dangerous-intersections-nj">Start the New Jersey accident quiz</a></p><p class="micro cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p></section>
+<section><h2>Which New Jersey intersections have the most injury crashes?</h2>
+<p>Clementon's White Horse Pike at Gibbsboro Road leads with 25, ahead of East Grand Street at Reid Street in Elizabeth with 24. Edison has three of the top 25, all on Route 27 or Route 529.</p>
+<div aria-label="The 10 New Jersey intersections with the most injury crashes" class="mva-review-scroll" role="region" tabindex="0"><figure class="df-chart" aria-hidden="true" data-df="added"><div class="df-chart-t">The 10 New Jersey intersections with the most injury-or-fatal crashes, 2024 and preliminary 2025</div><div class="df-legend"><span class="df-legend-l">Bars show</span><span class="df-key df-key-m">People injured</span></div><ol class="df-rows"><li class="df-row"><span class="df-lab">Rank 1</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:100.0%"></span></span><span class="df-val">43</span></span></li><li class="df-row"><span class="df-lab">Rank 2</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:81.4%"></span></span><span class="df-val">35</span></span></li><li class="df-row"><span class="df-lab">Rank 3</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:76.7%"></span></span><span class="df-val">33</span></span></li><li class="df-row"><span class="df-lab">Rank 9</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:76.7%"></span></span><span class="df-val">33</span></span></li><li class="df-row"><span class="df-lab">Rank 4</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:62.8%"></span></span><span class="df-val">27</span></span></li><li class="df-row"><span class="df-lab">Rank 7</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:62.8%"></span></span><span class="df-val">27</span></span></li><li class="df-row"><span class="df-lab">Rank 5</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:55.8%"></span></span><span class="df-val">24</span></span></li><li class="df-row"><span class="df-lab">Rank 6</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:53.5%"></span></span><span class="df-val">23</span></span></li><li class="df-row"><span class="df-lab">Rank 10</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:53.5%"></span></span><span class="df-val">23</span></span></li><li class="df-row"><span class="df-lab">Rank 8</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:46.5%"></span></span><span class="df-val">20</span></span></li></ol></figure><details class="df-tablebox"><summary class="df-tablebox-s" data-df="added">See the full table</summary><p class="df-swipe" aria-hidden="true" data-df="added">Swipe for more columns &#8594;</p><div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table><caption>The 10 New Jersey intersections with the most injury-or-fatal crashes, 2024 and preliminary 2025</caption>
+<thead><tr><th scope="col">Rank</th><th scope="col">Intersection</th><th scope="col">Town, county</th><th scope="col">Injury crashes (2024 + 2025)</th><th scope="col">People injured</th><th scope="col">All crashes</th></tr></thead>
+<tbody>
+<tr><th scope="row">1</th><td>Gibbsboro Road at US 30 (White Horse Pike)</td><td>Clementon, Camden</td><td>25 (9 + 16)</td><td>43</td><td>47</td></tr>
+<tr><th scope="row">2</th><td>East Grand Street at Reid Street</td><td><a href="https://injuriescases.autos/new-jersey/elizabeth-nj-car-accidents">Elizabeth</a>, Union</td><td>24 (9 + 15)</td><td>35</td><td>53</td></tr>
+<tr><th scope="row">3</th><td>Route 27 (Lincoln Highway) at Prospect Avenue</td><td><a href="https://injuriescases.autos/new-jersey/edison-nj-car-accidents">Edison</a>, Middlesex</td><td>19 (8 + 11)</td><td>33</td><td>40</td></tr>
+<tr><th scope="row">4</th><td>Brinkerhoff Terrace at Fifth Street</td><td>Palisades Park, Bergen</td><td>19 (5 + 14)</td><td>27</td><td>39</td></tr>
+<tr><th scope="row">5</th><td>Route 27 (Lincoln Highway) at Schuyler Drive</td><td>Edison, Middlesex</td><td>18 (5 + 13)</td><td>24</td><td>39</td></tr>
+<tr><th scope="row">6</th><td>Madison Avenue at West Second Street</td><td><a href="https://injuriescases.autos/new-jersey/plainfield-nj-car-accidents">Plainfield</a>, Union</td><td>17 (10 + 7)</td><td>23</td><td>28</td></tr>
+<tr><th scope="row">7</th><td>Jefferson Avenue at West Lake Avenue</td><td>Rahway, Union</td><td>15 (10 + 5)</td><td>27</td><td>35</td></tr>
+<tr><th scope="row">8</th><td>Linden Avenue at Route 93 (Grand Avenue)</td><td>Ridgefield, Bergen</td><td>15 (10 + 5)</td><td>20</td><td>33</td></tr>
+<tr><th scope="row">9</th><td>Route 513 (Main Street) at US 206</td><td>Chester, Morris</td><td>15 (8 + 7)</td><td>33</td><td>23</td></tr>
+<tr><th scope="row">10</th><td>Glassboro Road at Route 77 (Bridgeton Pike)</td><td>Upper Pittsgrove, Salem</td><td>14 (5 + 9)</td><td>23</td><td>35</td></tr>
+</tbody></table></div></details></div>
+<p>These are crash counts, not rates per vehicle, so busy corners rank higher. <a download="" href="https://sitemap.injuriescases.com/data/nj-research/nj-most-dangerous-intersections-top25-2024-2025.csv">Download the top 25 (CSV)</a> or the <a download="" href="https://sitemap.injuriescases.com/data/nj-research/nj-most-dangerous-intersection-by-county-2024-2025.csv">leader in each county (CSV)</a>.</p>
+<details><summary>Ranks 11 to 25</summary>
+<div aria-label="Ranks 11 to 25" class="mva-review-scroll" role="region" tabindex="0"><div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table class="df-stack"><caption>Ranks 11 to 25, injury-or-fatal crashes, 2024 and preliminary 2025</caption>
+<thead><tr><th scope="col">Rank</th><th scope="col">Intersection</th><th scope="col">Town, county</th><th scope="col">Injury crashes (2024 + 2025)</th><th scope="col">People injured</th><th scope="col">All crashes</th></tr></thead>
+<tbody>
+<tr><th scope="row" data-label="Rank">11</th><td data-label="Intersection">New Hampshire Road at Route 528 (Cedar Bridge Avenue)</td><td data-label="Town, county"><a href="https://injuriescases.autos/new-jersey/lakewood-nj-car-accidents">Lakewood</a>, Ocean</td><td data-label="Injury crashes (2024 + 2025)">14 (5 + 9)</td><td data-label="People injured">27</td><td data-label="All crashes">33</td></tr>
+<tr><th scope="row" data-label="Rank">12</th><td data-label="Intersection">Maple Avenue at US 1 (Broad Avenue)</td><td data-label="Town, county">Ridgefield, Bergen</td><td data-label="Injury crashes (2024 + 2025)">14 (6 + 8)</td><td data-label="People injured">23</td><td data-label="All crashes">26</td></tr>
+<tr><th scope="row" data-label="Rank">13</th><td data-label="Intersection">Perry Street at US 46</td><td data-label="Town, county">Dover, Morris</td><td data-label="Injury crashes (2024 + 2025)">14 (8 + 6)</td><td data-label="People injured">21</td><td data-label="All crashes">22</td></tr>
+<tr><th scope="row" data-label="Rank">14</th><td data-label="Intersection">Route 33 (Corlies Avenue) at West Bangs Avenue</td><td data-label="Town, county">Neptune, Monmouth</td><td data-label="Injury crashes (2024 + 2025)">14 (4 + 10)</td><td data-label="People injured">25</td><td data-label="All crashes">20</td></tr>
+<tr><th scope="row" data-label="Rank">15</th><td data-label="Intersection">Maple Avenue at Route 5</td><td data-label="Town, county">Ridgefield, Bergen</td><td data-label="Injury crashes (2024 + 2025)">13 (3 + 10)</td><td data-label="People injured">24</td><td data-label="All crashes">37</td></tr>
+<tr><th scope="row" data-label="Rank">16</th><td data-label="Intersection">Camplain Road at Old Camplain Road</td><td data-label="Town, county">Hillsborough, Somerset</td><td data-label="Injury crashes (2024 + 2025)">13 (4 + 9)</td><td data-label="People injured">23</td><td data-label="All crashes">22</td></tr>
+<tr><th scope="row" data-label="Rank">17</th><td data-label="Intersection">Maxim Southard Road at Oak Glen Road</td><td data-label="Town, county">Howell, Monmouth</td><td data-label="Injury crashes (2024 + 2025)">13 (3 + 10)</td><td data-label="People injured">28</td><td data-label="All crashes">19</td></tr>
+<tr><th scope="row" data-label="Rank">18</th><td data-label="Intersection">Brinkerhoff Terrace at Sixth Street</td><td data-label="Town, county">Palisades Park, Bergen</td><td data-label="Injury crashes (2024 + 2025)">12 (6 + 6)</td><td data-label="People injured">16</td><td data-label="All crashes">30</td></tr>
+<tr><th scope="row" data-label="Rank">19</th><td data-label="Intersection">Communipaw Avenue at Mallory Avenue</td><td data-label="Town, county"><a href="https://injuriescases.autos/new-jersey/jersey-city-nj-car-accidents">Jersey City</a>, Hudson</td><td data-label="Injury crashes (2024 + 2025)">12 (7 + 5)</td><td data-label="People injured">12</td><td data-label="All crashes">23</td></tr>
+<tr><th scope="row" data-label="Rank">20</th><td data-label="Intersection">Communipaw Avenue at Route 440</td><td data-label="Town, county">Jersey City, Hudson</td><td data-label="Injury crashes (2024 + 2025)">12 (4 + 8)</td><td data-label="People injured">20</td><td data-label="All crashes">23</td></tr>
+<tr><th scope="row" data-label="Rank">21</th><td data-label="Intersection">North Olden Avenue at Parkside Avenue</td><td data-label="Town, county">Ewing, Mercer</td><td data-label="Injury crashes (2024 + 2025)">12 (3 + 9)</td><td data-label="People injured">25</td><td data-label="All crashes">23</td></tr>
+<tr><th scope="row" data-label="Rank">22</th><td data-label="Intersection">Route 509 (Grove Street) at Springfield Avenue</td><td data-label="Town, county"><a href="https://injuriescases.autos/new-jersey/irvington-nj-car-accidents">Irvington</a>, Essex</td><td data-label="Injury crashes (2024 + 2025)">12 (2 + 10)</td><td data-label="People injured">14</td><td data-label="All crashes">22</td></tr>
+<tr><th scope="row" data-label="Rank">23</th><td data-label="Intersection">Maddock Avenue at South Clinton Avenue</td><td data-label="Town, county"><a href="https://injuriescases.autos/new-jersey/hamilton-township-mercer-nj-car-accidents">Hamilton</a>, Mercer</td><td data-label="Injury crashes (2024 + 2025)">12 (6 + 6)</td><td data-label="People injured">27</td><td data-label="All crashes">22</td></tr>
+<tr><th scope="row" data-label="Rank">24</th><td data-label="Intersection">Greenwood Avenue at Route 529 (Plainfield Avenue)</td><td data-label="Town, county">Edison, Middlesex</td><td data-label="Injury crashes (2024 + 2025)">12 (6 + 6)</td><td data-label="People injured">19</td><td data-label="All crashes">22</td></tr>
+<tr><th scope="row" data-label="Rank">25</th><td data-label="Intersection">Route 555 (Main Road) at Weymouth Road</td><td data-label="Town, county">Franklin Township, Gloucester</td><td data-label="Injury crashes (2024 + 2025)">12 (11 + 1)</td><td data-label="People injured">21</td><td data-label="All crashes">20</td></tr>
+</tbody></table></div></div>
+</details>
+<p>Four more corners with 12 sit just below the cut. Edison's corners are mapped street by street on our <a href="https://injuriescases.autos/new-jersey/edison-nj-car-accidents">Edison crash data page</a>. Further down, Route 527 at Route 547 ranks 43rd; see <a href="https://injuriescases.autos/new-jersey/jackson-township-nj-car-accidents">Jackson Township crash data</a>.<sup class="df-fn"><a href="#src-1">1</a></sup></p>
+
+</section>
+<section><h2>What is the most dangerous intersection in each NJ county?</h2>
+<p>Camden's leader has 25 injury crashes, Union's 24, and Bergen's and Middlesex's 19 each. Hunterdon's and Sussex's leaders recorded only 2 each.</p>
+<p>Each county hub breaks its numbers down by town and road: <a href="https://injuriescases.autos/new-jersey/camden-county-car-accident-help">Camden County crash data</a>, <a href="https://injuriescases.autos/new-jersey/union-county-car-accident-help">Union County crash data</a>, <a href="https://injuriescases.autos/new-jersey/bergen-county-car-accident-help">Bergen County crash data</a> and <a href="https://injuriescases.autos/new-jersey/middlesex-county-car-accident-help">Middlesex County crash data</a>.</p>
+<details><summary>All 21 counties, A to Z</summary>
+<div aria-label="Leading intersection in every county" class="mva-review-scroll" role="region" tabindex="0"><div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table class="df-stack"><caption>The intersection with the most injury-or-fatal crashes in every county, 2024 and preliminary 2025</caption>
+<thead><tr><th scope="col">County</th><th scope="col">Intersection, town</th><th scope="col">Injury crashes</th><th scope="col">People injured</th></tr></thead>
+<tbody>
+<tr><th scope="row" data-label="County">Atlantic</th><td data-label="Intersection, town">Cologne Road at US 30 (White Horse Pike), Galloway</td><td data-label="Injury crashes">8</td><td data-label="People injured">15</td></tr>
+<tr><th scope="row" data-label="County"><a href="https://injuriescases.autos/new-jersey/bergen-county-car-accident-help">Bergen</a></th><td data-label="Intersection, town">Brinkerhoff Terrace at Fifth Street, Palisades Park</td><td data-label="Injury crashes">19</td><td data-label="People injured">27</td></tr>
+<tr><th scope="row" data-label="County">Burlington</th><td data-label="Intersection, town">New Albany Road at Tom Brown Road, Moorestown</td><td data-label="Injury crashes">11</td><td data-label="People injured">18</td></tr>
+<tr><th scope="row" data-label="County"><a href="https://injuriescases.autos/new-jersey/camden-county-car-accident-help">Camden</a></th><td data-label="Intersection, town">Gibbsboro Road at US 30 (White Horse Pike), Clementon</td><td data-label="Injury crashes">25</td><td data-label="People injured">43</td></tr>
+<tr><th scope="row" data-label="County">Cape May</th><td data-label="Intersection, town">Stone Harbor Boulevard at US 9 (Shore Road), Middle Township</td><td data-label="Injury crashes">4</td><td data-label="People injured">6</td></tr>
+<tr><th scope="row" data-label="County"><a href="https://injuriescases.autos/new-jersey/cumberland-county-car-accident-help">Cumberland</a></th><td data-label="Intersection, town">Bluebird Lane at Route 47, Millville</td><td data-label="Injury crashes">8</td><td data-label="People injured">12</td></tr>
+<tr><th scope="row" data-label="County">Essex</th><td data-label="Intersection, town">Route 509 (Grove Street) at Springfield Avenue, Irvington</td><td data-label="Injury crashes">12</td><td data-label="People injured">14</td></tr>
+<tr><th scope="row" data-label="County">Gloucester</th><td data-label="Intersection, town">Route 555 (Main Road) at Weymouth Road, Franklin Township</td><td data-label="Injury crashes">12</td><td data-label="People injured">21</td></tr>
+<tr><th scope="row" data-label="County"><a href="https://injuriescases.autos/new-jersey/hudson-county-car-accident-help">Hudson</a></th><td data-label="Intersection, town">Communipaw Avenue at Mallory Avenue, Jersey City</td><td data-label="Injury crashes">12</td><td data-label="People injured">12</td></tr>
+<tr><th scope="row" data-label="County">Hunterdon</th><td data-label="Intersection, town">Route 512 (Main Street) at Route 513, Califon</td><td data-label="Injury crashes">2</td><td data-label="People injured">2</td></tr>
+<tr><th scope="row" data-label="County">Mercer</th><td data-label="Intersection, town">North Olden Avenue at Parkside Avenue, Ewing</td><td data-label="Injury crashes">12</td><td data-label="People injured">25</td></tr>
+<tr><th scope="row" data-label="County"><a href="https://injuriescases.autos/new-jersey/middlesex-county-car-accident-help">Middlesex</a></th><td data-label="Intersection, town">Route 27 (Lincoln Highway) at Prospect Avenue, Edison</td><td data-label="Injury crashes">19</td><td data-label="People injured">33</td></tr>
+<tr><th scope="row" data-label="County">Monmouth</th><td data-label="Intersection, town">Route 33 (Corlies Avenue) at West Bangs Avenue, Neptune</td><td data-label="Injury crashes">14</td><td data-label="People injured">25</td></tr>
+<tr><th scope="row" data-label="County"><a href="https://injuriescases.autos/new-jersey/morris-county-car-accident-help">Morris</a></th><td data-label="Intersection, town">Route 513 (Main Street) at US 206, Chester</td><td data-label="Injury crashes">15</td><td data-label="People injured">33</td></tr>
+<tr><th scope="row" data-label="County"><a href="https://injuriescases.autos/new-jersey/ocean-county-car-accident-help">Ocean</a></th><td data-label="Intersection, town">New Hampshire Road at Route 528 (Cedar Bridge Avenue), Lakewood</td><td data-label="Injury crashes">14</td><td data-label="People injured">27</td></tr>
+<tr><th scope="row" data-label="County">Passaic</th><td data-label="Intersection, town">Luddington Avenue at Third Street, <a href="https://injuriescases.autos/new-jersey/clifton-nj-car-accidents">Clifton</a></td><td data-label="Injury crashes">11</td><td data-label="People injured">17</td></tr>
+<tr><th scope="row" data-label="County"><a href="https://injuriescases.autos/new-jersey/salem-county-car-accident-help">Salem</a></th><td data-label="Intersection, town">Glassboro Road at Route 77 (Bridgeton Pike), Upper Pittsgrove</td><td data-label="Injury crashes">14</td><td data-label="People injured">23</td></tr>
+<tr><th scope="row" data-label="County">Somerset</th><td data-label="Intersection, town">Camplain Road at Old Camplain Road, Hillsborough</td><td data-label="Injury crashes">13</td><td data-label="People injured">23</td></tr>
+<tr><th scope="row" data-label="County"><a href="https://injuriescases.autos/new-jersey/sussex-county-car-accident-help">Sussex</a></th><td data-label="Intersection, town">Route 15 at Route 94, Lafayette</td><td data-label="Injury crashes">2</td><td data-label="People injured">2</td></tr>
+<tr><th scope="row" data-label="County"><a href="https://injuriescases.autos/new-jersey/union-county-car-accident-help">Union</a></th><td data-label="Intersection, town">East Grand Street at Reid Street, Elizabeth</td><td data-label="Injury crashes">24</td><td data-label="People injured">35</td></tr>
+<tr><th scope="row" data-label="County">Warren</th><td data-label="Intersection, town">Marshall Street at Roseberry Street, Phillipsburg</td><td data-label="Injury crashes">3</td><td data-label="People injured">6</td></tr>
+</tbody></table></div></div>
+</details>
+</section>
+<section><h2>Why does the state's dangerous intersection list name none of these?</h2>
+<p>The state measured pedestrian deaths on state highways from 2018 to 2022. We counted injury crashes at every named intersection in 2024 and 2025.</p>
+<p>The state named its ten in January 2025: three on Routes 1 and 9 in Elizabeth, two on <a href="https://injuriescases.autos/new-jersey/trenton-nj-car-accidents">Route 129 in Trenton</a>, two on <a href="https://injuriescases.autos/new-jersey/old-bridge-nj-car-accidents">Route 9 in Old Bridge</a> and three on Route 27. NJDOT estimated improvements at about 100,000 dollars per location.</p>
+<div aria-label="The state's corridors in the same records" class="mva-review-scroll" role="region" tabindex="0"><figure class="df-chart" aria-hidden="true" data-df="added"><div class="df-chart-t">The state's ten-location corridors, injury-or-fatal crashes counted the same way as our ranking, 2024 and preliminary 2025</div><div class="df-legend"><span class="df-legend-l">Bars show</span><span class="df-key df-key-m">Deaths</span></div><ol class="df-rows"><li class="df-row"><span class="df-lab">Routes 1 and 9 at East Grand Street, Elizabeth</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:100.0%"></span></span><span class="df-val">1</span></span></li><li class="df-row"><span class="df-lab">Route 129 at Lalor Street, Trenton</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:0.0%"></span></span><span class="df-val">0</span></span></li><li class="df-row"><span class="df-lab">Route 129 at Cass Street, Trenton</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:0.0%"></span></span><span class="df-val">0</span></span></li><li class="df-row"><span class="df-lab">Route 9, Old Bridge</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:0.0%"></span></span><span class="df-val">0</span></span></li><li class="df-row"><span class="df-lab">Route 27, Franklin Township</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:0.0%"></span></span><span class="df-val">0</span></span></li><li class="df-row"><span class="df-lab">Route 27, Roselle</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:0.0%"></span></span><span class="df-val">0</span></span></li></ol></figure><details class="df-tablebox"><summary class="df-tablebox-s" data-df="added">See the full table</summary><p class="df-swipe" aria-hidden="true" data-df="added">Swipe for more columns &#8594;</p><div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table><caption>The state's ten-location corridors, injury-or-fatal crashes counted the same way as our ranking, 2024 and preliminary 2025</caption>
+<thead><tr><th scope="col">State's corridor</th><th scope="col">Busiest intersection in the corridor</th><th scope="col">Injury crashes</th><th scope="col">Deaths</th></tr></thead>
+<tbody>
+<tr><th scope="row">Routes 1 and 9 at East Grand Street, Elizabeth</th><td>US 1 (Herbert Highway) at East Grand Street</td><td>4</td><td>1</td></tr>
+<tr><th scope="row">Route 129 at Lalor Street, Trenton</th><td>Route 129 at Lalor Street</td><td>3</td><td>0</td></tr>
+<tr><th scope="row">Route 129 at Cass Street, Trenton</th><td>Route 129 at Cass Street</td><td>3</td><td>0</td></tr>
+<tr><th scope="row">Route 9, Old Bridge</th><td>US 9 at Perrine Road, and US 9 at Ferry Road</td><td>3 each</td><td>0</td></tr>
+<tr><th scope="row">Route 27, <a href="https://injuriescases.autos/new-jersey/franklin-township-somerset-nj-car-accidents">Franklin Township</a></th><td>Route 27 (Somerset Street) at Matilda Avenue</td><td>7</td><td>0</td></tr>
+<tr><th scope="row">Route 27, Roselle</th><td>Route 27 (St Georges Avenue) at Park Avenue</td><td>11</td><td>0</td></tr>
+</tbody></table></div></details></div>
+<p>Elizabeth shows the gap best. The state targets Routes 1 and 9 at East Grand Street, with 4 injury crashes and 1 death. Along East Grand Street, the Reid Street corner had 24, second in the state.</p>
+<p>In Trenton, NJDOT added red-light extension and pedestrian detection on Route 129 in autumn 2022 and told NJ Spotlight that pedestrian crashes there fell by more than half. Our <a href="https://injuriescases.autos/new-jersey/pedestrian-crash-new-jersey">pedestrian crash guide</a> covers what happens after someone on foot is struck.<sup class="df-fn"><a href="#src-2">2</a></sup></p>
+
+</section>
+<section><h2>What kind of crash happens most at these intersections?</h2>
+<p>Right-angle and left-turn crashes: one of the two is the most common type at 24 of the 25. At Clementon's number one, 25 of 47 crashes were right-angle.</p>
+<p>The exception is Communipaw Avenue at Route 440 in Jersey City, where same-direction sideswipes and rear-ends lead. Statewide right-angle totals sit on our <a href="https://injuriescases.autos/new-jersey/nj-new-jersey-side-impact-collision-claim-support-help">side-impact crash guide</a>.</p>
+<p>Fault at a corner usually turns on the signal phase and who entered first; see <a href="https://injuriescases.autos/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">real NJ fault splits</a>. For the hours crashes peak, see <a href="https://injuriescases.autos/new-jersey/when-do-most-car-accidents-happen">when most NJ crashes happen</a>.</p>
+</section>
+<section><h2>What is the deadliest road in New Jersey?</h2>
+<p>Route 1 recorded the most deaths of the 29 state, US and interstate routes we profile: 50 people killed in 2023 and 2024, with 4,601 injured.</p>
+<div aria-label="Deaths on the five deadliest profiled roads" class="mva-review-scroll" role="region" tabindex="0"><figure class="df-chart" aria-hidden="true" data-df="added"><div class="df-chart-t">Deaths on the five deadliest roads we profile, injury-or-fatal crashes, 2023 and 2024</div><div class="df-legend"><span class="df-legend-l">Bars show</span><span class="df-key df-key-m">People killed</span></div><ol class="df-rows"><li class="df-row"><span class="df-lab">Route 1</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:100.0%"></span></span><span class="df-val">50</span></span></li><li class="df-row"><span class="df-lab">Garden State Parkway</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:80.0%"></span></span><span class="df-val">40</span></span></li><li class="df-row"><span class="df-lab">White Horse Pike (Route 30)</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:66.0%"></span></span><span class="df-val">33</span></span></li><li class="df-row"><span class="df-lab">Route 130</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:60.0%"></span></span><span class="df-val">30</span></span></li><li class="df-row"><span class="df-lab">Route 9</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:54.0%"></span></span><span class="df-val">27</span></span></li></ol></figure><details class="df-tablebox"><summary class="df-tablebox-s" data-df="added">See the full table</summary><p class="df-swipe" aria-hidden="true" data-df="added">Swipe for more columns &#8594;</p><div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table><caption>Deaths on the five deadliest roads we profile, injury-or-fatal crashes, 2023 and 2024</caption>
+<thead><tr><th scope="col">Road</th><th scope="col">People killed</th><th scope="col">Injury crashes</th><th scope="col">People injured</th></tr></thead>
+<tbody>
+<tr><th scope="row"><a href="https://injuriescases.autos/new-jersey/route-1-nj-accidents">Route 1</a></th><td>50</td><td>3,253</td><td>4,601</td></tr>
+<tr><th scope="row"><a href="https://injuriescases.autos/new-jersey/garden-state-parkway-accidents">Garden State Parkway</a></th><td>40</td><td>3,461</td><td>4,763</td></tr>
+<tr><th scope="row"><a href="https://injuriescases.autos/new-jersey/white-horse-pike-accidents">White Horse Pike (Route 30)</a></th><td>33</td><td>856</td><td>1,239</td></tr>
+<tr><th scope="row"><a href="https://injuriescases.autos/new-jersey/route-130-nj-accidents">Route 130</a></th><td>30</td><td>1,309</td><td>1,881</td></tr>
+<tr><th scope="row"><a href="https://injuriescases.autos/new-jersey/route-9-nj-accidents">Route 9</a></th><td>27</td><td>2,158</td><td>2,939</td></tr>
+</tbody></table></div></details></div>
+<p>Our <a href="https://injuriescases.autos/new-jersey/white-horse-pike-accidents">White Horse Pike accident data</a> counts 31 at Gibbsboro Road, not 25. It counts every Route 30 crash naming that cross street; this ranking counts only crashes NJDOT flags as intersection crashes.</p>
+<p>Per crash, a smaller road can be deadlier: Route 55 had <a href="https://injuriescases.autos/new-jersey/route-55-nj-accidents">9.6 deaths per 1,000 crashes</a> in 2023 and 2024, almost 4 times the state average of 2.5.<sup class="df-fn"><a href="#src-3">3</a></sup></p>
+
+</section>
+<section><h2>Hurt at one of these corners: what should you check first?</h2>
+<p>Check the corner's row in the tables above, then the crash type on the police report.</p>
+<ul>
+<li>The report shows right angle or left turn; our <a href="https://injuriescases.autos/new-jersey/nj-car-accident-report">NJ car accident report guide</a> lists each agency's fee and wait.</li>
+<li>Cameras and signal timing are covered in our guide to <a href="https://injuriescases.autos/new-jersey/nj-what-evidence-helps-prove-fault-after-an-nj-crash">evidence that proves fault</a>.</li>
+<li>Claims against a town or the state start with a 90-day notice; see the <a href="https://injuriescases.autos/new-jersey/nj-car-accident-statute-of-limitations">NJ statute of limitations</a>.</li>
+</ul>
+</section>
+<section id="faq"><h2>Questions people ask</h2>
+<h3>What is the deadliest intersection in the United States?</h3>
+<p>In New Jersey, none of the top 25 injury intersections recorded a death in 2024 or 2025. US 1 at East Grand Street in Elizabeth, on the state's own list, recorded 1. We rank New Jersey records only.</p>
+<h3>Which county has the most car accidents in New Jersey?</h3>
+<p>Middlesex, in 2024. Every county is ranked on <a href="/new-jersey/nj-car-accident-statistics">New Jersey car accident statistics</a>.</p>
+<h3>Are pedestrians most at risk at these intersections?</h3>
+<p>The state's list was built on pedestrian deaths on state highways from 2018 to 2022. At our top 25, crashes between vehicles turning or crossing lead: right-angle or left-turn at 24 of the 25.</p>
+</section>
+<section class="callout quiz-cta"><p><strong>Was your crash at a New Jersey intersection?</strong> Answer a few questions, about 30 seconds, and a sponsoring lawyer's office may review it for free.</p><p><a class="button" data-cta="nj-quiz" data-quiz-link="end" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=most-dangerous-intersections-nj">Start the New Jersey accident quiz</a></p><p class="micro cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p></section>
+<section id="sources" class="df-sources"><h2>Sources</h2><ol class="df-src"><li id="src-1"><a href="https://njdot.aashtowaresafety.net/njdot-crash-data-portal">NJDOT Crash Data Portal</a> crash records for 2024 and 2025 (2025 preliminary), normalized by the open-source <a href="https://github.com/hudcostreets/nj-crashes">nj-crashes project</a>.</li><li id="src-2"><a href="https://www.njspotlightnews.org/2025/01/nj-focuses-improving-safety-at-10-most-dangerous-intersections/">NJ Spotlight News, "Can NJ fix these 10 deadliest intersections?", 28 January 2025</a>; corridor counts from the NJDOT Crash Data Portal records above.</li><li id="src-3">Our road profiles built from the same NJDOT crash records, 2023 and 2024, fatal crashes supplemented from the <a href="https://njsp.njoag.gov/fatal-crash-statistics/">NJ State Police fatal crash statistics</a>.</li></ol></section><details id="method"><summary>How we counted</summary>
+<p>NJDOT crash records for 2024 (265,827 crashes) and preliminary 2025 (261,286), normalized by the nj-crashes project, which adds State Police fatal crashes. An intersection is a named street pair in one town among the 101,680 crashes NJDOT flags as intersection crashes, reversed street orders merged; 2.2 percent were dropped for a blank street name.</p>
+<p>Spelling variants are not merged (1 more Cass Street crash is filed as Route 129 Secondary), and ties are broken by all crashes. Counts say nothing about fault or claim value, and 2023 is excluded because NJDOT changed its street-name format that year.</p>
+</details>
+</div></article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section aria-label="About Injuries Cases Autos" class="mva-footer-about"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav aria-label="Footer navigation" class="mva-footer-nav"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section aria-label="Contact" class="mva-footer-contact"><h2>Contact</h2><address>111 Town Square Place<br/>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=most-dangerous-intersections-nj">Start the New Jersey accident quiz ↗</a></div></footer></div>

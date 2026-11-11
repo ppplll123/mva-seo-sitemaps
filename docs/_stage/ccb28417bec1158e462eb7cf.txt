@@ -1,0 +1,540 @@
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}.mva-site{margin:0;background:var(--paper);color:var(--ink);font:20px/1.65 Arial,sans-serif}.local{--paper:#f8faf3;--ink:#143d35;--accent:#ddebba;--panel:#eaf0e4}.scenario{--paper:#fcfaf5;--ink:#172c53;--accent:#ffc66e;--panel:#f1eee6}.journal{--paper:#fffaf3;--ink:#493047;--accent:#eee0cb;--panel:#f4eee5;font-family:Georgia,serif}.spanish{--paper:#fff9ed;--ink:#70321f;--accent:#f5dfa4;--panel:#f9edd9;font-family:Georgia,serif}a{color:inherit;text-underline-offset:5px}header{max-width:1300px;padding:28px 44px;margin:auto;display:flex;justify-content:space-between;gap:26px;align-items:center;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}.brand{font-size:24px;font-weight:700;text-decoration:none;line-height:1.3}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.08em;margin-top:5px}nav{display:flex;align-items:center;gap:28px;font-size:16px}nav a{text-decoration:none}.navcta{padding:11px 19px;border:1px solid var(--ink);border-radius:30px}.skip{position:absolute;left:10px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}.hero{max-width:1300px;margin:auto;padding:72px 44px 80px;display:grid;grid-template-columns:1.1fr 1fr;gap:58px;align-items:center}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.06;letter-spacing:-.045em;font-weight:600;margin:18px 0 25px}.local h1{font-family:Georgia,serif}.scenario h1{font-weight:800}.journal .hero{grid-template-columns:1.4fr 1fr;padding-top:90px}.journal .hero h1{font-size:clamp(44px,5vw,80px)}.journal header{border-bottom:3px double var(--ink)}.spanish .hero{grid-template-columns:1fr 1.05fr}.spanish h1{font-weight:400}.kicker{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.14em}.lead{font-size:22px;max-width:650px;line-height:1.55}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:16px 23px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif;border-radius:5px;margin-top:16px}.local .button{border-radius:32px}.spanish .button{border-radius:0}.micro,figcaption{font:14px/1.5 Arial,sans-serif;margin-top:18px;opacity:.85}figure{margin:0}figure svg{display:block;width:100%;border-radius:4px}.local figure svg{border-radius:48% 48% 8px 8px}.spanish figure svg{border-radius:160px 160px 8px 8px}.collection{max-width:1300px;margin:auto;padding:55px 44px 85px;background:var(--panel)}h2{font-size:34px;line-height:1.25;letter-spacing:-.025em;margin-top:20px}.stories{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:38px}.story{text-decoration:none;border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column}.story h3{font-size:25px;line-height:1.25;margin:18px 0 10px}.story p{font-size:18px;line-height:1.6;margin:0 0 26px}.arrow{font:700 15px Arial,sans-serif;margin-top:auto}.scenario .story{background:var(--paper);border:1px solid #ddd4c5;padding:28px}.journal .stories{grid-template-columns:1fr}.journal .story{display:grid;grid-template-columns:80px 1fr 1fr 150px;gap:24px;align-items:center}.journal .story h3,.journal .story p{margin:0}.journal .arrow{margin:0}.closing{max-width:1212px;margin:65px auto;padding:42px;background:var(--accent)}.closing p{max-width:680px}.article{max-width:940px;margin:70px auto;padding:0 30px}.article h1{font-size:clamp(36px,4.5vw,60px);line-height:1.14;letter-spacing:-.04em}.article.mva-site{max-width:740px;margin-top:50px}.articlebody h2{margin-top:40px;font-size:27px}.articlebody p{margin:14px 0 25px}.articlebody aside{padding:20px 28px;background:var(--panel);font-size:17px}.articlebody aside h2{margin:0;font-size:21px}footer{max-width:1300px;margin:60px auto 0;padding:34px 44px;border-top:1px solid var(--ink);font-size:15px}footer div{display:flex;gap:26px;margin:22px 0}footer small{font-size:13px}a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}a:hover{text-decoration:underline}.button:hover{opacity:.9}.story:hover h3{text-decoration:underline}@media(max-width:800px){header{padding:22px;flex-wrap:wrap}nav{gap:18px;font-size:15px}.hero,.spanish .hero,.journal .hero{grid-template-columns:1fr;padding:48px 22px;gap:32px}.hero figure{max-width:550px}.hero h1{font-size:46px}.lead{font-size:20px}.collection{padding:40px 22px}.stories{grid-template-columns:1fr;gap:34px}.journal .story{display:flex;align-items:start}.closing{margin:32px 22px;padding:28px}h2{font-size:29px}.article{margin:42px auto;padding:0 22px}.article.mva-site{margin-top:34px}footer{padding:28px 22px}.mva-site{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero figure img{width:100%;height:540px;object-fit:cover;display:block;border-radius:6px}.local .hero figure img{border-radius:220px 220px 8px 8px;object-position:center 65%}.scenario .hero figure img{height:520px;object-position:center 58%;border:12px solid var(--accent)}.journal .hero figure img{height:500px;object-position:center 63%;filter:sepia(.15)}.spanish .hero figure img{height:550px;border-radius:160px 160px 6px 6px;object-position:center 40%}@media(max-width:800px){.hero figure img,.local .hero figure img,.scenario .hero figure img,.journal .hero figure img,.spanish .hero figure img{height:360px}}
+.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}.article-image{margin:32px 0}.article-image img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 65%;display:block;border-radius:8px}.article-image figcaption{font-size:14px;line-height:1.5;max-width:760px}.article-toc{display:block;background:var(--panel);padding:24px 28px;margin:30px 0;font-size:17px}.article-toc ol{columns:2;margin:14px 0 0;padding-left:20px}.article-toc li{margin:8px 0;break-inside:avoid}.long-form .articlebody{max-width:760px}.long-form section{scroll-margin-top:24px}.long-form h2{font-size:30px}.long-form .articlebody p{line-height:1.75}@media(max-width:700px){.article-toc ol{columns:1}.article-image img{max-height:420px}.long-form h2{font-size:26px}}</style><style>.local-evidence-table{min-width:0;contain:inline-size;max-width:100%;overflow-x:auto}.local-evidence-table th,.local-evidence-table td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid currentColor}.local-evidence-table th{font-weight:700}.local-evidence-table td{min-width:180px}</style><div class="mva-site scenario"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="https://injuriescases.autos/">Injuries Cases Autos<small>injuriescases.autos</small></a><nav aria-label="Main navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a class="navcta" href="https://injuriescases.autos/intake">Next steps</a></nav></header><style>.final-batch .article-image img{max-height:none;object-fit:contain}.final-batch blockquote{border-left:4px solid #c89443;padding:18px 24px;background:#f5efdf;margin:24px 0}.final-batch li{margin:10px 0}</style><main id="main"><nav class="l2-crumbs" aria-label="Breadcrumb" style="max-width:780px;margin:24px auto -40px;padding:0 30px;font-size:14px"><a href="/">Home</a> <span aria-hidden="true">/</span> <a href="/new-jersey">New Jersey accident guides</a></nav><style>.l2-article{max-width:780px;margin:56px auto;padding:0 30px}.l2-article h1{font-size:clamp(34px,4.5vw,56px);line-height:1.14;letter-spacing:-.035em;margin:0 0 26px}.l2-article h2{margin:44px 0 12px;font-size:27px;line-height:1.25}.l2-article h3{margin:28px 0 8px;font-size:21px;line-height:1.3}.l2-article p{margin:12px 0 20px;line-height:1.7}.l2-article ul,.l2-article ol{padding-left:24px}.l2-article li{margin:8px 0;line-height:1.6}.l2-article p.source,.l2-article .source{font-size:15px;line-height:1.5;opacity:.85;margin-top:-8px}.l2-article{overflow-wrap:break-word;contain:inline-size;width:100%;box-sizing:border-box}.l2-tablewrap{max-width:min(100%,calc(100vw - 40px));overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}.l2-article table{border-collapse:collapse;font-size:16px;line-height:1.45;min-width:100%}.l2-article caption{text-align:left;font-weight:700;padding:0 0 8px}.l2-article th,.l2-article td{border:1px solid color-mix(in srgb,var(--ink) 22%,transparent);padding:9px 11px;text-align:left;vertical-align:top;min-width:110px}.l2-article th{background:var(--panel);font-weight:700}.l2-article .quiz-cta{background:var(--panel);padding:22px 26px;margin:34px 0;border-left:5px solid var(--ink)}.l2-article .quiz-cta p{margin:8px 0}.l2-article .button{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 22px;text-decoration:none;font:700 17px/1.4 Arial,sans-serif}.l2-article .cta-note{font-size:14px;line-height:1.45;opacity:.85}.l2-article figure{margin:28px 0}.l2-article img{max-width:100%;height:auto}.l2-article .byline{font-size:15px;opacity:.8;margin:-10px 0 18px}.l2-article .key-facts{background:var(--panel);border-radius:10px;padding:18px 20px;margin:22px 0 26px}.l2-article .key-facts h2,.l2-article .key-facts h3{margin:0 0 10px;font-size:15px;text-transform:uppercase;letter-spacing:.06em}.l2-article .key-facts ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}.l2-article .key-facts li{background:var(--paper);border-left:4px solid var(--ink);padding:12px 14px;margin:0;font-size:16px;line-height:1.4}.l2-article .key-facts li strong,.l2-article .key-facts li b{display:block;font-size:26px;line-height:1.1;margin-bottom:4px}.l2-article sup a{text-decoration:none;font-size:12px;padding:0 2px}.l2-article #sources{font-size:14px;line-height:1.5;border-top:1px solid color-mix(in srgb,var(--ink) 20%,transparent);margin-top:40px;padding-top:12px}.l2-article #sources h2{font-size:18px}.l2-article #sources li{margin:4px 0;overflow-wrap:anywhere}.l2-article details{background:var(--panel);padding:12px 16px;margin:18px 0;border-radius:8px}.l2-article summary{cursor:pointer;font-weight:700}.l2-article .l2-tablewrap{background:linear-gradient(to right,var(--paper) 30%,transparent),linear-gradient(to left,var(--paper) 30%,transparent) 100% 0,radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;background-repeat:no-repeat;background-size:40px 100%,40px 100%,14px 100%,14px 100%;background-attachment:local,local,scroll,scroll}@media(max-width:700px){.l2-article{margin:34px auto;padding:0 20px}.l2-article h2{font-size:24px}.l2-article table{font-size:15px}.l2-article .quiz-cta{padding:18px 18px}}</style><style>/* Final presentation layer for lane 2 bodies (2026-11-11). Scoped to article.l2-article.df.
+   Uses only the site tokens --ink, --paper, --panel, --accent. Load after L2_CSS. */
+.l2-article.df{max-width:800px;font-size:18px}
+.l2-article.df h1{margin-bottom:12px}
+.l2-article.df h2{font-size:26px;line-height:1.25;margin:56px 0 14px}
+.l2-article.df h2::after{content:"";display:block;width:56px;height:5px;border-radius:3px;background:var(--accent);margin-top:10px}
+.l2-article.df h3{font-size:20px}
+.l2-article.df p{line-height:1.65;margin:10px 0 16px;max-width:68ch}
+.l2-article.df strong.df-k{font-weight:700}
+
+/* jump pills under the h1 */
+.l2-article.df .df-jump{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 20px;font:700 14px/1.3 Arial,sans-serif}
+.l2-article.df .df-jump span{opacity:.75;margin-right:2px}
+.l2-article.df .df-jump a{display:inline-block;padding:7px 13px;border-radius:20px;border:1.5px solid var(--ink);color:var(--ink);text-decoration:none;background:var(--paper)}
+.l2-article.df .df-jump a:first-of-type{background:var(--accent);border-color:var(--accent)}
+
+/* answer card */
+.l2-article.df .df-answer{background:var(--accent);border-radius:16px;padding:22px 26px 10px;margin:4px 0 30px}
+.l2-article.df .df-answer::before{content:"Quick answer";display:inline-block;background:var(--ink);color:var(--paper);font:700 12px/1 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;padding:7px 12px;border-radius:20px;margin-bottom:12px}
+.l2-article.df .df-answer p{max-width:none}
+.l2-article.df .df-answer p.df-lead{font-size:20px;line-height:1.5;font-weight:400}
+.l2-article.df .df-answer p.df-lead > strong:first-child{display:block;font-size:23px;line-height:1.35;font-weight:800;margin-bottom:8px}
+.l2-article.df .df-answer .source,.l2-article.df .df-answer .note{opacity:.9}
+.l2-article.df .df-answer a{color:var(--ink)}
+
+/* stat cards */
+.l2-article.df .df-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:16px 0 18px}
+.l2-article.df .df-stats-2{grid-template-columns:repeat(2,1fr)}
+.l2-article.df .df-stats-3{grid-template-columns:repeat(3,1fr)}
+.l2-article.df .df-stat{background:var(--paper);border-radius:12px;padding:14px 14px 12px;display:flex;flex-direction:column;gap:5px}
+.l2-article.df .df-stat-q{font:700 11px/1 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;opacity:.7}
+.l2-article.df .df-stat-n{font:800 32px/1 Arial,sans-serif;letter-spacing:-.02em}
+.l2-article.df .df-stat-t{font:14px/1.35 Arial,sans-serif;opacity:.85}
+
+/* bar charts built from table numbers */
+.l2-article.df .df-chart{margin:20px 0 6px;padding:16px 18px 12px;background:var(--panel);border-radius:14px;font:15px/1.35 Arial,sans-serif}
+.l2-article.df .df-chart-t{font-weight:700;font-size:15px;margin:0 0 8px}
+.l2-article.df .df-legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:0 0 10px;font-size:13px;font-weight:700}
+.l2-article.df .df-key::before{content:"";display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:var(--ink)}
+.l2-article.df .df-key-c::before{background:color-mix(in srgb,var(--ink) 30%,transparent)}
+.l2-article.df .df-rows{list-style:none;margin:0;padding:0}
+.l2-article.df .df-row{display:grid;grid-template-columns:minmax(0,38%) 1fr;gap:12px;align-items:center;margin:0;padding:6px 0;border-bottom:1px solid color-mix(in srgb,var(--ink) 10%,transparent)}
+.l2-article.df .df-row:last-child{border-bottom:0}
+.l2-article.df .df-lab{font-weight:700;overflow-wrap:anywhere}
+.l2-article.df .df-bars{display:grid;grid-template-columns:1fr 54px;gap:3px 8px;align-items:center}
+.l2-article.df .df-bar{height:14px;background:color-mix(in srgb,var(--ink) 8%,transparent);border-radius:7px;overflow:hidden}
+.l2-article.df .df-fill{display:block;height:100%;background:var(--ink);border-radius:7px;min-width:3px}
+.l2-article.df .df-bar-c{height:8px}
+.l2-article.df .df-bar-c .df-fill{background:color-mix(in srgb,var(--ink) 30%,transparent)}
+.l2-article.df .df-val{font-weight:700;font-variant-numeric:tabular-nums;text-align:right}
+.l2-article.df .df-val-c{font-weight:400;font-size:13px;opacity:.8}
+.l2-article.df .df-map .df-rows{position:relative;padding-left:26px}
+.l2-article.df .df-map .df-rows::before{content:"";position:absolute;left:8px;top:8px;bottom:8px;width:6px;border-radius:3px;background:var(--ink);opacity:.85}
+.l2-article.df .df-map .df-row{position:relative}
+.l2-article.df .df-map .df-row::before{content:"";position:absolute;left:-23px;top:50%;width:12px;height:12px;margin-top:-6px;border-radius:50%;background:var(--accent);border:3px solid var(--ink);box-sizing:border-box}
+
+/* the full table under each chart, behind a native toggle */
+.l2-article.df .df-tablebox{margin:4px 0 24px}
+.l2-article.df .df-tablebox > summary{cursor:pointer;display:inline-flex;align-items:center;gap:8px;font:700 14px/1.3 Arial,sans-serif;padding:8px 14px;border-radius:20px;border:1.5px solid color-mix(in srgb,var(--ink) 35%,transparent);list-style:none}
+.l2-article.df .df-tablebox > summary::-webkit-details-marker{display:none}
+.l2-article.df .df-tablebox > summary::after{content:"+";font-size:17px;line-height:1}
+.l2-article.df .df-tablebox[open] > summary::after{content:"\2212"}
+.l2-article.df .df-tablebox[open] > summary{margin-bottom:6px}
+
+/* tables: rounded box, dark header, edge shadow while more columns are hidden */
+.l2-article.df .l2-tablewrap{position:relative;border-radius:12px;border:1px solid color-mix(in srgb,var(--ink) 18%,transparent);
+  background:linear-gradient(to right,var(--paper) 30%,transparent) left center/40px 100% no-repeat local,
+             linear-gradient(to left,var(--paper) 30%,transparent) right center/40px 100% no-repeat local,
+             linear-gradient(to right,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/14px 100% no-repeat scroll,
+             linear-gradient(to left,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/14px 100% no-repeat scroll}
+.l2-article.df table{font-size:15px}
+.l2-article.df caption{font:700 14px/1.4 Arial,sans-serif;padding:12px 12px 8px;position:sticky;left:0}
+.l2-article.df thead th{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.l2-article.df td{background:transparent;font-variant-numeric:tabular-nums}
+
+/* quiz CTA: one clear action card */
+.l2-article.df .quiz-cta{background:var(--ink);color:var(--paper);border:0;border-radius:16px;padding:24px 26px;margin:34px 0;box-shadow:0 8px 24px color-mix(in srgb,var(--ink) 25%,transparent)}
+.l2-article.df .quiz-cta p{max-width:none;color:var(--paper)}
+.l2-article.df .quiz-cta p:first-child{font-size:19px;line-height:1.5}
+.l2-article.df .quiz-cta .button{background:var(--accent);color:var(--ink);border-radius:30px;padding:16px 26px;font-size:18px;margin-top:6px}
+.l2-article.df .quiz-cta .button::after{content:" \2192"}
+.l2-article.df .quiz-cta .cta-note,.l2-article.df .quiz-cta p.note{font-size:13px;opacity:.8;background:none;padding:0;border-radius:0}
+.l2-article.df .quiz-cta a:not(.button){color:var(--paper)}
+.l2-article.df .df-answer .quiz-cta{margin:18px -10px 18px}
+
+/* numbered steps */
+.l2-article.df ol.df-steps{list-style:none;counter-reset:dfstep;padding:0;margin:18px 0}
+.l2-article.df ol.df-steps > li{counter-increment:dfstep;position:relative;background:var(--panel);border-radius:12px;padding:14px 16px 14px 62px;margin:10px 0;line-height:1.55}
+.l2-article.df ol.df-steps > li::before{content:counter(dfstep);position:absolute;left:14px;top:12px;width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--paper);font:700 17px/34px Arial,sans-serif;text-align:center}
+.l2-article.df .df-rules ul{list-style:none;padding:0}
+.l2-article.df .df-rules ul > li{background:var(--panel);border-left:5px solid var(--accent);border-radius:8px;padding:12px 16px;margin:10px 0}
+.l2-article.df p.note{background:var(--panel);border-radius:10px;padding:12px 16px}
+
+/* "How we built this page": the original-research box */
+.l2-article.df .df-method{background:var(--panel);border-radius:16px;padding:6px 24px 14px;margin-top:48px;border-left:6px solid var(--ink)}
+.l2-article.df .df-method h2{margin-top:18px}
+.l2-article.df .df-method p,.l2-article.df .df-method li{font-size:16px}
+
+/* related links as chips */
+.l2-article.df .df-links ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.l2-article.df .df-links li{margin:0;display:inline-flex;align-items:center}
+.l2-article.df .df-links ul a{display:inline-block;padding:8px 14px;border-radius:20px;background:var(--panel);text-decoration:none;color:var(--ink);font:15px/1.35 Arial,sans-serif}
+
+/* footnote markers: small round badges, not academic superscripts */
+.l2-article.df sup.df-fn{font:700 10px/0 Arial,sans-serif;margin-left:3px;vertical-align:2px}
+.l2-article.df sup.df-fn a{display:inline-block;min-width:16px;height:16px;line-height:16px;text-align:center;text-decoration:none;border-radius:8px;background:color-mix(in srgb,var(--ink) 10%,transparent);color:var(--ink)}
+.l2-article.df .df-fnline{margin:-6px 0 12px}
+
+/* FAQ accordions */
+.l2-article.df .df-faq{border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent);padding:4px 0}
+.l2-article.df .df-faq summary{cursor:pointer;list-style:none;display:flex;gap:12px;align-items:flex-start;padding:10px 0}
+.l2-article.df .df-faq summary::-webkit-details-marker{display:none}
+.l2-article.df .df-faq summary::before{content:"+";flex:0 0 28px;height:28px;border-radius:50%;background:var(--ink);color:var(--paper);font:700 20px/28px Arial,sans-serif;text-align:center;margin-top:1px}
+.l2-article.df .df-faq[open] summary::before{content:"\2212"}
+.l2-article.df .df-faq summary h3{margin:0;font-size:19px;line-height:1.35}
+.l2-article.df .df-faq > :not(summary){margin-left:40px}
+
+/* sources list: present and linked, but quiet */
+.l2-article.df .df-sources{margin-top:48px;padding-top:6px;border-top:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}
+.l2-article.df .df-sources h2{font-size:18px;margin-top:16px}
+.l2-article.df .df-sources h2::after{display:none}
+.l2-article.df .df-sources ol{list-style:decimal;padding-left:24px;margin:8px 0;font:13.5px/1.5 Arial,sans-serif;opacity:.9}
+.l2-article.df .df-sources li{margin:5px 0;padding-left:4px}
+.l2-article.df .df-src-body a{overflow-wrap:anywhere}
+.l2-article.df .df-back{text-decoration:none;margin-left:4px}
+.l2-article.df :target{scroll-margin-top:20px}
+.l2-article.df li:target{background:color-mix(in srgb,var(--accent) 60%,transparent)}
+
+@media(max-width:700px){
+  .l2-article.df{font-size:17px}
+  .l2-article.df h2{font-size:23px;margin-top:44px}
+  .l2-article.df .df-answer{padding:18px 16px 6px;margin-left:-6px;margin-right:-6px}
+  .l2-article.df .df-answer p.df-lead{font-size:18px}
+  .l2-article.df .df-answer p.df-lead > strong:first-child{font-size:21px}
+  .l2-article.df .df-jump{gap:6px;font-size:13px}
+  .l2-article.df .df-jump span{display:none}
+  .l2-article.df .df-jump a{padding:6px 11px}
+  .l2-article.df .df-stats,.l2-article.df .df-stats-3{grid-template-columns:repeat(2,1fr)}
+  .l2-article.df .df-stat-n{font-size:27px}
+  .l2-article.df .df-chart{padding:14px 12px 10px}
+  .l2-article.df .df-row{grid-template-columns:1fr;gap:4px}
+  .l2-article.df .df-map .df-row::before{top:12px;margin-top:0}
+  .l2-article.df .quiz-cta{padding:20px 18px}
+  .l2-article.df .quiz-cta .button{display:block;text-align:center}
+  .l2-article.df .df-answer .quiz-cta{margin:16px -6px}
+  .l2-article.df th[scope="row"]{position:sticky;left:0;z-index:1;background:var(--paper);min-width:120px}
+  /* text tables become one card per row on phones (labels come from data-label) */
+  .l2-article.df table.df-stack{min-width:0;width:100%;border:0}
+  .l2-article.df table.df-stack thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .l2-article.df table.df-stack tbody,.l2-article.df table.df-stack tr,.l2-article.df table.df-stack th,.l2-article.df table.df-stack td{display:block}
+  .l2-article.df table.df-stack tr{background:var(--panel);border-radius:10px;margin:0 8px 10px;padding:10px 14px}
+  .l2-article.df table.df-stack th,.l2-article.df table.df-stack td{border:0;padding:4px 0;min-width:0;position:static;background:transparent}
+  .l2-article.df table.df-stack tbody th{font-size:16px;color:var(--ink)}
+  .l2-article.df table.df-stack td::before{content:attr(data-label);display:block;font:700 12px/1.3 Arial,sans-serif;letter-spacing:.04em;text-transform:uppercase;opacity:.65;margin-bottom:2px}
+  .l2-article.df .l2-tablewrap:has(table.df-stack){border:0;background:none;overflow:visible}
+  .l2-article.df ol.df-steps > li{padding-left:56px}
+  .l2-article.df .df-faq > :not(summary){margin-left:0}
+  .l2-article.df .df-method{padding:4px 16px 10px}
+}
+
+/* ---- live visual audit fixes (11-Nov-2026, qa/live-visual-audit-20261111.md, CSS items 1-19) ---- */
+/* 4. H1: capped on desktop, clamped on phones */
+.l2-article.df h1{font-size:clamp(2rem,3.4vw,2.6rem);line-height:1.15;letter-spacing:-.03em}
+/* chart legend names the plotted measure */
+.l2-article.df .df-legend-l{font-weight:400;opacity:.75;margin-right:-8px}
+.l2-article.df .df-legend-l::after{content:":"}
+/* 17. near-equal values: value tiles instead of identical-looking bars */
+.l2-article.df .df-flat .df-rows{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:8px}
+.l2-article.df .df-flat .df-row{display:flex;flex-direction:column-reverse;align-items:flex-start;justify-content:flex-end;gap:2px;border:0;background:var(--paper);border-radius:10px;padding:10px 12px}
+.l2-article.df .df-flat .df-bars{display:block}
+.l2-article.df .df-flat .df-bar{display:none}
+.l2-article.df .df-flat .df-val{display:block;text-align:left;font-size:24px;line-height:1.1}
+.l2-article.df .df-flat .df-lab{font-weight:400;font-size:14px}
+/* 6. key facts inside the quick answer: one frame, not three */
+.l2-article.df .df-answer .key-facts{background:none;padding:0;margin:16px 0 14px;border-radius:0}
+/* 7. card grid: 4 across for 4 facts, 3 for 3, 2x2 otherwise on narrow widths */
+.l2-article.df .key-facts ul{grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.l2-article.df .key-facts ul:has(> li:nth-child(4):last-child){grid-template-columns:repeat(4,minmax(0,1fr))}
+.l2-article.df .key-facts ul:has(> li:nth-child(3):last-child){grid-template-columns:repeat(3,minmax(0,1fr))}
+.l2-article.df .key-facts li{border-left:0;border-radius:10px;padding:12px 14px;font-size:15px;line-height:1.35}
+/* 8. key-fact headline: the number, or an emphasised number inside the sentence */
+.l2-article.df .key-facts li strong.df-kf-n{display:block;font:800 26px/1.1 Arial,sans-serif;letter-spacing:-.01em;margin-bottom:4px}
+.l2-article.df .key-facts li .df-kf-p{display:none}
+.l2-article.df .key-facts li strong.df-kf-x,.l2-article.df .key-facts li.df-kf-inline strong{display:inline;font:800 1.5em/1 Arial,sans-serif;margin:0}
+.l2-article.df .key-facts li.df-kf-inline{font-size:18px;line-height:1.4;font-weight:700}
+/* 15. footnote badge moved into the last card stays inline */
+.l2-article.df .key-facts li sup.df-fn{display:inline}
+/* 9. in-body quiz card: shorter */
+.l2-article.df .quiz-cta{padding:20px 22px;margin:26px 0}
+.l2-article.df .quiz-cta p{margin:6px 0}
+.l2-article.df .quiz-cta p:first-child{font-size:17px;line-height:1.45}
+.l2-article.df .quiz-cta .button{padding:14px 24px;font-size:17px;margin-top:4px}
+.l2-article.df .quiz-cta .cta-note,.l2-article.df .quiz-cta p.note{font-size:12px;line-height:1.35;margin-top:8px}
+/* 12. tables: hint and readable columns */
+.l2-article.df td{min-width:7em}
+.l2-article.df .df-swipe{display:none;font:700 12px/1.3 Arial,sans-serif;opacity:.7;margin:8px 0 -12px;text-align:right}
+
+@media(max-width:700px){
+  .l2-article.df .df-answer .key-facts{margin:12px 0 10px}
+  .l2-article.df .key-facts ul,.l2-article.df .key-facts ul:has(> li:nth-child(4):last-child),.l2-article.df .key-facts ul:has(> li:nth-child(3):last-child){grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .l2-article.df .key-facts ul > li:nth-child(3):last-child{grid-column:1 / -1}
+  .l2-article.df .key-facts li{padding:10px 11px;font-size:13.5px;line-height:1.3}
+  .l2-article.df .key-facts li strong.df-kf-n{font-size:1.5rem;margin-bottom:3px}
+  .l2-article.df .key-facts li.df-kf-inline{font-size:15px}
+  .l2-article.df .df-swipe{display:block}
+  .l2-article.df .l2-tablewrap{background:linear-gradient(to right,var(--paper) 30%,transparent) left center/40px 100% no-repeat local,
+             linear-gradient(to left,var(--paper) 30%,transparent) right center/40px 100% no-repeat local,
+             linear-gradient(to right,color-mix(in srgb,var(--ink) 30%,transparent),transparent) left center/18px 100% no-repeat scroll,
+             linear-gradient(to left,color-mix(in srgb,var(--ink) 38%,transparent),transparent) right center/24px 100% no-repeat scroll}
+  /* 13. stacked table cards: label left, value right, tight rows */
+  .l2-article.df table.df-stack tr{margin:0 0 8px;padding:8px 12px}
+  .l2-article.df table.df-stack th,.l2-article.df table.df-stack td{padding:3px 0;font-size:15px;line-height:1.4}
+  .l2-article.df table.df-stack td{display:grid;grid-template-columns:minmax(0,38%) minmax(0,1fr);gap:10px;align-items:baseline}
+  .l2-article.df table.df-stack td::before{font-size:11px;letter-spacing:.03em;margin:0;line-height:1.35}
+  .l2-article.df table.df-stack tbody th{font-size:15.5px;padding-bottom:4px}
+  /* 14. place rules: plain list, not tinted boxes */
+  .l2-article.df .df-rules ul > li{background:none;border-left:3px solid var(--accent);border-radius:0;padding:2px 0 2px 12px;margin:12px 0}
+  .l2-article.df .quiz-cta{padding:18px 16px;margin:22px 0}
+  .l2-article.df .quiz-cta .button{padding:13px 18px}
+}
+@media(max-width:480px){
+  /* 4. phone H1 */
+  .l2-article.df h1{font-size:clamp(1.6rem,6.5vw,2.1rem);line-height:1.15;margin-bottom:10px}
+  /* 10. jump chips keep their label */
+  .l2-article.df .df-jump span{display:inline;font-size:12px}
+  .l2-article.df .df-jump{margin-bottom:12px}
+  .l2-article.df .byline{font-size:13px;margin:-4px 0 12px}
+  /* 18. full-bleed article on phones */
+  .l2-article.df{padding:0 16px;margin:22px auto}
+  .l2-article.df .df-answer,.l2-article.df .quiz-cta{margin-left:-16px;margin-right:-16px;border-radius:0}
+  .l2-article.df .df-answer{padding:16px 16px 4px}
+  .l2-article.df .df-answer::before{margin-bottom:8px}
+  .l2-article.df .df-answer p.df-lead{font-size:17px;line-height:1.45;margin:6px 0 8px}
+  .l2-article.df .df-answer p.df-lead > strong:first-child{font-size:19px;line-height:1.3;margin-bottom:6px}
+  .l2-article.df .df-answer .quiz-cta{margin:14px -16px}
+  .l2-article.df .df-chart{margin-left:-16px;margin-right:-16px;border-radius:0;padding:14px 16px 10px}
+}
+/* Optional site-shell fix (outside the article layer). Pre-existing: at 390 px the footer
+   flex row (.mva-footer-grid) does not wrap, so .mva-footer-contact sticks out to 450 px.
+   Verified in Chromium on the after-*.html previews: scrollWidth 450 -> 390. */
+@media(max-width:700px){.mva-footer-grid{flex-wrap:wrap;row-gap:24px}.mva-footer-grid>*{min-width:0;max-width:100%}}
+/* 19. footer quiz link under the copyright: a styled pill, not a stray bold line */
+.mva-footer-bottom{flex-wrap:wrap;align-items:center;gap:12px 22px}
+.mva-footer-bottom .mva-footer-quiz{display:inline-block;padding:9px 16px;border:1.5px solid var(--ink);border-radius:22px;text-decoration:none;font:700 14px/1.3 Arial,sans-serif}
+/* 11. breadcrumb gets air below it */
+.l2-crumbs{margin-bottom:-26px!important}
+@media(max-width:480px){
+  /* 11. tighter phone header so the H1 starts near y 120 */
+  .mva-site > header{padding:12px 16px;gap:6px 10px;align-items:center;flex-wrap:nowrap}
+  .mva-site > header .brand{font-size:16px;line-height:1.2;min-width:0}
+  .mva-site > header .brand small{display:none}
+  .mva-site > header nav{gap:10px;font-size:13px;flex-shrink:0}
+  .mva-site > header .navcta{padding:6px 11px}
+  .l2-crumbs{padding:0 16px!important;margin:14px auto -8px!important;font-size:13px!important}
+  /* 18. Dorik wraps the code block in a 10 px padded container: full-bleed on phones */
+  [class*="dorik-container"]:has(.mva-site){padding-left:0;padding-right:0}
+  footer.mva-contact-footer{padding:24px 16px}
+}
+</style><article class="l2-article place-page county-hub df df-place" data-slug="union-county-car-accident-help">
+<h1>Union County, NJ car accidents: roads, towns, corners and police reports</h1><nav class="df-jump" aria-label="Jump to" data-df="added"><span>Jump to:</span><a href="#faq">Questions</a><a href="#sources">Sources</a></nav>
+<p class="byline">By Sandra H. Brown, Injuries Cases Autos research. Updated <time datetime="2026-11-11">11 November 2026</time></p>
+<section id="answer" class="df-answer">
+<p class="df-lead"><strong class="df-k">Union County police reported 9,235 car accidents in 2023 and 2024 where someone was hurt or killed: 12,444 people hurt and 76 killed.</strong> The Garden State Parkway led the roads, and Elizabeth and Union Township led the towns.</p>
+<aside class="key-facts">
+<ul>
+<li data-origin="original" class="df-kf"><strong class="df-kf-n">719</strong> injury accidents on the Garden State Parkway, the county's top numbered road</li>
+<li data-origin="original" class="df-kf"><strong class="df-kf-n">317</strong> of Route 22's 597 Union County injury accidents were in Union Township</li>
+<li data-origin="original" class="df-kf"><strong class="df-kf-n">40.5%</strong> of the county's injury accidents were in Elizabeth or Union Township</li>
+<li data-origin="original" class="df-kf"><strong class="df-kf-n">13</strong> deaths on Route 1, the deadliest road; 27 of 76 deaths were pedestrians<sup class="df-fn"><a href="#src-1">1</a></sup></li>
+</ul>
+</aside>
+
+</section>
+<section class="quiz-cta">
+<p>Hurt on the Parkway or Route 22 in Union County? Answer a few short questions, about 30 seconds, to see if a lawyer's office may review your claim for free.</p>
+<p><a class="button" data-quiz-link="after-answer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=union-county-car-accident-help">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+<section id="roads">
+<h2>Where do most car accidents happen in Union County?</h2>
+<p><strong class="df-k">On the Garden State Parkway, with 719 injury accidents in 2023 and 2024, then Route 22 (597) and Route 1 (519).</strong> Route 1 had the most deaths, 13.</p>
+<p>Almost a third of injury accidents, 2,861, were on streets with no route number. Route 27, through Roselle, Elizabeth and Rahway, had the most pedestrian accidents of any numbered road: 79.</p>
+<figure class="df-chart df-map" aria-hidden="true" data-df="added"><div class="df-chart-t">Numbered state roads in Union County by accidents where someone was hurt or killed, 2023 and 2024</div><div class="df-legend"><span class="df-legend-l">Bars show</span><span class="df-key df-key-m">Someone hurt or killed</span></div><ol class="df-rows"><li class="df-row"><span class="df-lab">Garden State Parkway</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:100.0%"></span></span><span class="df-val">719</span></span></li><li class="df-row"><span class="df-lab">Route 22</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:83.0%"></span></span><span class="df-val">597</span></span></li><li class="df-row"><span class="df-lab">Route 1</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:72.2%"></span></span><span class="df-val">519</span></span></li><li class="df-row"><span class="df-lab">Route 27 (St. Georges Avenue, Newark Avenue)</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:65.0%"></span></span><span class="df-val">467</span></span></li><li class="df-row"><span class="df-lab">I-95 (New Jersey Turnpike)</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:48.7%"></span></span><span class="df-val">350</span></span></li><li class="df-row"><span class="df-lab">I-78</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:41.7%"></span></span><span class="df-val">300</span></span></li><li class="df-row"><span class="df-lab">Route 82</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:28.2%"></span></span><span class="df-val">203</span></span></li><li class="df-row"><span class="df-lab">Route 439</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:26.8%"></span></span><span class="df-val">193</span></span></li><li class="df-row"><span class="df-lab">Route 28</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:23.5%"></span></span><span class="df-val">169</span></span></li><li class="df-row"><span class="df-lab">Route 124</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:16.1%"></span></span><span class="df-val">116</span></span></li><li class="df-row"><span class="df-lab">Route 24</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:15.4%"></span></span><span class="df-val">111</span></span></li></ol></figure><details class="df-tablebox"><summary class="df-tablebox-s" data-df="added">See the full table</summary><p class="df-swipe" aria-hidden="true" data-df="added">Swipe for more columns &#8594;</p><div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Numbered state roads in Union County by accidents where someone was hurt or killed, 2023 and 2024</caption>
+<thead><tr><th scope="col">Road</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th></tr></thead>
+<tbody>
+<tr><th scope="row"><a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway</a></th><td>719</td><td>3,551</td><td>1,028</td><td>1</td><td>1</td></tr>
+<tr><th scope="row"><a href="/new-jersey/route-22-nj-accidents">Route 22</a></th><td>597</td><td>2,589</td><td>780</td><td>4</td><td>2</td></tr>
+<tr><th scope="row"><a href="/new-jersey/route-1-nj-accidents">Route 1</a></th><td>519</td><td>1,950</td><td>740</td><td>13</td><td>39</td></tr>
+<tr><th scope="row">Route 27 (St. Georges Avenue, Newark Avenue)</th><td>467</td><td>1,641</td><td>649</td><td>6</td><td>79</td></tr>
+<tr><th scope="row">I-95 (New Jersey Turnpike)</th><td>350</td><td>1,767</td><td>501</td><td>1</td><td>2</td></tr>
+<tr><th scope="row"><a href="/new-jersey/i-78-nj-accidents">I-78</a></th><td>300</td><td>1,327</td><td>411</td><td>5</td><td>0</td></tr>
+<tr><th scope="row">Route 82</th><td>203</td><td>799</td><td>279</td><td>0</td><td>16</td></tr>
+<tr><th scope="row">Route 439</th><td>193</td><td>703</td><td>261</td><td>0</td><td>40</td></tr>
+<tr><th scope="row">Route 28</th><td>169</td><td>766</td><td>226</td><td>2</td><td>16</td></tr>
+<tr><th scope="row">Route 124</th><td>116</td><td>530</td><td>158</td><td>0</td><td>5</td></tr>
+<tr><th scope="row">Route 24</th><td>111</td><td>492</td><td>137</td><td>0</td><td>0</td></tr>
+</tbody>
+</table></div>
+</div></details>
+<p>The full corridors are on our pages for <a href="/new-jersey/route-22-nj-accidents">Route 22 accidents by town and cross street</a> and <a href="/new-jersey/garden-state-parkway-accidents">Parkway accidents by milepost and county</a>.<sup class="df-fn"><a href="#src-2">2</a></sup></p>
+
+</section>
+<section id="report">
+<h2>How do I look up an accident report in NJ for a Union County crash?</h2>
+<p><strong class="df-k">A Parkway crash in Union Township is a State Police report, not a township one.</strong> That covers 211 of the township's injury accidents in 2023 and 2024.</p>
+<div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table class="df-stack">
+<caption>Union County agencies and how each says to request a crash report</caption>
+<thead><tr><th scope="col">Where it happened</th><th scope="col">Agency</th><th scope="col">How to ask, as each agency states it</th></tr></thead>
+<tbody>
+<tr><th scope="row" data-label="Where it happened">County roads patrolled by county officers</th><td data-label="Agency">Union County Police</td><td data-label="How to ask, as each agency states it">Records Division, (908) 654-9809, 400 North Avenue East, Westfield.</td></tr>
+<tr><th scope="row" data-label="Where it happened">Union Township streets</th><td data-label="Agency">Union Township Police</td><td data-label="How to ask, as each agency states it">"Get Your Accident Report" link to crashdocs.org. 981 Caldwell Avenue, (908) 851-5000.</td></tr>
+<tr><th scope="row" data-label="Where it happened">Springfield Township</th><td data-label="Agency">Springfield Police</td><td data-label="How to ask, as each agency states it">"Accident Reports" link to crashdocs.org. 100 Mountain Avenue.</td></tr>
+<tr><th scope="row" data-label="Where it happened">Garden State Parkway in Union Township</th><td data-label="Agency">New Jersey State Police</td><td data-label="How to ask, as each agency states it">State Police crash reports portal (211 township injury accidents in 2023 and 2024).</td></tr>
+</tbody>
+</table></div>
+</div>
+<p>None of the three local agency pages states a wait; the State Police portal says reports can take up to 14 business days. Elizabeth's free CrashDocs route is on the <a href="/new-jersey/elizabeth-nj-car-accidents">Elizabeth crash records page</a>.</p>
+<p>Fees, the toll-road portal and the form drivers file when no officer came are on <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>.<sup class="df-fn"><a href="#src-3">3</a></sup></p>
+
+</section>
+<section id="towns">
+<h2>Which Union County towns have the most injury accidents?</h2>
+<p><strong class="df-k">Elizabeth, with 2,287 in 2023 and 2024, then Union Township with 1,453.</strong> Together they hold 40.5% of the county's injury accidents.</p>
+<p>Deaths follow a different order. Linden had 12, six times Union Township's 2, and Berkeley Heights had 6 from only 126 injury accidents.</p>
+<figure class="df-chart" aria-hidden="true" data-df="added"><div class="df-chart-t">Top 10 Union County municipalities by accidents where someone was hurt or killed, 2023 and 2024</div><div class="df-legend"><span class="df-legend-l">Bars show</span><span class="df-key df-key-m">Someone hurt or killed</span></div><ol class="df-rows"><li class="df-row"><span class="df-lab">Rank 1</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:100.0%"></span></span><span class="df-val">2,287</span></span></li><li class="df-row"><span class="df-lab">Rank 2</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:63.5%"></span></span><span class="df-val">1,453</span></span></li><li class="df-row"><span class="df-lab">Rank 3</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:47.6%"></span></span><span class="df-val">1,089</span></span></li><li class="df-row"><span class="df-lab">Rank 4</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:36.7%"></span></span><span class="df-val">839</span></span></li><li class="df-row"><span class="df-lab">Rank 5</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:19.9%"></span></span><span class="df-val">456</span></span></li><li class="df-row"><span class="df-lab">Rank 6</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:18.5%"></span></span><span class="df-val">423</span></span></li><li class="df-row"><span class="df-lab">Rank 7</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:18.5%"></span></span><span class="df-val">422</span></span></li><li class="df-row"><span class="df-lab">Rank 8</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:18.1%"></span></span><span class="df-val">414</span></span></li><li class="df-row"><span class="df-lab">Rank 9</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:13.9%"></span></span><span class="df-val">317</span></span></li><li class="df-row"><span class="df-lab">Rank 10</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:13.5%"></span></span><span class="df-val">309</span></span></li></ol></figure><details class="df-tablebox"><summary class="df-tablebox-s" data-df="added">See the full table</summary><p class="df-swipe" aria-hidden="true" data-df="added">Swipe for more columns &#8594;</p><div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Top 10 Union County municipalities by accidents where someone was hurt or killed, 2023 and 2024</caption>
+<thead><tr><th scope="col">Rank</th><th scope="col">Municipality</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th></tr></thead>
+<tbody>
+<tr><td>1</td><th scope="row"><a href="/new-jersey/elizabeth-nj-car-accidents">Elizabeth</a></th><td>2,287</td><td>10,155</td><td>3,109</td><td>24</td><td>351</td></tr>
+<tr><td>2</td><th scope="row"><a href="#union-township">Union Township</a></th><td>1,453</td><td>6,696</td><td>1,902</td><td>2</td><td>75</td></tr>
+<tr><td>3</td><th scope="row"><a href="/new-jersey/linden-nj-car-accidents">Linden</a></th><td>1,089</td><td>4,789</td><td>1,475</td><td>12</td><td>86</td></tr>
+<tr><td>4</td><th scope="row"><a href="/new-jersey/plainfield-nj-car-accidents">Plainfield</a></th><td>839</td><td>3,640</td><td>1,161</td><td>7</td><td>110</td></tr>
+<tr><td>5</td><th scope="row">Rahway</th><td>456</td><td>2,005</td><td>640</td><td>3</td><td>31</td></tr>
+<tr><td>6</td><th scope="row">Roselle</th><td>423</td><td>1,605</td><td>587</td><td>4</td><td>44</td></tr>
+<tr><td>7</td><th scope="row">Springfield Township</th><td>422</td><td>1,969</td><td>542</td><td>4</td><td>16</td></tr>
+<tr><td>8</td><th scope="row">Hillside</th><td>414</td><td>2,120</td><td>553</td><td>3</td><td>34</td></tr>
+<tr><td>9</td><th scope="row">Cranford</th><td>317</td><td>1,571</td><td>451</td><td>0</td><td>14</td></tr>
+<tr><td>10</td><th scope="row">Clark</th><td>309</td><td>1,535</td><td>412</td><td>3</td><td>4</td></tr>
+</tbody>
+</table></div>
+</div></details>
+<details>
+<summary>The other 11 Union County municipalities</summary>
+<p class="df-swipe" aria-hidden="true" data-df="added">Swipe for more columns &#8594;</p><div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Union County municipalities ranked 11 to 21 by accidents where someone was hurt or killed, 2023 and 2024</caption>
+<thead><tr><th scope="col">Rank</th><th scope="col">Municipality</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">People killed</th><th scope="col">Pedestrian accidents</th></tr></thead>
+<tbody>
+<tr><td>11</td><th scope="row">Westfield</th><td>223</td><td>1,170</td><td>283</td><td>1</td><td>25</td></tr>
+<tr><td>12</td><th scope="row"><a href="/new-jersey/summit-car-accident-help">Summit</a></th><td>217</td><td>1,179</td><td>269</td><td>2</td><td>25</td></tr>
+<tr><td>13</td><th scope="row">Scotch Plains</th><td>170</td><td>826</td><td>217</td><td>2</td><td>5</td></tr>
+<tr><td>14</td><th scope="row">Kenilworth</th><td>130</td><td>678</td><td>202</td><td>0</td><td>1</td></tr>
+<tr><td>15</td><th scope="row">Berkeley Heights</th><td>126</td><td>601</td><td>164</td><td>6</td><td>1</td></tr>
+<tr><td>16</td><th scope="row">Roselle Park</th><td>114</td><td>602</td><td>151</td><td>1</td><td>8</td></tr>
+<tr><td>17</td><th scope="row">Mountainside</th><td>81</td><td>367</td><td>110</td><td>2</td><td>2</td></tr>
+<tr><td>18</td><th scope="row">New Providence</th><td>78</td><td>371</td><td>101</td><td>0</td><td>3</td></tr>
+<tr><td>19</td><th scope="row">Fanwood</th><td>48</td><td>250</td><td>65</td><td>0</td><td>6</td></tr>
+<tr><td>20</td><th scope="row">Garwood</th><td>34</td><td>156</td><td>45</td><td>0</td><td>5</td></tr>
+<tr><td>21</td><th scope="row">Winfield</th><td>3</td><td>40</td><td>3</td><td>0</td><td>0</td></tr>
+</tbody>
+</table></div>
+</div>
+</details>
+<p>Town detail, from pedestrians on East Grand Street to right-angle collisions in Plainfield, is on the <a href="/new-jersey/elizabeth-nj-car-accidents">Elizabeth crash records page</a>, the <a href="/new-jersey/linden-nj-car-accidents">Linden deaths and Route 1 page</a> and the <a href="/new-jersey/plainfield-nj-car-accidents">Plainfield intersections page</a>.<sup class="df-fn"><a href="#src-4">4</a></sup></p>
+
+</section>
+<section id="intersections">
+<h2>Which Union County intersections have the most injury accidents?</h2>
+<p><strong class="df-k">East Grand Street at Reid Street in Elizabeth, with 24 in 2024 and 2025.</strong> No other corner passes 17, and Roselle holds four of the top twenty.</p>
+<figure class="df-chart df-map" aria-hidden="true" data-df="added"><div class="df-chart-t">Top 10 Union County intersections by accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</div><div class="df-legend"><span class="df-legend-l">Bars show</span><span class="df-key df-key-m">Hurt or killed, 2024 + 2025</span></div><ol class="df-rows"><li class="df-row"><span class="df-lab">Elizabeth</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:100.0%"></span></span><span class="df-val">24</span></span></li><li class="df-row"><span class="df-lab">Plainfield</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:70.8%"></span></span><span class="df-val">17</span></span></li><li class="df-row"><span class="df-lab">Rahway</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:62.5%"></span></span><span class="df-val">15</span></span></li><li class="df-row"><span class="df-lab">Roselle</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:45.8%"></span></span><span class="df-val">11</span></span></li><li class="df-row"><span class="df-lab">Elizabeth</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:45.8%"></span></span><span class="df-val">11</span></span></li><li class="df-row"><span class="df-lab">Roselle</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:45.8%"></span></span><span class="df-val">11</span></span></li><li class="df-row"><span class="df-lab">Elizabeth</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:41.7%"></span></span><span class="df-val">10</span></span></li><li class="df-row"><span class="df-lab">Elizabeth</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:37.5%"></span></span><span class="df-val">9</span></span></li><li class="df-row"><span class="df-lab">Roselle</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:37.5%"></span></span><span class="df-val">9</span></span></li><li class="df-row"><span class="df-lab">Rahway</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:33.3%"></span></span><span class="df-val">8</span></span></li></ol></figure><details class="df-tablebox"><summary class="df-tablebox-s" data-df="added">See the full table</summary><p class="df-swipe" aria-hidden="true" data-df="added">Swipe for more columns &#8594;</p><div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Top 10 Union County intersections by accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</caption>
+<thead><tr><th scope="col">Town</th><th scope="col">Intersection</th><th scope="col">Hurt or killed, 2024 + 2025</th><th scope="col">2024</th><th scope="col">2025 (preliminary)</th><th scope="col">People hurt</th><th scope="col">Pedestrian accidents</th></tr></thead>
+<tbody>
+<tr><td>Elizabeth</td><th scope="row">East Grand Street at Reid Street</th><td>24</td><td>9</td><td>15</td><td>35</td><td>1</td></tr>
+<tr><td>Plainfield</td><th scope="row">Madison Avenue at West Second Street</th><td>17</td><td>10</td><td>7</td><td>23</td><td>4</td></tr>
+<tr><td>Rahway</td><th scope="row">Jefferson Avenue at West Lake Avenue</th><td>15</td><td>10</td><td>5</td><td>27</td><td>0</td></tr>
+<tr><td>Roselle</td><th scope="row">Route 27 (St. Georges Avenue) at Park Avenue (County Route 616)</th><td>11</td><td>4</td><td>7</td><td>17</td><td>0</td></tr>
+<tr><td>Elizabeth</td><th scope="row">Magie Avenue (County Route 618) at Stiles Street</th><td>11</td><td>4</td><td>7</td><td>16</td><td>1</td></tr>
+<tr><td>Roselle</td><th scope="row">Chandler Avenue at East 2nd Avenue</th><td>11</td><td>7</td><td>4</td><td>14</td><td>1</td></tr>
+<tr><td>Elizabeth</td><th scope="row">Fairmount Avenue at Route 27 (Newark Avenue)</th><td>10</td><td>5</td><td>5</td><td>14</td><td>4</td></tr>
+<tr><td>Elizabeth</td><th scope="row">Magnolia Avenue at Walnut Street</th><td>9</td><td>4</td><td>5</td><td>15</td><td>0</td></tr>
+<tr><td>Roselle</td><th scope="row">East 3rd Avenue (County Route 612) at Park Street</th><td>9</td><td>2</td><td>7</td><td>13</td><td>0</td></tr>
+<tr><td>Rahway</td><th scope="row">Madison Avenue at West Lake Avenue</th><td>8</td><td>6</td><td>2</td><td>12</td><td>0</td></tr>
+</tbody>
+</table></div>
+</div></details>
+<p>Eight of the next ten corners, at 7 or 8 injury accidents each, are in Elizabeth, Plainfield and Linden, and their town pages list them. Division Street at Livingston Street in Elizabeth is the only top-twenty corner with a death.</p>
+<p>Statewide, see <a href="/new-jersey/most-dangerous-intersections-nj">New Jersey intersections with the most injury accidents</a>.<sup class="df-fn"><a href="#src-5">5</a></sup></p>
+
+</section>
+<section id="union-township">
+<h2>What do the records show for Union Township?</h2>
+<p>Union Township had 1,453 injury accidents in 2023 and 2024, 10th of 564 New Jersey towns. 64.1% were on state-run roads, against 42.3% countywide.</p>
+<p>Rear-end accidents were 45.6% of the township's injury accidents (663), against 30.5% for the county. Fridays had 255, Sundays 150.</p>
+<h3 id="morris-ave">What happened on Morris Ave in Union, NJ, by the records?</h3>
+<p>Route 82, which includes Morris Avenue, had 183 injury accidents in Union Township in 2023 and 2024, and nobody died. Green Lane and Liberty Avenue at Route 82 are among the township's top corners.</p>
+<figure class="df-chart" aria-hidden="true" data-df="added"><div class="df-chart-t">Union Township accidents where someone was hurt or killed, by road, 2023 and 2024</div><div class="df-legend"><span class="df-legend-l">Bars show</span><span class="df-key df-key-m">Someone hurt or killed</span></div><ol class="df-rows"><li class="df-row"><span class="df-lab">Route 22</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:100.0%"></span></span><span class="df-val">317</span></span></li><li class="df-row"><span class="df-lab">Streets with no route number</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:70.3%"></span></span><span class="df-val">223</span></span></li><li class="df-row"><span class="df-lab">Garden State Parkway</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:66.6%"></span></span><span class="df-val">211</span></span></li><li class="df-row"><span class="df-lab">Route 82 (Morris Avenue, Jewish War Veterans Memorial Highway)</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:57.7%"></span></span><span class="df-val">183</span></span></li><li class="df-row"><span class="df-lab">I-78</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:47.0%"></span></span><span class="df-val">149</span></span></li><li class="df-row"><span class="df-lab">County Route 630 (Vauxhall Road)</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:34.4%"></span></span><span class="df-val">109</span></span></li><li class="df-row"><span class="df-lab">County Route 619 (Stuyvesant Avenue, Chestnut Street)</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:29.3%"></span></span><span class="df-val">93</span></span></li><li class="df-row"><span class="df-lab">Route 124 (Springfield Avenue)</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:15.8%"></span></span><span class="df-val">50</span></span></li></ol></figure><details class="df-tablebox"><summary class="df-tablebox-s" data-df="added">See the full table</summary><p class="df-swipe" aria-hidden="true" data-df="added">Swipe for more columns &#8594;</p><div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Union Township accidents where someone was hurt or killed, by road, 2023 and 2024</caption>
+<thead><tr><th scope="col">Road</th><th scope="col">Someone hurt or killed</th><th scope="col">All accidents</th><th scope="col">People hurt</th><th scope="col">People killed</th></tr></thead>
+<tbody>
+<tr><th scope="row">Route 22</th><td>317</td><td>1,403</td><td>410</td><td>1</td></tr>
+<tr><th scope="row">Streets with no route number</th><td>223</td><td>1,351</td><td>283</td><td>0</td></tr>
+<tr><th scope="row">Garden State Parkway</th><td>211</td><td>1,020</td><td>279</td><td>0</td></tr>
+<tr><th scope="row">Route 82 (Morris Avenue, Jewish War Veterans Memorial Highway)</th><td>183</td><td>711</td><td>250</td><td>0</td></tr>
+<tr><th scope="row">I-78</th><td>149</td><td>652</td><td>206</td><td>1</td></tr>
+<tr><th scope="row">County Route 630 (Vauxhall Road)</th><td>109</td><td>444</td><td>134</td><td>0</td></tr>
+<tr><th scope="row">County Route 619 (Stuyvesant Avenue, Chestnut Street)</th><td>93</td><td>364</td><td>116</td><td>0</td></tr>
+<tr><th scope="row">Route 124 (Springfield Avenue)</th><td>50</td><td>224</td><td>79</td><td>0</td></tr>
+</tbody>
+</table></div>
+</div></details>
+<h3 id="stuyvesant">Stuyvesant Avenue appears at three of the top four corners</h3>
+<figure class="df-chart" aria-hidden="true" data-df="added"><div class="df-chart-t">Union Township intersections with 4 or more accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)</div><div class="df-legend"><span class="df-legend-l">Bars show</span><span class="df-key df-key-m">Hurt or killed, 2024 + 2025</span></div><ol class="df-rows"><li class="df-row"><span class="df-lab">Stuyvesant Avenue (County Route 619) at Vauxhall Road (County Route 630)</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:100.0%"></span></span><span class="df-val">6</span></span></li><li class="df-row"><span class="df-lab">Morrison Avenue at Stuyvesant Avenue</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:83.3%"></span></span><span class="df-val">5</span></span></li><li class="df-row"><span class="df-lab">Stanley Terrace at Stuyvesant Avenue</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:83.3%"></span></span><span class="df-val">5</span></span></li><li class="df-row"><span class="df-lab">Green Lane at Route 82 (Jewish War Veterans Memorial Highway)</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:83.3%"></span></span><span class="df-val">5</span></span></li><li class="df-row"><span class="df-lab">Elmwood Avenue at Savitt Place</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:66.7%"></span></span><span class="df-val">4</span></span></li><li class="df-row"><span class="df-lab">Route 124 at Valley Street</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:66.7%"></span></span><span class="df-val">4</span></span></li><li class="df-row"><span class="df-lab">Oakland Avenue at Walker Avenue</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:66.7%"></span></span><span class="df-val">4</span></span></li><li class="df-row"><span class="df-lab">Burroughs Terrace at Selfmaster Parkway</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:66.7%"></span></span><span class="df-val">4</span></span></li><li class="df-row"><span class="df-lab">Liberty Avenue at Route 82 (Morris Avenue)</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:66.7%"></span></span><span class="df-val">4</span></span></li><li class="df-row"><span class="df-lab">Chestnut Street (County Route 619) at Phillips Terrace</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:66.7%"></span></span><span class="df-val">4</span></span></li></ol></figure><details class="df-tablebox"><summary class="df-tablebox-s" data-df="added">See the full table</summary><p class="df-swipe" aria-hidden="true" data-df="added">Swipe for more columns &#8594;</p><div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Union Township intersections with 4 or more accidents where someone was hurt or killed, 2024 and 2025 (2025 preliminary)<sup class="df-fn"><a href="#src-6">6</a></sup></caption>
+<thead><tr><th scope="col">Intersection</th><th scope="col">Hurt or killed, 2024 + 2025</th><th scope="col">2024</th><th scope="col">2025 (preliminary)</th><th scope="col">People hurt</th><th scope="col">Pedestrian accidents</th></tr></thead>
+<tbody>
+<tr><th scope="row">Stuyvesant Avenue (County Route 619) at Vauxhall Road (County Route 630)</th><td>6</td><td>3</td><td>3</td><td>7</td><td>3</td></tr>
+<tr><th scope="row">Morrison Avenue at Stuyvesant Avenue</th><td>5</td><td>2</td><td>3</td><td>8</td><td>0</td></tr>
+<tr><th scope="row">Stanley Terrace at Stuyvesant Avenue</th><td>5</td><td>4</td><td>1</td><td>10</td><td>1</td></tr>
+<tr><th scope="row">Green Lane at Route 82 (Jewish War Veterans Memorial Highway)</th><td>5</td><td>3</td><td>2</td><td>8</td><td>1</td></tr>
+<tr><th scope="row">Elmwood Avenue at Savitt Place</th><td>4</td><td>2</td><td>2</td><td>4</td><td>1</td></tr>
+<tr><th scope="row">Route 124 at Valley Street</th><td>4</td><td>4</td><td>0</td><td>7</td><td>0</td></tr>
+<tr><th scope="row">Oakland Avenue at Walker Avenue</th><td>4</td><td>2</td><td>2</td><td>6</td><td>0</td></tr>
+<tr><th scope="row">Burroughs Terrace at Selfmaster Parkway</th><td>4</td><td>1</td><td>3</td><td>5</td><td>0</td></tr>
+<tr><th scope="row">Liberty Avenue at Route 82 (Morris Avenue)</th><td>4</td><td>1</td><td>3</td><td>10</td><td>0</td></tr>
+<tr><th scope="row">Chestnut Street (County Route 619) at Phillips Terrace</th><td>4</td><td>1</td><td>3</td><td>8</td><td>0</td></tr>
+</tbody>
+</table></div>
+</div></details>
+
+</section>
+<section id="how-and-when">
+<h2>What kinds of accidents hurt and kill people in Union County, and when?</h2>
+<p><strong class="df-k">Rear-end and right-angle accidents make up more than half of injury accidents.</strong> Pedestrian accidents kill out of all proportion: 27 of 76 deaths.</p>
+<figure class="df-chart" aria-hidden="true" data-df="added"><div class="df-chart-t">Union County accidents where someone was hurt or killed, by police-coded accident type, 2023 and 2024</div><div class="df-legend"><span class="df-legend-l">Bars show</span><span class="df-key df-key-m">Someone hurt or killed</span></div><ol class="df-rows"><li class="df-row"><span class="df-lab">Same direction, rear end</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:100.0%"></span></span><span class="df-val">2,820</span></span></li><li class="df-row"><span class="df-lab">Right angle</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:78.2%"></span></span><span class="df-val">2,205</span></span></li><li class="df-row"><span class="df-lab">Same direction, sideswipe</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:34.9%"></span></span><span class="df-val">984</span></span></li><li class="df-row"><span class="df-lab">Fixed object</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:28.3%"></span></span><span class="df-val">799</span></span></li><li class="df-row"><span class="df-lab">Pedestrian</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:27.0%"></span></span><span class="df-val">761</span></span></li><li class="df-row"><span class="df-lab">Struck parked vehicle</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:15.2%"></span></span><span class="df-val">428</span></span></li><li class="df-row"><span class="df-lab">Bicycle</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:13.0%"></span></span><span class="df-val">368</span></span></li><li class="df-row"><span class="df-lab">Left turn or U-turn</span><span class="df-bars"><span class="df-bar"><span class="df-fill" style="width:11.9%"></span></span><span class="df-val">335</span></span></li></ol></figure><details class="df-tablebox"><summary class="df-tablebox-s" data-df="added">See the full table</summary><p class="df-swipe" aria-hidden="true" data-df="added">Swipe for more columns &#8594;</p><div class="table-wrap">
+<div class="l2-tablewrap" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<caption>Union County accidents where someone was hurt or killed, by police-coded accident type, 2023 and 2024</caption>
+<thead><tr><th scope="col">Accident type</th><th scope="col">Someone hurt or killed</th><th scope="col">Share of 9,235</th><th scope="col">People killed</th></tr></thead>
+<tbody>
+<tr><th scope="row">Same direction, rear end</th><td>2,820</td><td>30.5%</td><td>1</td></tr>
+<tr><th scope="row">Right angle</th><td>2,205</td><td>23.9%</td><td>13</td></tr>
+<tr><th scope="row">Same direction, sideswipe</th><td>984</td><td>10.7%</td><td>3</td></tr>
+<tr><th scope="row">Fixed object</th><td>799</td><td>8.7%</td><td>16</td></tr>
+<tr><th scope="row">Pedestrian</th><td>761</td><td>8.2%</td><td>27</td></tr>
+<tr><th scope="row">Struck parked vehicle</th><td>428</td><td>4.6%</td><td>4</td></tr>
+<tr><th scope="row">Bicycle</th><td>368</td><td>4.0%</td><td>4</td></tr>
+<tr><th scope="row">Left turn or U-turn</th><td>335</td><td>3.6%</td><td>2</td></tr>
+</tbody>
+</table></div>
+</div></details>
+<p>The 5 pm hour alone held 763 injury accidents. October was the busiest month (925) and February the quietest (619).</p>
+<p>28.9% happened in the dark and 17.3% on a wet road. The statewide pattern is on <a href="/new-jersey/when-do-most-car-accidents-happen">when car accidents happen in New Jersey, hour by hour</a>.<sup class="df-fn"><a href="#src-7">7</a></sup></p>
+
+</section>
+<section id="appeals">
+<h2>Which Union County car accident cases reached the Appellate Division?</h2>
+<p><strong class="df-k">Four of the 76 cases in our New Jersey appeals file came from Union County, and two plaintiffs won a new hearing.</strong> Each one is in the <a href="/new-jersey/nj-car-accident-appeals-index">New Jersey car accident appeals index</a>.</p>
+<p>The commercial dump truck case is in our <a href="/new-jersey/nj-uninsured-underinsured-motorist-appeals-decisions">UM and UIM appeals decisions</a>, and the 2025 verbal threshold loss is on the <a href="/new-jersey/linden-nj-car-accidents">Linden car accident records page</a>.<sup class="df-fn"><a href="#src-8">8</a></sup></p>
+
+</section>
+<section id="faq" class="df-faqs">
+<h2>Union County accident questions</h2>
+<details class="df-faq" open><summary><h3>How can I find out if someone I know has been in a car accident in Union County?</h3></summary>
+<p>Call the Union County Police Records Division at (908) 654-9809, or the police of the town where it happened. Parkway crashes are State Police cases.</p>
+</details><details class="df-faq"><summary><h3>What is the latest news in Union County, NJ today, including Route 22?</h3></summary>
+<p>Today's crashes, on Route 22 or anywhere in the county, are not in NJDOT files yet. Route 22 had 597 injury accidents in Union County in 2023 and 2024, 317 in Union Township, and preliminary 2025 files already show 4,935 countywide. See <a href="/new-jersey/route-22-nj-accidents">Route 22 accidents by town and cross street</a>.</p>
+</details><details class="df-faq"><summary><h3>What is the current news for Cranford, NJ?</h3></summary>
+<p>For a recent crash, such as one involving pedestrians, ask the Cranford police or the County Police Records Division. Cranford's records show 317 injury accidents in 2023 and 2024, 14 with a pedestrian, and nobody killed.</p>
+</details><details class="df-faq"><summary><h3>Was there a fatal accident in Union County?</h3></summary>
+<p>76 people died in Union County accidents in 2023 and 2024. 27 died in pedestrian accidents, Route 1 had 13 deaths, and Linden had 12, the most of any town after Elizabeth's 24.</p>
+</details><details class="df-faq"><summary><h3>Are accident reports public record in NJ?</h3></summary>
+<p>The basic crash report is. Serious or fatal investigation reports are not public and need a subpoena or court order, as covered on our <a href="/new-jersey/nj-car-accident-report">New Jersey accident report guide</a>.<sup class="df-fn"><a href="#src-9">9</a></sup></p>
+
+</details></section>
+<section class="place-common df-rules" id="what-these-numbers-mean">
+<h2>What these numbers can and cannot tell you</h2>
+<p><strong class="df-k">The counts on this page are police-reported car accidents from NJDOT crash records, analyzed by us.</strong> They show where and when accidents where someone was hurt happened in Union County. They do not show who was at fault in any accident, and they say nothing about whether you have a claim or what it could be worth.</p>
+<h3>Rules that apply anywhere in New Jersey</h3>
+<ul>
+<li>Your own auto policy's PIP pays eligible medical expenses "no matter who caused the auto accident," up to your policy's limit and after its deductible and co-pay. If you chose your health insurance as primary, it pays first and PIP pays second. A claim against the other driver for pain and suffering is separate: it depends on fault and on the lawsuit option on your policy. <sup class="df-fn"><a href="#src-10">10</a></sup></li>
+<li>Being partly at fault does not stop you from recovering, as long as your share is not greater than the other driver's, or the combined share of all the drivers you claim against (the "51 percent" rule). Your damages are reduced by your share. <sup class="df-fn"><a href="#src-11">11</a></sup></li>
+<li>If someone is hurt or killed, or property damage to any one person is over $500, the driver must tell the police right away and send a written report to the Motor Vehicle Commission within 10 days, unless a police officer files one. If police did not investigate, New Jersey's SR-1 self-reporting form is the form for that. <sup class="df-fn"><a href="#src-12">12</a></sup></li>
+<li>An injury lawsuit generally must be filed within two years, and a claim against a public body (a town, the state, NJ Transit) needs a written notice within 90 days. These are general rules with exceptions; check your own dates with a lawyer. <sup class="df-fn"><a href="#src-13">13</a></sup></li>
+</ul>
+<p>Next steps: <a href="/new-jersey/nj-car-accident-report">how to get your New Jersey accident report, agency by agency</a>, and <a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance works after an accident</a>. This is general information, not legal advice.</p>
+<section class="quiz-cta">
+<p>Hurt in a car accident in Union County? Take the 30-second New Jersey quiz to see if a lawyer's office may review your claim for free.</p>
+<p><a class="button" data-quiz-link="place-common" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=union-county-car-accident-help">Start the New Jersey accident quiz</a></p>
+<p class="cta-note">Advertisement. Opens the New Jersey questionnaire. Review its policies and contact consent before submitting your details. No legal advice or guarantee of acceptance or compensation.</p>
+</section>
+</section>
+<section id="related" class="df-links">
+<h2>Union County town, road and related pages</h2>
+<h3>Towns</h3>
+<ul>
+<li><a href="/new-jersey/elizabeth-nj-car-accidents">Elizabeth car accident records: pedestrians, East Grand Street and the Turnpike</a></li>
+<li><a href="/new-jersey/linden-nj-car-accidents">Linden car accidents: deaths, Route 1 and St. Georges Avenue</a></li>
+<li><a href="/new-jersey/plainfield-nj-car-accidents">Plainfield car accident records: right-angle collisions and corners</a></li>
+<li><a href="/new-jersey/summit-car-accident-help">Summit car accident help</a></li>
+</ul>
+<h3>Roads through Union County</h3>
+<ul>
+<li><a href="/new-jersey/garden-state-parkway-accidents">Garden State Parkway accidents by milepost and county</a></li>
+<li><a href="/new-jersey/route-22-nj-accidents">Route 22 accidents by town, cross street and time</a></li>
+<li><a href="/new-jersey/route-1-nj-accidents">Route 1 accidents along the corridor</a></li>
+<li><a href="/new-jersey/i-78-nj-accidents">I-78 accidents by milepost</a></li>
+<li><a href="/new-jersey/middlesex-county-car-accident-help#route-27">Route 27 data on the Middlesex County page</a></li>
+</ul>
+<h3>After an accident: claim questions</h3>
+<ul>
+<li><a href="/new-jersey/is-nj-a-no-fault-state">how New Jersey no-fault (PIP) insurance pays medical bills</a></li>
+<li><a href="/new-jersey/partly-at-fault-nj-car-accident-real-fault-splits">partly at fault in a New Jersey accident: real fault splits</a></li>
+<li><a href="/new-jersey/nj-car-accident-statute-of-limitations">New Jersey car accident lawsuit deadlines</a></li>
+<li><a href="/new-jersey/nj-new-jersey-property-damage-claim-help-and-steps-guide">who pays for car damage in New Jersey: property damage claim steps</a></li>
+</ul>
+<h3>Truck, motorcycle and nearby county pages</h3>
+<ul>
+<li><a href="/new-jersey/union-county-truck-accident-help">Union County truck accident help</a></li>
+<li><a href="/new-jersey/elizabeth-truck-accident-help">Elizabeth truck accident help</a></li>
+<li><a href="/new-jersey/linden-truck-accident-help">Linden truck accident help</a></li>
+<li><a href="/new-jersey/rahway-motorcycle-accident-help">Rahway motorcycle accident help</a></li>
+<li><a href="/new-jersey/middlesex-county-car-accident-help">Middlesex County car accident data and reports</a></li>
+<li><a href="/new-jersey/new-jersey-car-accident-help">New Jersey car accident help</a></li>
+</ul>
+</section>
+<section id="sources" class="df-sources"><h2>Sources</h2><ol class="df-src"><li id="src-1">Our count of Union County NJDOT crash records, 2023 and 2024 (method below).</li><li id="src-2">Our count of NJDOT crash records 2023 and 2024, grouped by road class and route number.</li><li id="src-3">County of Union, <a href="https://ucnj.org/public-safety/division-of-police/contact-the-union-county-police/">Contact the Union County Police</a>; Township of Union, <a href="https://www.uniontownship.com/160/Police-Department">Police Department</a>; Springfield, <a href="https://springfield-nj.us/police/">Police</a>; NJSP <a href="https://www.njportal.com/njsp/crashreports/">Crash Reports portal</a>.</li><li id="src-4">Our count of NJDOT crash records 2023 and 2024 by NJDOT municipality code.</li><li id="src-5">Our count of NJDOT intersection records 2024 and 2025 (2025 preliminary).</li><li id="src-6">Our count of Union Township NJDOT records: roads 2023 and 2024 by route number, corners 2024 and 2025 (2025 preliminary).</li><li id="src-7">Our count of NJDOT crash records 2023 and 2024 by accident type, hour, month, light and road surface.</li><li id="src-8">Our NJ appeals car-case file (76 cases), opinions on <a href="https://www.courtlistener.com/opinion/4765272/marvin-escobar-barrera-vs-paul-kissin-l-0783-17-union-county-and/">CourtListener</a> and <a href="https://law.justia.com/cases/new-jersey/appellate-division-unpublished/2025/a-2553-23.html">Justia</a>.</li><li id="src-9">NJSP <a href="https://www.njportal.com/njsp/crashreports/">Crash Reports portal</a>; our count of Union County NJDOT crash records.</li><li id="src-10"><a href="https://www.nj.gov/dobi/division_consumers/pdf/autoguide2026.pdf">NJ DOBI Auto Insurance Buyer's Guide 2026</a>, pp. 2, 6; <a href="https://www.nj.gov/dobi/division_consumers/insurance/pipoption.htm">DOBI health insurance as primary</a></li><li id="src-11">N.J.S.A. 2A:15-5.1; <a href="https://www.nj.gov/dobi/ins_ombudsman/ombuds_acnsfaq.html">NJ DOBI comparative negligence FAQ</a></li><li id="src-12">N.J.S.A. 39:4-130; <a href="https://dot.nj.gov/transportation/refdata/accident/selfreporting.shtm">NJDOT self-reporting crash form</a></li><li id="src-13">N.J.S.A. 2A:14-2; N.J.S.A. 59:8-8</li></ol></section><details id="method">
+<summary>How we counted</summary>
+<p>Records are NJDOT's 2023 archive plus 2024 and 2025 from the <a href="https://njdot.aashtowaresafety.net/njdot-crash-data-dashboard#/">NJDOT Crash Data Portal</a>, cleaned by <a href="https://github.com/hudcostreets/nj-crashes">hudcostreets/nj-crashes</a>, with deaths from the State Police fatal feed. An injury accident has at least one person hurt or killed, counted once. Counts show where and when, not fault or claim value.</p>
+<p>Roads group by class and route number: 120 county-coded Route 28 injury accidents sit outside its row, and the I-95 row holds 6 I-278 records, none with injuries; two stray out-of-county records are left out. Corners use 2024 and preliminary 2025; a corner spelled two ways is split, so counts are minimums, and no traffic volumes are used.</p>
+</details>
+</article></main><footer class="mva-contact-footer" data-contact-layout="20261013"><div class="mva-footer-grid"><section class="mva-footer-about" aria-label="About Injuries Cases Autos"><p class="mva-footer-brand">Injuries Cases Autos</p><p class="mva-footer-summary">Car accident guides by state, starting with New Jersey.</p><p class="mva-footer-disclaimer">General information. We are not a law firm. No outcome is guaranteed.</p><nav class="mva-footer-nav" aria-label="Footer navigation"><a href="https://injuriescases.autos/guides">Guides</a><a href="https://injuriescases.autos/about">About</a><a href="https://injuriescases.autos/privacy">Privacy</a><a href="https://injuriescases.autos/terms">Terms</a></nav></section><section class="mva-footer-contact" aria-label="Contact"><h2>Contact</h2><address>111 Town Square Place<br>Jersey City, NJ 07310</address><p class="mva-footer-phone"><a href="tel:+18484045060">Call (848) 404-5060</a></p><p class="mva-help-email" data-mva-help-email="1"><a href="mailto:help@injuriescases.autos">help@injuriescases.autos</a></p></section></div><div class="mva-footer-bottom"><small>© 2026 Injuries Cases Autos</small><a class="mva-footer-quiz" data-quiz-link="footer" href="https://quiz.injuriescases.autos/s/accident-newjersey?utm_source=injuriescases.autos&amp;utm_medium=referral&amp;utm_campaign=nj_mva_seo&amp;utm_content=union-county-car-accident-help">Start the New Jersey accident quiz ↗</a></div></footer></div>
