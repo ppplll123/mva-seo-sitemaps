@@ -12,7 +12,9 @@ window.__settings=async s=>{if(window.__codeOk!==s)return 'SKIPPED: code step no
  tab('Basic');await wait(500);for(const k of ['Page Title','Page Description']){set(fld(k),V[k]);await wait(200);res[k]=fld(k).value===V[k]}
  tab('Page Meta');await wait(600);for(const k of ['Social Media Title','Social Media Description']){set(fld(k),V[k]);await wait(200);res[k]=fld(k).value===V[k]}
  if(![...document.querySelectorAll('textarea')].some(t=>/Lennon/.test(t.placeholder))){const x=[...document.querySelectorAll('*')].find(e=>e.childElementCount===0&&e.textContent.trim()==='SEO Meta');x&&x.click();await wait(600)}
- const ta=[...document.querySelectorAll('textarea')].find(t=>/Lennon/.test(t.placeholder));set(ta,await __get(p.schema));await wait(500);res.schema=(await __h(ta.value))===p.schema.slice(0,16);
+ const SQ=()=>[...document.querySelectorAll('textarea')].find(t=>/Lennon/.test(t.placeholder));const sv=await __get(p.schema);let ta=SQ();ta.focus();ta.select();document.execCommand('insertText',false,sv);await wait(900);ta.blur();await wait(600);
+ tab('Basic');await wait(500);tab('Page Meta');await wait(700);if(!SQ()){const x=[...document.querySelectorAll('*')].find(e=>e.childElementCount===0&&e.textContent.trim()==='SEO Meta');x&&x.click();await wait(600)}
+ res.schema=!!SQ()&&(await __h(SQ().value))===p.schema.slice(0,16);
  const canon=[...document.querySelectorAll('input')].map(i=>i.value).find(x=>/^https:\/\/injuriescases\.autos\/new-jersey\//.test(x))||null;res.canonOk=canon==='https://injuriescases.autos/new-jersey/'+s;
  tab('Basic');await wait(500);res.recheckTitle=fld('Page Title').value===V['Page Title'];
  const allok=Object.values(res).every(v=>v===true);
