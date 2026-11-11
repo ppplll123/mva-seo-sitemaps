@@ -109,7 +109,9 @@ def refresh():
     if not seed:
         raise ValueError('Verified seed URL set is empty')
     previous = load_urls(DOCS / 'portfolio.txt')
-    known = seed | previous
+    # Deliberately retired URLs (merged pages now serving noindex + canonical to a survivor).
+    retired = load_urls(ROOT / 'config/retired-urls.txt')
+    known = (seed | previous) - retired
     discovered = {}
     # Every public guide GET must finish successfully before any output is changed.
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
