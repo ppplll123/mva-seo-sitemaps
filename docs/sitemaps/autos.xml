@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://injuriescases.autos/</loc>
   </url>
@@ -254,6 +254,9 @@
   </url>
   <url>
     <loc>https://injuriescases.autos/new-jersey/newark-nj-car-accidents</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://injuriescases.autos/new-jersey/newark-nj-car-accidents"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://injuriescases.autos/es/nueva-jersey/accidentes-de-carro-newark-nj"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://injuriescases.autos/new-jersey/newark-nj-car-accidents"/>
   </url>
   <url>
     <loc>https://injuriescases.autos/new-jersey/newark-rideshare-accident-help</loc>
@@ -281,12 +284,18 @@
   </url>
   <url>
     <loc>https://injuriescases.autos/new-jersey/nj-car-accident-appeals-index</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://injuriescases.autos/new-jersey/nj-car-accident-appeals-index"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://injuriescases.autos/es/nueva-jersey/cuanto-pagan-accidente-carro-nj"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://injuriescases.autos/new-jersey/nj-car-accident-appeals-index"/>
   </url>
   <url>
     <loc>https://injuriescases.autos/new-jersey/nj-car-accident-deadline-calculator</loc>
   </url>
   <url>
     <loc>https://injuriescases.autos/new-jersey/nj-car-accident-report</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://injuriescases.autos/new-jersey/nj-car-accident-report"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://injuriescases.autos/es/nueva-jersey/reporte-de-accidente-nj"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://injuriescases.autos/new-jersey/nj-car-accident-report"/>
   </url>
   <url>
     <loc>https://injuriescases.autos/new-jersey/nj-car-accident-statistics</loc>
@@ -365,6 +374,9 @@
   </url>
   <url>
     <loc>https://injuriescases.autos/new-jersey/nj-what-to-do-in-the-first-24-hours-after-a-new-jersey-car-accident</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://injuriescases.autos/new-jersey/nj-what-to-do-in-the-first-24-hours-after-a-new-jersey-car-accident"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://injuriescases.autos/es/nueva-jersey/me-chocaron-que-hacer-nj"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://injuriescases.autos/new-jersey/nj-what-to-do-in-the-first-24-hours-after-a-new-jersey-car-accident"/>
   </url>
   <url>
     <loc>https://injuriescases.autos/new-jersey/nj-what-to-expect-from-an-insurance-adjuster-after-an-accident</loc>
@@ -419,6 +431,9 @@
   </url>
   <url>
     <loc>https://injuriescases.autos/new-jersey/pip-health-insurance-medical-bills-new-jersey</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://injuriescases.autos/new-jersey/pip-health-insurance-medical-bills-new-jersey"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://injuriescases.autos/es/nueva-jersey/que-es-pip-nj"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://injuriescases.autos/new-jersey/pip-health-insurance-medical-bills-new-jersey"/>
   </url>
   <url>
     <loc>https://injuriescases.autos/new-jersey/plainfield-nj-car-accidents</loc>
@@ -611,5 +626,35 @@
   </url>
   <url>
     <loc>https://injuriescases.autos/terms</loc>
+  </url>
+  <url>
+    <loc>https://injuriescases.autos/es/nueva-jersey/reporte-de-accidente-nj</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://injuriescases.autos/new-jersey/nj-car-accident-report"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://injuriescases.autos/es/nueva-jersey/reporte-de-accidente-nj"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://injuriescases.autos/new-jersey/nj-car-accident-report"/>
+  </url>
+  <url>
+    <loc>https://injuriescases.autos/es/nueva-jersey/que-es-pip-nj</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://injuriescases.autos/new-jersey/pip-health-insurance-medical-bills-new-jersey"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://injuriescases.autos/es/nueva-jersey/que-es-pip-nj"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://injuriescases.autos/new-jersey/pip-health-insurance-medical-bills-new-jersey"/>
+  </url>
+  <url>
+    <loc>https://injuriescases.autos/es/nueva-jersey/cuanto-pagan-accidente-carro-nj</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://injuriescases.autos/new-jersey/nj-car-accident-appeals-index"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://injuriescases.autos/es/nueva-jersey/cuanto-pagan-accidente-carro-nj"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://injuriescases.autos/new-jersey/nj-car-accident-appeals-index"/>
+  </url>
+  <url>
+    <loc>https://injuriescases.autos/es/nueva-jersey/me-chocaron-que-hacer-nj</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://injuriescases.autos/new-jersey/nj-what-to-do-in-the-first-24-hours-after-a-new-jersey-car-accident"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://injuriescases.autos/es/nueva-jersey/me-chocaron-que-hacer-nj"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://injuriescases.autos/new-jersey/nj-what-to-do-in-the-first-24-hours-after-a-new-jersey-car-accident"/>
+  </url>
+  <url>
+    <loc>https://injuriescases.autos/es/nueva-jersey/accidentes-de-carro-newark-nj</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://injuriescases.autos/new-jersey/newark-nj-car-accidents"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://injuriescases.autos/es/nueva-jersey/accidentes-de-carro-newark-nj"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://injuriescases.autos/new-jersey/newark-nj-car-accidents"/>
   </url>
 </urlset>
