@@ -1,0 +1,68 @@
+column,meaning
+row,Row number after a random shuffle; not the order of the posts.
+year_if_known,"Year the post was written, if the capture showed it (15 posts, all 2026); otherwise unknown."
+first_person_account,yes if the author describes their own crash or a close family member's (299 posts).
+post_kind,"story, vent, question, update or other (admin notes, links, promotions, advice)."
+location,"not stated, US state named, or outside the US. States are not given because each was named in 4 posts or fewer."
+injury_severity,"As described in the post: severe, moderate, minor or none, someone died, not described."
+surgery,"none mentioned, planned, 1 to 4, 5 or more, or yes with the number not given."
+months_since_crash,"Time from the crash to the post, when stated or computable: 0 to 1, 2 to 6, 7 to 12, 13 to 24, 25 to 35, 36 or more months, or not stated."
+emotional_fallout,yes if any mind theme is present.
+wished_dead_or_thoughts_of_suicide,yes if the author wrote that they wished they had died or had thoughts of ending their life (8 posts).
+mind_any,yes if the post raised any mind topic.
+mind_anxiety_or_panic,yes if the post raised: anxiety or panic.
+mind_fear_of_driving_or_riding,yes if the post raised: fear of driving or riding.
+mind_depression,yes if the post raised: depression.
+mind_anger,yes if the post raised: anger.
+mind_flashbacks_nightmares_replaying,yes if the post raised: flashbacks nightmares replaying.
+mind_not_the_same_person,yes if the post raised: not the same person.
+mind_isolation,yes if the post raised: isolation.
+mind_ptsd_named_by_author,yes if the post raised: ptsd named by author.
+mind_grief,yes if the post raised: grief.
+mind_feeling_disbelieved,yes if the post raised: feeling disbelieved.
+mind_exhaustion,yes if the post raised: exhaustion.
+mind_guilt,yes if the post raised: guilt.
+mind_memory_or_brain_fog,yes if the post raised: memory or brain fog.
+mind_struggling_unspecified,yes if the post raised: struggling unspecified.
+mind_other,yes if the post raised a mind topic not listed in its own column (each such topic came up in fewer than 9 posts).
+money_any,yes if the post raised any money topic.
+money_lost_job_or_cannot_work,yes if the post raised: lost job or cannot work.
+money_medical_or_household_bills,yes if the post raised: medical or household bills.
+money_lost_income,yes if the post raised: lost income.
+money_lost_car,yes if the post raised: lost car.
+money_other,yes if the post raised a money topic not listed in its own column (each such topic came up in fewer than 9 posts).
+insurance_any,yes if the post raised any insurance topic.
+insurance_car_value_total_loss_rental,yes if the post raised: car value total loss rental.
+insurance_at_fault_policy_too_small,yes if the post raised: at fault policy too small.
+insurance_disability_benefits,yes if the post raised: disability benefits.
+insurance_other,yes if the post raised a insurance topic not listed in its own column (each such topic came up in fewer than 9 posts).
+lawyer_any,yes if the post raised any lawyer topic.
+lawyer_case_dragging,yes if the post raised: case dragging.
+lawyer_other,yes if the post raised a lawyer topic not listed in its own column (each such topic came up in fewer than 9 posts).
+family_any,yes if the post raised any family topic.
+family_children_affected,yes if the post raised: children affected.
+family_another_member_hurt,yes if the post raised: another member hurt.
+family_caregiving_strain,yes if the post raised: caregiving strain.
+family_does_not_understand,yes if the post raised: does not understand.
+family_strain_with_spouse,yes if the post raised: strain with spouse.
+family_other,yes if the post raised a family topic not listed in its own column (each such topic came up in fewer than 9 posts).
+treatment_any,yes if the post raised any treatment topic.
+treatment_in_therapy_pt_or_counseling,yes if the post raised: in therapy pt or counseling.
+treatment_chronic_pain,yes if the post raised: chronic pain.
+treatment_care_delayed,yes if the post raised: care delayed.
+treatment_pain_medication_problems,yes if the post raised: pain medication problems.
+treatment_dismissed_by_er_or_doctor,yes if the post raised: dismissed by er or doctor.
+treatment_other,yes if the post raised a treatment topic not listed in its own column (each such topic came up in fewer than 9 posts).
+crash_any,yes if the post raised any crash topic.
+crash_side_or_t_bone,yes if the post raised: side or t bone.
+crash_head_on,yes if the post raised: head on.
+crash_truck_or_commercial,yes if the post raised: truck or commercial.
+crash_wrong_way_driver,yes if the post raised: wrong way driver.
+crash_red_light_or_stop_sign_runner,yes if the post raised: red light or stop sign runner.
+crash_multi_vehicle,yes if the post raised: multi vehicle.
+crash_drunk_or_impaired_driver,yes if the post raised: drunk or impaired driver.
+crash_rear_end,yes if the post raised: rear end.
+crash_single_vehicle,yes if the post raised: single vehicle.
+crash_distracted_or_texting,yes if the post raised: distracted or texting.
+crash_rollover,yes if the post raised: rollover.
+crash_other,yes if the post raised a crash topic not listed in its own column (each such topic came up in fewer than 9 posts).
