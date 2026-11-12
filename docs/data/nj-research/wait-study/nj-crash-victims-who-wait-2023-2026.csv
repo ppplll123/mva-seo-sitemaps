@@ -1,0 +1,17 @@
+section,group,value,unit,base
+wait_before_first_call,Within a week,9,percent of callers,"547 NJ intake conversations with a crash date, 2023 to 2026"
+wait_before_first_call,8 to 30 days,16,percent of callers,"547 NJ intake conversations with a crash date, 2023 to 2026"
+wait_before_first_call,1 to 6 months,27,percent of callers,"547 NJ intake conversations with a crash date, 2023 to 2026"
+wait_before_first_call,6 months to 2 years,30,percent of callers,"547 NJ intake conversations with a crash date, 2023 to 2026"
+wait_before_first_call,Over 2 years,18,percent of callers,"547 NJ intake conversations with a crash date, 2023 to 2026"
+wait_before_first_call,median wait,156,days,547
+wait_before_first_call,quarter waited longer than,539,days,547
+wait_before_first_call,quarter called within,30,days,547
+signed_agreement_by_crash_age,Under 3 months,18.1,percent of requests,"5,252 NJ car-accident help requests, May 2023 to Nov 2026"
+signed_agreement_by_crash_age,3 to 12 months,13.5,percent of requests,"5,252 NJ car-accident help requests, May 2023 to Nov 2026"
+signed_agreement_by_crash_age,1 to 2 years,9.5,percent of requests,"5,252 NJ car-accident help requests, May 2023 to Nov 2026"
+signed_agreement_by_crash_age,Over 2 years,9.2,percent of requests,"5,252 NJ car-accident help requests, May 2023 to Nov 2026"
+reason_lawyer_said_no,2-year deadline had passed,15,replies,28 coded turn-down replies
+reason_lawyer_said_no,already had a lawyer,5,replies,28 coded turn-down replies
+reason_lawyer_said_no,no insurance anywhere,4,replies,28 coded turn-down replies
+reason_lawyer_said_no,caller at fault,4,replies,28 coded turn-down replies
