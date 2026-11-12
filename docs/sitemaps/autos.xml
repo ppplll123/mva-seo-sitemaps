@@ -11,6 +11,9 @@
   </url>
   <url>
     <loc>https://injuriescases.autos/new-jersey</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://injuriescases.autos/new-jersey"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://injuriescases.autos/es/nueva-jersey"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://injuriescases.autos/new-jersey"/>
   </url>
   <url>
     <loc>https://injuriescases.autos/new-jersey/atlantic-city-expressway-accidents</loc>
@@ -653,5 +656,11 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://injuriescases.autos/new-jersey/newark-nj-car-accidents"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://injuriescases.autos/es/nueva-jersey/accidentes-de-carro-newark-nj"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://injuriescases.autos/new-jersey/newark-nj-car-accidents"/>
+  </url>
+  <url>
+    <loc>https://injuriescases.autos/es/nueva-jersey</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://injuriescases.autos/new-jersey"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://injuriescases.autos/es/nueva-jersey"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://injuriescases.autos/new-jersey"/>
   </url>
 </urlset>
