@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Quiz POC: native vs embedded</title>
+<style>
+:root{--ink:#172c53;--paper:#fcfaf5;--accent:#ffc66e}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 Arial,Helvetica,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px}
+h1{font-size:26px;line-height:1.25;margin:0 0 8px}
+p{margin:0 0 16px}
+ul{list-style:none;padding:0;margin:20px 0}
+li{margin:0 0 12px}
+a.card{display:block;padding:16px 18px;border-radius:14px;background:#fff;border:2px solid var(--ink);color:var(--ink);text-decoration:none}
+a.card:hover,a.card:focus-visible{background:var(--accent)}
+a.card b{display:block;font-size:18px;margin-bottom:4px}
+small{opacity:.8}
+</style>
+</head>
+<body>
+<main>
+<h1>Quiz proof of concept: native vs embedded</h1>
+<p>The same live page, <a href="https://injuriescases.autos/new-jersey/herniated-disc-whiplash-settlement-nj-verdicts">Herniated disc or whiplash settlement in NJ</a>, with the quiz placed right after the quick answer. Both copies are noindex and point their canonical at the live page.</p>
+<ul>
+<li><a class="card" href="herniated-disc-whiplash-settlement-nj-verdicts-native.html"><b>Native quiz</b>Questions are real HTML in the page, one tap each; demo only, the final submit sends nothing.</a></li>
+<li><a class="card" href="herniated-disc-whiplash-settlement-nj-verdicts-embedded.html"><b>Embedded LeadsHook quiz</b>The live LeadsHook quiz in an iframe that resizes itself; this one is live and a real submission would go through.</a></li>
+</ul>
+<p><small>Built 12 November 2026 for internal review. Not linked from the live site.</small></p>
+</main>
+</body>
+</html>
